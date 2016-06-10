@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971825B41D0A599500B59E48 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B31D0A599500B59E48 /* AdSupport.framework */; };
+		971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B51D0A59B800B59E48 /* SystemConfiguration.framework */; };
+		971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C21D0AFBB900B59E48 /* StoreKit.framework */; };
+		971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C41D0AFBC000B59E48 /* MapKit.framework */; };
+		971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C71D0AFBE500B59E48 /* HealthKit.framework */; };
+		971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C91D0AFC0300B59E48 /* GameKit.framework */; };
+		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
+		97324B5A1D0A40F3006B58A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* ViewController.swift */; };
+		97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5B1D0A40F3006B58A3 /* Main.storyboard */; };
+		97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5E1D0A40F3006B58A3 /* Assets.xcassets */; };
+		97324B621D0A40F3006B58A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B601D0A40F3006B58A3 /* LaunchScreen.storyboard */; };
+		9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		422799C08E4103062BA84C30 /* Pods-DrinkPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.release.xcconfig"; sourceTree = "<group>"; };
+		67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971825B31D0A599500B59E48 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		971825B51D0A59B800B59E48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		971825C21D0AFBB900B59E48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		971825C41D0AFBC000B59E48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DrinkPoint.entitlements; sourceTree = "<group>"; };
+		971825C71D0AFBE500B59E48 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		971825C91D0AFC0300B59E48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97324B571D0A40F3006B58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97324B591D0A40F3006B58A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97324B5C1D0A40F3006B58A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97324B5E1D0A40F3006B58A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97324B611D0A40F3006B58A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97324B631D0A40F3006B58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97324B511D0A40F3006B58A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */,
+				971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */,
+				971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */,
+				971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */,
+				971825B41D0A599500B59E48 /* AdSupport.framework in Frameworks */,
+				971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */,
+				9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287491529ACAAAAF3526EB1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */,
+				422799C08E4103062BA84C30 /* Pods-DrinkPoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97324B4B1D0A40F3006B58A3 = {
+			isa = PBXGroup;
+			children = (
+				97324B561D0A40F3006B58A3 /* DrinkPoint */,
+				97324B551D0A40F3006B58A3 /* Products */,
+				287491529ACAAAAF3526EB1E /* Pods */,
+				F98BA67BDBD03BD8AC344466 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97324B551D0A40F3006B58A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97324B541D0A40F3006B58A3 /* DrinkPoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97324B561D0A40F3006B58A3 /* DrinkPoint */ = {
+			isa = PBXGroup;
+			children = (
+				97324B601D0A40F3006B58A3 /* LaunchScreen.storyboard */,
+				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
+				97324B591D0A40F3006B58A3 /* ViewController.swift */,
+				97324B691D0A4107006B58A3 /* Resources */,
+			);
+			path = DrinkPoint;
+			sourceTree = "<group>";
+		};
+		97324B691D0A4107006B58A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */,
+				97324B571D0A40F3006B58A3 /* AppDelegate.swift */,
+				97324B5E1D0A40F3006B58A3 /* Assets.xcassets */,
+				97324B631D0A40F3006B58A3 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F98BA67BDBD03BD8AC344466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971825C91D0AFC0300B59E48 /* GameKit.framework */,
+				971825C71D0AFBE500B59E48 /* HealthKit.framework */,
+				971825C41D0AFBC000B59E48 /* MapKit.framework */,
+				971825C21D0AFBB900B59E48 /* StoreKit.framework */,
+				971825B51D0A59B800B59E48 /* SystemConfiguration.framework */,
+				971825B31D0A599500B59E48 /* AdSupport.framework */,
+				67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97324B531D0A40F3006B58A3 /* DrinkPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97324B661D0A40F3006B58A3 /* Build configuration list for PBXNativeTarget "DrinkPoint" */;
+			buildPhases = (
+				42C06763444E9954D9181F4F /* 📦 Check Pods Manifest.lock */,
+				97324B501D0A40F3006B58A3 /* Sources */,
+				97324B511D0A40F3006B58A3 /* Frameworks */,
+				97324B521D0A40F3006B58A3 /* Resources */,
+				14BB94A4E796EB6EDB0D6707 /* 📦 Embed Pods Frameworks */,
+				B4A6FA62120FA4A75C231EC0 /* 📦 Copy Pods Resources */,
+				971825B21D0A53C200B59E48 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkPoint;
+			productName = drinkapoint;
+			productReference = 97324B541D0A40F3006B58A3 /* DrinkPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97324B4C1D0A40F3006B58A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DP_;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DrinkPoint;
+				TargetAttributes = {
+					97324B531D0A40F3006B58A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4M47725ZWP;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 97324B4F1D0A40F3006B58A3 /* Build configuration list for PBXProject "DrinkPoint" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97324B4B1D0A40F3006B58A3;
+			productRefGroup = 97324B551D0A40F3006B58A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97324B531D0A40F3006B58A3 /* DrinkPoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97324B521D0A40F3006B58A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97324B621D0A40F3006B58A3 /* LaunchScreen.storyboard in Resources */,
+				97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */,
+				97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14BB94A4E796EB6EDB0D6707 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42C06763444E9954D9181F4F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		971825B21D0A53C200B59E48 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d7eff75c321d6961fdf8aa2a32b8b1608192e3ee ddc1597a16fc8e9401f80bae586afdbe450882e25d0997bd6b01a175e957534d";
+		};
+		B4A6FA62120FA4A75C231EC0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97324B501D0A40F3006B58A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97324B5A1D0A40F3006B58A3 /* ViewController.swift in Sources */,
+				97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97324B5B1D0A40F3006B58A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97324B5C1D0A40F3006B58A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97324B601D0A40F3006B58A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97324B611D0A40F3006B58A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97324B641D0A40F3006B58A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97324B651D0A40F3006B58A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97324B671D0A40F3006B58A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrinkPoint/DrinkPoint.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
+				PRODUCT_NAME = DrinkPoint;
+			};
+			name = Debug;
+		};
+		97324B681D0A40F3006B58A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422799C08E4103062BA84C30 /* Pods-DrinkPoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrinkPoint/DrinkPoint.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
+				PRODUCT_NAME = DrinkPoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97324B4F1D0A40F3006B58A3 /* Build configuration list for PBXProject "DrinkPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97324B641D0A40F3006B58A3 /* Debug */,
+				97324B651D0A40F3006B58A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97324B661D0A40F3006B58A3 /* Build configuration list for PBXNativeTarget "DrinkPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97324B671D0A40F3006B58A3 /* Debug */,
+				97324B681D0A40F3006B58A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97324B4C1D0A40F3006B58A3 /* Project object */;
+}

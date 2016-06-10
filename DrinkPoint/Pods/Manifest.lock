@@ -1,0 +1,24 @@
+PODS:
+  - Crashlytics (3.7.1):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - GA-SDK-IOS (2.2.0)
+  - LaunchKit (2.1.4):
+    - LaunchKit/LaunchKit (= 2.1.4)
+  - LaunchKit/LaunchKit (2.1.4)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - GA-SDK-IOS
+  - LaunchKit
+
+SPEC CHECKSUMS:
+  Crashlytics: 3cdd4c9655be68032a0cf0379e0fb5ef6af22cad
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  GA-SDK-IOS: 1e8947d3b18171b92a7c7cefb4c39d3260a89ea2
+  LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
+
+PODFILE CHECKSUM: 1c102e0fa1052ce21ad9c16482f425210dcac70f
+
+COCOAPODS: 1.0.0.beta.5

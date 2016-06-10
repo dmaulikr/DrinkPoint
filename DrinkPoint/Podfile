@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+use_frameworks!
+target ‘DrinkPoint' do
+pod 'LaunchKit'
+pod 'Fabric'
+pod 'Crashlytics'
+pod 'GA-SDK-IOS'
+end
