@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 6/9/16.
@@ -14,7 +14,7 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import FBAudienceNetwork
 
-class ViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate {
+class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate {
 
     var drinkPointScore: Int64 = 0
 
