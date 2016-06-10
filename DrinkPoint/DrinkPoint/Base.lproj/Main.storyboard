@@ -16,11 +16,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrinkPoint Background" translatesAutoresizingMaskIntoConstraints="NO" id="GpK-Ab-zdm">
+                                <rect key="frame" x="0.0" y="-20" width="600" height="620"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GpK-Ab-zdm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Eeu-m0-lpQ"/>
+                            <constraint firstAttribute="trailing" secondItem="GpK-Ab-zdm" secondAttribute="trailing" id="Rhe-Ye-Z5m"/>
+                            <constraint firstItem="GpK-Ab-zdm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Y8Q-hD-14x"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GpK-Ab-zdm" secondAttribute="bottom" id="cMO-wy-bGM"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="584" y="425"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DrinkPoint Background" width="1024" height="1024"/>
+    </resources>
 </document>

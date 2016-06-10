@@ -17,7 +17,11 @@
 		97324B5A1D0A40F3006B58A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* ViewController.swift */; };
 		97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5B1D0A40F3006B58A3 /* Main.storyboard */; };
 		97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5E1D0A40F3006B58A3 /* Assets.xcassets */; };
-		97324B621D0A40F3006B58A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B601D0A40F3006B58A3 /* LaunchScreen.storyboard */; };
+		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
+		97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */; };
+		97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */; };
+		97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */; };
+		97AFB89D1D0B4933004AF061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AFB89B1D0B4933004AF061 /* LaunchScreen.storyboard */; };
 		9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +40,12 @@
 		97324B591D0A40F3006B58A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97324B5C1D0A40F3006B58A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97324B5E1D0A40F3006B58A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97324B611D0A40F3006B58A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97324B631D0A40F3006B58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		97AFB89C1D0B4933004AF061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,11 +56,15 @@
 			files = (
 				971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */,
 				971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */,
+				97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */,
 				971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */,
 				971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */,
 				971825B41D0A599500B59E48 /* AdSupport.framework in Frameworks */,
+				97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */,
 				971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */,
 				9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */,
+				97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */,
+				97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +101,6 @@
 		97324B561D0A40F3006B58A3 /* DrinkPoint */ = {
 			isa = PBXGroup;
 			children = (
-				97324B601D0A40F3006B58A3 /* LaunchScreen.storyboard */,
 				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
 				97324B591D0A40F3006B58A3 /* ViewController.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
@@ -100,9 +111,10 @@
 		97324B691D0A4107006B58A3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */,
+				97AFB89B1D0B4933004AF061 /* LaunchScreen.storyboard */,
 				97324B571D0A40F3006B58A3 /* AppDelegate.swift */,
 				97324B5E1D0A40F3006B58A3 /* Assets.xcassets */,
+				971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */,
 				97324B631D0A40F3006B58A3 /* Info.plist */,
 			);
 			name = Resources;
@@ -111,6 +123,10 @@
 		F98BA67BDBD03BD8AC344466 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */,
+				97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */,
+				97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */,
+				97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */,
 				971825C91D0AFC0300B59E48 /* GameKit.framework */,
 				971825C71D0AFBE500B59E48 /* HealthKit.framework */,
 				971825C41D0AFBC000B59E48 /* MapKit.framework */,
@@ -203,7 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97324B621D0A40F3006B58A3 /* LaunchScreen.storyboard in Resources */,
+				97AFB89D1D0B4933004AF061 /* LaunchScreen.storyboard in Resources */,
 				97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */,
 				97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */,
 			);
@@ -293,10 +309,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		97324B601D0A40F3006B58A3 /* LaunchScreen.storyboard */ = {
+		97AFB89B1D0B4933004AF061 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97324B611D0A40F3006B58A3 /* Base */,
+				97AFB89C1D0B4933004AF061 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -397,6 +413,10 @@
 				CODE_SIGN_ENTITLEMENTS = DrinkPoint/DrinkPoint.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
@@ -411,6 +431,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DrinkPoint/DrinkPoint.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
