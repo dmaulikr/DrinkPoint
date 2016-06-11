@@ -10,6 +10,8 @@
         <scene sceneID="VC6-Pa-p6f">
             <objects>
                 <tabBarController id="xi0-f0-4dm" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="38R-cD-n3g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -18,19 +20,20 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="BT0-hU-98O"/>
+                        <segue destination="Knp-b7-q3M" kind="relationship" relationship="viewControllers" id="If5-7R-Cx6"/>
                         <segue destination="eGd-j2-61P" kind="relationship" relationship="viewControllers" id="EoF-Uc-3w5"/>
-                        <segue destination="u00-uh-pEj" kind="relationship" relationship="viewControllers" id="0I7-Q6-IAV"/>
+                        <segue destination="HNv-sh-fbW" kind="relationship" relationship="viewControllers" id="FFJ-E4-VM4"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hqR-NP-3Ie" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="408" y="-347"/>
+            <point key="canvasLocation" x="-649" y="-555"/>
         </scene>
-        <!--Games-->
+        <!--Games Nav Controller-->
         <scene sceneID="Bus-gU-CVP">
             <objects>
-                <navigationController storyboardIdentifier="Games" id="eGd-j2-61P" userLabel="Games" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Games" id="zTE-ND-msD" userLabel="Games"/>
+                <navigationController id="eGd-j2-61P" userLabel="Games Nav Controller" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Games" image="beer" id="zTE-ND-msD" userLabel="Games"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FlA-qR-bOB">
@@ -43,12 +46,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38p-13-RgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56" y="485"/>
+            <point key="canvasLocation" x="164" y="233"/>
         </scene>
         <!--Games-->
         <scene sceneID="Qew-9p-dSG">
             <objects>
-                <viewController id="Bu9-Wu-nCD" userLabel="Games" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Games" id="Bu9-Wu-nCD" userLabel="Games" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ghC-tS-Y6R"/>
                         <viewControllerLayoutGuide type="bottom" id="Wee-GN-vLo"/>
@@ -57,9 +60,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrinkPoint Background" translatesAutoresizingMaskIntoConstraints="NO" id="OeN-eS-0jq">
-                                <rect key="frame" x="0.0" y="44" width="600" height="507"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="lez-ap-KNL">
                                 <rect key="frame" x="50" y="144" width="500" height="307"/>
                                 <subviews>
@@ -69,36 +69,56 @@
                                         <state key="normal" title="Game 1">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="tDB-Jw-HgT" kind="show" id="u66-zf-F4c"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8k-NO-Dbu">
-                                        <rect key="frame" x="0.0" y="80" width="500" height="68"/>
+                                        <rect key="frame" x="0.0" y="80" width="500" height="67.5"/>
                                         <color key="backgroundColor" red="0.98431372549019602" green="0.73725490196078436" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Game 2">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="9g4-q9-o4k" kind="show" id="lNl-h9-1qz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwj-Rw-o7X">
-                                        <rect key="frame" x="0.0" y="160" width="500" height="67"/>
+                                        <rect key="frame" x="0.0" y="159.5" width="500" height="68"/>
                                         <color key="backgroundColor" red="0.20392156862745098" green="0.6588235294117647" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Game 3">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="GwU-O5-H6B" kind="show" id="H3H-hd-QEJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOM-SO-sbd">
-                                        <rect key="frame" x="0.0" y="239" width="500" height="68"/>
+                                        <rect key="frame" x="0.0" y="239" width="500" height="67.5"/>
                                         <color key="backgroundColor" red="0.91764705882352937" green="0.2627450980392157" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Game 4">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="nmp-aX-fL1" kind="show" id="P5H-aw-Dcr"/>
                                         </connections>
@@ -106,29 +126,27 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OeN-eS-0jq" firstAttribute="top" secondItem="ghC-tS-Y6R" secondAttribute="bottom" id="3mw-w6-p0W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lez-ap-KNL" secondAttribute="trailing" constant="30" id="89E-C3-1PF"/>
                             <constraint firstItem="lez-ap-KNL" firstAttribute="top" secondItem="ghC-tS-Y6R" secondAttribute="bottom" constant="100" id="8hz-TP-E6d"/>
                             <constraint firstItem="Wee-GN-vLo" firstAttribute="top" secondItem="lez-ap-KNL" secondAttribute="bottom" constant="100" id="Eca-pi-SUQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OeN-eS-0jq" secondAttribute="trailing" constant="-20" id="HfT-l5-QFm"/>
                             <constraint firstItem="lez-ap-KNL" firstAttribute="leading" secondItem="X7S-W5-Hls" secondAttribute="leadingMargin" constant="30" id="Jsi-9D-BEE"/>
-                            <constraint firstItem="Wee-GN-vLo" firstAttribute="top" secondItem="OeN-eS-0jq" secondAttribute="bottom" id="chz-c0-GJh"/>
-                            <constraint firstItem="OeN-eS-0jq" firstAttribute="leading" secondItem="X7S-W5-Hls" secondAttribute="leadingMargin" constant="-20" id="laq-vm-80d"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Games" id="seW-Ul-HRh" userLabel="Games"/>
-                    <navigationItem key="navigationItem" id="IoF-3j-VWM"/>
+                    <navigationItem key="navigationItem" title="Games" id="IoF-3j-VWM"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQ0-01-BMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="775" y="485"/>
+            <point key="canvasLocation" x="927" y="241"/>
         </scene>
         <!--Game 1-->
         <scene sceneID="KPu-Gd-doG">
             <objects>
-                <viewController title="Game 1" id="tDB-Jw-HgT" userLabel="Game 1" sceneMemberID="viewController">
+                <viewController title="Game 1" id="tDB-Jw-HgT" userLabel="Game 1" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h80-NU-zMM"/>
                         <viewControllerLayoutGuide type="bottom" id="d42-Lb-7jv"/>
@@ -151,15 +169,17 @@
                             <constraint firstItem="Q0h-sn-JTn" firstAttribute="centerY" secondItem="ADU-So-yWe" secondAttribute="centerY" id="y5B-60-rFA"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94a-Wv-FMN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-649" y="1234"/>
+            <point key="canvasLocation" x="-649" y="1050"/>
         </scene>
         <!--Game 2-->
         <scene sceneID="WvG-QY-GId">
             <objects>
-                <viewController id="9g4-q9-o4k" userLabel="Game 2" sceneMemberID="viewController">
+                <viewController title="Game 2" id="9g4-q9-o4k" userLabel="Game 2" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fi9-il-rkq"/>
                         <viewControllerLayoutGuide type="bottom" id="zsG-Uf-4lg"/>
@@ -182,15 +202,17 @@
                             <constraint firstAttribute="trailingMargin" secondItem="ovD-ZW-9KK" secondAttribute="trailing" constant="12" id="lj1-yS-47V"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cu7-D5-o52" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56" y="1234"/>
+            <point key="canvasLocation" x="164" y="1050"/>
         </scene>
         <!--Game 3-->
         <scene sceneID="I0V-EE-ZAx">
             <objects>
-                <viewController id="GwU-O5-H6B" userLabel="Game 3" sceneMemberID="viewController">
+                <viewController title="Game 3" id="GwU-O5-H6B" userLabel="Game 3" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ub2-6Y-2K0"/>
                         <viewControllerLayoutGuide type="bottom" id="tHU-sl-lL2"/>
@@ -213,15 +235,17 @@
                             <constraint firstItem="slX-mM-r11" firstAttribute="leading" secondItem="gkb-V7-Ylc" secondAttribute="leadingMargin" constant="12" id="pqL-aN-bqt"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2S-ax-J1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="775" y="1234"/>
+            <point key="canvasLocation" x="927" y="1050"/>
         </scene>
         <!--Game 4-->
         <scene sceneID="KYC-40-9po">
             <objects>
-                <viewController title="Game 4" id="nmp-aX-fL1" sceneMemberID="viewController">
+                <viewController title="Game 4" id="nmp-aX-fL1" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wbv-Y3-85M"/>
                         <viewControllerLayoutGuide type="bottom" id="DDl-cx-rM5"/>
@@ -244,15 +268,17 @@
                             <constraint firstAttribute="trailingMargin" secondItem="dsm-JW-iee" secondAttribute="trailing" constant="12" id="tVw-F6-weT"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HXH-Z4-6fF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1496" y="1234"/>
+            <point key="canvasLocation" x="1666" y="1050"/>
         </scene>
-        <!--Root-->
+        <!--Home View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Root" id="BYZ-38-t0r" customClass="RootViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home View" id="BYZ-38-t0r" customClass="RootViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -265,7 +291,7 @@
                                 <rect key="frame" x="0.0" y="-20" width="600" height="571"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="GpK-Ab-zdm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Eeu-m0-lpQ"/>
                             <constraint firstAttribute="trailing" secondItem="GpK-Ab-zdm" secondAttribute="trailing" id="Rhe-Ye-Z5m"/>
@@ -273,19 +299,55 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GpK-Ab-zdm" secondAttribute="bottom" id="cMO-wy-bGM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="CtH-17-UaU"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="CtH-17-UaU"/>
                     <navigationItem key="navigationItem" title="Title" id="l3P-ae-hPP"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-649" y="485"/>
+            <point key="canvasLocation" x="164" y="-1279"/>
         </scene>
-        <!--Map-->
+        <!--Settings Nav Controller-->
+        <scene sceneID="MEe-OM-8sV">
+            <objects>
+                <navigationController title="Settings Nav Controller" id="HNv-sh-fbW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="gears" id="J3E-MG-7sQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yRJ-W9-btK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aEw-zN-wHc" kind="relationship" relationship="rootViewController" id="ZgK-nu-is1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9eC-Lg-EVI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="-1958"/>
+        </scene>
+        <!--Settings View-->
+        <scene sceneID="Qvo-dl-kkX">
+            <objects>
+                <viewController title="Settings View" id="aEw-zN-wHc" customClass="SettingsViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QVR-Py-ALx"/>
+                        <viewControllerLayoutGuide type="bottom" id="bXU-uu-6lN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Em-3A-hmL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="Ma4-PM-LUa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDb-gJ-cXy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927" y="-1958"/>
+        </scene>
+        <!--Map View-->
         <scene sceneID="P2a-zV-vfy">
             <objects>
-                <viewController storyboardIdentifier="Map" id="u00-uh-pEj" customClass="MapViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Map" title="Map View" id="u00-uh-pEj" customClass="MapViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zfm-Wv-4Hv"/>
                         <viewControllerLayoutGuide type="bottom" id="qNy-Nu-UkQ"/>
@@ -294,55 +356,106 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrinkPoint Background" translatesAutoresizingMaskIntoConstraints="NO" id="lpw-f9-CrY">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
-                            </imageView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="USI-Sz-y27">
-                                <rect key="frame" x="32" y="44" width="536" height="457"/>
+                                <rect key="frame" x="0.0" y="44" width="600" height="507"/>
+                                <connections>
+                                    <outlet property="delegate" destination="u00-uh-pEj" id="vWD-UR-Dwn"/>
+                                </connections>
                             </mapView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2HI-ZF-IK1">
-                                <rect key="frame" x="174" y="506" width="253" height="21"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00000.0 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3A-HP-G0Q">
-                                        <rect key="frame" x="0.0" y="0.0" width="70" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" miles from Coyote Ugly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30l-5u-uox">
-                                        <rect key="frame" x="70" y="0.0" width="183" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="qNy-Nu-UkQ" firstAttribute="top" secondItem="USI-Sz-y27" secondAttribute="bottom" constant="50" id="3BY-OX-Pbi"/>
-                            <constraint firstItem="lpw-f9-CrY" firstAttribute="bottom" secondItem="qNy-Nu-UkQ" secondAttribute="top" id="BFG-TN-34b"/>
-                            <constraint firstItem="2HI-ZF-IK1" firstAttribute="centerX" secondItem="bBE-j7-dRX" secondAttribute="centerX" id="OK3-2B-b4V"/>
-                            <constraint firstItem="USI-Sz-y27" firstAttribute="leading" secondItem="bBE-j7-dRX" secondAttribute="leadingMargin" constant="12" id="Omu-Nc-Kg7"/>
-                            <constraint firstItem="USI-Sz-y27" firstAttribute="top" secondItem="Zfm-Wv-4Hv" secondAttribute="bottom" constant="24" id="TF1-u9-sfg"/>
-                            <constraint firstItem="lpw-f9-CrY" firstAttribute="centerX" secondItem="USI-Sz-y27" secondAttribute="centerX" id="WzG-nG-nC9"/>
-                            <constraint firstItem="lpw-f9-CrY" firstAttribute="top" secondItem="bBE-j7-dRX" secondAttribute="top" id="fRP-Oy-AJd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="USI-Sz-y27" secondAttribute="trailing" constant="12" id="kaK-ZT-r0o"/>
-                            <constraint firstItem="qNy-Nu-UkQ" firstAttribute="top" secondItem="2HI-ZF-IK1" secondAttribute="bottom" constant="24" id="v3K-df-7SC"/>
-                            <constraint firstItem="lpw-f9-CrY" firstAttribute="leading" secondItem="bBE-j7-dRX" secondAttribute="leading" id="yW0-5B-ifF"/>
+                            <constraint firstItem="qNy-Nu-UkQ" firstAttribute="top" secondItem="USI-Sz-y27" secondAttribute="bottom" id="3BY-OX-Pbi"/>
+                            <constraint firstAttribute="trailing" secondItem="USI-Sz-y27" secondAttribute="trailing" id="aCb-JO-9RT"/>
+                            <constraint firstItem="qNy-Nu-UkQ" firstAttribute="top" secondItem="USI-Sz-y27" secondAttribute="bottom" id="gGt-lf-0u7"/>
+                            <constraint firstItem="USI-Sz-y27" firstAttribute="leading" secondItem="bBE-j7-dRX" secondAttribute="leading" id="iFZ-4e-uZ9"/>
+                            <constraint firstItem="USI-Sz-y27" firstAttribute="top" secondItem="Zfm-Wv-4Hv" secondAttribute="bottom" id="wvB-bI-io0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="MSE-Il-u8P"/>
+                    <navigationItem key="navigationItem" id="Q5N-7T-Tr4"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
-                        <outlet property="milesLabel" destination="C3A-HP-G0Q" id="POJ-du-C6k"/>
+                        <outlet property="mapView" destination="USI-Sz-y27" id="kBh-Ic-EZV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n9C-Au-7k9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1496" y="485"/>
+            <point key="canvasLocation" x="927" y="-555"/>
+        </scene>
+        <!--Location Search Table-->
+        <scene sceneID="mzU-fo-kcd">
+            <objects>
+                <tableViewController storyboardIdentifier="LocationSearchTable" id="UsO-9F-gH2" customClass="LocationSearchTable" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Fnv-5N-SES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="kfB-Ax-zO1" detailTextLabel="IC9-5x-MLt" style="IBUITableViewCellStyleSubtitle" id="gvz-sS-vwZ">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gvz-sS-vwZ" id="Oep-5Y-m1H">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kfB-Ax-zO1">
+                                            <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IC9-5x-MLt">
+                                            <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UsO-9F-gH2" id="6fs-NW-S5A"/>
+                            <outlet property="delegate" destination="UsO-9F-gH2" id="hb1-Py-D2z"/>
+                        </connections>
+                    </tableView>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZb-8d-0dL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="-555"/>
+        </scene>
+        <!--Map Nav Controller-->
+        <scene sceneID="cFa-V5-HKb">
+            <objects>
+                <navigationController title="Map Nav Controller" automaticallyAdjustsScrollViewInsets="NO" id="Knp-b7-q3M" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map" id="MSE-Il-u8P"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lsA-dI-ts8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="u00-uh-pEj" kind="relationship" relationship="rootViewController" id="779-Ba-olb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWY-pX-4Y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="-555"/>
         </scene>
     </scenes>
     <resources>
         <image name="DrinkPoint Background" width="1024" height="1024"/>
+        <image name="beer" width="25" height="25"/>
+        <image name="gears" width="25" height="25"/>
+        <image name="home" width="25" height="25"/>
+        <image name="map" width="25" height="25"/>
     </resources>
 </document>

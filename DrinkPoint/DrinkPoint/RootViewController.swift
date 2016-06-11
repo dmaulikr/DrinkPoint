@@ -45,9 +45,9 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         //        view.addSubview(button)
 
         // Use to test Facebook integration
-        let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
-        facebookLoginButton.center = self.view.center
-        self.view!.addSubview(facebookLoginButton)
+        //        let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
+        //        facebookLoginButton.center = self.view.center
+        //        self.view!.addSubview(facebookLoginButton)
 
         FBAdSettings.addTestDevice("b981ff62ed0cc52075e3061484e089601b66e1cc")
         let adView: FBAdView = FBAdView(placementID: "175149402879956_175211062873790", adSize: kFBAdSizeHeight50Banner, rootViewController: self)
@@ -81,7 +81,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         }
     }
 
-    // Crashlytics "Crash Button" (Uncomment for Release)
+    // Crashlytics "Crash Button" (Uncomment for debugging)
     //    @IBAction func crashButtonTapped(sender: AnyObject) {
     //        Crashlytics.sharedInstance().crash()
     //    }
@@ -107,7 +107,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     func gameCenterViewControllerDidFinish(gameCenterViewController: GKGameCenterViewController) {
         gameCenterViewController.dismissViewControllerAnimated(true, completion: nil)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
