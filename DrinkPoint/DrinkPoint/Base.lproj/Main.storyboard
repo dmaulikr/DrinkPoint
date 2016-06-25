@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xi0-f0-4dm">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xi0-f0-4dm">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -81,7 +81,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8k-NO-Dbu">
                                         <rect key="frame" x="0.0" y="80" width="500" height="68"/>
                                         <color key="backgroundColor" red="0.98431372549019602" green="0.73725490196078436" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Game 2">
+                                        <state key="normal" title="DrinkClink">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -163,34 +163,129 @@
             </objects>
             <point key="canvasLocation" x="-649" y="1050"/>
         </scene>
-        <!--Game 2-->
+        <!--DrinkClink-->
         <scene sceneID="WvG-QY-GId">
             <objects>
-                <viewController title="Game 2" id="9g4-q9-o4k" userLabel="Game 2" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="DrinkClink" id="9g4-q9-o4k" customClass="DrinkClinkViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fi9-il-rkq"/>
                         <viewControllerLayoutGuide type="bottom" id="zsG-Uf-4lg"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="DqG-ZK-Oz7">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xqc-J0-ljc" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovD-ZW-9KK">
-                                <rect key="frame" x="32" y="290" width="536" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hK5-mu-M7f">
+                                <rect key="frame" x="28" y="94" width="544" height="43"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8Hw-2Z-kCj">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="43"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Target:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1o-j9-M9x">
+                                                <rect key="frame" x="0.0" y="0.0" width="181" height="18"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Per-go-mqc">
+                                                <rect key="frame" x="0.0" y="18" width="181" height="25"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l3G-jU-ROT">
+                                        <rect key="frame" x="181" y="0.0" width="182" height="43"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moves:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Sz-mF-A4x">
+                                                <rect key="frame" x="0.0" y="0.0" width="182" height="18"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYa-Py-dmd">
+                                                <rect key="frame" x="0.0" y="18" width="182" height="25"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="A2p-mk-gwK">
+                                        <rect key="frame" x="363" y="0.0" width="181" height="43"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAo-Xd-eIH">
+                                                <rect key="frame" x="0.0" y="0.0" width="181" height="18"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLF-pc-0Gx">
+                                                <rect key="frame" x="0.0" y="18" width="181" height="25"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                <size key="shadowOffset" width="0.0" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ncx-VK-PlA">
+                                <rect key="frame" x="0.0" y="188" width="600" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="0E2-yt-cWm"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCB-Ts-1YA">
+                                <rect key="frame" x="250" y="465" width="100" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="6MK-Ap-iez"/>
+                                    <constraint firstAttribute="width" constant="100" id="hFS-SP-apU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                <state key="normal" title="Shuffle" backgroundImage="DrinkPointButton">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shuffleButtonPressed:" destination="9g4-q9-o4k" eventType="touchUpInside" id="f6c-mR-QkW"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.98431372549019602" green="0.73725490196078436" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ovD-ZW-9KK" firstAttribute="centerY" secondItem="DqG-ZK-Oz7" secondAttribute="centerY" id="6pd-8U-2x5"/>
-                            <constraint firstItem="ovD-ZW-9KK" firstAttribute="leading" secondItem="DqG-ZK-Oz7" secondAttribute="leadingMargin" constant="12" id="Hvi-gE-oCl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ovD-ZW-9KK" secondAttribute="trailing" constant="12" id="lj1-yS-47V"/>
+                            <constraint firstItem="hK5-mu-M7f" firstAttribute="leading" secondItem="xqc-J0-ljc" secondAttribute="leadingMargin" constant="8" id="MGH-NZ-vw1"/>
+                            <constraint firstItem="hK5-mu-M7f" firstAttribute="top" secondItem="Fi9-il-rkq" secondAttribute="bottom" constant="50" id="UU0-Sh-kLi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hK5-mu-M7f" secondAttribute="trailing" constant="8" id="Wda-ry-xJC"/>
+                            <constraint firstAttribute="trailing" secondItem="Ncx-VK-PlA" secondAttribute="trailing" id="Xkr-tR-x9T"/>
+                            <constraint firstItem="Ncx-VK-PlA" firstAttribute="centerY" secondItem="xqc-J0-ljc" secondAttribute="centerY" id="bET-uL-scb"/>
+                            <constraint firstItem="zsG-Uf-4lg" firstAttribute="top" secondItem="mCB-Ts-1YA" secondAttribute="bottom" constant="50" id="eBr-uj-IfC"/>
+                            <constraint firstItem="mCB-Ts-1YA" firstAttribute="centerX" secondItem="xqc-J0-ljc" secondAttribute="centerX" id="iBO-zp-7FJ"/>
+                            <constraint firstItem="Ncx-VK-PlA" firstAttribute="leading" secondItem="xqc-J0-ljc" secondAttribute="leading" id="wdI-Sl-0RV"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="gameOverPanel" destination="Ncx-VK-PlA" id="hCq-Om-Lwj"/>
+                        <outlet property="movesLabel" destination="iYa-Py-dmd" id="H9g-cV-CUg"/>
+                        <outlet property="scoreLabel" destination="bLF-pc-0Gx" id="rof-gb-HHz"/>
+                        <outlet property="shuffleButton" destination="mCB-Ts-1YA" id="tlb-KX-wf6"/>
+                        <outlet property="targetLabel" destination="Per-go-mqc" id="d9L-Ei-V7R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cu7-D5-o52" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -440,6 +535,7 @@
     </scenes>
     <resources>
         <image name="DrinkPoint Background" width="1024" height="1024"/>
+        <image name="DrinkPointButton" width="100" height="36"/>
         <image name="beer" width="25" height="25"/>
         <image name="gears" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
