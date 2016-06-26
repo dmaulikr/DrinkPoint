@@ -53,6 +53,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Initialize LaunchKit
         LaunchKit.launchWithToken("5BVpp5-2e7tKRD1ldaPRZK6gpJcWYaW_oWEEwvcJOqRL")
+        LaunchKit.sharedInstance().debugMode = true
+        LaunchKit.sharedInstance().verboseLogging = true
 
         // LaunchKit Onboarding Always Presents (comment out for release)
         let lk = LaunchKit.sharedInstance()

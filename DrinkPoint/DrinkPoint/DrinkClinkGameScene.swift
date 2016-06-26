@@ -36,7 +36,7 @@ class DrinkClinkGameScene: SKScene {
     super.init(size: size)
     anchorPoint = CGPoint(x: 0.5, y: 0.5)
 
-    let background = SKSpriteNode(imageNamed: "DrinkClinkBackground")
+    let background = SKSpriteNode(imageNamed: "background")
     background.size = size
     addChild(background)
     gameLayer.hidden = true

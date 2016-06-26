@@ -17,7 +17,8 @@ class SpaceInvadersViewController: UIViewController {
         let scene = SpaceInvadersScene(size: skView.frame.size)
         skView.showsFPS = false
         skView.showsNodeCount = false
-        skView.ignoresSiblingOrder = true
+        skView.ignoresSiblingOrder = false
+        scene.scaleMode = .AspectFill
         skView.presentScene(scene)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(SpaceInvadersViewController.handleApplicationWillResignActive(_:)), name: UIApplicationWillResignActiveNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(SpaceInvadersViewController.handleApplicationDidBecomeActive(_:)), name: UIApplicationDidBecomeActiveNotification, object: nil)

@@ -144,6 +144,8 @@
 		975C4E5D1D0EFA2800433505 /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975C4E4F1D0EFA2800433505 /* Ship@2x.png */; };
 		975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */; };
 		975C66791D0C738600DAB041 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C66781D0C738600DAB041 /* SettingsViewController.swift */; };
+		9788F0F31D1F3E2300CB5214 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9788F0F21D1F3E2300CB5214 /* background.jpg */; };
+		9788F0F51D1F3F3E00CB5214 /* SpaceInvadersDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788F0F41D1F3F3E00CB5214 /* SpaceInvadersDefined.swift */; };
 		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
 		97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */; };
 		97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */; };
@@ -295,6 +297,8 @@
 		975C4E4F1D0EFA2800433505 /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ship@2x.png"; path = "Resources/Space Invaders/Sprite Images/Ship@2x.png"; sourceTree = "<group>"; };
 		975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		975C66781D0C738600DAB041 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9788F0F21D1F3E2300CB5214 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		9788F0F41D1F3F3E00CB5214 /* SpaceInvadersDefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceInvadersDefined.swift; sourceTree = "<group>"; };
 		97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -525,6 +529,7 @@
 			isa = PBXGroup;
 			children = (
 				975C4E311D0EF8B600433505 /* SpaceInvadersViewController.swift */,
+				9788F0F41D1F3F3E00CB5214 /* SpaceInvadersDefined.swift */,
 				975C4E331D0EF8F400433505 /* SpaceInvadersGameScene.swift */,
 				975C4E351D0EF92A00433505 /* SpaceInvadersGameOverScene.swift */,
 				975C4E391D0EF96600433505 /* Sounds */,
@@ -536,6 +541,7 @@
 		975C4E381D0EF95A00433505 /* Sprites.atlas */ = {
 			isa = PBXGroup;
 			children = (
+				9788F0F21D1F3E2300CB5214 /* background.jpg */,
 				975C4E421D0EFA2800433505 /* InvaderA_00.png */,
 				975C4E431D0EFA2800433505 /* InvaderA_00@2x.png */,
 				975C4E441D0EFA2800433505 /* InvaderA_01.png */,
@@ -745,6 +751,7 @@
 				973E7AFA1D1ECE1500393B19 /* BlueLagoon.png in Resources */,
 				975C4E5B1D0EFA2800433505 /* InvaderC_01@2x.png in Resources */,
 				973E7AB21D1ECDE500393B19 /* Tile_10.png in Resources */,
+				9788F0F31D1F3E2300CB5214 /* background.jpg in Resources */,
 				975C4E561D0EFA2800433505 /* InvaderB_01.png in Resources */,
 				973E7AF41D1ECE1500393B19 /* BloodyMary.png in Resources */,
 				973E7AAA1D1ECDE500393B19 /* Tile_5@2x.png in Resources */,
@@ -855,6 +862,7 @@
 				973E7A681D1ECBC100393B19 /* DrinkClinkSwap.swift in Sources */,
 				975C4E321D0EF8B600433505 /* SpaceInvadersViewController.swift in Sources */,
 				973E7A631D1ECBC100393B19 /* DrinkClinkChain.swift in Sources */,
+				9788F0F51D1F3F3E00CB5214 /* SpaceInvadersDefined.swift in Sources */,
 				973E7A661D1ECBC100393B19 /* DrinkClinkGameScene.swift in Sources */,
 				973E7A691D1ECBC100393B19 /* DrinkClinkTile.swift in Sources */,
 				975C4E361D0EF92A00433505 /* SpaceInvadersGameOverScene.swift in Sources */,
@@ -990,6 +998,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
 				PRODUCT_NAME = DrinkPoint;
@@ -1008,6 +1017,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
 				PRODUCT_NAME = DrinkPoint;

@@ -1,5 +1,5 @@
 PODS:
-  - Crashlytics (3.7.1):
+  - Crashlytics (3.7.2):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.7)
   - GA-SDK-IOS (2.2.0)
@@ -14,7 +14,7 @@ DEPENDENCIES:
   - LaunchKit
 
 SPEC CHECKSUMS:
-  Crashlytics: 3cdd4c9655be68032a0cf0379e0fb5ef6af22cad
+  Crashlytics: 130ab943f8c78cda7a814b434f270b2e2c8a3cba
   Fabric: caf7580c725e64db144f610ac65cd60956911dc7
   GA-SDK-IOS: 1e8947d3b18171b92a7c7cefb4c39d3260a89ea2
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c

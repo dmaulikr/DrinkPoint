@@ -12,6 +12,7 @@ import CoreMotion
 class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
     let kMinInvaderBottomHeight: Float = 32.0
+    let gravity: CGFloat = -100.0
     var gameEnding: Bool = false
     var score: Int = 0
     var shipHealth: Float = 1.0
@@ -66,12 +67,26 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
     let kHealthHudName = "healthHud"
 
     override func didMoveToView(view: SKView) {
+        loadBackground()
         if (!self.contentCreated) {
             self.createContent()
             self.contentCreated = true
             motionManager.startAccelerometerUpdates()
         }
         physicsWorld.contactDelegate = self
+    }
+
+    func loadBackground() {
+        guard let _ = childNodeWithName("background") as! SKSpriteNode? else {
+            let backgroundTexture = SKTexture(image: UIImage(named: "background.jpg")!)
+            let backgroundNode = SKSpriteNode(texture: backgroundTexture)
+            backgroundNode.size = backgroundTexture.size()
+            backgroundNode.position = CGPoint(x: frame.width / 2, y: frame.height / 2)
+            backgroundNode.zPosition = GameSceneZposition.BackgroundZposition.rawValue
+            self.physicsWorld.gravity = CGVectorMake(0, gravity)
+            addChild(backgroundNode)
+            return
+        }
     }
 
     func createContent() {
@@ -151,7 +166,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
     func setupShip() {
         let ship = makeShip()
-        ship.position = CGPoint(x: size.width / 2.0, y: 75 + (kShipSize.height / 2.0))
+        ship.position = CGPoint(x: size.width / 2.0, y: 100 + (kShipSize.height / 2.0))
         addChild(ship)
     }
 
@@ -172,7 +187,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
         let scoreLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
         scoreLabel.name = kScoreHudName
         scoreLabel.fontSize = 25
-        scoreLabel.fontColor = SKColor.greenColor()
+        scoreLabel.fontColor = SKColor.blueColor()
         scoreLabel.text = String(format: "Score: %04u", 0)
         scoreLabel.position = CGPoint(
             x: frame.size.width / 2,
@@ -212,7 +227,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
         switch bulletType {
 
         case .ShipFired:
-            bullet = SKSpriteNode(color: SKColor.greenColor(), size: kBulletSize)
+            bullet = SKSpriteNode(color: SKColor.blueColor(), size: kBulletSize)
             bullet.name = kShipFiredBulletName
             bullet.physicsBody = SKPhysicsBody(rectangleOfSize: bullet.frame.size)
             bullet.physicsBody!.dynamic = true

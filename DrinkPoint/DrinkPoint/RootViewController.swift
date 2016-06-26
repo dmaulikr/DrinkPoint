@@ -37,7 +37,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Crashlytics "Crash Button" (Uncomment for Release)
+        // Crashlytics "Crash Button" (Uncomment for debugging)
         //        let button = UIButton(type: UIButtonType.RoundedRect)
         //        button.frame = CGRectMake(20, 50, 100, 30)
         //        button.setTitle("Crash", forState: UIControlState.Normal)
@@ -50,7 +50,8 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         //        self.view!.addSubview(facebookLoginButton)
 
         FBAdSettings.addTestDevice("b981ff62ed0cc52075e3061484e089601b66e1cc")
-        let adView: FBAdView = FBAdView(placementID: "175149402879956_175211062873790", adSize: kFBAdSizeHeight50Banner, rootViewController: self)
+
+        let adView: FBAdView = FBAdView(placementID: "825492567551864_833251636775957", adSize: kFBAdSizeHeight50Banner, rootViewController: self)
         adView.delegate = self
         adView.hidden = true
         self.view!.addSubview(adView)
