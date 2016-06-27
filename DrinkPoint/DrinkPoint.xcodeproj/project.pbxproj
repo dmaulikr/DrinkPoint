@@ -19,6 +19,7 @@
 		97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5E1D0A40F3006B58A3 /* Assets.xcassets */; };
 		97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97343C381D0B699C00043AE0 /* GamesViewController.swift */; };
 		97343C3B1D0B69F300043AE0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97343C3A1D0B69F300043AE0 /* MapViewController.swift */; };
+		9736DD4F1D20A4CB003D52B9 /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9736DD4E1D20A4CB003D52B9 /* EmotionViewController.swift */; };
 		973E7A621D1ECBC100393B19 /* DrinkClinkArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A591D1ECBC100393B19 /* DrinkClinkArray2D.swift */; };
 		973E7A631D1ECBC100393B19 /* DrinkClinkChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5A1D1ECBC100393B19 /* DrinkClinkChain.swift */; };
 		973E7A641D1ECBC100393B19 /* DrinkClinkDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5B1D1ECBC100393B19 /* DrinkClinkDrink.swift */; };
@@ -172,6 +173,7 @@
 		97324B631D0A40F3006B58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97343C381D0B699C00043AE0 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		97343C3A1D0B69F300043AE0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9736DD4E1D20A4CB003D52B9 /* EmotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
 		973E7A591D1ECBC100393B19 /* DrinkClinkArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkArray2D.swift; sourceTree = "<group>"; };
 		973E7A5A1D1ECBC100393B19 /* DrinkClinkChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkChain.swift; sourceTree = "<group>"; };
 		973E7A5B1D1ECBC100393B19 /* DrinkClinkDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkDrink.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 				975C66781D0C738600DAB041 /* SettingsViewController.swift */,
 				97343C3A1D0B69F300043AE0 /* MapViewController.swift */,
 				975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */,
+				9736DD4E1D20A4CB003D52B9 /* EmotionViewController.swift */,
 				97343C381D0B699C00043AE0 /* GamesViewController.swift */,
 				973E7A6B1D1ECC1C00393B19 /* DrinkClink */,
 				975C4E371D0EF94900433505 /* Space Invaders */,
@@ -856,6 +859,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9736DD4F1D20A4CB003D52B9 /* EmotionViewController.swift in Sources */,
 				973E7A641D1ECBC100393B19 /* DrinkClinkDrink.swift in Sources */,
 				973E7A621D1ECBC100393B19 /* DrinkClinkArray2D.swift in Sources */,
 				97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */,
