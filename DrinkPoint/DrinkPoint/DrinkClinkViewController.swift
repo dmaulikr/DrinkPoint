@@ -152,7 +152,12 @@ class DrinkClinkViewController: UIViewController {
         }
     }
 
+    func vibrate() {
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+    }
+
     func showGameOver() {
+        vibrate()
         gameOverPanel.hidden = false
         shuffleButton.hidden = true
         scene.userInteractionEnabled = false

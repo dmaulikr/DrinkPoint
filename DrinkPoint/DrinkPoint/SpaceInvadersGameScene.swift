@@ -8,10 +8,11 @@
 
 import SpriteKit
 import CoreMotion
+import AudioToolbox
 
 class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
-    let kMinInvaderBottomHeight: Float = 32.0
+    let kMinInvaderBottomHeight: Float = 100.0
     let gravity: CGFloat = -100.0
     var gameEnding: Bool = false
     var score: Int = 0
@@ -30,7 +31,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
     let kShipFiredBulletName = "shipFiredBullet"
     let kInvaderFiredBulletName = "invaderFiredBullet"
-    let kBulletSize = CGSize(width:4, height: 8)
+    let kBulletSize = CGSize(width: 4, height: 8)
     var tapQueue = [Int]()
     let motionManager: CMMotionManager = CMMotionManager()
     var contentCreated = false
@@ -150,7 +151,6 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
             var invaderPosition = CGPoint(x: baseOrigin.x, y: invaderPositionY)
 
             for _ in 1..<kInvaderRowCount {
-                // 5
                 let invader = makeInvaderOfType(invaderType)
                 invader.position = invaderPosition
 
@@ -439,7 +439,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
         let nodeNames = [contact.bodyA.node!.name!, contact.bodyB.node!.name!]
         if nodeNames.contains(kShipName) && nodeNames.contains(kInvaderFiredBulletName) {
             runAction(SKAction.playSoundFileNamed("ShipHit.wav", waitForCompletion: false))
-            adjustShipHealthBy(-0.334)
+            adjustShipHealthBy(-(1/3))
             if shipHealth <= 0.0 {
                 contact.bodyA.node!.removeFromParent()
                 contact.bodyB.node!.removeFromParent()
@@ -474,10 +474,15 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
         let ship = childNodeWithName(kShipName)
         return invader == nil || invaderTooLow || ship == nil
     }
-    
+
+    func vibrate() {
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+    }
+
     func endGame() {
         if !gameEnding {
             gameEnding = true
+            vibrate()
             motionManager.stopAccelerometerUpdates()
             let gameOverScene: SpaceInvadersGameOverScene = SpaceInvadersGameOverScene(size: size)
             view?.presentScene(gameOverScene, transition: SKTransition.doorsOpenHorizontalWithDuration(1.0))

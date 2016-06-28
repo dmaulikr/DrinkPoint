@@ -85,8 +85,8 @@ class DrinkClinkGameScene: SKScene {
           let tileNode = SKSpriteNode(imageNamed: name)
           tileNode.size = CGSize(width: TileWidth, height: TileHeight)
           var point = pointForColumn(column, row: row)
-          point.x -= TileWidth/2
-          point.y -= TileHeight/2
+          point.x -= TileWidth / 2
+          point.y -= TileHeight / 2
           tileNode.position = point
           tilesLayer.addChild(tileNode)
         }
@@ -121,8 +121,8 @@ class DrinkClinkGameScene: SKScene {
 
     func pointForColumn(column: Int, row: Int) -> CGPoint {
     return CGPoint(
-      x: CGFloat(column)*TileWidth + TileWidth/2,
-      y: CGFloat(row)*TileHeight + TileHeight/2)
+      x: CGFloat(column)*TileWidth + TileWidth / 2,
+      y: CGFloat(row)*TileHeight + TileHeight / 2)
   }
   
   func convertPoint(point: CGPoint) -> (success: Bool, column: Int, row: Int) {
@@ -268,8 +268,8 @@ class DrinkClinkGameScene: SKScene {
     let firstSprite = chain.firstDrink().sprite!
     let lastSprite = chain.lastDrink().sprite!
     let centerPosition = CGPoint(
-      x: (firstSprite.position.x + lastSprite.position.x)/2,
-      y: (firstSprite.position.y + lastSprite.position.y)/2 - 8)
+      x: (firstSprite.position.x + lastSprite.position.x) / 2,
+      y: (firstSprite.position.y + lastSprite.position.y) / 2 - 8)
     let scoreLabel = SKLabelNode(fontNamed: "Optima-Bold")
     scoreLabel.fontSize = 16
     scoreLabel.text = String(format: "%ld", chain.score)
