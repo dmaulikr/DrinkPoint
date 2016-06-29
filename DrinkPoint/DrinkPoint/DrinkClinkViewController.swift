@@ -20,7 +20,7 @@ class DrinkClinkViewController: UIViewController {
     var tapGestureRecognizer: UITapGestureRecognizer!
 
     lazy var backgroundMusic: AVAudioPlayer? = {
-        guard let url = NSBundle.mainBundle().URLForResource("Mining by Moonlight", withExtension: "mp3") else {
+        guard let url = NSBundle.mainBundle().URLForResource("JazzyFrenchy", withExtension: "mp3") else {
             return nil
         }
         do {
@@ -151,8 +151,13 @@ class DrinkClinkViewController: UIViewController {
             showGameOver()
         }
     }
+    
+    func vibrate() {
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+    }
 
     func showGameOver() {
+        vibrate()
         gameOverPanel.hidden = false
         shuffleButton.hidden = true
         scene.userInteractionEnabled = false

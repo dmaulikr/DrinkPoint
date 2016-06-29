@@ -8,6 +8,7 @@
 
 import SpriteKit
 import CoreMotion
+import AudioToolbox
 
 class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
@@ -460,6 +461,10 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
             adjustScoreBy(100)
         }
     }
+    
+    func vibrate() {
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+    }
 
     func isGameOver() -> Bool {
         let invader = childNodeWithName(InvaderType.name)
@@ -478,6 +483,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
     func endGame() {
         if !gameEnding {
             gameEnding = true
+            vibrate()
             motionManager.stopAccelerometerUpdates()
             let gameOverScene: SpaceInvadersGameOverScene = SpaceInvadersGameOverScene(size: size)
             view?.presentScene(gameOverScene, transition: SKTransition.doorsOpenHorizontalWithDuration(1.0))

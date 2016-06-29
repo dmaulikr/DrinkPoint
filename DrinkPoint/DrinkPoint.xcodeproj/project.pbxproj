@@ -120,7 +120,6 @@
 		973E7B251D1ECE4200393B19 /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B1E1D1ECE4200393B19 /* Drip.wav */; };
 		973E7B261D1ECE4200393B19 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B1F1D1ECE4200393B19 /* Error.wav */; };
 		973E7B271D1ECE4200393B19 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B201D1ECE4200393B19 /* Ka-Ching.wav */; };
-		973E7B281D1ECE4200393B19 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B211D1ECE4200393B19 /* Mining by Moonlight.mp3 */; };
 		973E7B291D1ECE4200393B19 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B221D1ECE4200393B19 /* Scrape.wav */; };
 		975C4E321D0EF8B600433505 /* SpaceInvadersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E311D0EF8B600433505 /* SpaceInvadersViewController.swift */; };
 		975C4E341D0EF8F400433505 /* SpaceInvadersGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E331D0EF8F400433505 /* SpaceInvadersGameScene.swift */; };
@@ -152,6 +151,7 @@
 		97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */; };
 		97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */; };
 		97AFB89D1D0B4933004AF061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AFB89B1D0B4933004AF061 /* LaunchScreen.storyboard */; };
+		97B1489C1D23437400836D1F /* JazzyFrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */; };
 		9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -274,7 +274,6 @@
 		973E7B1E1D1ECE4200393B19 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drip.wav; path = Resources/DrinkClink/Sounds/Drip.wav; sourceTree = "<group>"; };
 		973E7B1F1D1ECE4200393B19 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Error.wav; path = Resources/DrinkClink/Sounds/Error.wav; sourceTree = "<group>"; };
 		973E7B201D1ECE4200393B19 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ka-Ching.wav"; path = "Resources/DrinkClink/Sounds/Ka-Ching.wav"; sourceTree = "<group>"; };
-		973E7B211D1ECE4200393B19 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Mining by Moonlight.mp3"; path = "Resources/DrinkClink/Sounds/Mining by Moonlight.mp3"; sourceTree = "<group>"; };
 		973E7B221D1ECE4200393B19 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scrape.wav; path = Resources/DrinkClink/Sounds/Scrape.wav; sourceTree = "<group>"; };
 		975C4E311D0EF8B600433505 /* SpaceInvadersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceInvadersViewController.swift; sourceTree = "<group>"; };
 		975C4E331D0EF8F400433505 /* SpaceInvadersGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceInvadersGameScene.swift; sourceTree = "<group>"; };
@@ -306,6 +305,7 @@
 		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		97AFB89C1D0B4933004AF061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JazzyFrenchy.mp3; path = Resources/DrinkClink/Sounds/JazzyFrenchy.mp3; sourceTree = "<group>"; };
 		9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -410,12 +410,12 @@
 		973E7A6C1D1ECC5E00393B19 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */,
 				973E7B1C1D1ECE4200393B19 /* Clink 2.wav */,
 				973E7B1D1D1ECE4200393B19 /* Clink.wav */,
 				973E7B1E1D1ECE4200393B19 /* Drip.wav */,
 				973E7B1F1D1ECE4200393B19 /* Error.wav */,
 				973E7B201D1ECE4200393B19 /* Ka-Ching.wav */,
-				973E7B211D1ECE4200393B19 /* Mining by Moonlight.mp3 */,
 				973E7B221D1ECE4200393B19 /* Scrape.wav */,
 			);
 			name = Sounds;
@@ -735,7 +735,6 @@
 				973E7B271D1ECE4200393B19 /* Ka-Ching.wav in Resources */,
 				973E7ABA1D1ECDE500393B19 /* Tile_12@3x.png in Resources */,
 				975C4E511D0EFA2800433505 /* InvaderA_00@2x.png in Resources */,
-				973E7B281D1ECE4200393B19 /* Mining by Moonlight.mp3 in Resources */,
 				973E7B031D1ECE1500393B19 /* Tile.png in Resources */,
 				973E7AC31D1ECDE500393B19 /* Tile_15@3x.png in Resources */,
 				973E7A9E1D1ECDE500393B19 /* Tile_1@2x.png in Resources */,
@@ -770,6 +769,7 @@
 				973E7ABB1D1ECDE500393B19 /* Tile_13.png in Resources */,
 				973E7B0E1D1ECE1500393B19 /* Wine-Highlighted@3x.png in Resources */,
 				973E7B041D1ECE1500393B19 /* Tile@2x.png in Resources */,
+				97B1489C1D23437400836D1F /* JazzyFrenchy.mp3 in Resources */,
 				975C4E581D0EFA2800433505 /* InvaderC_00.png in Resources */,
 				973E7AF91D1ECE1500393B19 /* BlueLagoon-Highlighted@3x.png in Resources */,
 				973E7AA91D1ECDE500393B19 /* Tile_5.png in Resources */,

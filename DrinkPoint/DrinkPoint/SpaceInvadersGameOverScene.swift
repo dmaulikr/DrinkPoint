@@ -24,19 +24,19 @@ class SpaceInvadersGameOverScene: SKScene {
 
         let gameOverLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
         gameOverLabel.fontSize = 50
-        gameOverLabel.fontColor = SKColor.yellowColor()
+        gameOverLabel.fontColor = SKColor.blackColor()
         gameOverLabel.text = "Game Over!"
         gameOverLabel.position = CGPointMake(self.size.width/2, 2.0 / 3.0 * self.size.height);
         self.addChild(gameOverLabel)
 
         let tapLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
         tapLabel.fontSize = 25
-        tapLabel.fontColor = SKColor.yellowColor()
+        tapLabel.fontColor = SKColor.blackColor()
         tapLabel.text = "(Tap to Play Again)"
         tapLabel.position = CGPointMake(self.size.width/2, gameOverLabel.frame.origin.y - gameOverLabel.frame.size.height - 40);
         self.addChild(tapLabel)
 
-        self.backgroundColor = SKColor.blackColor()
+        self.backgroundColor = SKColor.redColor()
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
