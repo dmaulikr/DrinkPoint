@@ -22,21 +22,21 @@ class SpaceInvadersGameOverScene: SKScene {
 
     func createContent() {
 
-        let gameOverLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
+        let gameOverLabel = SKLabelNode(fontNamed: "Optima-Bold")
         gameOverLabel.fontSize = 50
         gameOverLabel.fontColor = SKColor.blackColor()
         gameOverLabel.text = "Game Over!"
-        gameOverLabel.position = CGPointMake(self.size.width/2, 2.0 / 3.0 * self.size.height);
+        gameOverLabel.position = CGPointMake(self.size.width / 2, 2 / 3 * self.size.height);
         self.addChild(gameOverLabel)
 
-        let tapLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
+        let tapLabel = SKLabelNode(fontNamed: "Optima-Bold")
         tapLabel.fontSize = 25
         tapLabel.fontColor = SKColor.blackColor()
-        tapLabel.text = "(Tap to Play Again)"
-        tapLabel.position = CGPointMake(self.size.width/2, gameOverLabel.frame.origin.y - gameOverLabel.frame.size.height - 40);
+        tapLabel.text = "(tap to play again)"
+        tapLabel.position = CGPointMake(self.size.width / 2, gameOverLabel.frame.origin.y - gameOverLabel.frame.size.height - 10);
         self.addChild(tapLabel)
 
-        self.backgroundColor = SKColor.redColor()
+        self.backgroundColor = SKColor.orangeColor()
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -51,6 +51,6 @@ class SpaceInvadersGameOverScene: SKScene {
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)  {
         let gameScene = SpaceInvadersScene(size: self.size)
         gameScene.scaleMode = .AspectFill
-        self.view?.presentScene(gameScene, transition: SKTransition.doorsCloseHorizontalWithDuration(1.0))
+        self.view?.presentScene(gameScene, transition: SKTransition.doorsCloseHorizontalWithDuration(1))
     }
 }

@@ -13,6 +13,7 @@
 		971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C41D0AFBC000B59E48 /* MapKit.framework */; };
 		971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C71D0AFBE500B59E48 /* HealthKit.framework */; };
 		971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C91D0AFC0300B59E48 /* GameKit.framework */; };
+		9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724ABC31D2419B100DC84BA /* MusicHelper.swift */; };
 		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
 		97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* RootViewController.swift */; };
 		97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5B1D0A40F3006B58A3 /* Main.storyboard */; };
@@ -165,6 +166,7 @@
 		971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DrinkPoint.entitlements; sourceTree = "<group>"; };
 		971825C71D0AFBE500B59E48 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		971825C91D0AFC0300B59E48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		9724ABC31D2419B100DC84BA /* MusicHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97324B571D0A40F3006B58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97324B591D0A40F3006B58A3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -368,6 +370,7 @@
 				975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */,
 				9736DD4E1D20A4CB003D52B9 /* EmotionViewController.swift */,
 				97343C381D0B699C00043AE0 /* GamesViewController.swift */,
+				9724ABC31D2419B100DC84BA /* MusicHelper.swift */,
 				973E7A6B1D1ECC1C00393B19 /* DrinkClink */,
 				975C4E371D0EF94900433505 /* Space Invaders */,
 				97324B691D0A4107006B58A3 /* Resources */,
@@ -865,6 +868,7 @@
 				97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */,
 				973E7A681D1ECBC100393B19 /* DrinkClinkSwap.swift in Sources */,
 				975C4E321D0EF8B600433505 /* SpaceInvadersViewController.swift in Sources */,
+				9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */,
 				973E7A631D1ECBC100393B19 /* DrinkClinkChain.swift in Sources */,
 				9788F0F51D1F3F3E00CB5214 /* SpaceInvadersDefined.swift in Sources */,
 				973E7A661D1ECBC100393B19 /* DrinkClinkGameScene.swift in Sources */,
@@ -1006,6 +1010,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
 				PRODUCT_NAME = DrinkPoint;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1025,6 +1030,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
 				PRODUCT_NAME = DrinkPoint;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

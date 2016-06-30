@@ -8,7 +8,7 @@
 
 import UIKit
 import SpriteKit
-import AVFoundation
+import AudioToolbox
 
 class DrinkClinkViewController: UIViewController {
 
@@ -18,19 +18,6 @@ class DrinkClinkViewController: UIViewController {
     var movesLeft = 0
     var score = 0
     var tapGestureRecognizer: UITapGestureRecognizer!
-
-    lazy var backgroundMusic: AVAudioPlayer? = {
-        guard let url = NSBundle.mainBundle().URLForResource("JazzyFrenchy", withExtension: "mp3") else {
-            return nil
-        }
-        do {
-            let player = try AVAudioPlayer(contentsOfURL: url)
-            player.numberOfLoops = -1
-            return player
-        } catch {
-            return nil
-        }
-    }()
 
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var movesLabel: UILabel!
@@ -58,7 +45,7 @@ class DrinkClinkViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLevel(currentLevelNum)
-        backgroundMusic?.play()
+        MusicHelper.sharedHelper.playBackgroundMusic()
     }
 
     func setupLevel(levelNum: Int) {

@@ -101,7 +101,6 @@ extension MapViewController: HandleMapSearch {
 extension MapViewController : MKMapViewDelegate {
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView?{
         if annotation is MKUserLocation {
-            // Return nil so map view draws "blue dot" for standard user location
             return nil
         }
         let reuseId = "pin"

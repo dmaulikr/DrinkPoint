@@ -12,7 +12,7 @@ import AudioToolbox
 
 class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
-    let kMinInvaderBottomHeight: Float = 32.0
+    let kMinInvaderBottomHeight: Float = 120.0
     let gravity: CGFloat = -100.0
     var gameEnding: Bool = false
     var score: Int = 0
@@ -31,7 +31,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
     let kShipFiredBulletName = "shipFiredBullet"
     let kInvaderFiredBulletName = "invaderFiredBullet"
-    let kBulletSize = CGSize(width:4, height: 8)
+    let kBulletSize = CGSize(width: 4, height: 8)
     var tapQueue = [Int]()
     let motionManager: CMMotionManager = CMMotionManager()
     var contentCreated = false
@@ -151,7 +151,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
             var invaderPosition = CGPoint(x: baseOrigin.x, y: invaderPositionY)
 
             for _ in 1..<kInvaderRowCount {
-                // 5
+
                 let invader = makeInvaderOfType(invaderType)
                 invader.position = invaderPosition
 
@@ -185,25 +185,26 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func setupHud() {
-        let scoreLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
+
+        let scoreLabel = SKLabelNode(fontNamed: "Optima-Bold")
         scoreLabel.name = kScoreHudName
         scoreLabel.fontSize = 25
-        scoreLabel.fontColor = SKColor.blueColor()
+        scoreLabel.fontColor = SKColor.whiteColor()
         scoreLabel.text = String(format: "Score: %04u", 0)
         scoreLabel.position = CGPoint(
             x: frame.size.width / 2,
-            y: size.height - (60 + scoreLabel.frame.size.height/2)
+            y: size.height - (70 + scoreLabel.frame.size.height / 2)
         )
         addChild(scoreLabel)
 
-        let healthLabel = SKLabelNode(fontNamed: "AvenirNext-Regular")
+        let healthLabel = SKLabelNode(fontNamed: "Optima-Bold")
         healthLabel.name = kHealthHudName
         healthLabel.fontSize = 25
-        healthLabel.fontColor = SKColor.redColor()
+        healthLabel.fontColor = SKColor.whiteColor()
         healthLabel.text = String(format: "Health: %.1f%%", shipHealth * 100.0)
         healthLabel.position = CGPoint(
             x: frame.size.width / 2,
-            y: size.height - (100 + healthLabel.frame.size.height/2)
+            y: size.height - (100 + healthLabel.frame.size.height / 2)
         )
         addChild(healthLabel)
     }
@@ -216,7 +217,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func adjustShipHealthBy(healthAdjustment: Float) {
-        shipHealth = max(shipHealth + healthAdjustment, 0)
+        shipHealth = max(shipHealth + healthAdjustment, 0.0)
         if let health = childNodeWithName(kHealthHudName) as? SKLabelNode {
             health.text = String(format: "Health: %.1f%%", self.shipHealth * 100)
         }
@@ -228,7 +229,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
         switch bulletType {
 
         case .ShipFired:
-            bullet = SKSpriteNode(color: SKColor.blueColor(), size: kBulletSize)
+            bullet = SKSpriteNode(color: SKColor.whiteColor(), size: kBulletSize)
             bullet.name = kShipFiredBulletName
             bullet.physicsBody = SKPhysicsBody(rectangleOfSize: bullet.frame.size)
             bullet.physicsBody!.dynamic = true
@@ -246,7 +247,6 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
             bullet.physicsBody!.categoryBitMask = kInvaderFiredBulletCategory
             bullet.physicsBody!.contactTestBitMask = kShipCategory
             bullet.physicsBody!.collisionBitMask = 0x0
-
             break
         }
         return bullet
@@ -362,14 +362,12 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
 
     func fireInvaderBulletsForUpdate(currentTime: CFTimeInterval) {
         let existingBullet = childNodeWithName(kInvaderFiredBulletName)
-
         if existingBullet == nil {
             var allInvaders = Array<SKNode>()
             enumerateChildNodesWithName(InvaderType.name) {
                 node, stop in
                 allInvaders.append(node)
             }
-
             if allInvaders.count > 0 {
                 let allInvadersIndex = Int(arc4random_uniform(UInt32(allInvaders.count)))
                 let invader = allInvaders[allInvadersIndex]
@@ -379,7 +377,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
                     y: invader.position.y - invader.frame.size.height / 2 + bullet.frame.size.height / 2
                 )
                 let bulletDestination = CGPoint(x: invader.position.x, y: -(bullet.frame.size.height / 2))
-                fireBullet(bullet, toDestination: bulletDestination, withDuration: 2.0, andSoundFileName: "InvaderBullet.wav")
+                fireBullet(bullet, toDestination: bulletDestination, withDuration: 2, andSoundFileName: "InvaderBullet.wav")
             }
         }
     }
@@ -387,7 +385,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
     func fireBullet(bullet: SKNode, toDestination destination: CGPoint, withDuration duration: CFTimeInterval, andSoundFileName soundName: String) {
         let bulletAction = SKAction.sequence([
             SKAction.moveTo(destination, duration: duration),
-            SKAction.waitForDuration(3.0 / 60.0), SKAction.removeFromParent()
+            SKAction.waitForDuration(3 / 60), SKAction.removeFromParent()
             ])
         let soundAction = SKAction.playSoundFileNamed(soundName, waitForCompletion: true)
         bullet.runAction(SKAction.group([bulletAction, soundAction]))
@@ -407,7 +405,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
                     x: ship.position.x,
                     y: frame.size.height + bullet.frame.size.height / 2
                 )
-                fireBullet(bullet, toDestination: bulletDestination, withDuration: 1.0, andSoundFileName: "ShipBullet.wav")
+                fireBullet(bullet, toDestination: bulletDestination, withDuration: 1, andSoundFileName: "ShipBullet.wav")
             }
         }
     }
@@ -440,7 +438,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
         let nodeNames = [contact.bodyA.node!.name!, contact.bodyB.node!.name!]
         if nodeNames.contains(kShipName) && nodeNames.contains(kInvaderFiredBulletName) {
             runAction(SKAction.playSoundFileNamed("ShipHit.wav", waitForCompletion: false))
-            adjustShipHealthBy(-0.334)
+            adjustShipHealthBy(-(1 / 4))
             if shipHealth <= 0.0 {
                 contact.bodyA.node!.removeFromParent()
                 contact.bodyB.node!.removeFromParent()
@@ -486,7 +484,7 @@ class SpaceInvadersScene: SKScene, SKPhysicsContactDelegate {
             vibrate()
             motionManager.stopAccelerometerUpdates()
             let gameOverScene: SpaceInvadersGameOverScene = SpaceInvadersGameOverScene(size: size)
-            view?.presentScene(gameOverScene, transition: SKTransition.doorsOpenHorizontalWithDuration(1.0))
+            view?.presentScene(gameOverScene, transition: SKTransition.doorsOpenHorizontalWithDuration(1))
         }
     }
 }
