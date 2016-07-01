@@ -6,19 +6,22 @@ PODS:
   - LaunchKit (2.1.4):
     - LaunchKit/LaunchKit (= 2.1.4)
   - LaunchKit/LaunchKit (2.1.4)
+  - Mapbox-iOS-SDK (3.2.3)
 
 DEPENDENCIES:
   - Crashlytics
   - Fabric
   - GA-SDK-IOS
   - LaunchKit
+  - Mapbox-iOS-SDK
 
 SPEC CHECKSUMS:
   Crashlytics: 130ab943f8c78cda7a814b434f270b2e2c8a3cba
   Fabric: caf7580c725e64db144f610ac65cd60956911dc7
   GA-SDK-IOS: 1e8947d3b18171b92a7c7cefb4c39d3260a89ea2
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
+  Mapbox-iOS-SDK: 120e8a140e9cd4adae8227340dd89f5cc3850259
 
-PODFILE CHECKSUM: 1c102e0fa1052ce21ad9c16482f425210dcac70f
+PODFILE CHECKSUM: 16a0e60d091e97575591212171bd26704c8a3d30
 
 COCOAPODS: 1.0.0.beta.5

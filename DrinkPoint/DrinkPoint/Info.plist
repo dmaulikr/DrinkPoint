@@ -63,6 +63,15 @@
 				<key>KitName</key>
 				<string>GameAnalytics</string>
 			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>accessToken</key>
+					<string>pk.eyJ1IjoicGthZGFtczY3IiwiYSI6ImNpcTNxajZtMjAxZThmdm5vZWx5OTRjdnoifQ.9lZIEsMxEDhTIAp2joxQfw</string>
+				</dict>
+				<key>KitName</key>
+				<string>MGLAccountManager</string>
+			</dict>
 		</array>
 	</dict>
 	<key>FacebookAppID</key>
@@ -94,10 +103,16 @@
 		<string>MKDirectionsModeTaxi</string>
 		<string>MKDirectionsModeTrain</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location will be shown on the map and your map usage will anonymously improve the map.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>DrinkPoint needs your location to work properly</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>DrinkPoint wants to use your location</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -456,6 +456,25 @@
             </objects>
             <point key="canvasLocation" x="927" y="-1958"/>
         </scene>
+        <!--Map Box View Controller-->
+        <scene sceneID="h65-FB-1XM">
+            <objects>
+                <viewController id="wRb-d5-kGr" customClass="MapBoxViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oeR-Vv-6oe"/>
+                        <viewControllerLayoutGuide type="bottom" id="tkj-u0-j9z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cEZ-6G-LD1" customClass="MGLMapView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zg9-gr-xyV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7c-Yh-wn9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927" y="-1279"/>
+        </scene>
         <!--Map View-->
         <scene sceneID="P2a-zV-vfy">
             <objects>
@@ -555,7 +574,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="u00-uh-pEj" kind="relationship" relationship="rootViewController" id="779-Ba-olb"/>
+                        <segue destination="wRb-d5-kGr" kind="relationship" relationship="rootViewController" id="WBV-rf-v5F"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWY-pX-4Y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
