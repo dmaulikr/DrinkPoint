@@ -644,10 +644,10 @@
 		97324B4C1D0A40F3006B58A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = "";
+				CLASSPREFIX = BB_;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = DrinkPoint;
+				ORGANIZATIONNAME = BinaryBastards;
 				TargetAttributes = {
 					97324B531D0A40F3006B58A3 = {
 						CreatedOnToolsVersion = 7.3.1;
