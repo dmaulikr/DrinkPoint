@@ -15,13 +15,13 @@ class MusicHelper {
     func playBackgroundMusic() {
         let aSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("JazzyFrenchy", ofType: "mp3")!)
         do {
-            audioPlayer = try AVAudioPlayer(contentsOfURL:aSound)
+            audioPlayer = try AVAudioPlayer(contentsOfURL: aSound)
             audioPlayer?.volume = 0.5
             audioPlayer!.numberOfLoops = -1
             audioPlayer!.prepareToPlay()
             audioPlayer!.play()
         } catch {
-            print("Cannot play the file")
+            print("Cannot play file")
         }
     }
 }

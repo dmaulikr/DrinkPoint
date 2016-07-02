@@ -57,7 +57,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         self.view!.addSubview(adView)
         adView.loadAd()
 
-        authenticateLocalPlayer() // Checks whether user logged into Apple's Game Center
+        authenticateLocalPlayer()
     }
 
     func adView(adView: FBAdView, didFailWithError error: NSError) {
