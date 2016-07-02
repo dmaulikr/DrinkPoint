@@ -1,14 +1,14 @@
 //
-//  PlinkGameScene.swift
-//  DrinkPoint
+//  DrinkClinkGameScene.swift
+//  DrinkClink
 //
 //  Created by Paul Kirk Adams on 6/24/16.
-//  Copyright © 2016 BinaryBastards. All rights reserved.
+//  Copyright © 2016 DrinkPoint. All rights reserved.
 //
 
 import SpriteKit
 
-class PlinkGameScene: SKScene {
+class DrinkClinkGameScene: SKScene {
     
     var level: Level!
     let TileWidth: CGFloat = 32.0

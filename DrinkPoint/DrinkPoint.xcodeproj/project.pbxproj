@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		970C8B381D26A11E0041405D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C8B371D26A11E0041405D /* MapViewController.swift */; };
-		970C8B3A1D26A6B40041405D /* MapboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C8B391D26A6B40041405D /* MapboxViewController.swift */; };
+		970C8B3A1D26A6B40041405D /* MapBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C8B391D26A6B40041405D /* MapBoxViewController.swift */; };
 		971825B41D0A599500B59E48 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B31D0A599500B59E48 /* AdSupport.framework */; };
 		971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B51D0A59B800B59E48 /* SystemConfiguration.framework */; };
 		971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C21D0AFBB900B59E48 /* StoreKit.framework */; };
@@ -22,15 +22,15 @@
 		97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5E1D0A40F3006B58A3 /* Assets.xcassets */; };
 		97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97343C381D0B699C00043AE0 /* GamesViewController.swift */; };
 		9736DD4F1D20A4CB003D52B9 /* BeerGogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9736DD4E1D20A4CB003D52B9 /* BeerGogglesViewController.swift */; };
-		973E7A621D1ECBC100393B19 /* PlinkArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A591D1ECBC100393B19 /* PlinkArray2D.swift */; };
-		973E7A631D1ECBC100393B19 /* PlinkChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5A1D1ECBC100393B19 /* PlinkChain.swift */; };
-		973E7A641D1ECBC100393B19 /* PlinkDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5B1D1ECBC100393B19 /* PlinkDrink.swift */; };
-		973E7A651D1ECBC100393B19 /* PlinkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5C1D1ECBC100393B19 /* PlinkExtensions.swift */; };
-		973E7A661D1ECBC100393B19 /* PlinkGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5D1D1ECBC100393B19 /* PlinkGameScene.swift */; };
-		973E7A671D1ECBC100393B19 /* PlinkLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5E1D1ECBC100393B19 /* PlinkLevel.swift */; };
-		973E7A681D1ECBC100393B19 /* PlinkSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5F1D1ECBC100393B19 /* PlinkSwap.swift */; };
-		973E7A691D1ECBC100393B19 /* PlinkTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A601D1ECBC100393B19 /* PlinkTile.swift */; };
-		973E7A6A1D1ECBC100393B19 /* PlinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A611D1ECBC100393B19 /* PlinkViewController.swift */; };
+		973E7A621D1ECBC100393B19 /* DrinkClinkArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A591D1ECBC100393B19 /* DrinkClinkArray2D.swift */; };
+		973E7A631D1ECBC100393B19 /* DrinkClinkChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5A1D1ECBC100393B19 /* DrinkClinkChain.swift */; };
+		973E7A641D1ECBC100393B19 /* DrinkClinkDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5B1D1ECBC100393B19 /* DrinkClinkDrink.swift */; };
+		973E7A651D1ECBC100393B19 /* DrinkClinkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5C1D1ECBC100393B19 /* DrinkClinkExtensions.swift */; };
+		973E7A661D1ECBC100393B19 /* DrinkClinkGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5D1D1ECBC100393B19 /* DrinkClinkGameScene.swift */; };
+		973E7A671D1ECBC100393B19 /* DrinkClinkLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5E1D1ECBC100393B19 /* DrinkClinkLevel.swift */; };
+		973E7A681D1ECBC100393B19 /* DrinkClinkSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5F1D1ECBC100393B19 /* DrinkClinkSwap.swift */; };
+		973E7A691D1ECBC100393B19 /* DrinkClinkTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A601D1ECBC100393B19 /* DrinkClinkTile.swift */; };
+		973E7A6A1D1ECBC100393B19 /* DrinkClinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A611D1ECBC100393B19 /* DrinkClinkViewController.swift */; };
 		973E7A9A1D1ECDE500393B19 /* MaskTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 973E7A701D1ECDE500393B19 /* MaskTile.png */; };
 		973E7A9B1D1ECDE500393B19 /* MaskTile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973E7A711D1ECDE500393B19 /* MaskTile@2x.png */; };
 		973E7A9C1D1ECDE500393B19 /* MaskTile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973E7A721D1ECDE500393B19 /* MaskTile@3x.png */; };
@@ -117,6 +117,7 @@
 		973E7B191D1ECE2D00393B19 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B141D1ECE2D00393B19 /* Level_2.json */; };
 		973E7B1A1D1ECE2D00393B19 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B151D1ECE2D00393B19 /* Level_3.json */; };
 		973E7B1B1D1ECE2D00393B19 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B161D1ECE2D00393B19 /* Level_4.json */; };
+		973E7B231D1ECE4200393B19 /* Clink 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B1C1D1ECE4200393B19 /* Clink 2.wav */; };
 		973E7B241D1ECE4200393B19 /* Clink.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B1D1D1ECE4200393B19 /* Clink.wav */; };
 		973E7B251D1ECE4200393B19 /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B1E1D1ECE4200393B19 /* Drip.wav */; };
 		973E7B261D1ECE4200393B19 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B1F1D1ECE4200393B19 /* Error.wav */; };
@@ -145,13 +146,6 @@
 		975C4E5D1D0EFA2800433505 /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975C4E4F1D0EFA2800433505 /* Ship@2x.png */; };
 		975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */; };
 		975C66791D0C738600DAB041 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C66781D0C738600DAB041 /* SettingsViewController.swift */; };
-		976AD4871D271E5000ADED36 /* MapboxDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD4861D271E5000ADED36 /* MapboxDirectionsViewController.swift */; };
-		976AD48E1D2742E300ADED36 /* MapboxDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD4881D2742E300ADED36 /* MapboxDirections.swift */; };
-		976AD48F1D2742E300ADED36 /* MapboxRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD4891D2742E300ADED36 /* MapboxRoute.swift */; };
-		976AD4901D2742E300ADED36 /* MapboxRouteLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD48A1D2742E300ADED36 /* MapboxRouteLeg.swift */; };
-		976AD4911D2742E300ADED36 /* MapboxRouteOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD48B1D2742E300ADED36 /* MapboxRouteOptions.swift */; };
-		976AD4921D2742E300ADED36 /* MapboxRouteStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD48C1D2742E300ADED36 /* MapboxRouteStep.swift */; };
-		976AD4931D2742E300ADED36 /* MapboxWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AD48D1D2742E300ADED36 /* MapboxWaypoint.swift */; };
 		9788F0F31D1F3E2300CB5214 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9788F0F21D1F3E2300CB5214 /* background.jpg */; };
 		9788F0F51D1F3F3E00CB5214 /* SpaceInvadersDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788F0F41D1F3F3E00CB5214 /* SpaceInvadersDefined.swift */; };
 		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
@@ -167,7 +161,7 @@
 		422799C08E4103062BA84C30 /* Pods-DrinkPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.release.xcconfig"; sourceTree = "<group>"; };
 		67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		970C8B371D26A11E0041405D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		970C8B391D26A6B40041405D /* MapboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxViewController.swift; sourceTree = "<group>"; };
+		970C8B391D26A6B40041405D /* MapBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBoxViewController.swift; sourceTree = "<group>"; };
 		971825B31D0A599500B59E48 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		971825B51D0A59B800B59E48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		971825C21D0AFBB900B59E48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -184,15 +178,15 @@
 		97324B631D0A40F3006B58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97343C381D0B699C00043AE0 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		9736DD4E1D20A4CB003D52B9 /* BeerGogglesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerGogglesViewController.swift; sourceTree = "<group>"; };
-		973E7A591D1ECBC100393B19 /* PlinkArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkArray2D.swift; sourceTree = "<group>"; };
-		973E7A5A1D1ECBC100393B19 /* PlinkChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkChain.swift; sourceTree = "<group>"; };
-		973E7A5B1D1ECBC100393B19 /* PlinkDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkDrink.swift; sourceTree = "<group>"; };
-		973E7A5C1D1ECBC100393B19 /* PlinkExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkExtensions.swift; sourceTree = "<group>"; };
-		973E7A5D1D1ECBC100393B19 /* PlinkGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkGameScene.swift; sourceTree = "<group>"; };
-		973E7A5E1D1ECBC100393B19 /* PlinkLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkLevel.swift; sourceTree = "<group>"; };
-		973E7A5F1D1ECBC100393B19 /* PlinkSwap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkSwap.swift; sourceTree = "<group>"; };
-		973E7A601D1ECBC100393B19 /* PlinkTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkTile.swift; sourceTree = "<group>"; };
-		973E7A611D1ECBC100393B19 /* PlinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkViewController.swift; sourceTree = "<group>"; };
+		973E7A591D1ECBC100393B19 /* DrinkClinkArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkArray2D.swift; sourceTree = "<group>"; };
+		973E7A5A1D1ECBC100393B19 /* DrinkClinkChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkChain.swift; sourceTree = "<group>"; };
+		973E7A5B1D1ECBC100393B19 /* DrinkClinkDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkDrink.swift; sourceTree = "<group>"; };
+		973E7A5C1D1ECBC100393B19 /* DrinkClinkExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkExtensions.swift; sourceTree = "<group>"; };
+		973E7A5D1D1ECBC100393B19 /* DrinkClinkGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkGameScene.swift; sourceTree = "<group>"; };
+		973E7A5E1D1ECBC100393B19 /* DrinkClinkLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkLevel.swift; sourceTree = "<group>"; };
+		973E7A5F1D1ECBC100393B19 /* DrinkClinkSwap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkSwap.swift; sourceTree = "<group>"; };
+		973E7A601D1ECBC100393B19 /* DrinkClinkTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkTile.swift; sourceTree = "<group>"; };
+		973E7A611D1ECBC100393B19 /* DrinkClinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkClinkViewController.swift; sourceTree = "<group>"; };
 		973E7A701D1ECDE500393B19 /* MaskTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MaskTile.png; path = Resources/DrinkClink/Grid.atlas/MaskTile.png; sourceTree = "<group>"; };
 		973E7A711D1ECDE500393B19 /* MaskTile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MaskTile@2x.png"; path = "Resources/DrinkClink/Grid.atlas/MaskTile@2x.png"; sourceTree = "<group>"; };
 		973E7A721D1ECDE500393B19 /* MaskTile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MaskTile@3x.png"; path = "Resources/DrinkClink/Grid.atlas/MaskTile@3x.png"; sourceTree = "<group>"; };
@@ -279,6 +273,7 @@
 		973E7B141D1ECE2D00393B19 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_2.json; path = Resources/DrinkClink/Levels/Level_2.json; sourceTree = "<group>"; };
 		973E7B151D1ECE2D00393B19 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_3.json; path = Resources/DrinkClink/Levels/Level_3.json; sourceTree = "<group>"; };
 		973E7B161D1ECE2D00393B19 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_4.json; path = Resources/DrinkClink/Levels/Level_4.json; sourceTree = "<group>"; };
+		973E7B1C1D1ECE4200393B19 /* Clink 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Clink 2.wav"; path = "Resources/DrinkClink/Sounds/Clink 2.wav"; sourceTree = "<group>"; };
 		973E7B1D1D1ECE4200393B19 /* Clink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Clink.wav; path = Resources/DrinkClink/Sounds/Clink.wav; sourceTree = "<group>"; };
 		973E7B1E1D1ECE4200393B19 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drip.wav; path = Resources/DrinkClink/Sounds/Drip.wav; sourceTree = "<group>"; };
 		973E7B1F1D1ECE4200393B19 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Error.wav; path = Resources/DrinkClink/Sounds/Error.wav; sourceTree = "<group>"; };
@@ -307,13 +302,6 @@
 		975C4E4F1D0EFA2800433505 /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ship@2x.png"; path = "Resources/Space Invaders/Sprite Images/Ship@2x.png"; sourceTree = "<group>"; };
 		975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		975C66781D0C738600DAB041 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		976AD4861D271E5000ADED36 /* MapboxDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxDirectionsViewController.swift; sourceTree = "<group>"; };
-		976AD4881D2742E300ADED36 /* MapboxDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxDirections.swift; sourceTree = "<group>"; };
-		976AD4891D2742E300ADED36 /* MapboxRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxRoute.swift; sourceTree = "<group>"; };
-		976AD48A1D2742E300ADED36 /* MapboxRouteLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxRouteLeg.swift; sourceTree = "<group>"; };
-		976AD48B1D2742E300ADED36 /* MapboxRouteOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxRouteOptions.swift; sourceTree = "<group>"; };
-		976AD48C1D2742E300ADED36 /* MapboxRouteStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxRouteStep.swift; sourceTree = "<group>"; };
-		976AD48D1D2742E300ADED36 /* MapboxWaypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapboxWaypoint.swift; sourceTree = "<group>"; };
 		9788F0F21D1F3E2300CB5214 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		9788F0F41D1F3F3E00CB5214 /* SpaceInvadersDefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceInvadersDefined.swift; sourceTree = "<group>"; };
 		97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
@@ -380,11 +368,13 @@
 				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
 				97324B591D0A40F3006B58A3 /* RootViewController.swift */,
 				975C66781D0C738600DAB041 /* SettingsViewController.swift */,
+				970C8B391D26A6B40041405D /* MapBoxViewController.swift */,
+				970C8B371D26A11E0041405D /* MapViewController.swift */,
+				975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */,
 				97343C381D0B699C00043AE0 /* GamesViewController.swift */,
 				9724ABC31D2419B100DC84BA /* MusicHelper.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
-				976AD4811D26EC4D00ADED36 /* Map */,
-				973E7A6B1D1ECC1C00393B19 /* Plink */,
+				973E7A6B1D1ECC1C00393B19 /* DrinkClink */,
 				975C4E371D0EF94900433505 /* Space Invaders */,
 				97E1E0401D25E66200A349C2 /* Beer Goggles */,
 			);
@@ -403,30 +393,31 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		973E7A6B1D1ECC1C00393B19 /* Plink */ = {
+		973E7A6B1D1ECC1C00393B19 /* DrinkClink */ = {
 			isa = PBXGroup;
 			children = (
-				973E7A611D1ECBC100393B19 /* PlinkViewController.swift */,
-				973E7A5D1D1ECBC100393B19 /* PlinkGameScene.swift */,
-				973E7A5C1D1ECBC100393B19 /* PlinkExtensions.swift */,
-				973E7A591D1ECBC100393B19 /* PlinkArray2D.swift */,
-				973E7A5A1D1ECBC100393B19 /* PlinkChain.swift */,
-				973E7A5B1D1ECBC100393B19 /* PlinkDrink.swift */,
-				973E7A5E1D1ECBC100393B19 /* PlinkLevel.swift */,
-				973E7A5F1D1ECBC100393B19 /* PlinkSwap.swift */,
-				973E7A601D1ECBC100393B19 /* PlinkTile.swift */,
+				973E7A611D1ECBC100393B19 /* DrinkClinkViewController.swift */,
+				973E7A5D1D1ECBC100393B19 /* DrinkClinkGameScene.swift */,
+				973E7A5C1D1ECBC100393B19 /* DrinkClinkExtensions.swift */,
+				973E7A591D1ECBC100393B19 /* DrinkClinkArray2D.swift */,
+				973E7A5A1D1ECBC100393B19 /* DrinkClinkChain.swift */,
+				973E7A5B1D1ECBC100393B19 /* DrinkClinkDrink.swift */,
+				973E7A5E1D1ECBC100393B19 /* DrinkClinkLevel.swift */,
+				973E7A5F1D1ECBC100393B19 /* DrinkClinkSwap.swift */,
+				973E7A601D1ECBC100393B19 /* DrinkClinkTile.swift */,
 				973E7A6D1D1ECC6D00393B19 /* Levels */,
 				973E7A6F1D1ECC9100393B19 /* Grid.atlas */,
 				973E7A6E1D1ECC8000393B19 /* Sprites.atlas */,
 				973E7A6C1D1ECC5E00393B19 /* Sounds */,
 			);
-			name = Plink;
+			name = DrinkClink;
 			sourceTree = "<group>";
 		};
 		973E7A6C1D1ECC5E00393B19 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */,
+				973E7B1C1D1ECE4200393B19 /* Clink 2.wav */,
 				973E7B1D1D1ECE4200393B19 /* Clink.wav */,
 				973E7B1E1D1ECE4200393B19 /* Drip.wav */,
 				973E7B1F1D1ECE4200393B19 /* Error.wav */,
@@ -589,23 +580,6 @@
 			name = Sounds;
 			sourceTree = "<group>";
 		};
-		976AD4811D26EC4D00ADED36 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				970C8B391D26A6B40041405D /* MapboxViewController.swift */,
-				976AD4861D271E5000ADED36 /* MapboxDirectionsViewController.swift */,
-				976AD4881D2742E300ADED36 /* MapboxDirections.swift */,
-				976AD4891D2742E300ADED36 /* MapboxRoute.swift */,
-				976AD48A1D2742E300ADED36 /* MapboxRouteLeg.swift */,
-				976AD48B1D2742E300ADED36 /* MapboxRouteOptions.swift */,
-				976AD48C1D2742E300ADED36 /* MapboxRouteStep.swift */,
-				976AD48D1D2742E300ADED36 /* MapboxWaypoint.swift */,
-				970C8B371D26A11E0041405D /* MapViewController.swift */,
-				975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */,
-			);
-			name = Map;
-			sourceTree = "<group>";
-		};
 		97E1E0401D25E66200A349C2 /* Beer Goggles */ = {
 			isa = PBXGroup;
 			children = (
@@ -665,7 +639,7 @@
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = BinaryBastards;
+				ORGANIZATIONNAME = DrinkPoint;
 				TargetAttributes = {
 					97324B531D0A40F3006B58A3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -757,6 +731,7 @@
 				975C4E531D0EFA2800433505 /* InvaderA_01@2x.png in Resources */,
 				973E7B1A1D1ECE2D00393B19 /* Level_3.json in Resources */,
 				973E7AFF1D1ECE1500393B19 /* Martini-Highlighted@3x.png in Resources */,
+				973E7B231D1ECE4200393B19 /* Clink 2.wav in Resources */,
 				975C4E571D0EFA2800433505 /* InvaderB_01@2x.png in Resources */,
 				973E7B101D1ECE1500393B19 /* Wine@2x.png in Resources */,
 				973E7AAC1D1ECDE500393B19 /* Tile_7.png in Resources */,
@@ -899,33 +874,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				9736DD4F1D20A4CB003D52B9 /* BeerGogglesViewController.swift in Sources */,
-				973E7A641D1ECBC100393B19 /* PlinkDrink.swift in Sources */,
-				973E7A621D1ECBC100393B19 /* PlinkArray2D.swift in Sources */,
+				973E7A641D1ECBC100393B19 /* DrinkClinkDrink.swift in Sources */,
+				973E7A621D1ECBC100393B19 /* DrinkClinkArray2D.swift in Sources */,
 				97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */,
-				976AD48E1D2742E300ADED36 /* MapboxDirections.swift in Sources */,
-				973E7A681D1ECBC100393B19 /* PlinkSwap.swift in Sources */,
-				976AD4931D2742E300ADED36 /* MapboxWaypoint.swift in Sources */,
+				973E7A681D1ECBC100393B19 /* DrinkClinkSwap.swift in Sources */,
 				975C4E321D0EF8B600433505 /* SpaceInvadersViewController.swift in Sources */,
 				9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */,
-				973E7A631D1ECBC100393B19 /* PlinkChain.swift in Sources */,
+				973E7A631D1ECBC100393B19 /* DrinkClinkChain.swift in Sources */,
 				9788F0F51D1F3F3E00CB5214 /* SpaceInvadersDefined.swift in Sources */,
-				973E7A661D1ECBC100393B19 /* PlinkGameScene.swift in Sources */,
-				976AD4871D271E5000ADED36 /* MapboxDirectionsViewController.swift in Sources */,
-				973E7A691D1ECBC100393B19 /* PlinkTile.swift in Sources */,
+				973E7A661D1ECBC100393B19 /* DrinkClinkGameScene.swift in Sources */,
+				973E7A691D1ECBC100393B19 /* DrinkClinkTile.swift in Sources */,
 				970C8B381D26A11E0041405D /* MapViewController.swift in Sources */,
-				976AD4921D2742E300ADED36 /* MapboxRouteStep.swift in Sources */,
 				975C4E361D0EF92A00433505 /* SpaceInvadersGameOverScene.swift in Sources */,
-				976AD4911D2742E300ADED36 /* MapboxRouteOptions.swift in Sources */,
 				975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */,
 				97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */,
 				97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */,
-				973E7A651D1ECBC100393B19 /* PlinkExtensions.swift in Sources */,
-				976AD4901D2742E300ADED36 /* MapboxRouteLeg.swift in Sources */,
-				970C8B3A1D26A6B40041405D /* MapboxViewController.swift in Sources */,
-				973E7A671D1ECBC100393B19 /* PlinkLevel.swift in Sources */,
-				973E7A6A1D1ECBC100393B19 /* PlinkViewController.swift in Sources */,
+				973E7A651D1ECBC100393B19 /* DrinkClinkExtensions.swift in Sources */,
+				970C8B3A1D26A6B40041405D /* MapBoxViewController.swift in Sources */,
+				973E7A671D1ECBC100393B19 /* DrinkClinkLevel.swift in Sources */,
+				973E7A6A1D1ECBC100393B19 /* DrinkClinkViewController.swift in Sources */,
 				975C66791D0C738600DAB041 /* SettingsViewController.swift in Sources */,
-				976AD48F1D2742E300ADED36 /* MapboxRoute.swift in Sources */,
 				975C4E341D0EF8F400433505 /* SpaceInvadersGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

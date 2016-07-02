@@ -1,9 +1,9 @@
 //
-//  PlinkSwap.swift
-//  DrinkPoint
+//  DrinkClinkSwap.swift
+//  DrinkClink
 //
 //  Created by Paul Kirk Adams on 6/24/16.
-//  Copyright © 2016 BinaryBastards. All rights reserved.
+//  Copyright © 2016 DrinkPoint. All rights reserved.
 //
 
 func ==(lhs: Swap, rhs: Swap) -> Bool {

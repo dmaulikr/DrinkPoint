@@ -1,9 +1,9 @@
 //
-//  PlinkDrink.swift
-//  DrinkPoint
+//  DrinkClinkDrink.swift
+//  DrinkClink
 //
 //  Created by Paul Kirk Adams on 6/24/16.
-//  Copyright © 2016 BinaryBastards. All rights reserved.
+//  Copyright © 2016 DrinkPoint. All rights reserved.
 //
 
 import SpriteKit
