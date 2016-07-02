@@ -368,12 +368,10 @@
 				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
 				97324B591D0A40F3006B58A3 /* RootViewController.swift */,
 				975C66781D0C738600DAB041 /* SettingsViewController.swift */,
-				970C8B391D26A6B40041405D /* MapBoxViewController.swift */,
-				970C8B371D26A11E0041405D /* MapViewController.swift */,
-				975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */,
 				97343C381D0B699C00043AE0 /* GamesViewController.swift */,
 				9724ABC31D2419B100DC84BA /* MusicHelper.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
+				97E63B601D27687000A2BC33 /* Map */,
 				973E7A6B1D1ECC1C00393B19 /* DrinkClink */,
 				975C4E371D0EF94900433505 /* Space Invaders */,
 				97E1E0401D25E66200A349C2 /* Beer Goggles */,
@@ -586,6 +584,16 @@
 				9736DD4E1D20A4CB003D52B9 /* BeerGogglesViewController.swift */,
 			);
 			name = "Beer Goggles";
+			sourceTree = "<group>";
+		};
+		97E63B601D27687000A2BC33 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				970C8B391D26A6B40041405D /* MapBoxViewController.swift */,
+				970C8B371D26A11E0041405D /* MapViewController.swift */,
+				975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 		F98BA67BDBD03BD8AC344466 /* Frameworks */ = {

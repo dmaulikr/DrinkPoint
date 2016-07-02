@@ -456,10 +456,10 @@
             </objects>
             <point key="canvasLocation" x="927" y="-1958"/>
         </scene>
-        <!--Map Box View Controller-->
+        <!--Mapbox-->
         <scene sceneID="h65-FB-1XM">
             <objects>
-                <viewController id="wRb-d5-kGr" customClass="MapBoxViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Mapbox" id="wRb-d5-kGr" customClass="MapBoxViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oeR-Vv-6oe"/>
                         <viewControllerLayoutGuide type="bottom" id="tkj-u0-j9z"/>
@@ -469,16 +469,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Zg9-gr-xyV"/>
+                    <navigationItem key="navigationItem" title="Map" id="Zg9-gr-xyV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J7c-Yh-wn9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="927" y="-1279"/>
         </scene>
-        <!--Map View-->
+        <!--MapKit-->
         <scene sceneID="P2a-zV-vfy">
             <objects>
-                <viewController storyboardIdentifier="Map" title="Map View" id="u00-uh-pEj" customClass="MapViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Map" title="MapKit" id="u00-uh-pEj" customClass="MapViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zfm-Wv-4Hv"/>
                         <viewControllerLayoutGuide type="bottom" id="qNy-Nu-UkQ"/>
@@ -488,7 +488,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="USI-Sz-y27">
-                                <rect key="frame" x="0.0" y="44" width="600" height="507"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <connections>
                                     <outlet property="delegate" destination="u00-uh-pEj" id="vWD-UR-Dwn"/>
                                 </connections>
