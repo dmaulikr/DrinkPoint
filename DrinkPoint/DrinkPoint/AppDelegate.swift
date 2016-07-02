@@ -3,7 +3,7 @@
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 6/9/16.
-//  Copyright © 2016 DrinkPoint. All rights reserved.
+//  Copyright © 2016 BinaryBastards. All rights reserved.
 //
 
 import UIKit
@@ -22,8 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func prefersStatusBarHidden() -> Bool {
         return true
-    }
-
+    }    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
         Fabric.sharedSDK().debug = true

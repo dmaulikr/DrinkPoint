@@ -39,7 +39,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>6</string>
+	<string>7</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -89,6 +89,8 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoicGthZGFtczY3IiwiYSI6ImNpcTNxajZtMjAxZThmdm5vZWx5OTRjdnoifQ.9lZIEsMxEDhTIAp2joxQfw</string>
 	<key>MKDirectionsApplicationSupportedModes</key>
 	<array>
 		<string>MKDirectionsModeBike</string>
@@ -104,7 +106,7 @@
 		<string>MKDirectionsModeTrain</string>
 	</array>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Your location will be shown on the map and your map usage will anonymously improve the map.</string>
+	<string>Your usage is anonymous and improves our maps</string>
 	<key>NSLocationUsageDescription</key>
 	<string>DrinkPoint needs your location to work properly</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

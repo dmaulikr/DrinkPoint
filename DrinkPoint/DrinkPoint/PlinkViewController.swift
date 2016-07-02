@@ -1,18 +1,18 @@
 //
-//  DrinkClinkViewController.swift
-//  DrinkClink
+//  PlinkViewController.swift
+//  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 6/24/16.
-//  Copyright © 2016 DrinkPoint. All rights reserved.
+//  Copyright © 2016 BinaryBastards. All rights reserved.
 //
 
 import UIKit
 import SpriteKit
 import AudioToolbox
 
-class DrinkClinkViewController: UIViewController {
+class PlinkViewController: UIViewController {
 
-    var scene: DrinkClinkGameScene!
+    var scene: PlinkGameScene!
     var level: Level!
     var currentLevelNum = 1
     var movesLeft = 0
@@ -51,7 +51,7 @@ class DrinkClinkViewController: UIViewController {
     func setupLevel(levelNum: Int) {
         let skView = view as! SKView
         skView.multipleTouchEnabled = false
-        scene = DrinkClinkGameScene(size: skView.bounds.size)
+        scene = PlinkGameScene(size: skView.bounds.size)
         scene.scaleMode = .AspectFill
         level = Level(filename: "Level_\(levelNum)")
         scene.level = level
@@ -130,11 +130,11 @@ class DrinkClinkViewController: UIViewController {
         movesLeft -= 1
         updateLabels()
         if score >= level.targetScore {
-            gameOverPanel.image = UIImage(named: "DrinkClinkLevelComplete")
+            gameOverPanel.image = UIImage(named: "PlinkLevelComplete")
             currentLevelNum = currentLevelNum < NumLevels ? currentLevelNum+1 : 1
             showGameOver()
         } else if movesLeft == 0 {
-            gameOverPanel.image = UIImage(named: "DrinkClinkGameOver")
+            gameOverPanel.image = UIImage(named: "PlinkGameOver")
             showGameOver()
         }
     }

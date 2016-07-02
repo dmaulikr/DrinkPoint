@@ -86,8 +86,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/LaunchKit/LaunchKit.framework"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/MapboxDirections.swift/MapboxDirections.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Polyline/Polyline.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/LaunchKit/LaunchKit.framework"
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/MapboxDirections.swift/MapboxDirections.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Polyline/Polyline.framework"
 fi

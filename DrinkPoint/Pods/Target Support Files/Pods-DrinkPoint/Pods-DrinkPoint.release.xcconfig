@@ -1,7 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/LaunchKit" "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS" "${PODS_ROOT}/GA-SDK-IOS" "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic"
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/LaunchKit" "$CONFIGURATION_BUILD_DIR/MapboxDirections.swift" "$CONFIGURATION_BUILD_DIR/Polyline" "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS" "${PODS_ROOT}/GA-SDK-IOS" "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Crashlytics" "${PODS_ROOT}/Headers/Public/Fabric" "${PODS_ROOT}/Headers/Public/GA-SDK-IOS" "${PODS_ROOT}/Headers/Public/Mapbox-iOS-SDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/LaunchKit/LaunchKit.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Crashlytics" -isystem "${PODS_ROOT}/Headers/Public/Fabric" -isystem "${PODS_ROOT}/Headers/Public/GA-SDK-IOS" -isystem "${PODS_ROOT}/Headers/Public/Mapbox-iOS-SDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"z" -framework "AdSupport" -framework "Crashlytics" -framework "Fabric" -framework "GameAnalytics" -framework "LaunchKit" -framework "Mapbox" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/LaunchKit/LaunchKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MapboxDirections.swift/MapboxDirections.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Polyline/Polyline.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Crashlytics" -isystem "${PODS_ROOT}/Headers/Public/Fabric" -isystem "${PODS_ROOT}/Headers/Public/GA-SDK-IOS" -isystem "${PODS_ROOT}/Headers/Public/Mapbox-iOS-SDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"z" -framework "AdSupport" -framework "Crashlytics" -framework "Fabric" -framework "GameAnalytics" -framework "LaunchKit" -framework "Mapbox" -framework "MapboxDirections" -framework "Polyline" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_ROOT = ${SRCROOT}/Pods
