@@ -123,6 +123,10 @@
 		973E7B271D1ECE4200393B19 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B201D1ECE4200393B19 /* Ka-Ching.wav */; };
 		973E7B291D1ECE4200393B19 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973E7B221D1ECE4200393B19 /* Scrape.wav */; };
 		974A1DD21D2805AF008754E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974A1DD01D2805AF008754E9 /* LaunchScreen.storyboard */; };
+		975530B11D286A15005E66F1 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B01D286A15005E66F1 /* TriviaViewController.swift */; };
+		975530B31D286BC1005E66F1 /* TriviaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B21D286BC1005E66F1 /* TriviaColors.swift */; };
+		975530B51D286C0F005E66F1 /* TriviaFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B41D286C0F005E66F1 /* TriviaFact.swift */; };
+		975530B71D286D9A005E66F1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975530B61D286D9A005E66F1 /* Social.framework */; };
 		975C4E321D0EF8B600433505 /* PlinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E311D0EF8B600433505 /* PlinkViewController.swift */; };
 		975C4E341D0EF8F400433505 /* PlinkGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E331D0EF8F400433505 /* PlinkGameScene.swift */; };
 		975C4E361D0EF92A00433505 /* PlinkGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E351D0EF92A00433505 /* PlinkGameOverScene.swift */; };
@@ -277,6 +281,10 @@
 		973E7B201D1ECE4200393B19 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ka-Ching.wav"; path = "Resources/DrinkClink/Sounds/Ka-Ching.wav"; sourceTree = "<group>"; };
 		973E7B221D1ECE4200393B19 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scrape.wav; path = Resources/DrinkClink/Sounds/Scrape.wav; sourceTree = "<group>"; };
 		974A1DD11D2805AF008754E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		975530B01D286A15005E66F1 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		975530B21D286BC1005E66F1 /* TriviaColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaColors.swift; sourceTree = "<group>"; };
+		975530B41D286C0F005E66F1 /* TriviaFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaFact.swift; sourceTree = "<group>"; };
+		975530B61D286D9A005E66F1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		975C4E311D0EF8B600433505 /* PlinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkViewController.swift; sourceTree = "<group>"; };
 		975C4E331D0EF8F400433505 /* PlinkGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkGameScene.swift; sourceTree = "<group>"; };
 		975C4E351D0EF92A00433505 /* PlinkGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkGameOverScene.swift; sourceTree = "<group>"; };
@@ -314,6 +322,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975530B71D286D9A005E66F1 /* Social.framework in Frameworks */,
 				971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */,
 				971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */,
 				97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */,
@@ -371,6 +380,7 @@
 				973E7A6B1D1ECC1C00393B19 /* Triple */,
 				975C4E371D0EF94900433505 /* Plink */,
 				97E1E0401D25E66200A349C2 /* Goggles */,
+				975530AF1D2869E7005E66F1 /* Trivia */,
 			);
 			path = DrinkPoint;
 			sourceTree = "<group>";
@@ -527,6 +537,16 @@
 			name = Grid.atlas;
 			sourceTree = "<group>";
 		};
+		975530AF1D2869E7005E66F1 /* Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				975530B01D286A15005E66F1 /* TriviaViewController.swift */,
+				975530B21D286BC1005E66F1 /* TriviaColors.swift */,
+				975530B41D286C0F005E66F1 /* TriviaFact.swift */,
+			);
+			name = Trivia;
+			sourceTree = "<group>";
+		};
 		975C4E371D0EF94900433505 /* Plink */ = {
 			isa = PBXGroup;
 			children = (
@@ -593,6 +613,7 @@
 		F98BA67BDBD03BD8AC344466 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				975530B61D286D9A005E66F1 /* Social.framework */,
 				97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */,
 				97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */,
 				97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */,
@@ -879,6 +900,8 @@
 				97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */,
 				973E7A681D1ECBC100393B19 /* TripleSwap.swift in Sources */,
 				975C4E321D0EF8B600433505 /* PlinkViewController.swift in Sources */,
+				975530B31D286BC1005E66F1 /* TriviaColors.swift in Sources */,
+				975530B11D286A15005E66F1 /* TriviaViewController.swift in Sources */,
 				9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */,
 				973E7A631D1ECBC100393B19 /* TripleChain.swift in Sources */,
 				9788F0F51D1F3F3E00CB5214 /* PlinkDefined.swift in Sources */,
@@ -890,6 +913,7 @@
 				97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */,
 				97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */,
 				973E7A651D1ECBC100393B19 /* TripleExtensions.swift in Sources */,
+				975530B51D286C0F005E66F1 /* TriviaFact.swift in Sources */,
 				970C8B3A1D26A6B40041405D /* MapBoxViewController.swift in Sources */,
 				973E7A671D1ECBC100393B19 /* TripleLevel.swift in Sources */,
 				973E7A6A1D1ECBC100393B19 /* TripleViewController.swift in Sources */,

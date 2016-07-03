@@ -117,7 +117,7 @@
                                         <rect key="frame" x="0.0" y="242" width="500" height="66"/>
                                         <color key="backgroundColor" red="0.65098039215686276" green="0.0" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                        <state key="normal" title="Game 4">
+                                        <state key="normal" title="Trivia">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -361,10 +361,10 @@
             </objects>
             <point key="canvasLocation" x="927" y="1050"/>
         </scene>
-        <!--Game 4-->
+        <!--Trivia-->
         <scene sceneID="KYC-40-9po">
             <objects>
-                <viewController title="Game 4" id="nmp-aX-fL1" customClass="GamesViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Trivia" id="nmp-aX-fL1" userLabel="Trivia" customClass="TriviaViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wbv-Y3-85M"/>
                         <viewControllerLayoutGuide type="bottom" id="DDl-cx-rM5"/>
@@ -373,22 +373,93 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dsm-JW-iee">
-                                <rect key="frame" x="32" y="290" width="536" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="PYU-pD-OUN">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="yzg-we-Gnr" userLabel="activityIndicator">
+                                <rect key="frame" x="282" y="281" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Did you know?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zu9-J0-aOY">
+                                <rect key="frame" x="20" y="94" width="560" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" editable="NO" text="Thanks for playing! A new fact will appear soon." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVN-BO-gkO" userLabel="Fact Text">
+                                <rect key="frame" x="20" y="147.5" width="560" height="292.5"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Ohi-TE-UDQ">
+                                <rect key="frame" x="50" y="460" width="500" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKD-zX-Qv8" userLabel="Fact Button">
+                                        <rect key="frame" x="0.0" y="0.0" width="244" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.30196078431372547" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="P0v-fg-PvE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                        <state key="normal" title="Reload">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="factButton" destination="nmp-aX-fL1" eventType="touchUpInside" id="8ek-Ap-XmE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ok-5q-uTp" userLabel="Tweet Button">
+                                        <rect key="frame" x="256" y="0.0" width="244" height="30"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.67450980392156867" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                        <state key="normal" title="Tweet">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tweetButton" destination="nmp-aX-fL1" eventType="touchUpInside" id="O04-rl-lHB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.65098039215686276" green="0.0" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="dsm-JW-iee" firstAttribute="centerY" secondItem="cMV-PO-wtY" secondAttribute="centerY" id="Mgr-YI-9Y9"/>
-                            <constraint firstItem="dsm-JW-iee" firstAttribute="leading" secondItem="cMV-PO-wtY" secondAttribute="leadingMargin" constant="12" id="hFb-Y4-vF5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dsm-JW-iee" secondAttribute="trailing" constant="12" id="tVw-F6-weT"/>
+                            <constraint firstAttribute="trailing" secondItem="PYU-pD-OUN" secondAttribute="trailing" id="4Zk-We-AgF"/>
+                            <constraint firstItem="PYU-pD-OUN" firstAttribute="top" secondItem="cMV-PO-wtY" secondAttribute="top" id="6nU-ay-uWF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ohi-TE-UDQ" secondAttribute="trailing" constant="30" id="7hH-wh-90S"/>
+                            <constraint firstAttribute="bottom" secondItem="PYU-pD-OUN" secondAttribute="bottom" id="B4k-93-HoC"/>
+                            <constraint firstItem="nVN-BO-gkO" firstAttribute="top" secondItem="Zu9-J0-aOY" secondAttribute="bottom" constant="20" id="FT6-zo-GhW"/>
+                            <constraint firstItem="Ohi-TE-UDQ" firstAttribute="top" secondItem="nVN-BO-gkO" secondAttribute="bottom" constant="20" id="J4H-LA-Pd6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zu9-J0-aOY" secondAttribute="trailing" id="JVQ-xA-GLo"/>
+                            <constraint firstItem="yzg-we-Gnr" firstAttribute="centerX" secondItem="cMV-PO-wtY" secondAttribute="centerX" id="Kbd-lL-0UM"/>
+                            <constraint firstItem="Ohi-TE-UDQ" firstAttribute="leading" secondItem="cMV-PO-wtY" secondAttribute="leadingMargin" constant="30" id="MmM-AX-5Py"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Zu9-J0-aOY" secondAttribute="leading" id="U9S-uc-xoB"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="nVN-BO-gkO" secondAttribute="leading" id="a7Y-kv-MdX"/>
+                            <constraint firstItem="PYU-pD-OUN" firstAttribute="leading" secondItem="cMV-PO-wtY" secondAttribute="leading" id="djR-9M-QGj"/>
+                            <constraint firstItem="DDl-cx-rM5" firstAttribute="top" secondItem="Ohi-TE-UDQ" secondAttribute="bottom" constant="61" id="n52-A7-dyy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nVN-BO-gkO" secondAttribute="trailing" id="pGu-5x-jj8"/>
+                            <constraint firstItem="yzg-we-Gnr" firstAttribute="centerY" secondItem="cMV-PO-wtY" secondAttribute="centerY" id="uER-Fu-g9Q"/>
+                            <constraint firstItem="Zu9-J0-aOY" firstAttribute="top" secondItem="wbv-Y3-85M" secondAttribute="bottom" constant="50" id="x9g-EE-ejX"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="yzg-we-Gnr" id="udb-Gb-dPR"/>
+                        <outlet property="factButtonText" destination="oKD-zX-Qv8" id="eKj-Kq-93B"/>
+                        <outlet property="factText" destination="nVN-BO-gkO" id="OC3-8Y-8MX"/>
+                        <outlet property="tweetButtonLabel" destination="6Ok-5q-uTp" id="W8M-aZ-DfP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HXH-Z4-6fF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
