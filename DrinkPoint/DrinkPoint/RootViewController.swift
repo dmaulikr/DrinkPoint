@@ -14,10 +14,14 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import FBAudienceNetwork
 
-class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate {
+class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate, FBSDKLoginButtonDelegate {
 
     var drinkPointScore: Int64 = 0
 
+    @IBOutlet var facebookButton: FBSDKLoginButton!
+    @IBOutlet var userProfileImage: UIImageView!
+    @IBOutlet var welcomeLabel: UILabel!
+    
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
@@ -56,10 +60,17 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         adView.hidden = true
         self.view!.addSubview(adView)
         adView.loadAd()
+        
+        configureFacebook()
 
         authenticateLocalPlayer() // Checks whether user logged into Apple's Game Center
     }
 
+    func configureFacebook() {
+        facebookButton.readPermissions = ["public_profile", "email", "user_friends"];
+        facebookButton.delegate = self
+    }
+    
     func adView(adView: FBAdView, didFailWithError error: NSError) {
         NSLog("Ad failed to load")
         adView.hidden = true
@@ -70,6 +81,23 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         adView.hidden = false
     }
 
+    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+        FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields": "first_name, last_name, picture.type(large)"]).startWithCompletionHandler { (connection, result, error) -> Void in
+            let strFirstName: String = (result.objectForKey("first_name") as? String)!
+            let strLastName: String = (result.objectForKey("last_name") as? String)!
+            let strPictureURL: String = (result.objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as? String)!
+            self.welcomeLabel.text = "Welcome, \(strFirstName) \(strLastName)!"
+            self.userProfileImage.image = UIImage(data: NSData(contentsOfURL: NSURL(string: strPictureURL)!)!)
+        }
+    }
+    
+    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
+        let loginManager: FBSDKLoginManager = FBSDKLoginManager()
+        loginManager.logOut()
+        userProfileImage.image = nil
+        welcomeLabel.text = ""
+    }
+    
     func authenticateLocalPlayer() {
         let localPlayer = GKLocalPlayer.localPlayer()
         localPlayer.authenticateHandler = {(viewController, error) -> Void in
