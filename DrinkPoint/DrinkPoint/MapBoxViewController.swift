@@ -18,13 +18,7 @@ class MapBoxViewController: UIViewController, MGLMapViewDelegate {
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        navigationController!.navigationBar.barTintColor = UIColor(red: 0.031, green: 0.102, blue: 0.125, alpha: 1.00) // Hex #081a20
-        navigationController!.navigationBar.tintColor = UIColor.whiteColor()
-        navigationController!.navigationBar.titleTextAttributes =
-            [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        
+        super.viewDidLoad()        
         map = MGLMapView(frame: view.bounds, styleURL: MGLStyle.darkStyleURLWithVersion(9))
         map.setCenterCoordinate(CLLocationCoordinate2D(
             latitude: 36.158895,

@@ -25,13 +25,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
-        UIBarButtonItem.appearance().tintColor = UIColor(red: 0.031, green: 0.102, blue: 0.125, alpha: 1.00) // Hex #081a20
-        UINavigationBar.appearance().barTintColor = UIColor(red: 0.031, green: 0.102, blue: 0.125, alpha: 1.00) // Hex #081a20
+        
+        UIBarButtonItem.appearance().tintColor = UIColor.blackColor()
+        UINavigationBar.appearance().barTintColor = UIColor.blackColor()
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UITabBar.appearance().translucent = false
-        UITabBar.appearance().barTintColor = UIColor(red: 0.031, green: 0.102, blue: 0.125, alpha: 1.00) // Hex #081a20
+        UITabBar.appearance().barTintColor = UIColor.blackColor()
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         
         Fabric.sharedSDK().debug = true

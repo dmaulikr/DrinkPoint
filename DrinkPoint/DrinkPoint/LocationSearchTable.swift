@@ -6,7 +6,6 @@
 //  Copyright © 2016 BinaryBastards. All rights reserved.
 //
 
-import UIKit
 import MapKit
 
 class LocationSearchTable: UITableViewController {

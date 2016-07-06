@@ -24,7 +24,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-
+        
         LaunchKit.sharedInstance().presentAppReleaseNotesIfNeededFromViewController(self) { (didPresent: Bool) -> Void in
             if didPresent {
                 print("Release Notes card presented")
