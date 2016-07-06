@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DrinkPoint" width="114" height="114"/>
+        <image name="DrinkPoint" width="298" height="298"/>
     </resources>
 </document>

@@ -13,7 +13,6 @@
 		971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B51D0A59B800B59E48 /* SystemConfiguration.framework */; };
 		971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C21D0AFBB900B59E48 /* StoreKit.framework */; };
 		971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C41D0AFBC000B59E48 /* MapKit.framework */; };
-		971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C71D0AFBE500B59E48 /* HealthKit.framework */; };
 		971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C91D0AFC0300B59E48 /* GameKit.framework */; };
 		9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724ABC31D2419B100DC84BA /* MusicHelper.swift */; };
 		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
@@ -182,8 +181,6 @@
 		971825B51D0A59B800B59E48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		971825C21D0AFBB900B59E48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		971825C41D0AFBC000B59E48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DrinkPoint.entitlements; sourceTree = "<group>"; };
-		971825C71D0AFBE500B59E48 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		971825C91D0AFC0300B59E48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		9724ABC31D2419B100DC84BA /* MusicHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,7 +348,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				975530B71D286D9A005E66F1 /* Social.framework in Frameworks */,
-				971825C81D0AFBE500B59E48 /* HealthKit.framework in Frameworks */,
 				971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */,
 				97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */,
 				971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */,
@@ -416,7 +412,6 @@
 				97324B571D0A40F3006B58A3 /* AppDelegate.swift */,
 				97324B5E1D0A40F3006B58A3 /* Assets.xcassets */,
 				97324B631D0A40F3006B58A3 /* Info.plist */,
-				971825C61D0AFBE500B59E48 /* DrinkPoint.entitlements */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -677,7 +672,6 @@
 				97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */,
 				97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */,
 				971825C91D0AFC0300B59E48 /* GameKit.framework */,
-				971825C71D0AFBE500B59E48 /* HealthKit.framework */,
 				971825C41D0AFBC000B59E48 /* MapKit.framework */,
 				971825C21D0AFBB900B59E48 /* StoreKit.framework */,
 				971825B51D0A59B800B59E48 /* SystemConfiguration.framework */,
@@ -730,7 +724,7 @@
 								enabled = 1;
 							};
 							com.apple.HealthKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -1106,7 +1100,6 @@
 			baseConfigurationReference = 9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DrinkPoint/DrinkPoint.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1127,7 +1120,6 @@
 			baseConfigurationReference = 422799C08E4103062BA84C30 /* Pods-DrinkPoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DrinkPoint/DrinkPoint.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

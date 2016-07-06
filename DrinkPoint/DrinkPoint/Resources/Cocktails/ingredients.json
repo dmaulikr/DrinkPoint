@@ -811,7 +811,7 @@
                "category": "hardDrink"
                },
                {
-               "name": "151-Proof Rum",
+               "name": "Bardardi 151",
                "alcohol": true,
                "category": "hardDrink"
                },
@@ -1046,11 +1046,6 @@
                "category": "hardDrink"
                },
                {
-               "name": "7-Up",
-               "alcohol": false,
-               "category": "softDrink"
-               },
-               {
                "name": "Limeade",
                "alcohol": false,
                "category": "softDrink"
@@ -1271,11 +1266,6 @@
                "category": "mixer"
                },
                {
-               "name": "Tennessee Whiskey",
-               "alcohol": true,
-               "category": "hardDrink"
-               },
-               {
                "name": "White Chocolate Liqueur",
                "alcohol": true,
                "category": "hardDrink"
@@ -1437,11 +1427,6 @@
                },
                {
                "name": "Snapple",
-               "alcohol": false,
-               "category": "softDrink"
-               },
-               {
-               "name": "Lemon-lime Soda",
                "alcohol": false,
                "category": "softDrink"
                },
@@ -1907,11 +1892,6 @@
                "category": "hardDrink"
                },
                {
-               "name": "Cola",
-               "alcohol": false,
-               "category": "softDrink"
-               },
-               {
                "name": "Lime Liqueur",
                "alcohol": true,
                "category": "hardDrink"
@@ -1940,11 +1920,6 @@
                "name": "Watermelon Liqueur",
                "alcohol": true,
                "category": "hardDrink"
-               },
-               {
-               "name": "Pepsi Cola",
-               "alcohol": false,
-               "category": "softDrink"
                },
                {
                "name": "Sunny Delight",

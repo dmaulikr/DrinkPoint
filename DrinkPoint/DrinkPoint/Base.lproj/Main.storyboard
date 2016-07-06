@@ -795,11 +795,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vBp-qX-f1f">
-                                <rect key="frame" x="0.0" y="72" width="600" height="194"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="266"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="194" id="4YB-oM-okD"/>
+                                    <constraint firstAttribute="height" constant="266" id="4YB-oM-okD"/>
                                 </constraints>
                                 <color key="separatorColor" red="0.031372549020000001" green="0.1019607843" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -811,9 +811,9 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OQu-Ax-hjF" id="KhY-Fr-uQP">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" red="0.031372549020000001" green="0.1019607843" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.031372549020000001" green="0.1019607843" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </prototypes>
@@ -824,7 +824,7 @@
                             </tableView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUc-zb-BPv">
                                 <rect key="frame" x="20" y="333" width="560" height="210"/>
-                                <color key="backgroundColor" red="0.031372549020000001" green="0.1019607843" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -837,7 +837,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.031372549020000001" green="0.1019607843" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="leading" secondItem="wqz-KU-KbP" secondAttribute="leading" id="2xI-Lw-mpU"/>
                             <constraint firstItem="r84-Eu-FUP" firstAttribute="top" secondItem="nUc-zb-BPv" secondAttribute="bottom" constant="8" id="43a-tI-ycH"/>
@@ -845,7 +845,7 @@
                             <constraint firstItem="nUc-zb-BPv" firstAttribute="top" secondItem="wqz-KU-KbP" secondAttribute="bottom" constant="8" symbolic="YES" id="J1X-Tf-FXb"/>
                             <constraint firstItem="wqz-KU-KbP" firstAttribute="leading" secondItem="nUc-zb-BPv" secondAttribute="leading" constant="-20" id="JtH-cW-vDa"/>
                             <constraint firstItem="wqz-KU-KbP" firstAttribute="trailing" secondItem="nUc-zb-BPv" secondAttribute="trailing" constant="20" id="aGu-oR-Eil"/>
-                            <constraint firstItem="vBp-qX-f1f" firstAttribute="top" secondItem="1Ia-zB-Pca" secondAttribute="bottom" constant="28" id="cAc-79-KLJ"/>
+                            <constraint firstItem="vBp-qX-f1f" firstAttribute="top" secondItem="1Ia-zB-Pca" secondAttribute="bottom" constant="-44" id="cAc-79-KLJ"/>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="trailing" secondItem="rij-Oy-RlF" secondAttribute="trailingMargin" constant="20" id="gKL-ey-wqh"/>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="leading" secondItem="rij-Oy-RlF" secondAttribute="leadingMargin" constant="-20" id="yoE-JM-zSJ"/>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="trailing" secondItem="wqz-KU-KbP" secondAttribute="trailing" id="yt4-Ce-ShF"/>
@@ -1124,7 +1124,7 @@
         <image name="CoctailsPantry" width="25" height="25"/>
         <image name="TripleButton" width="320" height="120"/>
         <image name="background" width="384" height="682"/>
-        <image name="dice" width="300" height="300"/>
+        <image name="dice" width="298" height="298"/>
         <image name="game" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
         <image name="map" width="25" height="25"/>
