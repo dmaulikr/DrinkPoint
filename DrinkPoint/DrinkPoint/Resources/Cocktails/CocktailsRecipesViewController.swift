@@ -29,10 +29,10 @@ class RecipesViewController: UIViewController, UITableViewDataSource, UITableVie
         let number = arc4random_uniform(UInt32(recipeDataSource.count))
         let recipe = recipeDataSource[Int(number)]
         let alert = UIAlertController(title: "\(recipe.name)", message: "", preferredStyle: .Alert)
-        let toDismiss = UIAlertAction(title: "Dismiss", style: .Cancel) { (alert) -> Void in
+        let toDismiss = UIAlertAction(title: "No Thanks", style: .Cancel) { (alert) -> Void in
             print(alert)
         }
-        let toRecipe = UIAlertAction(title: "View Recipe", style: .Default) { (action) -> Void in
+        let toRecipe = UIAlertAction(title: "Show Me!", style: .Default) { (action) -> Void in
             self.performSegueWithIdentifier("toDetails", sender: recipe)
         }
         alert.addAction(toDismiss)
@@ -91,14 +91,14 @@ class RecipesViewController: UIViewController, UITableViewDataSource, UITableVie
             let name = fromSingleIngredient.name
             return "\(name) Recipes"
         } else {
-            return "Possible Cocktails"
+            return "Potential Cocktails"
         }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("recipe", forIndexPath: indexPath)
         if self.recipeDataSource.count <= 0 {
-            cell.textLabel?.text = "Please add ingredients to your pantry."
+            cell.textLabel?.text = "Your pantry needs more items!"
             cell.detailTextLabel?.text = ""
             cell.textLabel?.textColor = .lightColor()
         } else {
@@ -109,7 +109,7 @@ class RecipesViewController: UIViewController, UITableViewDataSource, UITableVie
                 cell.detailTextLabel?.text = "(\(recipe.userIngredients!) of \(recipe.totalIngredients!))"
                 cell.detailTextLabel?.textColor = .lightColor()
             } else {
-                cell.detailTextLabel?.text = "✓"
+                cell.detailTextLabel?.text = "✔︎"
                 cell.detailTextLabel?.textColor = .lightColor()
             }
         }

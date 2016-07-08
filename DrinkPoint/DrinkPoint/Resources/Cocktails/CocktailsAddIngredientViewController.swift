@@ -40,7 +40,7 @@ class AddIngredientViewController: UIViewController, UITableViewDataSource, UITa
         let cell = tableView.dequeueReusableCellWithIdentifier("ingredientCell", forIndexPath: indexPath) as! AddIngredientTableViewCell
         cell.nameLabel?.text = ingredientDataSource[indexPath.row].name
         if IngredientController.sharedController.myPantry.contains(ingredientDataSource[indexPath.row]) {
-            cell.checkLabel?.text = "✓"
+            cell.checkLabel?.text = "✔︎"
         } else {
             cell.checkLabel?.text = "☐"
         }
@@ -58,7 +58,7 @@ class AddIngredientViewController: UIViewController, UITableViewDataSource, UITa
             IngredientController.sharedController.removeIngredient(ingredient)
             tableViewOutlet.reloadData()
         } else {
-            cell.checkLabel?.text = "✓"
+            cell.checkLabel?.text = "✔︎"
             let ingredient = ingredientDataSource[indexPath.row]
             IngredientController.sharedController.addIngredient(ingredient)
             tableViewOutlet.reloadData()

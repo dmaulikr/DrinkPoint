@@ -15,7 +15,6 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
     
     @IBOutlet weak var alcoholTableView: UITableView!
     @IBOutlet weak var mixerTableView: UITableView!
-    @IBOutlet weak var navBar: UINavigationItem!
     
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -81,11 +80,6 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let ingredient = alcoholDataSource[indexPath.row]
-        self.performSegueWithIdentifier("oneIngredient", sender: ingredient)
-    }
-    
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if tableView == alcoholTableView && editingStyle == .Delete {
             let ingredient = self.alcoholDataSource[indexPath.row]
@@ -97,14 +91,6 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
             IngredientController.sharedController.removeIngredient(ingredient)
             self.splitDataSource()
             self.mixerTableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        }
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "oneIngredient"{
-            let dVC = segue.destinationViewController as! RecipesViewController
-            let ingredient = sender as! Ingredient
-            dVC.fromSingleIngredient = ingredient
         }
     }
     

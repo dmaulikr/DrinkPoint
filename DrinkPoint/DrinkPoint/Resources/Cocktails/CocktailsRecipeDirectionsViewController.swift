@@ -39,16 +39,16 @@ class RecipeDirectionsViewController: UIViewController, UITableViewDataSource, U
         let ingredientName = ingredient["name"]
         let ingredientObj = Ingredient(name: ingredientName!)
         if IngredientController.sharedController.myPantry.contains(ingredientObj){
-            cell.textLabel?.text = "❖ \(ingredientAmt!) \(ingredientName!)"
+            cell.textLabel?.text = "✔︎ \(ingredientAmt!)\(ingredientName!)"
             cell.textLabel?.textColor = .lightColor()
         } else {
-            cell.textLabel?.text = "❖  \(ingredientAmt!) \(ingredientName!)"
+            cell.textLabel?.text = "✘ \(ingredientAmt!)\(ingredientName!)"
             cell.textLabel?.textColor = .lightGrayColor()
         }
         return cell
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Recipe"
+        return "Ingredients"
     }
 }

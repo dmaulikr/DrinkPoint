@@ -32,8 +32,8 @@ class SettingsController {
     static func checkEmptyPantry() -> UIViewController? {
         if !NSUserDefaults.standardUserDefaults().boolForKey("DisplayedAddIngredients") {
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "DisplayedAddIngredients")
-            let pantryAlertController = UIAlertController(title: "Pantry Requires More Ingredients", message: "Tap ‘+’ to add more ingredients.", preferredStyle: .Alert)
-            let continueAction = UIAlertAction(title: "Continue", style: .Default) { (action) in
+            let pantryAlertController = UIAlertController(title: "Pantry Needs More Items", message: "Tap cart icon at top left of screen", preferredStyle: .Alert)
+            let continueAction = UIAlertAction(title: "Got It!", style: .Default) { (action) in
                 print(action)
             }
             pantryAlertController.addAction(continueAction)
