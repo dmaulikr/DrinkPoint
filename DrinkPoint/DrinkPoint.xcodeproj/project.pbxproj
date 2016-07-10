@@ -14,13 +14,13 @@
 		971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C21D0AFBB900B59E48 /* StoreKit.framework */; };
 		971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C41D0AFBC000B59E48 /* MapKit.framework */; };
 		971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C91D0AFC0300B59E48 /* GameKit.framework */; };
+		9721478D1D3052EA000CF527 /* GogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721478C1D3052EA000CF527 /* GogglesViewController.swift */; };
 		9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724ABC31D2419B100DC84BA /* MusicHelper.swift */; };
 		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
 		97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* RootViewController.swift */; };
 		97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5B1D0A40F3006B58A3 /* Main.storyboard */; };
 		97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5E1D0A40F3006B58A3 /* Assets.xcassets */; };
 		97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97343C381D0B699C00043AE0 /* GamesViewController.swift */; };
-		9736DD4F1D20A4CB003D52B9 /* GogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9736DD4E1D20A4CB003D52B9 /* GogglesViewController.swift */; };
 		973E7A621D1ECBC100393B19 /* TripleArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A591D1ECBC100393B19 /* TripleArray2D.swift */; };
 		973E7A631D1ECBC100393B19 /* TripleChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5A1D1ECBC100393B19 /* TripleChain.swift */; };
 		973E7A641D1ECBC100393B19 /* TripleDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E7A5B1D1ECBC100393B19 /* TripleDrink.swift */; };
@@ -134,11 +134,10 @@
 		9753FF4E1D2C450800ABFF35 /* CocktailsPantryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF3E1D2C450800ABFF35 /* CocktailsPantryViewController.swift */; };
 		9753FF4F1D2C450800ABFF35 /* CocktailsRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF3F1D2C450800ABFF35 /* CocktailsRecipe.swift */; };
 		9753FF501D2C450800ABFF35 /* CocktailsRecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF401D2C450800ABFF35 /* CocktailsRecipeController.swift */; };
-		9753FF511D2C450800ABFF35 /* CocktailsRecipeDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF411D2C450800ABFF35 /* CocktailsRecipeDirectionsViewController.swift */; };
-		9753FF521D2C450800ABFF35 /* CocktailsRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF421D2C450800ABFF35 /* CocktailsRecipesViewController.swift */; };
+		9753FF511D2C450800ABFF35 /* CocktailsRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF411D2C450800ABFF35 /* CocktailsRecipeViewController.swift */; };
+		9753FF521D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF421D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift */; };
 		9753FF531D2C450800ABFF35 /* CocktailsSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF431D2C450800ABFF35 /* CocktailsSettingsController.swift */; };
 		975530B11D286A15005E66F1 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B01D286A15005E66F1 /* TriviaViewController.swift */; };
-		975530B31D286BC1005E66F1 /* TriviaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B21D286BC1005E66F1 /* TriviaColors.swift */; };
 		975530B51D286C0F005E66F1 /* TriviaFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B41D286C0F005E66F1 /* TriviaFact.swift */; };
 		975530B71D286D9A005E66F1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975530B61D286D9A005E66F1 /* Social.framework */; };
 		975C4E321D0EF8B600433505 /* PlinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E311D0EF8B600433505 /* PlinkViewController.swift */; };
@@ -164,6 +163,7 @@
 		975C4E5D1D0EFA2800433505 /* Finger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975C4E4F1D0EFA2800433505 /* Finger@2x.png */; };
 		975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */; };
 		9788F0F51D1F3F3E00CB5214 /* PlinkDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788F0F41D1F3F3E00CB5214 /* PlinkDefined.swift */; };
+		97AAA5491D3002EB00E5FA81 /* CocktailsBartenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */; };
 		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
 		97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */; };
 		97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */; };
@@ -175,13 +175,14 @@
 /* Begin PBXFileReference section */
 		422799C08E4103062BA84C30 /* Pods-DrinkPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.release.xcconfig"; sourceTree = "<group>"; };
 		67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		970C8B371D26A11E0041405D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		970C8B391D26A6B40041405D /* MapBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBoxViewController.swift; sourceTree = "<group>"; };
+		970C8B371D26A11E0041405D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Map/MapViewController.swift; sourceTree = "<group>"; };
+		970C8B391D26A6B40041405D /* MapBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapBoxViewController.swift; path = Map/MapBoxViewController.swift; sourceTree = "<group>"; };
 		971825B31D0A599500B59E48 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		971825B51D0A59B800B59E48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		971825C21D0AFBB900B59E48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		971825C41D0AFBC000B59E48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		971825C91D0AFC0300B59E48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		9721478C1D3052EA000CF527 /* GogglesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GogglesViewController.swift; path = Games/Googles/GogglesViewController.swift; sourceTree = "<group>"; };
 		9724ABC31D2419B100DC84BA /* MusicHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97324B571D0A40F3006B58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -189,156 +190,155 @@
 		97324B5C1D0A40F3006B58A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97324B5E1D0A40F3006B58A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97324B631D0A40F3006B58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97343C381D0B699C00043AE0 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
-		9736DD4E1D20A4CB003D52B9 /* GogglesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GogglesViewController.swift; sourceTree = "<group>"; };
-		973E7A591D1ECBC100393B19 /* TripleArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleArray2D.swift; sourceTree = "<group>"; };
-		973E7A5A1D1ECBC100393B19 /* TripleChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleChain.swift; sourceTree = "<group>"; };
-		973E7A5B1D1ECBC100393B19 /* TripleDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleDrink.swift; sourceTree = "<group>"; };
-		973E7A5C1D1ECBC100393B19 /* TripleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleExtensions.swift; sourceTree = "<group>"; };
-		973E7A5D1D1ECBC100393B19 /* TripleGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleGameScene.swift; sourceTree = "<group>"; };
-		973E7A5E1D1ECBC100393B19 /* TripleLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleLevel.swift; sourceTree = "<group>"; };
-		973E7A5F1D1ECBC100393B19 /* TripleSwap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleSwap.swift; sourceTree = "<group>"; };
-		973E7A601D1ECBC100393B19 /* TripleTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleTile.swift; sourceTree = "<group>"; };
-		973E7A611D1ECBC100393B19 /* TripleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleViewController.swift; sourceTree = "<group>"; };
-		973E7A701D1ECDE500393B19 /* MaskTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaskTile.png; sourceTree = "<group>"; };
-		973E7A711D1ECDE500393B19 /* MaskTile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MaskTile@2x.png"; sourceTree = "<group>"; };
-		973E7A721D1ECDE500393B19 /* MaskTile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MaskTile@3x.png"; sourceTree = "<group>"; };
-		973E7A731D1ECDE500393B19 /* Tile_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_1.png; sourceTree = "<group>"; };
-		973E7A741D1ECDE500393B19 /* Tile_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_1@2x.png"; sourceTree = "<group>"; };
-		973E7A751D1ECDE500393B19 /* Tile_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_1@3x.png"; sourceTree = "<group>"; };
-		973E7A761D1ECDE500393B19 /* Tile_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_2.png; sourceTree = "<group>"; };
-		973E7A771D1ECDE500393B19 /* Tile_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_2@2x.png"; sourceTree = "<group>"; };
-		973E7A781D1ECDE500393B19 /* Tile_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_2@3x.png"; sourceTree = "<group>"; };
-		973E7A791D1ECDE500393B19 /* Tile_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_3.png; sourceTree = "<group>"; };
-		973E7A7A1D1ECDE500393B19 /* Tile_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_3@2x.png"; sourceTree = "<group>"; };
-		973E7A7B1D1ECDE500393B19 /* Tile_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_3@3x.png"; sourceTree = "<group>"; };
-		973E7A7C1D1ECDE500393B19 /* Tile_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_4.png; sourceTree = "<group>"; };
-		973E7A7D1D1ECDE500393B19 /* Tile_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_4@2x.png"; sourceTree = "<group>"; };
-		973E7A7E1D1ECDE500393B19 /* Tile_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_4@3x.png"; sourceTree = "<group>"; };
-		973E7A7F1D1ECDE500393B19 /* Tile_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_5.png; sourceTree = "<group>"; };
-		973E7A801D1ECDE500393B19 /* Tile_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_5@2x.png"; sourceTree = "<group>"; };
-		973E7A811D1ECDE500393B19 /* Tile_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_5@3x.png"; sourceTree = "<group>"; };
-		973E7A821D1ECDE500393B19 /* Tile_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_7.png; sourceTree = "<group>"; };
-		973E7A831D1ECDE500393B19 /* Tile_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_7@2x.png"; sourceTree = "<group>"; };
-		973E7A841D1ECDE500393B19 /* Tile_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_7@3x.png"; sourceTree = "<group>"; };
-		973E7A851D1ECDE500393B19 /* Tile_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_8.png; sourceTree = "<group>"; };
-		973E7A861D1ECDE500393B19 /* Tile_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_8@2x.png"; sourceTree = "<group>"; };
-		973E7A871D1ECDE500393B19 /* Tile_8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_8@3x.png"; sourceTree = "<group>"; };
-		973E7A881D1ECDE500393B19 /* Tile_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_10.png; sourceTree = "<group>"; };
-		973E7A891D1ECDE500393B19 /* Tile_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_10@2x.png"; sourceTree = "<group>"; };
-		973E7A8A1D1ECDE500393B19 /* Tile_10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_10@3x.png"; sourceTree = "<group>"; };
-		973E7A8B1D1ECDE500393B19 /* Tile_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_11.png; sourceTree = "<group>"; };
-		973E7A8C1D1ECDE500393B19 /* Tile_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_11@2x.png"; sourceTree = "<group>"; };
-		973E7A8D1D1ECDE500393B19 /* Tile_11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_11@3x.png"; sourceTree = "<group>"; };
-		973E7A8E1D1ECDE500393B19 /* Tile_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_12.png; sourceTree = "<group>"; };
-		973E7A8F1D1ECDE500393B19 /* Tile_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_12@2x.png"; sourceTree = "<group>"; };
-		973E7A901D1ECDE500393B19 /* Tile_12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_12@3x.png"; sourceTree = "<group>"; };
-		973E7A911D1ECDE500393B19 /* Tile_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_13.png; sourceTree = "<group>"; };
-		973E7A921D1ECDE500393B19 /* Tile_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_13@2x.png"; sourceTree = "<group>"; };
-		973E7A931D1ECDE500393B19 /* Tile_13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_13@3x.png"; sourceTree = "<group>"; };
-		973E7A941D1ECDE500393B19 /* Tile_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_14.png; sourceTree = "<group>"; };
-		973E7A951D1ECDE500393B19 /* Tile_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_14@2x.png"; sourceTree = "<group>"; };
-		973E7A961D1ECDE500393B19 /* Tile_14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_14@3x.png"; sourceTree = "<group>"; };
-		973E7A971D1ECDE500393B19 /* Tile_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tile_15.png; sourceTree = "<group>"; };
-		973E7A981D1ECDE500393B19 /* Tile_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_15@2x.png"; sourceTree = "<group>"; };
-		973E7A991D1ECDE500393B19 /* Tile_15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile_15@3x.png"; sourceTree = "<group>"; };
-		973E7AC41D1ECE1500393B19 /* Beer-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer-Highlighted.png"; path = "Resources/Triple/Sprites.atlas/Beer-Highlighted.png"; sourceTree = "<group>"; };
-		973E7AC51D1ECE1500393B19 /* Beer-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer-Highlighted@2x.png"; path = "Resources/Triple/Sprites.atlas/Beer-Highlighted@2x.png"; sourceTree = "<group>"; };
-		973E7AC61D1ECE1500393B19 /* Beer-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer-Highlighted@3x.png"; path = "Resources/Triple/Sprites.atlas/Beer-Highlighted@3x.png"; sourceTree = "<group>"; };
-		973E7AC71D1ECE1500393B19 /* Beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beer.png; path = Resources/Triple/Sprites.atlas/Beer.png; sourceTree = "<group>"; };
-		973E7AC81D1ECE1500393B19 /* Beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer@2x.png"; path = "Resources/Triple/Sprites.atlas/Beer@2x.png"; sourceTree = "<group>"; };
-		973E7AC91D1ECE1500393B19 /* Beer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer@3x.png"; path = "Resources/Triple/Sprites.atlas/Beer@3x.png"; sourceTree = "<group>"; };
-		973E7ACA1D1ECE1500393B19 /* BloodyMary-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary-Highlighted.png"; path = "Resources/Triple/Sprites.atlas/BloodyMary-Highlighted.png"; sourceTree = "<group>"; };
-		973E7ACB1D1ECE1500393B19 /* BloodyMary-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary-Highlighted@2x.png"; path = "Resources/Triple/Sprites.atlas/BloodyMary-Highlighted@2x.png"; sourceTree = "<group>"; };
-		973E7ACC1D1ECE1500393B19 /* BloodyMary-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary-Highlighted@3x.png"; path = "Resources/Triple/Sprites.atlas/BloodyMary-Highlighted@3x.png"; sourceTree = "<group>"; };
-		973E7ACD1D1ECE1500393B19 /* BloodyMary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BloodyMary.png; path = Resources/Triple/Sprites.atlas/BloodyMary.png; sourceTree = "<group>"; };
-		973E7ACE1D1ECE1500393B19 /* BloodyMary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary@2x.png"; path = "Resources/Triple/Sprites.atlas/BloodyMary@2x.png"; sourceTree = "<group>"; };
-		973E7ACF1D1ECE1500393B19 /* BloodyMary@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary@3x.png"; path = "Resources/Triple/Sprites.atlas/BloodyMary@3x.png"; sourceTree = "<group>"; };
-		973E7AD01D1ECE1500393B19 /* BlueLagoon-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon-Highlighted.png"; path = "Resources/Triple/Sprites.atlas/BlueLagoon-Highlighted.png"; sourceTree = "<group>"; };
-		973E7AD11D1ECE1500393B19 /* BlueLagoon-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon-Highlighted@2x.png"; path = "Resources/Triple/Sprites.atlas/BlueLagoon-Highlighted@2x.png"; sourceTree = "<group>"; };
-		973E7AD21D1ECE1500393B19 /* BlueLagoon-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon-Highlighted@3x.png"; path = "Resources/Triple/Sprites.atlas/BlueLagoon-Highlighted@3x.png"; sourceTree = "<group>"; };
-		973E7AD31D1ECE1500393B19 /* BlueLagoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlueLagoon.png; path = Resources/Triple/Sprites.atlas/BlueLagoon.png; sourceTree = "<group>"; };
-		973E7AD41D1ECE1500393B19 /* BlueLagoon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon@2x.png"; path = "Resources/Triple/Sprites.atlas/BlueLagoon@2x.png"; sourceTree = "<group>"; };
-		973E7AD51D1ECE1500393B19 /* BlueLagoon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon@3x.png"; path = "Resources/Triple/Sprites.atlas/BlueLagoon@3x.png"; sourceTree = "<group>"; };
-		973E7AD61D1ECE1500393B19 /* Martini-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini-Highlighted.png"; path = "Resources/Triple/Sprites.atlas/Martini-Highlighted.png"; sourceTree = "<group>"; };
-		973E7AD71D1ECE1500393B19 /* Martini-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini-Highlighted@2x.png"; path = "Resources/Triple/Sprites.atlas/Martini-Highlighted@2x.png"; sourceTree = "<group>"; };
-		973E7AD81D1ECE1500393B19 /* Martini-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini-Highlighted@3x.png"; path = "Resources/Triple/Sprites.atlas/Martini-Highlighted@3x.png"; sourceTree = "<group>"; };
-		973E7AD91D1ECE1500393B19 /* Martini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Martini.png; path = Resources/Triple/Sprites.atlas/Martini.png; sourceTree = "<group>"; };
-		973E7ADA1D1ECE1500393B19 /* Martini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini@2x.png"; path = "Resources/Triple/Sprites.atlas/Martini@2x.png"; sourceTree = "<group>"; };
-		973E7ADB1D1ECE1500393B19 /* Martini@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini@3x.png"; path = "Resources/Triple/Sprites.atlas/Martini@3x.png"; sourceTree = "<group>"; };
-		973E7ADC1D1ECE1500393B19 /* Tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile.png; path = Resources/Triple/Sprites.atlas/Tile.png; sourceTree = "<group>"; };
-		973E7ADD1D1ECE1500393B19 /* Tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile@2x.png"; path = "Resources/Triple/Sprites.atlas/Tile@2x.png"; sourceTree = "<group>"; };
-		973E7ADE1D1ECE1500393B19 /* Tile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile@3x.png"; path = "Resources/Triple/Sprites.atlas/Tile@3x.png"; sourceTree = "<group>"; };
-		973E7ADF1D1ECE1500393B19 /* Whiskey-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey-Highlighted.png"; path = "Resources/Triple/Sprites.atlas/Whiskey-Highlighted.png"; sourceTree = "<group>"; };
-		973E7AE01D1ECE1500393B19 /* Whiskey-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey-Highlighted@2x.png"; path = "Resources/Triple/Sprites.atlas/Whiskey-Highlighted@2x.png"; sourceTree = "<group>"; };
-		973E7AE11D1ECE1500393B19 /* Whiskey-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey-Highlighted@3x.png"; path = "Resources/Triple/Sprites.atlas/Whiskey-Highlighted@3x.png"; sourceTree = "<group>"; };
-		973E7AE21D1ECE1500393B19 /* Whiskey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Whiskey.png; path = Resources/Triple/Sprites.atlas/Whiskey.png; sourceTree = "<group>"; };
-		973E7AE31D1ECE1500393B19 /* Whiskey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey@2x.png"; path = "Resources/Triple/Sprites.atlas/Whiskey@2x.png"; sourceTree = "<group>"; };
-		973E7AE41D1ECE1500393B19 /* Whiskey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey@3x.png"; path = "Resources/Triple/Sprites.atlas/Whiskey@3x.png"; sourceTree = "<group>"; };
-		973E7AE51D1ECE1500393B19 /* Wine-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine-Highlighted.png"; path = "Resources/Triple/Sprites.atlas/Wine-Highlighted.png"; sourceTree = "<group>"; };
-		973E7AE61D1ECE1500393B19 /* Wine-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine-Highlighted@2x.png"; path = "Resources/Triple/Sprites.atlas/Wine-Highlighted@2x.png"; sourceTree = "<group>"; };
-		973E7AE71D1ECE1500393B19 /* Wine-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine-Highlighted@3x.png"; path = "Resources/Triple/Sprites.atlas/Wine-Highlighted@3x.png"; sourceTree = "<group>"; };
-		973E7AE81D1ECE1500393B19 /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wine.png; path = Resources/Triple/Sprites.atlas/Wine.png; sourceTree = "<group>"; };
-		973E7AE91D1ECE1500393B19 /* Wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine@2x.png"; path = "Resources/Triple/Sprites.atlas/Wine@2x.png"; sourceTree = "<group>"; };
-		973E7AEA1D1ECE1500393B19 /* Wine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine@3x.png"; path = "Resources/Triple/Sprites.atlas/Wine@3x.png"; sourceTree = "<group>"; };
-		973E7B121D1ECE2D00393B19 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_0.json; path = Resources/Triple/Levels/Level_0.json; sourceTree = "<group>"; };
-		973E7B131D1ECE2D00393B19 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_1.json; path = Resources/Triple/Levels/Level_1.json; sourceTree = "<group>"; };
-		973E7B141D1ECE2D00393B19 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_2.json; path = Resources/Triple/Levels/Level_2.json; sourceTree = "<group>"; };
-		973E7B151D1ECE2D00393B19 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_3.json; path = Resources/Triple/Levels/Level_3.json; sourceTree = "<group>"; };
-		973E7B161D1ECE2D00393B19 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_4.json; path = Resources/Triple/Levels/Level_4.json; sourceTree = "<group>"; };
-		973E7B1D1D1ECE4200393B19 /* Clink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Clink.wav; path = Resources/Triple/Sounds/Clink.wav; sourceTree = "<group>"; };
-		973E7B1E1D1ECE4200393B19 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drip.wav; path = Resources/Triple/Sounds/Drip.wav; sourceTree = "<group>"; };
-		973E7B1F1D1ECE4200393B19 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Error.wav; path = Resources/Triple/Sounds/Error.wav; sourceTree = "<group>"; };
-		973E7B201D1ECE4200393B19 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ka-Ching.wav"; path = "Resources/Triple/Sounds/Ka-Ching.wav"; sourceTree = "<group>"; };
-		973E7B221D1ECE4200393B19 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scrape.wav; path = Resources/Triple/Sounds/Scrape.wav; sourceTree = "<group>"; };
+		97343C381D0B699C00043AE0 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GamesViewController.swift; path = Games/GamesViewController.swift; sourceTree = "<group>"; };
+		973E7A591D1ECBC100393B19 /* TripleArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleArray2D.swift; path = Games/Triple/TripleArray2D.swift; sourceTree = "<group>"; };
+		973E7A5A1D1ECBC100393B19 /* TripleChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleChain.swift; path = Games/Triple/TripleChain.swift; sourceTree = "<group>"; };
+		973E7A5B1D1ECBC100393B19 /* TripleDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleDrink.swift; path = Games/Triple/TripleDrink.swift; sourceTree = "<group>"; };
+		973E7A5C1D1ECBC100393B19 /* TripleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleExtensions.swift; path = Games/Triple/TripleExtensions.swift; sourceTree = "<group>"; };
+		973E7A5D1D1ECBC100393B19 /* TripleGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleGameScene.swift; path = Games/Triple/TripleGameScene.swift; sourceTree = "<group>"; };
+		973E7A5E1D1ECBC100393B19 /* TripleLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleLevel.swift; path = Games/Triple/TripleLevel.swift; sourceTree = "<group>"; };
+		973E7A5F1D1ECBC100393B19 /* TripleSwap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleSwap.swift; path = Games/Triple/TripleSwap.swift; sourceTree = "<group>"; };
+		973E7A601D1ECBC100393B19 /* TripleTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleTile.swift; path = Games/Triple/TripleTile.swift; sourceTree = "<group>"; };
+		973E7A611D1ECBC100393B19 /* TripleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripleViewController.swift; path = Games/Triple/TripleViewController.swift; sourceTree = "<group>"; };
+		973E7A701D1ECDE500393B19 /* MaskTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MaskTile.png; path = ../../../Games/Triple/Grid.atlas/MaskTile.png; sourceTree = "<group>"; };
+		973E7A711D1ECDE500393B19 /* MaskTile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MaskTile@2x.png"; path = "../../../Games/Triple/Grid.atlas/MaskTile@2x.png"; sourceTree = "<group>"; };
+		973E7A721D1ECDE500393B19 /* MaskTile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MaskTile@3x.png"; path = "../../../Games/Triple/Grid.atlas/MaskTile@3x.png"; sourceTree = "<group>"; };
+		973E7A731D1ECDE500393B19 /* Tile_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_1.png; path = ../../../Games/Triple/Grid.atlas/Tile_1.png; sourceTree = "<group>"; };
+		973E7A741D1ECDE500393B19 /* Tile_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_1@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_1@2x.png"; sourceTree = "<group>"; };
+		973E7A751D1ECDE500393B19 /* Tile_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_1@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_1@3x.png"; sourceTree = "<group>"; };
+		973E7A761D1ECDE500393B19 /* Tile_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_2.png; path = ../../../Games/Triple/Grid.atlas/Tile_2.png; sourceTree = "<group>"; };
+		973E7A771D1ECDE500393B19 /* Tile_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_2@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_2@2x.png"; sourceTree = "<group>"; };
+		973E7A781D1ECDE500393B19 /* Tile_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_2@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_2@3x.png"; sourceTree = "<group>"; };
+		973E7A791D1ECDE500393B19 /* Tile_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_3.png; path = ../../../Games/Triple/Grid.atlas/Tile_3.png; sourceTree = "<group>"; };
+		973E7A7A1D1ECDE500393B19 /* Tile_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_3@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_3@2x.png"; sourceTree = "<group>"; };
+		973E7A7B1D1ECDE500393B19 /* Tile_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_3@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_3@3x.png"; sourceTree = "<group>"; };
+		973E7A7C1D1ECDE500393B19 /* Tile_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_4.png; path = ../../../Games/Triple/Grid.atlas/Tile_4.png; sourceTree = "<group>"; };
+		973E7A7D1D1ECDE500393B19 /* Tile_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_4@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_4@2x.png"; sourceTree = "<group>"; };
+		973E7A7E1D1ECDE500393B19 /* Tile_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_4@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_4@3x.png"; sourceTree = "<group>"; };
+		973E7A7F1D1ECDE500393B19 /* Tile_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_5.png; path = ../../../Games/Triple/Grid.atlas/Tile_5.png; sourceTree = "<group>"; };
+		973E7A801D1ECDE500393B19 /* Tile_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_5@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_5@2x.png"; sourceTree = "<group>"; };
+		973E7A811D1ECDE500393B19 /* Tile_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_5@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_5@3x.png"; sourceTree = "<group>"; };
+		973E7A821D1ECDE500393B19 /* Tile_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_7.png; path = ../../../Games/Triple/Grid.atlas/Tile_7.png; sourceTree = "<group>"; };
+		973E7A831D1ECDE500393B19 /* Tile_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_7@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_7@2x.png"; sourceTree = "<group>"; };
+		973E7A841D1ECDE500393B19 /* Tile_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_7@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_7@3x.png"; sourceTree = "<group>"; };
+		973E7A851D1ECDE500393B19 /* Tile_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_8.png; path = ../../../Games/Triple/Grid.atlas/Tile_8.png; sourceTree = "<group>"; };
+		973E7A861D1ECDE500393B19 /* Tile_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_8@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_8@2x.png"; sourceTree = "<group>"; };
+		973E7A871D1ECDE500393B19 /* Tile_8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_8@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_8@3x.png"; sourceTree = "<group>"; };
+		973E7A881D1ECDE500393B19 /* Tile_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_10.png; path = ../../../Games/Triple/Grid.atlas/Tile_10.png; sourceTree = "<group>"; };
+		973E7A891D1ECDE500393B19 /* Tile_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_10@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_10@2x.png"; sourceTree = "<group>"; };
+		973E7A8A1D1ECDE500393B19 /* Tile_10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_10@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_10@3x.png"; sourceTree = "<group>"; };
+		973E7A8B1D1ECDE500393B19 /* Tile_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_11.png; path = ../../../Games/Triple/Grid.atlas/Tile_11.png; sourceTree = "<group>"; };
+		973E7A8C1D1ECDE500393B19 /* Tile_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_11@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_11@2x.png"; sourceTree = "<group>"; };
+		973E7A8D1D1ECDE500393B19 /* Tile_11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_11@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_11@3x.png"; sourceTree = "<group>"; };
+		973E7A8E1D1ECDE500393B19 /* Tile_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_12.png; path = ../../../Games/Triple/Grid.atlas/Tile_12.png; sourceTree = "<group>"; };
+		973E7A8F1D1ECDE500393B19 /* Tile_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_12@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_12@2x.png"; sourceTree = "<group>"; };
+		973E7A901D1ECDE500393B19 /* Tile_12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_12@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_12@3x.png"; sourceTree = "<group>"; };
+		973E7A911D1ECDE500393B19 /* Tile_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_13.png; path = ../../../Games/Triple/Grid.atlas/Tile_13.png; sourceTree = "<group>"; };
+		973E7A921D1ECDE500393B19 /* Tile_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_13@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_13@2x.png"; sourceTree = "<group>"; };
+		973E7A931D1ECDE500393B19 /* Tile_13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_13@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_13@3x.png"; sourceTree = "<group>"; };
+		973E7A941D1ECDE500393B19 /* Tile_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_14.png; path = ../../../Games/Triple/Grid.atlas/Tile_14.png; sourceTree = "<group>"; };
+		973E7A951D1ECDE500393B19 /* Tile_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_14@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_14@2x.png"; sourceTree = "<group>"; };
+		973E7A961D1ECDE500393B19 /* Tile_14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_14@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_14@3x.png"; sourceTree = "<group>"; };
+		973E7A971D1ECDE500393B19 /* Tile_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_15.png; path = ../../../Games/Triple/Grid.atlas/Tile_15.png; sourceTree = "<group>"; };
+		973E7A981D1ECDE500393B19 /* Tile_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_15@2x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_15@2x.png"; sourceTree = "<group>"; };
+		973E7A991D1ECDE500393B19 /* Tile_15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile_15@3x.png"; path = "../../../Games/Triple/Grid.atlas/Tile_15@3x.png"; sourceTree = "<group>"; };
+		973E7AC41D1ECE1500393B19 /* Beer-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer-Highlighted.png"; path = "Games/Triple/Sprites.atlas/Beer-Highlighted.png"; sourceTree = "<group>"; };
+		973E7AC51D1ECE1500393B19 /* Beer-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer-Highlighted@2x.png"; path = "Games/Triple/Sprites.atlas/Beer-Highlighted@2x.png"; sourceTree = "<group>"; };
+		973E7AC61D1ECE1500393B19 /* Beer-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer-Highlighted@3x.png"; path = "Games/Triple/Sprites.atlas/Beer-Highlighted@3x.png"; sourceTree = "<group>"; };
+		973E7AC71D1ECE1500393B19 /* Beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beer.png; path = Games/Triple/Sprites.atlas/Beer.png; sourceTree = "<group>"; };
+		973E7AC81D1ECE1500393B19 /* Beer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer@2x.png"; path = "Games/Triple/Sprites.atlas/Beer@2x.png"; sourceTree = "<group>"; };
+		973E7AC91D1ECE1500393B19 /* Beer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beer@3x.png"; path = "Games/Triple/Sprites.atlas/Beer@3x.png"; sourceTree = "<group>"; };
+		973E7ACA1D1ECE1500393B19 /* BloodyMary-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary-Highlighted.png"; path = "Games/Triple/Sprites.atlas/BloodyMary-Highlighted.png"; sourceTree = "<group>"; };
+		973E7ACB1D1ECE1500393B19 /* BloodyMary-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary-Highlighted@2x.png"; path = "Games/Triple/Sprites.atlas/BloodyMary-Highlighted@2x.png"; sourceTree = "<group>"; };
+		973E7ACC1D1ECE1500393B19 /* BloodyMary-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary-Highlighted@3x.png"; path = "Games/Triple/Sprites.atlas/BloodyMary-Highlighted@3x.png"; sourceTree = "<group>"; };
+		973E7ACD1D1ECE1500393B19 /* BloodyMary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BloodyMary.png; path = Games/Triple/Sprites.atlas/BloodyMary.png; sourceTree = "<group>"; };
+		973E7ACE1D1ECE1500393B19 /* BloodyMary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary@2x.png"; path = "Games/Triple/Sprites.atlas/BloodyMary@2x.png"; sourceTree = "<group>"; };
+		973E7ACF1D1ECE1500393B19 /* BloodyMary@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodyMary@3x.png"; path = "Games/Triple/Sprites.atlas/BloodyMary@3x.png"; sourceTree = "<group>"; };
+		973E7AD01D1ECE1500393B19 /* BlueLagoon-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon-Highlighted.png"; path = "Games/Triple/Sprites.atlas/BlueLagoon-Highlighted.png"; sourceTree = "<group>"; };
+		973E7AD11D1ECE1500393B19 /* BlueLagoon-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon-Highlighted@2x.png"; path = "Games/Triple/Sprites.atlas/BlueLagoon-Highlighted@2x.png"; sourceTree = "<group>"; };
+		973E7AD21D1ECE1500393B19 /* BlueLagoon-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon-Highlighted@3x.png"; path = "Games/Triple/Sprites.atlas/BlueLagoon-Highlighted@3x.png"; sourceTree = "<group>"; };
+		973E7AD31D1ECE1500393B19 /* BlueLagoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlueLagoon.png; path = Games/Triple/Sprites.atlas/BlueLagoon.png; sourceTree = "<group>"; };
+		973E7AD41D1ECE1500393B19 /* BlueLagoon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon@2x.png"; path = "Games/Triple/Sprites.atlas/BlueLagoon@2x.png"; sourceTree = "<group>"; };
+		973E7AD51D1ECE1500393B19 /* BlueLagoon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLagoon@3x.png"; path = "Games/Triple/Sprites.atlas/BlueLagoon@3x.png"; sourceTree = "<group>"; };
+		973E7AD61D1ECE1500393B19 /* Martini-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini-Highlighted.png"; path = "Games/Triple/Sprites.atlas/Martini-Highlighted.png"; sourceTree = "<group>"; };
+		973E7AD71D1ECE1500393B19 /* Martini-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini-Highlighted@2x.png"; path = "Games/Triple/Sprites.atlas/Martini-Highlighted@2x.png"; sourceTree = "<group>"; };
+		973E7AD81D1ECE1500393B19 /* Martini-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini-Highlighted@3x.png"; path = "Games/Triple/Sprites.atlas/Martini-Highlighted@3x.png"; sourceTree = "<group>"; };
+		973E7AD91D1ECE1500393B19 /* Martini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Martini.png; path = Games/Triple/Sprites.atlas/Martini.png; sourceTree = "<group>"; };
+		973E7ADA1D1ECE1500393B19 /* Martini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini@2x.png"; path = "Games/Triple/Sprites.atlas/Martini@2x.png"; sourceTree = "<group>"; };
+		973E7ADB1D1ECE1500393B19 /* Martini@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Martini@3x.png"; path = "Games/Triple/Sprites.atlas/Martini@3x.png"; sourceTree = "<group>"; };
+		973E7ADC1D1ECE1500393B19 /* Tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile.png; path = Games/Triple/Sprites.atlas/Tile.png; sourceTree = "<group>"; };
+		973E7ADD1D1ECE1500393B19 /* Tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile@2x.png"; path = "Games/Triple/Sprites.atlas/Tile@2x.png"; sourceTree = "<group>"; };
+		973E7ADE1D1ECE1500393B19 /* Tile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tile@3x.png"; path = "Games/Triple/Sprites.atlas/Tile@3x.png"; sourceTree = "<group>"; };
+		973E7ADF1D1ECE1500393B19 /* Whiskey-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey-Highlighted.png"; path = "Games/Triple/Sprites.atlas/Whiskey-Highlighted.png"; sourceTree = "<group>"; };
+		973E7AE01D1ECE1500393B19 /* Whiskey-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey-Highlighted@2x.png"; path = "Games/Triple/Sprites.atlas/Whiskey-Highlighted@2x.png"; sourceTree = "<group>"; };
+		973E7AE11D1ECE1500393B19 /* Whiskey-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey-Highlighted@3x.png"; path = "Games/Triple/Sprites.atlas/Whiskey-Highlighted@3x.png"; sourceTree = "<group>"; };
+		973E7AE21D1ECE1500393B19 /* Whiskey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Whiskey.png; path = Games/Triple/Sprites.atlas/Whiskey.png; sourceTree = "<group>"; };
+		973E7AE31D1ECE1500393B19 /* Whiskey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey@2x.png"; path = "Games/Triple/Sprites.atlas/Whiskey@2x.png"; sourceTree = "<group>"; };
+		973E7AE41D1ECE1500393B19 /* Whiskey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Whiskey@3x.png"; path = "Games/Triple/Sprites.atlas/Whiskey@3x.png"; sourceTree = "<group>"; };
+		973E7AE51D1ECE1500393B19 /* Wine-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine-Highlighted.png"; path = "Games/Triple/Sprites.atlas/Wine-Highlighted.png"; sourceTree = "<group>"; };
+		973E7AE61D1ECE1500393B19 /* Wine-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine-Highlighted@2x.png"; path = "Games/Triple/Sprites.atlas/Wine-Highlighted@2x.png"; sourceTree = "<group>"; };
+		973E7AE71D1ECE1500393B19 /* Wine-Highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine-Highlighted@3x.png"; path = "Games/Triple/Sprites.atlas/Wine-Highlighted@3x.png"; sourceTree = "<group>"; };
+		973E7AE81D1ECE1500393B19 /* Wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wine.png; path = Games/Triple/Sprites.atlas/Wine.png; sourceTree = "<group>"; };
+		973E7AE91D1ECE1500393B19 /* Wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine@2x.png"; path = "Games/Triple/Sprites.atlas/Wine@2x.png"; sourceTree = "<group>"; };
+		973E7AEA1D1ECE1500393B19 /* Wine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wine@3x.png"; path = "Games/Triple/Sprites.atlas/Wine@3x.png"; sourceTree = "<group>"; };
+		973E7B121D1ECE2D00393B19 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_0.json; path = Games/Triple/Levels/Level_0.json; sourceTree = "<group>"; };
+		973E7B131D1ECE2D00393B19 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_1.json; path = Games/Triple/Levels/Level_1.json; sourceTree = "<group>"; };
+		973E7B141D1ECE2D00393B19 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_2.json; path = Games/Triple/Levels/Level_2.json; sourceTree = "<group>"; };
+		973E7B151D1ECE2D00393B19 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_3.json; path = Games/Triple/Levels/Level_3.json; sourceTree = "<group>"; };
+		973E7B161D1ECE2D00393B19 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Level_4.json; path = Games/Triple/Levels/Level_4.json; sourceTree = "<group>"; };
+		973E7B1D1D1ECE4200393B19 /* Clink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Clink.wav; path = Games/Triple/Sounds/Clink.wav; sourceTree = "<group>"; };
+		973E7B1E1D1ECE4200393B19 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drip.wav; path = Games/Triple/Sounds/Drip.wav; sourceTree = "<group>"; };
+		973E7B1F1D1ECE4200393B19 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Error.wav; path = Games/Triple/Sounds/Error.wav; sourceTree = "<group>"; };
+		973E7B201D1ECE4200393B19 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ka-Ching.wav"; path = "Games/Triple/Sounds/Ka-Ching.wav"; sourceTree = "<group>"; };
+		973E7B221D1ECE4200393B19 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Scrape.wav; path = Games/Triple/Sounds/Scrape.wav; sourceTree = "<group>"; };
 		974A1DD11D2805AF008754E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9753FF341D2C450800ABFF35 /* ingredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ingredients.json; path = Resources/Cocktails/ingredients.json; sourceTree = "<group>"; };
-		9753FF351D2C450800ABFF35 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = Resources/Cocktails/recipes.json; sourceTree = "<group>"; };
-		9753FF361D2C450800ABFF35 /* CocktailsAddIngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsAddIngredientTableViewCell.swift; path = Resources/Cocktails/CocktailsAddIngredientTableViewCell.swift; sourceTree = "<group>"; };
-		9753FF371D2C450800ABFF35 /* CocktailsAddIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsAddIngredientViewController.swift; path = Resources/Cocktails/CocktailsAddIngredientViewController.swift; sourceTree = "<group>"; };
-		9753FF391D2C450800ABFF35 /* AppearanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppearanceController.swift; path = Resources/Cocktails/AppearanceController.swift; sourceTree = "<group>"; };
-		9753FF3A1D2C450800ABFF35 /* CocktailsIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsIngredient.swift; path = Resources/Cocktails/CocktailsIngredient.swift; sourceTree = "<group>"; };
-		9753FF3B1D2C450800ABFF35 /* CocktailsIngredientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsIngredientController.swift; path = Resources/Cocktails/CocktailsIngredientController.swift; sourceTree = "<group>"; };
-		9753FF3C1D2C450800ABFF35 /* CocktailsIngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsIngredientTableViewCell.swift; path = Resources/Cocktails/CocktailsIngredientTableViewCell.swift; sourceTree = "<group>"; };
-		9753FF3D1D2C450800ABFF35 /* CocktailsJSONController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsJSONController.swift; path = Resources/Cocktails/CocktailsJSONController.swift; sourceTree = "<group>"; };
-		9753FF3E1D2C450800ABFF35 /* CocktailsPantryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsPantryViewController.swift; path = Resources/Cocktails/CocktailsPantryViewController.swift; sourceTree = "<group>"; };
-		9753FF3F1D2C450800ABFF35 /* CocktailsRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipe.swift; path = Resources/Cocktails/CocktailsRecipe.swift; sourceTree = "<group>"; };
-		9753FF401D2C450800ABFF35 /* CocktailsRecipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipeController.swift; path = Resources/Cocktails/CocktailsRecipeController.swift; sourceTree = "<group>"; };
-		9753FF411D2C450800ABFF35 /* CocktailsRecipeDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipeDirectionsViewController.swift; path = Resources/Cocktails/CocktailsRecipeDirectionsViewController.swift; sourceTree = "<group>"; };
-		9753FF421D2C450800ABFF35 /* CocktailsRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipesViewController.swift; path = Resources/Cocktails/CocktailsRecipesViewController.swift; sourceTree = "<group>"; };
-		9753FF431D2C450800ABFF35 /* CocktailsSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsSettingsController.swift; path = Resources/Cocktails/CocktailsSettingsController.swift; sourceTree = "<group>"; };
-		975530B01D286A15005E66F1 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
-		975530B21D286BC1005E66F1 /* TriviaColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaColors.swift; sourceTree = "<group>"; };
-		975530B41D286C0F005E66F1 /* TriviaFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaFact.swift; sourceTree = "<group>"; };
+		9753FF341D2C450800ABFF35 /* ingredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ingredients.json; path = Cocktails/ingredients.json; sourceTree = "<group>"; };
+		9753FF351D2C450800ABFF35 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = Cocktails/recipes.json; sourceTree = "<group>"; };
+		9753FF361D2C450800ABFF35 /* CocktailsAddIngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsAddIngredientTableViewCell.swift; path = Cocktails/CocktailsAddIngredientTableViewCell.swift; sourceTree = "<group>"; };
+		9753FF371D2C450800ABFF35 /* CocktailsAddIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsAddIngredientViewController.swift; path = Cocktails/CocktailsAddIngredientViewController.swift; sourceTree = "<group>"; };
+		9753FF391D2C450800ABFF35 /* AppearanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppearanceController.swift; path = Cocktails/AppearanceController.swift; sourceTree = "<group>"; };
+		9753FF3A1D2C450800ABFF35 /* CocktailsIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsIngredient.swift; path = Cocktails/CocktailsIngredient.swift; sourceTree = "<group>"; };
+		9753FF3B1D2C450800ABFF35 /* CocktailsIngredientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsIngredientController.swift; path = Cocktails/CocktailsIngredientController.swift; sourceTree = "<group>"; };
+		9753FF3C1D2C450800ABFF35 /* CocktailsIngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsIngredientTableViewCell.swift; path = Cocktails/CocktailsIngredientTableViewCell.swift; sourceTree = "<group>"; };
+		9753FF3D1D2C450800ABFF35 /* CocktailsJSONController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsJSONController.swift; path = Cocktails/CocktailsJSONController.swift; sourceTree = "<group>"; };
+		9753FF3E1D2C450800ABFF35 /* CocktailsPantryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsPantryViewController.swift; path = Cocktails/CocktailsPantryViewController.swift; sourceTree = "<group>"; };
+		9753FF3F1D2C450800ABFF35 /* CocktailsRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipe.swift; path = Cocktails/CocktailsRecipe.swift; sourceTree = "<group>"; };
+		9753FF401D2C450800ABFF35 /* CocktailsRecipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipeController.swift; path = Cocktails/CocktailsRecipeController.swift; sourceTree = "<group>"; };
+		9753FF411D2C450800ABFF35 /* CocktailsRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipeViewController.swift; path = Cocktails/CocktailsRecipeViewController.swift; sourceTree = "<group>"; };
+		9753FF421D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsHomeCocktailsViewController.swift; path = Cocktails/CocktailsHomeCocktailsViewController.swift; sourceTree = "<group>"; };
+		9753FF431D2C450800ABFF35 /* CocktailsSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsSettingsController.swift; path = Cocktails/CocktailsSettingsController.swift; sourceTree = "<group>"; };
+		975530B01D286A15005E66F1 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaViewController.swift; path = Games/Trivia/TriviaViewController.swift; sourceTree = "<group>"; };
+		975530B41D286C0F005E66F1 /* TriviaFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaFact.swift; path = Games/Trivia/TriviaFact.swift; sourceTree = "<group>"; };
 		975530B61D286D9A005E66F1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		975C4E311D0EF8B600433505 /* PlinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkViewController.swift; sourceTree = "<group>"; };
-		975C4E331D0EF8F400433505 /* PlinkGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkGameScene.swift; sourceTree = "<group>"; };
-		975C4E351D0EF92A00433505 /* PlinkGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkGameOverScene.swift; sourceTree = "<group>"; };
-		975C4E3A1D0EF9FF00433505 /* GlassBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GlassBullet.wav; path = "Resources/Plink/Sound Effects/GlassBullet.wav"; sourceTree = "<group>"; };
-		975C4E3C1D0EFA0F00433505 /* GlassHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GlassHit.wav; path = "Resources/Plink/Sound Effects/GlassHit.wav"; sourceTree = "<group>"; };
-		975C4E3D1D0EFA0F00433505 /* FingerBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FingerBullet.wav; path = "Resources/Plink/Sound Effects/FingerBullet.wav"; sourceTree = "<group>"; };
-		975C4E3E1D0EFA0F00433505 /* FingerHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FingerHit.wav; path = "Resources/Plink/Sound Effects/FingerHit.wav"; sourceTree = "<group>"; };
-		975C4E421D0EFA2800433505 /* GlassA_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassA_00.png; path = "Resources/Plink/Sprite Images/GlassA_00.png"; sourceTree = "<group>"; };
-		975C4E431D0EFA2800433505 /* GlassA_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassA_00@2x.png"; path = "Resources/Plink/Sprite Images/GlassA_00@2x.png"; sourceTree = "<group>"; };
-		975C4E441D0EFA2800433505 /* GlassA_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassA_01.png; path = "Resources/Plink/Sprite Images/GlassA_01.png"; sourceTree = "<group>"; };
-		975C4E451D0EFA2800433505 /* GlassA_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassA_01@2x.png"; path = "Resources/Plink/Sprite Images/GlassA_01@2x.png"; sourceTree = "<group>"; };
-		975C4E461D0EFA2800433505 /* GlassB_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassB_00.png; path = "Resources/Plink/Sprite Images/GlassB_00.png"; sourceTree = "<group>"; };
-		975C4E471D0EFA2800433505 /* GlassB_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassB_00@2x.png"; path = "Resources/Plink/Sprite Images/GlassB_00@2x.png"; sourceTree = "<group>"; };
-		975C4E481D0EFA2800433505 /* GlassB_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassB_01.png; path = "Resources/Plink/Sprite Images/GlassB_01.png"; sourceTree = "<group>"; };
-		975C4E491D0EFA2800433505 /* GlassB_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassB_01@2x.png"; path = "Resources/Plink/Sprite Images/GlassB_01@2x.png"; sourceTree = "<group>"; };
-		975C4E4A1D0EFA2800433505 /* GlassC_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassC_00.png; path = "Resources/Plink/Sprite Images/GlassC_00.png"; sourceTree = "<group>"; };
-		975C4E4B1D0EFA2800433505 /* GlassC_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassC_00@2x.png"; path = "Resources/Plink/Sprite Images/GlassC_00@2x.png"; sourceTree = "<group>"; };
-		975C4E4C1D0EFA2800433505 /* GlassC_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassC_01.png; path = "Resources/Plink/Sprite Images/GlassC_01.png"; sourceTree = "<group>"; };
-		975C4E4D1D0EFA2800433505 /* GlassC_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassC_01@2x.png"; path = "Resources/Plink/Sprite Images/GlassC_01@2x.png"; sourceTree = "<group>"; };
-		975C4E4E1D0EFA2800433505 /* Finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Finger.png; path = "Resources/Plink/Sprite Images/Finger.png"; sourceTree = "<group>"; };
-		975C4E4F1D0EFA2800433505 /* Finger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Finger@2x.png"; path = "Resources/Plink/Sprite Images/Finger@2x.png"; sourceTree = "<group>"; };
-		975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
-		9788F0F41D1F3F3E00CB5214 /* PlinkDefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlinkDefined.swift; sourceTree = "<group>"; };
-		97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JazzyFrenchy.mp3; path = Resources/Triple/Sounds/JazzyFrenchy.mp3; sourceTree = "<group>"; };
+		975C4E311D0EF8B600433505 /* PlinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkViewController.swift; path = Games/Plink/PlinkViewController.swift; sourceTree = "<group>"; };
+		975C4E331D0EF8F400433505 /* PlinkGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkGameScene.swift; path = Games/Plink/PlinkGameScene.swift; sourceTree = "<group>"; };
+		975C4E351D0EF92A00433505 /* PlinkGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkGameOverScene.swift; path = Games/Plink/PlinkGameOverScene.swift; sourceTree = "<group>"; };
+		975C4E3A1D0EF9FF00433505 /* GlassBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GlassBullet.wav; path = "Games/Plink/Sound Effects/GlassBullet.wav"; sourceTree = "<group>"; };
+		975C4E3C1D0EFA0F00433505 /* GlassHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GlassHit.wav; path = "Games/Plink/Sound Effects/GlassHit.wav"; sourceTree = "<group>"; };
+		975C4E3D1D0EFA0F00433505 /* FingerBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FingerBullet.wav; path = "Games/Plink/Sound Effects/FingerBullet.wav"; sourceTree = "<group>"; };
+		975C4E3E1D0EFA0F00433505 /* FingerHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FingerHit.wav; path = "Games/Plink/Sound Effects/FingerHit.wav"; sourceTree = "<group>"; };
+		975C4E421D0EFA2800433505 /* GlassA_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassA_00.png; path = "Games/Plink/Sprite Images/GlassA_00.png"; sourceTree = "<group>"; };
+		975C4E431D0EFA2800433505 /* GlassA_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassA_00@2x.png"; path = "Games/Plink/Sprite Images/GlassA_00@2x.png"; sourceTree = "<group>"; };
+		975C4E441D0EFA2800433505 /* GlassA_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassA_01.png; path = "Games/Plink/Sprite Images/GlassA_01.png"; sourceTree = "<group>"; };
+		975C4E451D0EFA2800433505 /* GlassA_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassA_01@2x.png"; path = "Games/Plink/Sprite Images/GlassA_01@2x.png"; sourceTree = "<group>"; };
+		975C4E461D0EFA2800433505 /* GlassB_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassB_00.png; path = "Games/Plink/Sprite Images/GlassB_00.png"; sourceTree = "<group>"; };
+		975C4E471D0EFA2800433505 /* GlassB_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassB_00@2x.png"; path = "Games/Plink/Sprite Images/GlassB_00@2x.png"; sourceTree = "<group>"; };
+		975C4E481D0EFA2800433505 /* GlassB_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassB_01.png; path = "Games/Plink/Sprite Images/GlassB_01.png"; sourceTree = "<group>"; };
+		975C4E491D0EFA2800433505 /* GlassB_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassB_01@2x.png"; path = "Games/Plink/Sprite Images/GlassB_01@2x.png"; sourceTree = "<group>"; };
+		975C4E4A1D0EFA2800433505 /* GlassC_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassC_00.png; path = "Games/Plink/Sprite Images/GlassC_00.png"; sourceTree = "<group>"; };
+		975C4E4B1D0EFA2800433505 /* GlassC_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassC_00@2x.png"; path = "Games/Plink/Sprite Images/GlassC_00@2x.png"; sourceTree = "<group>"; };
+		975C4E4C1D0EFA2800433505 /* GlassC_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlassC_01.png; path = "Games/Plink/Sprite Images/GlassC_01.png"; sourceTree = "<group>"; };
+		975C4E4D1D0EFA2800433505 /* GlassC_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlassC_01@2x.png"; path = "Games/Plink/Sprite Images/GlassC_01@2x.png"; sourceTree = "<group>"; };
+		975C4E4E1D0EFA2800433505 /* Finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Finger.png; path = "Games/Plink/Sprite Images/Finger.png"; sourceTree = "<group>"; };
+		975C4E4F1D0EFA2800433505 /* Finger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Finger@2x.png"; path = "Games/Plink/Sprite Images/Finger@2x.png"; sourceTree = "<group>"; };
+		975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = Map/LocationSearchTable.swift; sourceTree = "<group>"; };
+		9788F0F41D1F3F3E00CB5214 /* PlinkDefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkDefined.swift; path = Games/Plink/PlinkDefined.swift; sourceTree = "<group>"; };
+		97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsBartenderViewController.swift; path = Cocktails/CocktailsBartenderViewController.swift; sourceTree = "<group>"; };
+		97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = DrinkPoint/Frameworks/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = DrinkPoint/Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = DrinkPoint/Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = DrinkPoint/Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JazzyFrenchy.mp3; path = Games/Triple/Sounds/JazzyFrenchy.mp3; sourceTree = "<group>"; };
 		9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -347,17 +347,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */,
+				97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */,
+				97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */,
+				97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */,
 				975530B71D286D9A005E66F1 /* Social.framework in Frameworks */,
 				971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */,
-				97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */,
 				971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */,
 				971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */,
 				971825B41D0A599500B59E48 /* AdSupport.framework in Frameworks */,
-				97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */,
 				971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */,
 				9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */,
-				97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */,
-				97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +396,6 @@
 			children = (
 				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
 				97324B591D0A40F3006B58A3 /* RootViewController.swift */,
-				9753FF391D2C450800ABFF35 /* AppearanceController.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
 				97E63B601D27687000A2BC33 /* Map */,
 				9753FF541D2C783500ABFF35 /* Games */,
@@ -560,6 +559,7 @@
 		9753FF331D2C44E200ABFF35 /* Cocktails */ = {
 			isa = PBXGroup;
 			children = (
+				9753FF391D2C450800ABFF35 /* AppearanceController.swift */,
 				9753FF431D2C450800ABFF35 /* CocktailsSettingsController.swift */,
 				9753FF3E1D2C450800ABFF35 /* CocktailsPantryViewController.swift */,
 				9753FF3A1D2C450800ABFF35 /* CocktailsIngredient.swift */,
@@ -569,8 +569,9 @@
 				9753FF361D2C450800ABFF35 /* CocktailsAddIngredientTableViewCell.swift */,
 				9753FF3F1D2C450800ABFF35 /* CocktailsRecipe.swift */,
 				9753FF401D2C450800ABFF35 /* CocktailsRecipeController.swift */,
-				9753FF421D2C450800ABFF35 /* CocktailsRecipesViewController.swift */,
-				9753FF411D2C450800ABFF35 /* CocktailsRecipeDirectionsViewController.swift */,
+				9753FF411D2C450800ABFF35 /* CocktailsRecipeViewController.swift */,
+				9753FF421D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift */,
+				97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */,
 				9753FF3D1D2C450800ABFF35 /* CocktailsJSONController.swift */,
 				9753FF341D2C450800ABFF35 /* ingredients.json */,
 				9753FF351D2C450800ABFF35 /* recipes.json */,
@@ -595,7 +596,6 @@
 			isa = PBXGroup;
 			children = (
 				975530B01D286A15005E66F1 /* TriviaViewController.swift */,
-				975530B21D286BC1005E66F1 /* TriviaColors.swift */,
 				975530B41D286C0F005E66F1 /* TriviaFact.swift */,
 			);
 			name = Trivia;
@@ -649,7 +649,7 @@
 		97E1E0401D25E66200A349C2 /* Goggles */ = {
 			isa = PBXGroup;
 			children = (
-				9736DD4E1D20A4CB003D52B9 /* GogglesViewController.swift */,
+				9721478C1D3052EA000CF527 /* GogglesViewController.swift */,
 			);
 			name = Goggles;
 			sourceTree = "<group>";
@@ -951,18 +951,17 @@
 			files = (
 				9753FF4F1D2C450800ABFF35 /* CocktailsRecipe.swift in Sources */,
 				9753FF461D2C450800ABFF35 /* CocktailsAddIngredientTableViewCell.swift in Sources */,
-				9736DD4F1D20A4CB003D52B9 /* GogglesViewController.swift in Sources */,
 				973E7A641D1ECBC100393B19 /* TripleDrink.swift in Sources */,
-				9753FF521D2C450800ABFF35 /* CocktailsRecipesViewController.swift in Sources */,
+				9753FF521D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift in Sources */,
 				9753FF4B1D2C450800ABFF35 /* CocktailsIngredientController.swift in Sources */,
+				9721478D1D3052EA000CF527 /* GogglesViewController.swift in Sources */,
 				973E7A621D1ECBC100393B19 /* TripleArray2D.swift in Sources */,
 				97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */,
 				973E7A681D1ECBC100393B19 /* TripleSwap.swift in Sources */,
 				975C4E321D0EF8B600433505 /* PlinkViewController.swift in Sources */,
-				975530B31D286BC1005E66F1 /* TriviaColors.swift in Sources */,
 				9753FF4A1D2C450800ABFF35 /* CocktailsIngredient.swift in Sources */,
 				9753FF4C1D2C450800ABFF35 /* CocktailsIngredientTableViewCell.swift in Sources */,
-				9753FF511D2C450800ABFF35 /* CocktailsRecipeDirectionsViewController.swift in Sources */,
+				9753FF511D2C450800ABFF35 /* CocktailsRecipeViewController.swift in Sources */,
 				975530B11D286A15005E66F1 /* TriviaViewController.swift in Sources */,
 				9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */,
 				973E7A631D1ECBC100393B19 /* TripleChain.swift in Sources */,
@@ -973,6 +972,7 @@
 				970C8B381D26A11E0041405D /* MapViewController.swift in Sources */,
 				975C4E361D0EF92A00433505 /* PlinkGameOverScene.swift in Sources */,
 				975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */,
+				97AAA5491D3002EB00E5FA81 /* CocktailsBartenderViewController.swift in Sources */,
 				97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */,
 				9753FF501D2C450800ABFF35 /* CocktailsRecipeController.swift in Sources */,
 				97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */,
@@ -1106,6 +1106,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DrinkPoint/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1125,6 +1126,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DrinkPoint/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/DrinkPoint/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
