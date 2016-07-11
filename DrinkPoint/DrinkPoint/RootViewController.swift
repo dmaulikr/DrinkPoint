@@ -10,19 +10,34 @@ import UIKit
 import GameKit
 import Crashlytics
 import LaunchKit
+import TwitterKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import FBAudienceNetwork
 
 class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate, FBSDKLoginButtonDelegate {
-
+    
     var drinkPointScore: Int64 = 0
-
+        
     @IBOutlet var userProfileImage: UIImageView!
     @IBOutlet var welcomeLabel: UILabel!
-    
+
+    // Crashlytics "Crash Button" (disable for debugging)
+    //    @IBAction func crashButtonTapped(sender: AnyObject) {
+    //        Crashlytics.sharedInstance().crash()
+    //    }
+
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //        configureCrashButton() // disable for release
+        configureTwitterLogin()
+        configureFacebookAd()
+        configureFacebookLogin()
+        authenticateLocalPlayer()
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -33,47 +48,60 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
                 print("Release Notes card presented")
             }
         }
-        // Disable for release
+        // disable for release
         LaunchKit.sharedInstance().debugAlwaysPresentAppReleaseNotes = true
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Crashlytics "Crash Button" (disable for release)
-        //        let button = UIButton(type: UIButtonType.RoundedRect)
-        //        button.frame = CGRectMake(20, 50, 100, 30)
-        //        button.setTitle("Crash", forState: UIControlState.Normal)
-        //        button.addTarget(self, action: #selector(ViewController.crashButtonTapped(_:)), forControlEvents: UIControlEvents.TouchUpInside)
-        //        view.addSubview(button)
-
+    
+//    func configureCrashButton() {
+//        let button = UIButton(type: UIButtonType.RoundedRect)
+//        button.frame = CGRectMake(20, 50, 100, 30)
+//        button.setTitle("Crash", forState: UIControlState.Normal)
+//        button.addTarget(self, action: #selector(RootViewController.crashButtonTapped(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+//        view.addSubview(button)
+//    }
+    
+    func configureTwitterLogin() {
+        let twitterLoginButton = TWTRLogInButton { (session, error) in
+            if let unwrappedSession = session {
+                let alert = UIAlertController(title: "Logged In",
+                    message: "User \(unwrappedSession.userName) has logged in",
+                    preferredStyle: UIAlertControllerStyle.Alert
+                )
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+            } else {
+                NSLog("Login error: %@", error!.localizedDescription);
+            }
+        }
+        twitterLoginButton.center.x = self.view.center.x
+        twitterLoginButton.center.y = self.view.center.y + 210
+        self.view.addSubview(twitterLoginButton)
+    }
+    
+    func configureFacebookAd() {
         FBAdSettings.addTestDevice("b981ff62ed0cc52075e3061484e089601b66e1cc")
-
         let adView: FBAdView = FBAdView(placementID: "825492567551864_833251636775957", adSize: kFBAdSizeHeight50Banner, rootViewController: self)
         adView.delegate = self
         adView.hidden = true
         self.view!.addSubview(adView)
         adView.loadAd()
-        
-        configureFacebook()
-
-        authenticateLocalPlayer() // Checks whether user logged into Game Center
     }
-
-    func configureFacebook() {
+    
+    func configureFacebookLogin() {
         if (FBSDKAccessToken.currentAccessToken() != nil) {
-            // User is already logged in, do work such as go to next view controller.
             FBSDKProfile.enableUpdatesOnAccessTokenChange(true)
             let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
             facebookLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
             facebookLoginButton.delegate = self
-            facebookLoginButton.center = self.view.center
+            facebookLoginButton.center.x = self.view.center.x
+            facebookLoginButton.center.y = self.view.center.y + 165
             self.view.addSubview(facebookLoginButton)
         } else {
             let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
             facebookLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
             facebookLoginButton.delegate = self
-            facebookLoginButton.center = self.view.center
+            facebookLoginButton.center.x = self.view.center.x
+            facebookLoginButton.center.y = self.view.center.y + 165
             self.view.addSubview(facebookLoginButton)
         }
     }
@@ -82,9 +110,9 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         NSLog("Facebook Ad failed to load")
         adView.hidden = true
     }
-
+    
     func adViewDidLoad(adView: FBAdView) {
-        NSLog("Facebook Ad was loaded and ready to be displayed")
+        NSLog("Facebook Ad loaded and ready to be displayed")
         adView.hidden = false
     }
     
@@ -139,12 +167,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
             }
         }
     }
-
-    // Crashlytics "Crash Button" (Uncomment for debugging)
-    //    @IBAction func crashButtonTapped(sender: AnyObject) {
-    //        Crashlytics.sharedInstance().crash()
-    //    }
-
+    
     func postScoreToLeaderboard() {
         if GKLocalPlayer.localPlayer().authenticated {
             let scoreReporter = GKScore(leaderboardIdentifier: "drinkpoint_leaderboard")
@@ -155,14 +178,14 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         print("DrinkPoint score reported to Game Center")
         self.presentLeaderboard()
     }
-
+    
     func presentLeaderboard() {
         let leaderboardVC = GKGameCenterViewController()
         leaderboardVC.leaderboardIdentifier = "drinkpoint_leaderboard"
         leaderboardVC.gameCenterDelegate = self
         presentViewController(leaderboardVC, animated: true, completion: nil)
     }
-
+    
     func gameCenterViewControllerDidFinish(gameCenterViewController: GKGameCenterViewController) {
         gameCenterViewController.dismissViewControllerAnimated(true, completion: nil)
     }

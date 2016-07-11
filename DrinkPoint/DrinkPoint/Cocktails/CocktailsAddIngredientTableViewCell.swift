@@ -29,54 +29,54 @@ class AddIngredientTableViewCell: UITableViewCell {
     
     func setCell(ingredient: Ingredient) {
         self.nameLabel.text = ingredient.name
-        self.nameLabel.textColor = .lightColor()
+        self.nameLabel.textColor = .whiteColor()
         
         switch ingredient.category {
             
         case "mixer":
             self.iconImage.image = UIImage(named: "CocktailsMixer")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "hardDrink":
             self.iconImage.image = UIImage(named: "CocktailsHardDrink")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "softDrink":
             self.iconImage.image = UIImage(named: "CocktailsSoftDrink")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "produce":
             self.iconImage.image = UIImage(named: "CocktailsProduce")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "beer":
             self.iconImage.image = UIImage(named: "CocktailsBeer")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "spice":
             self.iconImage.image = UIImage(named: "CocktailsSpice")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "ice":
             self.iconImage.image = UIImage(named: "CocktailsIce")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         case "wine":
             self.iconImage.image = UIImage(named: "CocktailsWine")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
             
         default:
             self.iconImage.image = UIImage(named: "CocktailsMixer")
             self.iconImage.image = iconImage.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
-            self.iconImage.tintColor = .lightColor()
+            self.iconImage.tintColor = .whiteColor()
         }
     }
 }

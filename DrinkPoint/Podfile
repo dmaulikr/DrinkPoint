@@ -3,6 +3,8 @@ use_frameworks!
 target ‘DrinkPoint' do
 pod 'LaunchKit'
 pod 'Fabric'
+pod 'TwitterKit'
+pod 'TwitterCore'
 pod 'Crashlytics'
 pod 'Mapbox-iOS-SDK'
 pod 'GA-SDK-IOS'

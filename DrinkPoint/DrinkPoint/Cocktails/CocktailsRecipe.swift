@@ -21,7 +21,7 @@ class Recipe {
     var totalIngredients: Int?
     var userIngredients: Int?
     
-    init?(dictionary: [String: AnyObject]) {
+    init?(dictionary: [String:AnyObject]) {
         guard let name = dictionary[nameKey] as? String,
                 let instructions = dictionary[instructionsKey] as? String,
             let ingredients = dictionary[ingredientsKey] as? [[String:String]] else {

@@ -857,12 +857,12 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="leading" secondItem="wqz-KU-KbP" secondAttribute="leading" id="2xI-Lw-mpU"/>
-                            <constraint firstItem="r84-Eu-FUP" firstAttribute="top" secondItem="nUc-zb-BPv" secondAttribute="bottom" constant="57" id="43a-tI-ycH"/>
+                            <constraint firstItem="r84-Eu-FUP" firstAttribute="top" secondItem="nUc-zb-BPv" secondAttribute="bottom" constant="8" id="43a-tI-ycH"/>
                             <constraint firstItem="wqz-KU-KbP" firstAttribute="top" secondItem="vBp-qX-f1f" secondAttribute="bottom" constant="8" id="6ml-ge-Z2S"/>
                             <constraint firstItem="nUc-zb-BPv" firstAttribute="top" secondItem="wqz-KU-KbP" secondAttribute="bottom" constant="8" symbolic="YES" id="J1X-Tf-FXb"/>
                             <constraint firstItem="wqz-KU-KbP" firstAttribute="leading" secondItem="nUc-zb-BPv" secondAttribute="leading" constant="-20" id="JtH-cW-vDa"/>
                             <constraint firstItem="wqz-KU-KbP" firstAttribute="trailing" secondItem="nUc-zb-BPv" secondAttribute="trailing" constant="20" id="aGu-oR-Eil"/>
-                            <constraint firstItem="vBp-qX-f1f" firstAttribute="top" secondItem="1Ia-zB-Pca" secondAttribute="bottom" constant="24" id="cAc-79-KLJ"/>
+                            <constraint firstItem="vBp-qX-f1f" firstAttribute="top" secondItem="1Ia-zB-Pca" secondAttribute="bottom" id="cAc-79-KLJ"/>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="trailing" secondItem="rij-Oy-RlF" secondAttribute="trailingMargin" constant="20" id="gKL-ey-wqh"/>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="leading" secondItem="rij-Oy-RlF" secondAttribute="leadingMargin" constant="-20" id="yoE-JM-zSJ"/>
                             <constraint firstItem="vBp-qX-f1f" firstAttribute="trailing" secondItem="wqz-KU-KbP" secondAttribute="trailing" id="yt4-Ce-ShF"/>
@@ -1011,7 +1011,6 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lsO-jh-cHy" firstAttribute="leading" secondItem="bUz-pA-2pS" secondAttribute="leading" id="GpJ-c4-1zv"/>
                             <constraint firstItem="lsO-jh-cHy" firstAttribute="top" secondItem="bUz-pA-2pS" secondAttribute="top" id="PMs-05-RxD"/>
@@ -1033,7 +1032,7 @@
         <!--Mapbox-->
         <scene sceneID="h65-FB-1XM">
             <objects>
-                <viewController title="Mapbox" id="wRb-d5-kGr" customClass="MapBoxViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Mapbox" id="wRb-d5-kGr" customClass="MapboxViewController" customModule="DrinkPoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oeR-Vv-6oe"/>
                         <viewControllerLayoutGuide type="bottom" id="tkj-u0-j9z"/>
@@ -1047,7 +1046,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J7c-Yh-wn9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="-2014"/>
+            <point key="canvasLocation" x="887" y="-1279"/>
         </scene>
         <!--MapKit-->
         <scene sceneID="P2a-zV-vfy">
@@ -1086,7 +1085,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n9C-Au-7k9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="-1279"/>
+            <point key="canvasLocation" x="887" y="-2014"/>
         </scene>
         <!--Location Search Table-->
         <scene sceneID="mzU-fo-kcd">
@@ -1148,7 +1147,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="wRb-d5-kGr" kind="relationship" relationship="rootViewController" id="WBV-rf-v5F"/>
+                        <segue destination="u00-uh-pEj" kind="relationship" relationship="rootViewController" id="pOA-G3-WWZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWY-pX-4Y2" userLabel="First Responder" sceneMemberID="firstResponder"/>

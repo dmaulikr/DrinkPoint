@@ -100,17 +100,17 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
         if self.recipeDataSource.count <= 0 {
             cell.textLabel?.text = "Your pantry needs more items!"
             cell.detailTextLabel?.text = ""
-            cell.textLabel?.textColor = .lightColor()
+            cell.textLabel?.textColor = .whiteColor()
         } else {
             let recipe = recipeDataSource[indexPath.row]
             cell.textLabel?.text = recipe.name
-            cell.textLabel?.textColor = .lightColor()
+            cell.textLabel?.textColor = .whiteColor()
             if recipe.totalIngredients > recipe.userIngredients {
                 cell.detailTextLabel?.text = "(\(recipe.userIngredients!) of \(recipe.totalIngredients!))"
-                cell.detailTextLabel?.textColor = .lightColor()
+                cell.detailTextLabel?.textColor = .whiteColor()
             } else {
                 cell.detailTextLabel?.text = "✔︎"
-                cell.detailTextLabel?.textColor = .lightColor()
+                cell.detailTextLabel?.textColor = .whiteColor()
             }
         }
         return cell

@@ -72,6 +72,30 @@
 				<key>KitName</key>
 				<string>MGLAccountManager</string>
 			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>vBvgfoonvxm9HoU6P74qppPc1</string>
+					<key>consumerSecret</key>
+					<string>6JvHo3a75XscStQXY8Djyt1X9TsZj8CgqFQ5ajpAGSAHYU114M</string>
+				</dict>
+				<key>KitName</key>
+				<string>Twitter</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>publish-key</key>
+					<string>pub-c-301e40a8-05fd-4ad8-9d04-77bee98d53c2</string>
+					<key>secret-key</key>
+					<string>sec-c-MjU0OTM5NDItZTgyYi00MDM3LTk2MTAtMWJlMDZkMzBkZjAx</string>
+					<key>subscribe-key</key>
+					<string>sub-c-eb79f1f6-4782-11e6-82fe-0619f8945a4f</string>
+				</dict>
+				<key>KitName</key>
+				<string>PubNub</string>
+			</dict>
 		</array>
 	</dict>
 	<key>FacebookAppID</key>

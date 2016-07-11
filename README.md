@@ -1,8 +1,8 @@
 # DrinkPoint
 
-Coming soon to the iTunes App Store, DrinkPoint offers maps, games, and tools to help folks “have fun having fun” on their night on the town. Crafted by Paul Adams, Martin Jones, Hunter Walker, and Randy Davis, we combine iOS development with custom API architecture and algorithms to deliver insanely entertaining adventures.
+Coming soon to the iTunes App Store, DrinkPoint offers maps, games, and tools to help folks “have fun having fun” on their night on the town. We combine iOS development with custom API architecture and algorithms to deliver insanely entertaining adventures.
 
-“DrinkPoint” uses UIKit, MapKit, AdSupport, StoreKit, SpriteKit, GameKit, AVFoundation, and AudioToolbox along with Fabric (Crashlytics, Mapbox, Game Analytics), LaunchKit, and Facebook SDKs for added features. Written in Swift and Fastlane-deployed, this helpful app demonstrates just some of our iOS, custom API, and algorithm coding skills.
+“DrinkPoint” uses UIKit, MapKit, AdSupport, StoreKit, SpriteKit, GameKit, AVFoundation, and AudioToolbox along with Fabric (Crashlytics, Twitter, Mapbox, Game Analytics), LaunchKit, and Facebook SDKs for added features. Written in Swift and Fastlane-deployed, this helpful app demonstrates just some of our iOS, custom API, and algorithm coding skills.
 
 Website: http://drinkpoint.pkadams67.io
 Facebook: https://www.facebook.com/DrinkPointApp

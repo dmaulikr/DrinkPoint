@@ -7,81 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03BD9E30E8B2B7772D75FA81C217207B /* LKAppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A23AC7032E0F76415A4622C433B88A72 /* LKAppUser.m */; };
-		06088AB83FEAD567E45975FBEF389BB1 /* LKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A034085246CD3E3A6C7369E6CF1F5203 /* LKLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06A14A7054104AB399849315DAFC7D44 /* LKAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FF9FEF5E16BCC8814443AAE5836522 /* LKAnalytics.m */; };
+		03BD9E30E8B2B7772D75FA81C217207B /* LKAppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA904FDA6663257924C44CB3E47DD9 /* LKAppUser.m */; };
+		06088AB83FEAD567E45975FBEF389BB1 /* LKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEC6389B452460FF13411EB5F1052DA /* LKLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06A14A7054104AB399849315DAFC7D44 /* LKAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2D66D6BC9C7D81669B6483526396 /* LKAnalytics.m */; };
 		0B5ED6DD26F94A1871752831BA70D512 /* Pods-DrinkPoint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B899ED414835C53F191A8FE53BF6A160 /* Pods-DrinkPoint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CC050626015BA0779A9EBD0DD161FE5 /* LKPopCustomSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4C8676AF2AC864F2683D4968DABB8D /* LKPopCustomSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12A1E065AAEEB419EF95B88206FAE43F /* LKCardPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CB77DC8362049652EC6CE7C0BB6FFC /* LKCardPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13886B048389E1E7BAD6F9467143BE45 /* LKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C0C039FC0C45B7CBD4C4A61C927723 /* LKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1798F75B366CAC62C05320A644F6F15F /* LKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C548518F7188A19566D08DFFB2374173 /* LKNavigationController.m */; };
-		1952D8022F86A564E903B5A643ADD2CD /* LKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A00E66AA61204CA6CFD1C48B52FE87 /* LKLabel.m */; };
-		1E2BEC5F2C4318FEF67EFA6E56E7E78A /* lk_unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A92CD29BBB5C078F1911635E0E2FC996 /* lk_unzip.c */; };
-		2A14B69761ACD7A7007CC96848E289E8 /* LaunchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3F914F0AA86BB08D1FBE6DF1AB22BE /* LaunchKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F23786A1B4106C2F3E75E9BA9E7C234 /* LK_SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 775E50E3BB6B4E68C8E4923D7A29931E /* LK_SSZipArchive.m */; };
-		3047E9276D44AF17179B964BEC0F89AB /* LaunchKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD444656FA65C2E276DA366E6B1F06 /* LaunchKit.m */; };
-		30905662B350A5A4BEC50C0863FD0B2D /* LKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 866CA712370B7754F2BF20E284144DBE /* LKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		399BE682090A4929113D5ED1E499363E /* NSDictionary+LKFormEncoded.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF434B1F2602CFCC2C715A394517BE /* NSDictionary+LKFormEncoded.m */; };
-		3AECEB9F7EE211C61DEFDCC39A9AA593 /* LKOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C7D4684E4BF00BFFD6FBC29AA425C /* LKOnboardingViewController.m */; };
-		41DA7AB8E0E5C1D4B82F2D28DD6DBC61 /* LKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DDD843E60E6D0BEFE56FFBB6FA177F /* LKLog.m */; };
-		429E42D524146408631309A58E3AE3F0 /* LKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E342230D03A470D9A5652E3DB8945 /* LKGradientView.m */; };
-		4631E2D1EC4DBBD77C2461A35E998D86 /* LKPushCustomSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E136F3D902B78C0D1C8E59A8E25A16 /* LKPushCustomSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49259162852A34B0F055A9FED2967D92 /* UIView+LKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D832D6C3759508772E64C59C1CE52319 /* UIView+LKAdditions.m */; };
-		5007CD49F7FAC251ECF8583976D9F9E1 /* LKPagedUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D99980BE72BE61E9DFF0FA3A1A7E64E /* LKPagedUIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		531952FA80D33A73F03468728CEA4A2A /* NSString+LKURLEncoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6B61DCADB26244949DE3A5BFDD668D /* NSString+LKURLEncoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5355D7938DB8AD72CDF2939A0619F3E4 /* lk_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 788070061622216916CE7CAC84634C1E /* lk_crypt.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5C31D6BADFFB6877E36A763FA6A75090 /* LKBundleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 545C106B7BB36243B868E6254FB5F8B2 /* LKBundleInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		600280E9D36889BC66EEFF51E9285A03 /* lk_mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 8387CAE14534DEB3120033B29BE27CE6 /* lk_mztools.c */; };
+		0CC050626015BA0779A9EBD0DD161FE5 /* LKPopCustomSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AAF641C456D7FDDD7E6E2544885561 /* LKPopCustomSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A1E065AAEEB419EF95B88206FAE43F /* LKCardPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FCFCC9B3E6156B4DDDD5D268F95999 /* LKCardPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13886B048389E1E7BAD6F9467143BE45 /* LKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC19DE37E71636E36B00CFE5659606E /* LKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1798F75B366CAC62C05320A644F6F15F /* LKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F4928F56FA1953F1FC02D3FFB5F9 /* LKNavigationController.m */; };
+		1952D8022F86A564E903B5A643ADD2CD /* LKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1BD0EAC3899C9C82C0649B8873EC3 /* LKLabel.m */; };
+		1E2BEC5F2C4318FEF67EFA6E56E7E78A /* lk_unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 543CE0EAD0967BA9C6751FD6611490B4 /* lk_unzip.c */; };
+		2A14B69761ACD7A7007CC96848E289E8 /* LaunchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C848DE871B6A987BD8F7447D6482AA /* LaunchKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F23786A1B4106C2F3E75E9BA9E7C234 /* LK_SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9D9476D4D81D11E92DA4DF87B059 /* LK_SSZipArchive.m */; };
+		3047E9276D44AF17179B964BEC0F89AB /* LaunchKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C2C43134ADC7E9D3507004301B238 /* LaunchKit.m */; };
+		30905662B350A5A4BEC50C0863FD0B2D /* LKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E518818B1F726E4BC31F3C869A6B4F /* LKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399BE682090A4929113D5ED1E499363E /* NSDictionary+LKFormEncoded.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1D08D38A2D3AA57C41F1521E7CEAC5 /* NSDictionary+LKFormEncoded.m */; };
+		3AECEB9F7EE211C61DEFDCC39A9AA593 /* LKOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3EF66F808D6E4D0D5E7F5ED95FDF4F /* LKOnboardingViewController.m */; };
+		41DA7AB8E0E5C1D4B82F2D28DD6DBC61 /* LKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025A52567BD08579CE47AAF052F130D /* LKLog.m */; };
+		429E42D524146408631309A58E3AE3F0 /* LKGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC7F64C1362D77C7676D9C189BFA0 /* LKGradientView.m */; };
+		4631E2D1EC4DBBD77C2461A35E998D86 /* LKPushCustomSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = D3BC7AC1B56849EE83098E8A9C73F5FE /* LKPushCustomSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49259162852A34B0F055A9FED2967D92 /* UIView+LKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44F88BB62173274D0532C80D1F42FF /* UIView+LKAdditions.m */; };
+		5007CD49F7FAC251ECF8583976D9F9E1 /* LKPagedUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 006C1E598C8BCE52F98B0BBFA61E1E1C /* LKPagedUIViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531952FA80D33A73F03468728CEA4A2A /* NSString+LKURLEncoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FEDF8BD342D316F0D36E926B6C6A2A9 /* NSString+LKURLEncoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5355D7938DB8AD72CDF2939A0619F3E4 /* lk_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAF81843A5CB1AE099378DEE0A4BB90 /* lk_crypt.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5C31D6BADFFB6877E36A763FA6A75090 /* LKBundleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A709968AC9F32B8AE05BB1A1BDDFFFE6 /* LKBundleInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		600280E9D36889BC66EEFF51E9285A03 /* lk_mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 236579B0436A6527B65A9AE393BB22B7 /* lk_mztools.c */; };
 		6092F69541FDBD51256D6C0708670661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		62712B3677526C2519DA487617170B5D /* LKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D061CFB22AB3C7CE08E80E7F0DB6AD45 /* LKConfig.m */; };
-		62E9575AC80368AD75B44EEA5371E867 /* LKCardPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968A74DB2A1B2FFBAC16893079BC503D /* LKCardPresentationController.m */; };
-		69F9D6E2BC900A5010AA162AD2A15FF7 /* LKGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A56FB1E28C55861BA51B3E519FD80E /* LKGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D3C4FBD6D64AD22B095FDE73857186 /* NSString+LKURLEncoded.m in Sources */ = {isa = PBXBuildFile; fileRef = DF71439AC068AAF8C2C96B43732B7D2B /* NSString+LKURLEncoded.m */; };
-		7AC3148057434AEA09867A0485F1334F /* NSDictionary+LKFormEncoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1611D7398B2EAF8986092CC8ACD5E5 /* NSDictionary+LKFormEncoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62712B3677526C2519DA487617170B5D /* LKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F9392991C0DBDFA74E916F8AC48EA9 /* LKConfig.m */; };
+		62E9575AC80368AD75B44EEA5371E867 /* LKCardPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181811C8A19D8C60687E508BBFE2309F /* LKCardPresentationController.m */; };
+		69F9D6E2BC900A5010AA162AD2A15FF7 /* LKGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F28B6A09E8E534DCDA9E560BC3DFF35 /* LKGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D3C4FBD6D64AD22B095FDE73857186 /* NSString+LKURLEncoded.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD2FD86E77D73652AEC174FE7EB644 /* NSString+LKURLEncoded.m */; };
+		7AC3148057434AEA09867A0485F1334F /* NSDictionary+LKFormEncoded.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED4EF40F4FBB4827ED6E88E13EE21B4 /* NSDictionary+LKFormEncoded.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B77F0DBCD88F0EB02DA55BD4D806740 /* Pods-DrinkPoint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D96B1B90805A7930EC94B78CD155CD /* Pods-DrinkPoint-dummy.m */; };
-		7CD05ACFC5721EF1A5CBC9F4F552A944 /* LKLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C62C93A1281A48AA05EF12E0E6FE6566 /* LKLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DF7E723FB2644C2A7553D8DA2AA0CF5 /* LKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E7CC7362A035E445C4A2C329186353 /* LKImageView.m */; };
-		80CDFA0610A1D3E9918A22C678B7C448 /* LKPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F0745C3CD164132B6937E8B4D2D624 /* LKPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88C7602668FF74657C1BF70DEE85986E /* LKTrackOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0BF430E747804DB7FDC8DC8FEA0AF5 /* LKTrackOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90960657A9CD1044F855100C9EB7B204 /* LKPopCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5252676E5AEF7421DFC3643037730D99 /* LKPopCustomSegue.m */; };
+		7CD05ACFC5721EF1A5CBC9F4F552A944 /* LKLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1912598DEB958116F7DA6E070722F4 /* LKLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF7E723FB2644C2A7553D8DA2AA0CF5 /* LKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8D8469BD89E5ACB1F87B756C805DE /* LKImageView.m */; };
+		80CDFA0610A1D3E9918A22C678B7C448 /* LKPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E4ABB9A5A24D7C642D3E9F3FA8DB7E4B /* LKPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C7602668FF74657C1BF70DEE85986E /* LKTrackOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4789DE4BA0FB2EB079210D82A55CE85C /* LKTrackOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90960657A9CD1044F855100C9EB7B204 /* LKPopCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CF02AC62698AD19EF4DA7D3C86DE12A3 /* LKPopCustomSegue.m */; };
 		9267281E6D3DA782BDF15DE48B36A35C /* LaunchKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E8E62887547436AEBAA84FBDC58D5 /* LaunchKitResources.bundle */; };
-		96743706EF642D56369D3FEAFDF5BA0A /* LaunchKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D3E934FD4FC6DFD108669DA18A6C4D /* LaunchKit-dummy.m */; };
-		97F275549805BA444803C6BB04C0BA27 /* lk_unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C647FA373EB35E0FCE1D644D790DAB /* lk_unzip.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9804004EBECEDB3BC878E993F9E5ABA6 /* LKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDE5AAD81DD16D7CFBBB86F9CD27D81 /* LKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C6BD79BF11521E06C214603E62F4F2F /* LKBundlesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D082A6EF3F091CAB45C1406B095CEFFC /* LKBundlesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D45AFBFA2375F1BBD189ADE13B690EF /* LKOnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E23AD6350F55D137E1B61A6E0664843 /* LKOnboardingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D78EBBB0F7CA41E6A1A65753D7284F6 /* LKFadeCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4AEDA3A3A5BC2A2DFEBECB57523111 /* LKFadeCustomSegue.m */; };
-		9FFCAE138135CBE8260DA153F1F72771 /* LKAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3EB5A1094799FDECD882C835D55FB /* LKAPIClient.m */; };
-		A707596AE6C3AE4C3DC56D2839CFAF02 /* LKBundlesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D3D39C481B5321FEADF9A917915CA /* LKBundlesManager.m */; };
-		AC58DBA72E045211D206DD952AECE976 /* LKPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA438EACA50E95BCC57B3BBDE3B66BF5 /* LKPageControl.m */; };
-		ADC3641693C8DFD9B122EA3883A33475 /* LaunchKitShared.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE8C85F69E0584813D9F6BA5330FCF6 /* LaunchKitShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE81AB0E065ECDB069533ACA8A35ED23 /* LKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F737872A9D7E6488CA48BE64605E44 /* LKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B04DDC164B765D959C7A737C7BA4A15C /* UIView+LKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C473430A1F86892C675693739948E40B /* UIView+LKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6D0A813CFCC1DDF485CFDD8C1972B96 /* LKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2073DDB2C63727131CB68618C814788C /* LKUtils.m */; };
-		BC558B13DD884A820B992BC2D7DF0654 /* LKAppUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 086186466D95B6C5F0FE80052EFA2B86 /* LKAppUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C251AAF41E97E676E34C3C0BC63C81F4 /* lk_ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = D205756F65297AD07C42D5574CD135D6 /* lk_ioapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C3C298D28DFB0AA7DC08CCD95026B8B3 /* lk_mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = BA26544B195839FAB868014F2497D2E1 /* lk_mztools.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C6699F5DCA707038A29D6AA497EA52D9 /* LKAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 13547055EE42C451F7D7FF56E1AC8644 /* LKAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6A16FAAA460F75F1283FC95D8F412D3 /* LKUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC6CBB69FCF50E11B8611A832B2132C /* LKUIManager.m */; };
-		C85FA5FA3CECC82EBD3E491B7E7BFFA4 /* LaunchKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F48A37229868E560767854CAF7CD67 /* LaunchKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9069865FE0A384E71CD26C85CC02106 /* LKPushCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1013F901F656ECD883A0AD5905D419E2 /* LKPushCustomSegue.m */; };
-		CF4304F60AD4EB443D916F7FCE09F5B7 /* lk_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8846F055B4931A09CCAC834A9E0751 /* lk_zip.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D4A58767061820D7D4FD4901761B7922 /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9AC13422800551A4EC36D9DF2B35E4 /* LKViewController.m */; };
-		D518271AB198D0C55ADBD8763F42B795 /* lk_ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = DA63B0EF49AE0B0AFF410F22A63DBEFD /* lk_ioapi.c */; };
-		D8F1C0A5D77CA91D41EB58CAECAA19E7 /* LKFadeCustomSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6AD48E990F1B5B7847416B6AD94235 /* LKFadeCustomSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0B8A2625FC8EC9C6B39448DCD0AF6E2 /* LKTrackOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B53D579E578D0A1F17F1B9DECFCD40DC /* LKTrackOperation.m */; };
-		E0C6969EA5901795DC7C9C380E1CDC11 /* LKSimpleStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8C67FD77B482D819D15FBB1037E186 /* LKSimpleStackView.m */; };
-		E7377E61695D3F2905A29C2C2D6808BB /* LK_SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 557F9394F5BC44B5B1EAA3A2624154B0 /* LK_SSZipArchive.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E83D074E0FF8AF26A9EB58911E18C05D /* LKAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C71886D106FE36B6D359D1702D35D4FF /* LKAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8EFB1C1A6B1ABEBC4FAEF954262CCBA /* LKBundleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 157DAB147A8B5E246A515AAC83F1F72E /* LKBundleInfo.m */; };
-		EF00DF0F34A3F53E5791343BF9C132FF /* LKUIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B1F7FE2085EED136D6F3E20BCBB82 /* LKUIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F31A839FE4CA3C8387D68C22E042E325 /* LKImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5C604B69D26AAA6ACF7D5A91D1246B /* LKImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F68D91400FBF147A678D066BAD1569D3 /* lk_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 66716D312E9B8E6038AB2009211C00E3 /* lk_zip.c */; };
-		F7826DC5AAFFFCF692E8A0C74F857537 /* LKButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D1F9DB5C487F6F602E9B4831FF7862 /* LKButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9736C1342E13127E601EF2B028543D2 /* LKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97046F9FAB3CC4C148DA4AFA9F1D7487 /* LKButton.m */; };
-		FAF0518D72932D5A1C7B382E9DCF3AD9 /* LKPagedUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836450C912EB3EF912BFFD41063C98EE /* LKPagedUIViewController.m */; };
+		96743706EF642D56369D3FEAFDF5BA0A /* LaunchKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FD9063FC447FA6D43AC84AE5880DDB /* LaunchKit-dummy.m */; };
+		97F275549805BA444803C6BB04C0BA27 /* lk_unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9D2DE7419BE6203942C52FFF22B12E /* lk_unzip.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9804004EBECEDB3BC878E993F9E5ABA6 /* LKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A21BF8C2EC67BDF53273BC4CB97DC7D /* LKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6BD79BF11521E06C214603E62F4F2F /* LKBundlesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2051B404B1F48B24883F491FB2C506 /* LKBundlesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D45AFBFA2375F1BBD189ADE13B690EF /* LKOnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBD3D28E62FF370CB0F59184B422F36 /* LKOnboardingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D78EBBB0F7CA41E6A1A65753D7284F6 /* LKFadeCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F078FC197BE1BC75B139400876A9B99 /* LKFadeCustomSegue.m */; };
+		9FFCAE138135CBE8260DA153F1F72771 /* LKAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E9C2E317E1AD211F2374C34B8C6C1 /* LKAPIClient.m */; };
+		A707596AE6C3AE4C3DC56D2839CFAF02 /* LKBundlesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7667C39B4D82AF50F4A2269B1184D061 /* LKBundlesManager.m */; };
+		AC58DBA72E045211D206DD952AECE976 /* LKPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A6D484B0AD6A4F8A4720F5BF34AC7 /* LKPageControl.m */; };
+		ADC3641693C8DFD9B122EA3883A33475 /* LaunchKitShared.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA22B3A94B5D96089340EF3A89F2A85 /* LaunchKitShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE81AB0E065ECDB069533ACA8A35ED23 /* LKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E785F6CA4BE162D1CC6F9F5F89D88886 /* LKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04DDC164B765D959C7A737C7BA4A15C /* UIView+LKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A786E3757FEE2CC62781831F2DFF3EA9 /* UIView+LKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D0A813CFCC1DDF485CFDD8C1972B96 /* LKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 653377D77BBEBB306AACB6ADB65C0567 /* LKUtils.m */; };
+		BC558B13DD884A820B992BC2D7DF0654 /* LKAppUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A188FA7655BF6340661EAFFC3AB26CA7 /* LKAppUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C251AAF41E97E676E34C3C0BC63C81F4 /* lk_ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4713F0D4C44B7C93DB9194D9851AC5AA /* lk_ioapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C3C298D28DFB0AA7DC08CCD95026B8B3 /* lk_mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD9D8A066074784C69C7CA152FFDBC5 /* lk_mztools.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C6699F5DCA707038A29D6AA497EA52D9 /* LKAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 18858DA5D5458F14D851541E4A3ECF04 /* LKAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A16FAAA460F75F1283FC95D8F412D3 /* LKUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D8F9FC8107DED62D8B2211498BABC5 /* LKUIManager.m */; };
+		C85FA5FA3CECC82EBD3E491B7E7BFFA4 /* LaunchKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3DBAB57D27AE4EE749556A5C9B9C8F /* LaunchKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9069865FE0A384E71CD26C85CC02106 /* LKPushCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 867330BEEAE0DB8C4C39541DFF492FF8 /* LKPushCustomSegue.m */; };
+		CF4304F60AD4EB443D916F7FCE09F5B7 /* lk_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4A1DC9AC3EE1DCE1DA503E39887878 /* lk_zip.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D4A58767061820D7D4FD4901761B7922 /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C67F5FAD2B663DCE9DFC8AE6BEC3A /* LKViewController.m */; };
+		D518271AB198D0C55ADBD8763F42B795 /* lk_ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = F8E9DF4ECE8B0CDA58E820B8E366AE73 /* lk_ioapi.c */; };
+		D8F1C0A5D77CA91D41EB58CAECAA19E7 /* LKFadeCustomSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8867F8788E40C918DE4740ACB62F5E08 /* LKFadeCustomSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8A2625FC8EC9C6B39448DCD0AF6E2 /* LKTrackOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E957283B62863CF03FA530D6EAB57 /* LKTrackOperation.m */; };
+		E0C6969EA5901795DC7C9C380E1CDC11 /* LKSimpleStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FC724F2DF6763967E0DC169212829 /* LKSimpleStackView.m */; };
+		E7377E61695D3F2905A29C2C2D6808BB /* LK_SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB9681048D2B65EF236B9D3E57CCD24 /* LK_SSZipArchive.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E83D074E0FF8AF26A9EB58911E18C05D /* LKAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD9272C64F3117040459003449A693F /* LKAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8EFB1C1A6B1ABEBC4FAEF954262CCBA /* LKBundleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC56792F8CF74D509B7AED722950EA4 /* LKBundleInfo.m */; };
+		EF00DF0F34A3F53E5791343BF9C132FF /* LKUIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9AD5A5C247E5427114A8752A304681 /* LKUIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F31A839FE4CA3C8387D68C22E042E325 /* LKImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC6815903294212F00E4546DC7B7129 /* LKImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68D91400FBF147A678D066BAD1569D3 /* lk_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 145F84046155F7BAB7E9D4CD54243566 /* lk_zip.c */; };
+		F7826DC5AAFFFCF692E8A0C74F857537 /* LKButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA3C865CEE45E3D123883E24D367089 /* LKButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9736C1342E13127E601EF2B028543D2 /* LKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C43A012B840413C4EE03FB8C3D1D104E /* LKButton.m */; };
+		FAF0518D72932D5A1C7B382E9DCF3AD9 /* LKPagedUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8143490030070E232B30453C3446A68A /* LKPagedUIViewController.m */; };
 		FE0D0B63E5563F786953F899B5EEE78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		FEED14D7659DBB76B964AFBC08420C23 /* LKSimpleStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5D95F17E6E19B0400F56C707DF209B /* LKSimpleStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEED14D7659DBB76B964AFBC08420C23 /* LKSimpleStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF87AEF141500660025D1DB8FF14E2B8 /* LKSimpleStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,107 +102,110 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		086186466D95B6C5F0FE80052EFA2B86 /* LKAppUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAppUser.h; path = LaunchKit/Classes/Analytics/LKAppUser.h; sourceTree = "<group>"; };
+		006C1E598C8BCE52F98B0BBFA61E1E1C /* LKPagedUIViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPagedUIViewController.h; path = LaunchKit/Classes/UI/Components/LKPagedUIViewController.h; sourceTree = "<group>"; };
+		07FD9063FC447FA6D43AC84AE5880DDB /* LaunchKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LaunchKit-dummy.m"; sourceTree = "<group>"; };
 		094CAC9196C3CF843E280C7F35E32EEE /* Pods-DrinkPoint-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrinkPoint-frameworks.sh"; sourceTree = "<group>"; };
-		0E23AD6350F55D137E1B61A6E0664843 /* LKOnboardingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKOnboardingViewController.h; path = LaunchKit/Classes/UI/Onboarding/LKOnboardingViewController.h; sourceTree = "<group>"; };
-		0F5D95F17E6E19B0400F56C707DF209B /* LKSimpleStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKSimpleStackView.h; path = LaunchKit/Classes/UI/Components/LKSimpleStackView.h; sourceTree = "<group>"; };
-		1013F901F656ECD883A0AD5905D419E2 /* LKPushCustomSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPushCustomSegue.m; path = LaunchKit/Classes/UI/Components/LKPushCustomSegue.m; sourceTree = "<group>"; };
-		13547055EE42C451F7D7FF56E1AC8644 /* LKAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAnalytics.h; path = LaunchKit/Classes/Analytics/LKAnalytics.h; sourceTree = "<group>"; };
-		157DAB147A8B5E246A515AAC83F1F72E /* LKBundleInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKBundleInfo.m; path = LaunchKit/Classes/Bundles/LKBundleInfo.m; sourceTree = "<group>"; };
-		1860AA30507A82258FE59FC6B53FA59B /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		1A3F914F0AA86BB08D1FBE6DF1AB22BE /* LaunchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LaunchKit.h; path = LaunchKit/Classes/LaunchKit.h; sourceTree = "<group>"; };
-		1E5C604B69D26AAA6ACF7D5A91D1246B /* LKImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKImageView.h; path = LaunchKit/Classes/UI/Components/LKImageView.h; sourceTree = "<group>"; };
-		1EC6CBB69FCF50E11B8611A832B2132C /* LKUIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUIManager.m; path = LaunchKit/Classes/UI/LKUIManager.m; sourceTree = "<group>"; };
-		2073DDB2C63727131CB68618C814788C /* LKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUtils.m; path = LaunchKit/Classes/LKUtils.m; sourceTree = "<group>"; };
-		28FF9FEF5E16BCC8814443AAE5836522 /* LKAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAnalytics.m; path = LaunchKit/Classes/Analytics/LKAnalytics.m; sourceTree = "<group>"; };
+		0EAF4015C96ACD3F181CA56EE486C104 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		0ED4EF40F4FBB4827ED6E88E13EE21B4 /* NSDictionary+LKFormEncoded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LKFormEncoded.h"; path = "LaunchKit/Classes/NSDictionary+LKFormEncoded.h"; sourceTree = "<group>"; };
+		0F078FC197BE1BC75B139400876A9B99 /* LKFadeCustomSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKFadeCustomSegue.m; path = LaunchKit/Classes/UI/Components/LKFadeCustomSegue.m; sourceTree = "<group>"; };
+		0F9D2DE7419BE6203942C52FFF22B12E /* lk_unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_unzip.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_unzip.h; sourceTree = "<group>"; };
+		126DC9F1C4E35C4404FB45B38E7FE9D1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		13192EEB508055C354DBE1F1B700074D /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		145F84046155F7BAB7E9D4CD54243566 /* lk_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_zip.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_zip.c; sourceTree = "<group>"; };
+		1798F4928F56FA1953F1FC02D3FFB5F9 /* LKNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKNavigationController.m; path = LaunchKit/Classes/UI/Components/LKNavigationController.m; sourceTree = "<group>"; };
+		181811C8A19D8C60687E508BBFE2309F /* LKCardPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKCardPresentationController.m; path = LaunchKit/Classes/UI/Presentation/LKCardPresentationController.m; sourceTree = "<group>"; };
+		18858DA5D5458F14D851541E4A3ECF04 /* LKAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAnalytics.h; path = LaunchKit/Classes/Analytics/LKAnalytics.h; sourceTree = "<group>"; };
+		1AC6815903294212F00E4546DC7B7129 /* LKImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKImageView.h; path = LaunchKit/Classes/UI/Components/LKImageView.h; sourceTree = "<group>"; };
+		1DB9681048D2B65EF236B9D3E57CCD24 /* LK_SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LK_SSZipArchive.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/LK_SSZipArchive.h; sourceTree = "<group>"; };
+		1F3DBAB57D27AE4EE749556A5C9B9C8F /* LaunchKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaunchKit-umbrella.h"; sourceTree = "<group>"; };
+		236579B0436A6527B65A9AE393BB22B7 /* lk_mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_mztools.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_mztools.c; sourceTree = "<group>"; };
+		24DE8F6EB8094DF2A650E5F1D6D4E6D4 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		27EDB006AE6C7EDE13E8A3BCF2982A71 /* LaunchKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LaunchKit.modulemap; sourceTree = "<group>"; };
+		28FCFCC9B3E6156B4DDDD5D268F95999 /* LKCardPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKCardPresentationController.h; path = LaunchKit/Classes/UI/Presentation/LKCardPresentationController.h; sourceTree = "<group>"; };
+		2A21BF8C2EC67BDF53273BC4CB97DC7D /* LKNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKNavigationController.h; path = LaunchKit/Classes/UI/Components/LKNavigationController.h; sourceTree = "<group>"; };
 		2A44B62C0743F6B2F935F3F581194BAF /* Pods-DrinkPoint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DrinkPoint.modulemap"; sourceTree = "<group>"; };
-		2CBF434B1F2602CFCC2C715A394517BE /* NSDictionary+LKFormEncoded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LKFormEncoded.m"; path = "LaunchKit/Classes/NSDictionary+LKFormEncoded.m"; sourceTree = "<group>"; };
-		2D99980BE72BE61E9DFF0FA3A1A7E64E /* LKPagedUIViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPagedUIViewController.h; path = LaunchKit/Classes/UI/Components/LKPagedUIViewController.h; sourceTree = "<group>"; };
+		2AD9D8A066074784C69C7CA152FFDBC5 /* lk_mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_mztools.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_mztools.h; sourceTree = "<group>"; };
+		2C2051B404B1F48B24883F491FB2C506 /* LKBundlesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKBundlesManager.h; path = LaunchKit/Classes/Bundles/LKBundlesManager.h; sourceTree = "<group>"; };
 		2F8E8E62887547436AEBAA84FBDC58D5 /* LaunchKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F7162018548058B8560CDA8CDAFAB4 /* GameAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameAnalytics.framework; sourceTree = "<group>"; };
-		355C727585E4FBDAA6CC578753C4BFE5 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		38CB77DC8362049652EC6CE7C0BB6FFC /* LKCardPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKCardPresentationController.h; path = LaunchKit/Classes/UI/Presentation/LKCardPresentationController.h; sourceTree = "<group>"; };
 		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E71CCB0EA08F657383E3A437AAC954A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EA3EB5A1094799FDECD882C835D55FB /* LKAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAPIClient.m; path = LaunchKit/Classes/LKAPIClient.m; sourceTree = "<group>"; };
 		4399A54BA466792218CEB707B56FA4B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C9AC13422800551A4EC36D9DF2B35E4 /* LKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKViewController.m; path = LaunchKit/Classes/UI/Components/LKViewController.m; sourceTree = "<group>"; };
-		4E1611D7398B2EAF8986092CC8ACD5E5 /* NSDictionary+LKFormEncoded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LKFormEncoded.h"; path = "LaunchKit/Classes/NSDictionary+LKFormEncoded.h"; sourceTree = "<group>"; };
-		50DDD843E60E6D0BEFE56FFBB6FA177F /* LKLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLog.m; path = LaunchKit/Classes/LKLog.m; sourceTree = "<group>"; };
-		5193386BB1566C48B9F5DEF985D11FA2 /* LaunchKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaunchKit.xcconfig; sourceTree = "<group>"; };
-		5252676E5AEF7421DFC3643037730D99 /* LKPopCustomSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPopCustomSegue.m; path = LaunchKit/Classes/UI/Components/LKPopCustomSegue.m; sourceTree = "<group>"; };
-		545C106B7BB36243B868E6254FB5F8B2 /* LKBundleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKBundleInfo.h; path = LaunchKit/Classes/Bundles/LKBundleInfo.h; sourceTree = "<group>"; };
-		557F9394F5BC44B5B1EAA3A2624154B0 /* LK_SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LK_SSZipArchive.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/LK_SSZipArchive.h; sourceTree = "<group>"; };
+		44E518818B1F726E4BC31F3C869A6B4F /* LKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUtils.h; path = LaunchKit/Classes/LKUtils.h; sourceTree = "<group>"; };
+		452E957283B62863CF03FA530D6EAB57 /* LKTrackOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKTrackOperation.m; path = LaunchKit/Classes/LKTrackOperation.m; sourceTree = "<group>"; };
+		4713F0D4C44B7C93DB9194D9851AC5AA /* lk_ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_ioapi.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_ioapi.h; sourceTree = "<group>"; };
+		4789DE4BA0FB2EB079210D82A55CE85C /* LKTrackOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTrackOperation.h; path = LaunchKit/Classes/LKTrackOperation.h; sourceTree = "<group>"; };
+		48F1BD0EAC3899C9C82C0649B8873EC3 /* LKLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLabel.m; path = LaunchKit/Classes/UI/Components/LKLabel.m; sourceTree = "<group>"; };
+		4A9AD5A5C247E5427114A8752A304681 /* LKUIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUIManager.h; path = LaunchKit/Classes/UI/LKUIManager.h; sourceTree = "<group>"; };
+		4C2FC724F2DF6763967E0DC169212829 /* LKSimpleStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKSimpleStackView.m; path = LaunchKit/Classes/UI/Components/LKSimpleStackView.m; sourceTree = "<group>"; };
+		5025A52567BD08579CE47AAF052F130D /* LKLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLog.m; path = LaunchKit/Classes/LKLog.m; sourceTree = "<group>"; };
+		543CE0EAD0967BA9C6751FD6611490B4 /* lk_unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_unzip.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_unzip.c; sourceTree = "<group>"; };
 		572CF34B741C804CB907C67196CA68FA /* Pods_DrinkPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D96B1B90805A7930EC94B78CD155CD /* Pods-DrinkPoint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DrinkPoint-dummy.m"; sourceTree = "<group>"; };
-		596E83D68C93E4CE1F89AB9567176665 /* ResourceBundle-LaunchKitResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LaunchKitResources-Info.plist"; sourceTree = "<group>"; };
-		5F6B61DCADB26244949DE3A5BFDD668D /* NSString+LKURLEncoded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LKURLEncoded.h"; path = "LaunchKit/Classes/NSString+LKURLEncoded.h"; sourceTree = "<group>"; };
-		66716D312E9B8E6038AB2009211C00E3 /* lk_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_zip.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_zip.c; sourceTree = "<group>"; };
-		775E50E3BB6B4E68C8E4923D7A29931E /* LK_SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LK_SSZipArchive.m; path = LaunchKit/Classes/ThirdParty/ZipArchive/LK_SSZipArchive.m; sourceTree = "<group>"; };
-		788070061622216916CE7CAC84634C1E /* lk_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_crypt.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_crypt.h; sourceTree = "<group>"; };
+		5D2C4D2287586A59E5A62A7C94560F25 /* ResourceBundle-LaunchKitResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LaunchKitResources-Info.plist"; sourceTree = "<group>"; };
+		5D3A6D484B0AD6A4F8A4720F5BF34AC7 /* LKPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPageControl.m; path = LaunchKit/Classes/UI/Components/LKPageControl.m; sourceTree = "<group>"; };
+		5EEC6389B452460FF13411EB5F1052DA /* LKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLog.h; path = LaunchKit/Classes/LKLog.h; sourceTree = "<group>"; };
+		5F4A1DC9AC3EE1DCE1DA503E39887878 /* lk_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_zip.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_zip.h; sourceTree = "<group>"; };
+		5F98A9A65C7A86FB9EA5B229BE76E08A /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		653377D77BBEBB306AACB6ADB65C0567 /* LKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUtils.m; path = LaunchKit/Classes/LKUtils.m; sourceTree = "<group>"; };
+		6EC19DE37E71636E36B00CFE5659606E /* LKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKConfig.h; path = LaunchKit/Classes/Config/LKConfig.h; sourceTree = "<group>"; };
+		6FA3C865CEE45E3D123883E24D367089 /* LKButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKButton.h; path = LaunchKit/Classes/UI/Components/LKButton.h; sourceTree = "<group>"; };
+		6FEDF8BD342D316F0D36E926B6C6A2A9 /* NSString+LKURLEncoded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LKURLEncoded.h"; path = "LaunchKit/Classes/NSString+LKURLEncoded.h"; sourceTree = "<group>"; };
+		72F01FC42CA7C4AFE5B1E13CC296C2D0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		7667C39B4D82AF50F4A2269B1184D061 /* LKBundlesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKBundlesManager.m; path = LaunchKit/Classes/Bundles/LKBundlesManager.m; sourceTree = "<group>"; };
+		76F9392991C0DBDFA74E916F8AC48EA9 /* LKConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKConfig.m; path = LaunchKit/Classes/Config/LKConfig.m; sourceTree = "<group>"; };
 		789F3138E4D6108C18AEED4DC39D66F6 /* Pods-DrinkPoint-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrinkPoint-resources.sh"; sourceTree = "<group>"; };
 		7A7B75633F1D25ED1D0CDAC151757D5B /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
-		7B4B1F7FE2085EED136D6F3E20BCBB82 /* LKUIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUIManager.h; path = LaunchKit/Classes/UI/LKUIManager.h; sourceTree = "<group>"; };
 		7C9D953CE1725C1E9113C4425887598A /* Pods-DrinkPoint-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrinkPoint-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D0BF430E747804DB7FDC8DC8FEA0AF5 /* LKTrackOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKTrackOperation.h; path = LaunchKit/Classes/LKTrackOperation.h; sourceTree = "<group>"; };
-		836450C912EB3EF912BFFD41063C98EE /* LKPagedUIViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPagedUIViewController.m; path = LaunchKit/Classes/UI/Components/LKPagedUIViewController.m; sourceTree = "<group>"; };
-		8387CAE14534DEB3120033B29BE27CE6 /* lk_mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_mztools.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_mztools.c; sourceTree = "<group>"; };
-		85A00E66AA61204CA6CFD1C48B52FE87 /* LKLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLabel.m; path = LaunchKit/Classes/UI/Components/LKLabel.m; sourceTree = "<group>"; };
-		866CA712370B7754F2BF20E284144DBE /* LKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKUtils.h; path = LaunchKit/Classes/LKUtils.h; sourceTree = "<group>"; };
+		7D0E20BF0980A1D8F321B0A2C3190586 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		7EFA9D9476D4D81D11E92DA4DF87B059 /* LK_SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LK_SSZipArchive.m; path = LaunchKit/Classes/ThirdParty/ZipArchive/LK_SSZipArchive.m; sourceTree = "<group>"; };
+		7FC56792F8CF74D509B7AED722950EA4 /* LKBundleInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKBundleInfo.m; path = LaunchKit/Classes/Bundles/LKBundleInfo.m; sourceTree = "<group>"; };
+		7FD8D8469BD89E5ACB1F87B756C805DE /* LKImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKImageView.m; path = LaunchKit/Classes/UI/Components/LKImageView.m; sourceTree = "<group>"; };
+		8143490030070E232B30453C3446A68A /* LKPagedUIViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPagedUIViewController.m; path = LaunchKit/Classes/UI/Components/LKPagedUIViewController.m; sourceTree = "<group>"; };
+		867330BEEAE0DB8C4C39541DFF492FF8 /* LKPushCustomSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPushCustomSegue.m; path = LaunchKit/Classes/UI/Components/LKPushCustomSegue.m; sourceTree = "<group>"; };
+		8867F8788E40C918DE4740ACB62F5E08 /* LKFadeCustomSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKFadeCustomSegue.h; path = LaunchKit/Classes/UI/Components/LKFadeCustomSegue.h; sourceTree = "<group>"; };
 		896CD3DC8C073142659770E3D2D9558D /* Pods-DrinkPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrinkPoint.release.xcconfig"; sourceTree = "<group>"; };
-		8CD6C14A448D7ABA327DDF5536BCAC23 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		8E1912598DEB958116F7DA6E070722F4 /* LKLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLabel.h; path = LaunchKit/Classes/UI/Components/LKLabel.h; sourceTree = "<group>"; };
+		8F28B6A09E8E534DCDA9E560BC3DFF35 /* LKGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKGradientView.h; path = LaunchKit/Classes/UI/Components/LKGradientView.h; sourceTree = "<group>"; };
+		91D6B604EC8F6B1E995E2D861895F881 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		968A74DB2A1B2FFBAC16893079BC503D /* LKCardPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKCardPresentationController.m; path = LaunchKit/Classes/UI/Presentation/LKCardPresentationController.m; sourceTree = "<group>"; };
-		97046F9FAB3CC4C148DA4AFA9F1D7487 /* LKButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKButton.m; path = LaunchKit/Classes/UI/Components/LKButton.m; sourceTree = "<group>"; };
-		9C15A2189674A6EC09B4190B6FD340F5 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		9DDE5AAD81DD16D7CFBBB86F9CD27D81 /* LKNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKNavigationController.h; path = LaunchKit/Classes/UI/Components/LKNavigationController.h; sourceTree = "<group>"; };
-		A034085246CD3E3A6C7369E6CF1F5203 /* LKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLog.h; path = LaunchKit/Classes/LKLog.h; sourceTree = "<group>"; };
-		A23AC7032E0F76415A4622C433B88A72 /* LKAppUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAppUser.m; path = LaunchKit/Classes/Analytics/LKAppUser.m; sourceTree = "<group>"; };
-		A2649C3E8F4747E426ACFBE5832133C0 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
-		A7E7CC7362A035E445C4A2C329186353 /* LKImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKImageView.m; path = LaunchKit/Classes/UI/Components/LKImageView.m; sourceTree = "<group>"; };
-		A88D3D39C481B5321FEADF9A917915CA /* LKBundlesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKBundlesManager.m; path = LaunchKit/Classes/Bundles/LKBundlesManager.m; sourceTree = "<group>"; };
-		A92CD29BBB5C078F1911635E0E2FC996 /* lk_unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_unzip.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_unzip.c; sourceTree = "<group>"; };
-		AC8846F055B4931A09CCAC834A9E0751 /* lk_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_zip.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_zip.h; sourceTree = "<group>"; };
-		B0D3E934FD4FC6DFD108669DA18A6C4D /* LaunchKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LaunchKit-dummy.m"; sourceTree = "<group>"; };
-		B53D579E578D0A1F17F1B9DECFCD40DC /* LKTrackOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKTrackOperation.m; path = LaunchKit/Classes/LKTrackOperation.m; sourceTree = "<group>"; };
+		93C848DE871B6A987BD8F7447D6482AA /* LaunchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LaunchKit.h; path = LaunchKit/Classes/LaunchKit.h; sourceTree = "<group>"; };
+		99AAF641C456D7FDDD7E6E2544885561 /* LKPopCustomSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPopCustomSegue.h; path = LaunchKit/Classes/UI/Components/LKPopCustomSegue.h; sourceTree = "<group>"; };
+		9F44F88BB62173274D0532C80D1F42FF /* UIView+LKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LKAdditions.m"; path = "LaunchKit/Classes/UI/Components/UIView+LKAdditions.m"; sourceTree = "<group>"; };
+		A188FA7655BF6340661EAFFC3AB26CA7 /* LKAppUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAppUser.h; path = LaunchKit/Classes/Analytics/LKAppUser.h; sourceTree = "<group>"; };
+		A709968AC9F32B8AE05BB1A1BDDFFFE6 /* LKBundleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKBundleInfo.h; path = LaunchKit/Classes/Bundles/LKBundleInfo.h; sourceTree = "<group>"; };
+		A786E3757FEE2CC62781831F2DFF3EA9 /* UIView+LKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LKAdditions.h"; path = "LaunchKit/Classes/UI/Components/Public/UIView+LKAdditions.h"; sourceTree = "<group>"; };
+		AA7E9C2E317E1AD211F2374C34B8C6C1 /* LKAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAPIClient.m; path = LaunchKit/Classes/LKAPIClient.m; sourceTree = "<group>"; };
+		ACA22B3A94B5D96089340EF3A89F2A85 /* LaunchKitShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LaunchKitShared.h; path = LaunchKit/Classes/LaunchKitShared.h; sourceTree = "<group>"; };
+		ACB264B5A71D9168BACDF59ECC1C7A28 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		ADCA904FDA6663257924C44CB3E47DD9 /* LKAppUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAppUser.m; path = LaunchKit/Classes/Analytics/LKAppUser.m; sourceTree = "<group>"; };
+		B0004EF013AEC67D004F70CF0A064097 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		B34743B480C749F4CAD28C3F284AC7A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B848EAAEB54E26AB76B4F7ADAD2ABC3B /* LaunchKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaunchKit-prefix.pch"; sourceTree = "<group>"; };
 		B899ED414835C53F191A8FE53BF6A160 /* Pods-DrinkPoint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DrinkPoint-umbrella.h"; sourceTree = "<group>"; };
-		BA26544B195839FAB868014F2497D2E1 /* lk_mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_mztools.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_mztools.h; sourceTree = "<group>"; };
-		BA438EACA50E95BCC57B3BBDE3B66BF5 /* LKPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPageControl.m; path = LaunchKit/Classes/UI/Components/LKPageControl.m; sourceTree = "<group>"; };
+		B9B437310212EED37582654CCC5623A4 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		BB2C2C43134ADC7E9D3507004301B238 /* LaunchKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LaunchKit.m; path = LaunchKit/Classes/LaunchKit.m; sourceTree = "<group>"; };
 		BC119FB2AA9AC6B3ED890F6CA689E349 /* Pods-DrinkPoint-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrinkPoint-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD08BFFDE893F5DCB06E4EF79C56730F /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		C2AD444656FA65C2E276DA366E6B1F06 /* LaunchKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LaunchKit.m; path = LaunchKit/Classes/LaunchKit.m; sourceTree = "<group>"; };
-		C2C647FA373EB35E0FCE1D644D790DAB /* lk_unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_unzip.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_unzip.h; sourceTree = "<group>"; };
-		C32C5FA75C8535B10291F6AF53EBE050 /* LaunchKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LaunchKit.modulemap; sourceTree = "<group>"; };
-		C473430A1F86892C675693739948E40B /* UIView+LKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LKAdditions.h"; path = "LaunchKit/Classes/UI/Components/Public/UIView+LKAdditions.h"; sourceTree = "<group>"; };
-		C548518F7188A19566D08DFFB2374173 /* LKNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKNavigationController.m; path = LaunchKit/Classes/UI/Components/LKNavigationController.m; sourceTree = "<group>"; };
-		C62C93A1281A48AA05EF12E0E6FE6566 /* LKLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLabel.h; path = LaunchKit/Classes/UI/Components/LKLabel.h; sourceTree = "<group>"; };
-		C6CFFB4F8FF8A0FD227A27855BA8096B /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		C71886D106FE36B6D359D1702D35D4FF /* LKAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAPIClient.h; path = LaunchKit/Classes/LKAPIClient.h; sourceTree = "<group>"; };
-		CC0E342230D03A470D9A5652E3DB8945 /* LKGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKGradientView.m; path = LaunchKit/Classes/UI/Components/LKGradientView.m; sourceTree = "<group>"; };
-		CD6AD48E990F1B5B7847416B6AD94235 /* LKFadeCustomSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKFadeCustomSegue.h; path = LaunchKit/Classes/UI/Components/LKFadeCustomSegue.h; sourceTree = "<group>"; };
-		D061CFB22AB3C7CE08E80E7F0DB6AD45 /* LKConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKConfig.m; path = LaunchKit/Classes/Config/LKConfig.m; sourceTree = "<group>"; };
-		D082A6EF3F091CAB45C1406B095CEFFC /* LKBundlesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKBundlesManager.h; path = LaunchKit/Classes/Bundles/LKBundlesManager.h; sourceTree = "<group>"; };
-		D13550DF06C2E81DC9B60B0AEBCFE4B9 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
-		D205756F65297AD07C42D5574CD135D6 /* lk_ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_ioapi.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_ioapi.h; sourceTree = "<group>"; };
-		D2C0C039FC0C45B7CBD4C4A61C927723 /* LKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKConfig.h; path = LaunchKit/Classes/Config/LKConfig.h; sourceTree = "<group>"; };
-		D7E48B929987F9BBBF386BD3DB8D900A /* LaunchKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaunchKit-prefix.pch"; sourceTree = "<group>"; };
-		D832D6C3759508772E64C59C1CE52319 /* UIView+LKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LKAdditions.m"; path = "LaunchKit/Classes/UI/Components/UIView+LKAdditions.m"; sourceTree = "<group>"; };
-		DA63B0EF49AE0B0AFF410F22A63DBEFD /* lk_ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_ioapi.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_ioapi.c; sourceTree = "<group>"; };
-		DA8C67FD77B482D819D15FBB1037E186 /* LKSimpleStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKSimpleStackView.m; path = LaunchKit/Classes/UI/Components/LKSimpleStackView.m; sourceTree = "<group>"; };
+		BDD9272C64F3117040459003449A693F /* LKAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKAPIClient.h; path = LaunchKit/Classes/LKAPIClient.h; sourceTree = "<group>"; };
+		C43A012B840413C4EE03FB8C3D1D104E /* LKButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKButton.m; path = LaunchKit/Classes/UI/Components/LKButton.m; sourceTree = "<group>"; };
+		C4FD2FD86E77D73652AEC174FE7EB644 /* NSString+LKURLEncoded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LKURLEncoded.m"; path = "LaunchKit/Classes/NSString+LKURLEncoded.m"; sourceTree = "<group>"; };
+		C7CEE815893CC8A1C127182D32E5F19E /* LaunchKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaunchKit.xcconfig; sourceTree = "<group>"; };
+		CD3B97766D86737AC94B0354887543AE /* GameAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameAnalytics.framework; sourceTree = "<group>"; };
+		CE5FFE11C0049843E024F8FCED3F9772 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		CF02AC62698AD19EF4DA7D3C86DE12A3 /* LKPopCustomSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKPopCustomSegue.m; path = LaunchKit/Classes/UI/Components/LKPopCustomSegue.m; sourceTree = "<group>"; };
+		D3BC7AC1B56849EE83098E8A9C73F5FE /* LKPushCustomSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPushCustomSegue.h; path = LaunchKit/Classes/UI/Components/LKPushCustomSegue.h; sourceTree = "<group>"; };
+		D3D8F9FC8107DED62D8B2211498BABC5 /* LKUIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKUIManager.m; path = LaunchKit/Classes/UI/LKUIManager.m; sourceTree = "<group>"; };
+		D8C514177150BE25C1CF820CD80AE018 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		DA3EF66F808D6E4D0D5E7F5ED95FDF4F /* LKOnboardingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKOnboardingViewController.m; path = LaunchKit/Classes/UI/Onboarding/LKOnboardingViewController.m; sourceTree = "<group>"; };
 		DA97A3293DECBBDCA3FFD0E15910E510 /* LaunchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LaunchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD9322CDFA54FFC0554407FDE9CCE4B5 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		DF71439AC068AAF8C2C96B43732B7D2B /* NSString+LKURLEncoded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LKURLEncoded.m"; path = "LaunchKit/Classes/NSString+LKURLEncoded.m"; sourceTree = "<group>"; };
-		E2A56FB1E28C55861BA51B3E519FD80E /* LKGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKGradientView.h; path = LaunchKit/Classes/UI/Components/LKGradientView.h; sourceTree = "<group>"; };
-		E4E136F3D902B78C0D1C8E59A8E25A16 /* LKPushCustomSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPushCustomSegue.h; path = LaunchKit/Classes/UI/Components/LKPushCustomSegue.h; sourceTree = "<group>"; };
-		E83C7D4684E4BF00BFFD6FBC29AA425C /* LKOnboardingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKOnboardingViewController.m; path = LaunchKit/Classes/UI/Onboarding/LKOnboardingViewController.m; sourceTree = "<group>"; };
-		ECE8C85F69E0584813D9F6BA5330FCF6 /* LaunchKitShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LaunchKitShared.h; path = LaunchKit/Classes/LaunchKitShared.h; sourceTree = "<group>"; };
-		EDBE48B04501D58E0A478F6D2662B3CA /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		F0F48A37229868E560767854CAF7CD67 /* LaunchKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaunchKit-umbrella.h"; sourceTree = "<group>"; };
-		F1D1F9DB5C487F6F602E9B4831FF7862 /* LKButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKButton.h; path = LaunchKit/Classes/UI/Components/LKButton.h; sourceTree = "<group>"; };
-		F3F0745C3CD164132B6937E8B4D2D624 /* LKPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPageControl.h; path = LaunchKit/Classes/UI/Components/LKPageControl.h; sourceTree = "<group>"; };
-		F6F737872A9D7E6488CA48BE64605E44 /* LKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKViewController.h; path = LaunchKit/Classes/UI/Components/LKViewController.h; sourceTree = "<group>"; };
-		FA4AEDA3A3A5BC2A2DFEBECB57523111 /* LKFadeCustomSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKFadeCustomSegue.m; path = LaunchKit/Classes/UI/Components/LKFadeCustomSegue.m; sourceTree = "<group>"; };
-		FD4C8676AF2AC864F2683D4968DABB8D /* LKPopCustomSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPopCustomSegue.h; path = LaunchKit/Classes/UI/Components/LKPopCustomSegue.h; sourceTree = "<group>"; };
+		DDBD3D28E62FF370CB0F59184B422F36 /* LKOnboardingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKOnboardingViewController.h; path = LaunchKit/Classes/UI/Onboarding/LKOnboardingViewController.h; sourceTree = "<group>"; };
+		DE1D08D38A2D3AA57C41F1521E7CEAC5 /* NSDictionary+LKFormEncoded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LKFormEncoded.m"; path = "LaunchKit/Classes/NSDictionary+LKFormEncoded.m"; sourceTree = "<group>"; };
+		E44C67F5FAD2B663DCE9DFC8AE6BEC3A /* LKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKViewController.m; path = LaunchKit/Classes/UI/Components/LKViewController.m; sourceTree = "<group>"; };
+		E4ABB9A5A24D7C642D3E9F3FA8DB7E4B /* LKPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKPageControl.h; path = LaunchKit/Classes/UI/Components/LKPageControl.h; sourceTree = "<group>"; };
+		E785F6CA4BE162D1CC6F9F5F89D88886 /* LKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKViewController.h; path = LaunchKit/Classes/UI/Components/LKViewController.h; sourceTree = "<group>"; };
+		EF87AEF141500660025D1DB8FF14E2B8 /* LKSimpleStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKSimpleStackView.h; path = LaunchKit/Classes/UI/Components/LKSimpleStackView.h; sourceTree = "<group>"; };
+		F8E9DF4ECE8B0CDA58E820B8E366AE73 /* lk_ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lk_ioapi.c; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_ioapi.c; sourceTree = "<group>"; };
+		FACDC7F64C1362D77C7676D9C189BFA0 /* LKGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKGradientView.m; path = LaunchKit/Classes/UI/Components/LKGradientView.m; sourceTree = "<group>"; };
+		FBAF81843A5CB1AE099378DEE0A4BB90 /* lk_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lk_crypt.h; path = LaunchKit/Classes/ThirdParty/ZipArchive/minizip/lk_crypt.h; sourceTree = "<group>"; };
+		FFCD2D66D6BC9C7D81669B6483526396 /* LKAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKAnalytics.m; path = LaunchKit/Classes/Analytics/LKAnalytics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,79 +235,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		043408F65BACA79AB255DA250A50E97B /* LaunchKit */ = {
+		03355BDC880DBD4B101F247C4E15F5B0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A3F914F0AA86BB08D1FBE6DF1AB22BE /* LaunchKit.h */,
-				C2AD444656FA65C2E276DA366E6B1F06 /* LaunchKit.m */,
-				ECE8C85F69E0584813D9F6BA5330FCF6 /* LaunchKitShared.h */,
-				788070061622216916CE7CAC84634C1E /* lk_crypt.h */,
-				DA63B0EF49AE0B0AFF410F22A63DBEFD /* lk_ioapi.c */,
-				D205756F65297AD07C42D5574CD135D6 /* lk_ioapi.h */,
-				8387CAE14534DEB3120033B29BE27CE6 /* lk_mztools.c */,
-				BA26544B195839FAB868014F2497D2E1 /* lk_mztools.h */,
-				557F9394F5BC44B5B1EAA3A2624154B0 /* LK_SSZipArchive.h */,
-				775E50E3BB6B4E68C8E4923D7A29931E /* LK_SSZipArchive.m */,
-				A92CD29BBB5C078F1911635E0E2FC996 /* lk_unzip.c */,
-				C2C647FA373EB35E0FCE1D644D790DAB /* lk_unzip.h */,
-				66716D312E9B8E6038AB2009211C00E3 /* lk_zip.c */,
-				AC8846F055B4931A09CCAC834A9E0751 /* lk_zip.h */,
-				13547055EE42C451F7D7FF56E1AC8644 /* LKAnalytics.h */,
-				28FF9FEF5E16BCC8814443AAE5836522 /* LKAnalytics.m */,
-				C71886D106FE36B6D359D1702D35D4FF /* LKAPIClient.h */,
-				3EA3EB5A1094799FDECD882C835D55FB /* LKAPIClient.m */,
-				086186466D95B6C5F0FE80052EFA2B86 /* LKAppUser.h */,
-				A23AC7032E0F76415A4622C433B88A72 /* LKAppUser.m */,
-				545C106B7BB36243B868E6254FB5F8B2 /* LKBundleInfo.h */,
-				157DAB147A8B5E246A515AAC83F1F72E /* LKBundleInfo.m */,
-				D082A6EF3F091CAB45C1406B095CEFFC /* LKBundlesManager.h */,
-				A88D3D39C481B5321FEADF9A917915CA /* LKBundlesManager.m */,
-				F1D1F9DB5C487F6F602E9B4831FF7862 /* LKButton.h */,
-				97046F9FAB3CC4C148DA4AFA9F1D7487 /* LKButton.m */,
-				38CB77DC8362049652EC6CE7C0BB6FFC /* LKCardPresentationController.h */,
-				968A74DB2A1B2FFBAC16893079BC503D /* LKCardPresentationController.m */,
-				D2C0C039FC0C45B7CBD4C4A61C927723 /* LKConfig.h */,
-				D061CFB22AB3C7CE08E80E7F0DB6AD45 /* LKConfig.m */,
-				CD6AD48E990F1B5B7847416B6AD94235 /* LKFadeCustomSegue.h */,
-				FA4AEDA3A3A5BC2A2DFEBECB57523111 /* LKFadeCustomSegue.m */,
-				E2A56FB1E28C55861BA51B3E519FD80E /* LKGradientView.h */,
-				CC0E342230D03A470D9A5652E3DB8945 /* LKGradientView.m */,
-				1E5C604B69D26AAA6ACF7D5A91D1246B /* LKImageView.h */,
-				A7E7CC7362A035E445C4A2C329186353 /* LKImageView.m */,
-				C62C93A1281A48AA05EF12E0E6FE6566 /* LKLabel.h */,
-				85A00E66AA61204CA6CFD1C48B52FE87 /* LKLabel.m */,
-				A034085246CD3E3A6C7369E6CF1F5203 /* LKLog.h */,
-				50DDD843E60E6D0BEFE56FFBB6FA177F /* LKLog.m */,
-				9DDE5AAD81DD16D7CFBBB86F9CD27D81 /* LKNavigationController.h */,
-				C548518F7188A19566D08DFFB2374173 /* LKNavigationController.m */,
-				0E23AD6350F55D137E1B61A6E0664843 /* LKOnboardingViewController.h */,
-				E83C7D4684E4BF00BFFD6FBC29AA425C /* LKOnboardingViewController.m */,
-				F3F0745C3CD164132B6937E8B4D2D624 /* LKPageControl.h */,
-				BA438EACA50E95BCC57B3BBDE3B66BF5 /* LKPageControl.m */,
-				2D99980BE72BE61E9DFF0FA3A1A7E64E /* LKPagedUIViewController.h */,
-				836450C912EB3EF912BFFD41063C98EE /* LKPagedUIViewController.m */,
-				FD4C8676AF2AC864F2683D4968DABB8D /* LKPopCustomSegue.h */,
-				5252676E5AEF7421DFC3643037730D99 /* LKPopCustomSegue.m */,
-				E4E136F3D902B78C0D1C8E59A8E25A16 /* LKPushCustomSegue.h */,
-				1013F901F656ECD883A0AD5905D419E2 /* LKPushCustomSegue.m */,
-				0F5D95F17E6E19B0400F56C707DF209B /* LKSimpleStackView.h */,
-				DA8C67FD77B482D819D15FBB1037E186 /* LKSimpleStackView.m */,
-				7D0BF430E747804DB7FDC8DC8FEA0AF5 /* LKTrackOperation.h */,
-				B53D579E578D0A1F17F1B9DECFCD40DC /* LKTrackOperation.m */,
-				7B4B1F7FE2085EED136D6F3E20BCBB82 /* LKUIManager.h */,
-				1EC6CBB69FCF50E11B8611A832B2132C /* LKUIManager.m */,
-				866CA712370B7754F2BF20E284144DBE /* LKUtils.h */,
-				2073DDB2C63727131CB68618C814788C /* LKUtils.m */,
-				F6F737872A9D7E6488CA48BE64605E44 /* LKViewController.h */,
-				4C9AC13422800551A4EC36D9DF2B35E4 /* LKViewController.m */,
-				4E1611D7398B2EAF8986092CC8ACD5E5 /* NSDictionary+LKFormEncoded.h */,
-				2CBF434B1F2602CFCC2C715A394517BE /* NSDictionary+LKFormEncoded.m */,
-				5F6B61DCADB26244949DE3A5BFDD668D /* NSString+LKURLEncoded.h */,
-				DF71439AC068AAF8C2C96B43732B7D2B /* NSString+LKURLEncoded.m */,
-				C473430A1F86892C675693739948E40B /* UIView+LKAdditions.h */,
-				D832D6C3759508772E64C59C1CE52319 /* UIView+LKAdditions.m */,
+				B0004EF013AEC67D004F70CF0A064097 /* TwitterKitResources.bundle */,
 			);
-			name = LaunchKit;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		08C5331A259565A90947D27876EF1D8B /* Pods-DrinkPoint */ = {
@@ -343,33 +279,131 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		25EBBA7E9E72EE212190B7007E77FE8A /* Frameworks */ = {
+		118BEB14E168C7DC30668CF39FF39F8C /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				30F7162018548058B8560CDA8CDAFAB4 /* GameAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4A3EBF96478D76BDCF977BBD0A6BC88E /* Crashlytics */ = {
-			isa = PBXGroup;
-			children = (
-				EDBE48B04501D58E0A478F6D2662B3CA /* ANSCompatibility.h */,
-				355C727585E4FBDAA6CC578753C4BFE5 /* Answers.h */,
-				1860AA30507A82258FE59FC6B53FA59B /* CLSAttributes.h */,
-				C6CFFB4F8FF8A0FD227A27855BA8096B /* CLSLogging.h */,
-				A2649C3E8F4747E426ACFBE5832133C0 /* CLSReport.h */,
-				BD08BFFDE893F5DCB06E4EF79C56730F /* CLSStackFrame.h */,
-				8CD6C14A448D7ABA327DDF5536BCAC23 /* Crashlytics.h */,
-				B4FFD296BAA5EE4DA3EAFE9AE9CBA1D6 /* Frameworks */,
+				B9B437310212EED37582654CCC5623A4 /* ANSCompatibility.h */,
+				0EAF4015C96ACD3F181CA56EE486C104 /* Answers.h */,
+				72F01FC42CA7C4AFE5B1E13CC296C2D0 /* CLSAttributes.h */,
+				5F98A9A65C7A86FB9EA5B229BE76E08A /* CLSLogging.h */,
+				ACB264B5A71D9168BACDF59ECC1C7A28 /* CLSReport.h */,
+				13192EEB508055C354DBE1F1B700074D /* CLSStackFrame.h */,
+				24DE8F6EB8094DF2A650E5F1D6D4E6D4 /* Crashlytics.h */,
+				8B93F69D2250A3A2BED239D1F0B0A8C5 /* Frameworks */,
 			);
 			path = Crashlytics;
 			sourceTree = "<group>";
 		};
-		63565D0AAC94EBFA8A2DDE4C7357ABC1 /* Frameworks */ = {
+		192EEA951C83C8E5F227829B81F3A258 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD9322CDFA54FFC0554407FDE9CCE4B5 /* Fabric.framework */,
+				126DC9F1C4E35C4404FB45B38E7FE9D1 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BDF602A4EF000B51FF38CCEFECC0E23 /* LaunchKit */ = {
+			isa = PBXGroup;
+			children = (
+				93C848DE871B6A987BD8F7447D6482AA /* LaunchKit.h */,
+				BB2C2C43134ADC7E9D3507004301B238 /* LaunchKit.m */,
+				ACA22B3A94B5D96089340EF3A89F2A85 /* LaunchKitShared.h */,
+				FBAF81843A5CB1AE099378DEE0A4BB90 /* lk_crypt.h */,
+				F8E9DF4ECE8B0CDA58E820B8E366AE73 /* lk_ioapi.c */,
+				4713F0D4C44B7C93DB9194D9851AC5AA /* lk_ioapi.h */,
+				236579B0436A6527B65A9AE393BB22B7 /* lk_mztools.c */,
+				2AD9D8A066074784C69C7CA152FFDBC5 /* lk_mztools.h */,
+				1DB9681048D2B65EF236B9D3E57CCD24 /* LK_SSZipArchive.h */,
+				7EFA9D9476D4D81D11E92DA4DF87B059 /* LK_SSZipArchive.m */,
+				543CE0EAD0967BA9C6751FD6611490B4 /* lk_unzip.c */,
+				0F9D2DE7419BE6203942C52FFF22B12E /* lk_unzip.h */,
+				145F84046155F7BAB7E9D4CD54243566 /* lk_zip.c */,
+				5F4A1DC9AC3EE1DCE1DA503E39887878 /* lk_zip.h */,
+				18858DA5D5458F14D851541E4A3ECF04 /* LKAnalytics.h */,
+				FFCD2D66D6BC9C7D81669B6483526396 /* LKAnalytics.m */,
+				BDD9272C64F3117040459003449A693F /* LKAPIClient.h */,
+				AA7E9C2E317E1AD211F2374C34B8C6C1 /* LKAPIClient.m */,
+				A188FA7655BF6340661EAFFC3AB26CA7 /* LKAppUser.h */,
+				ADCA904FDA6663257924C44CB3E47DD9 /* LKAppUser.m */,
+				A709968AC9F32B8AE05BB1A1BDDFFFE6 /* LKBundleInfo.h */,
+				7FC56792F8CF74D509B7AED722950EA4 /* LKBundleInfo.m */,
+				2C2051B404B1F48B24883F491FB2C506 /* LKBundlesManager.h */,
+				7667C39B4D82AF50F4A2269B1184D061 /* LKBundlesManager.m */,
+				6FA3C865CEE45E3D123883E24D367089 /* LKButton.h */,
+				C43A012B840413C4EE03FB8C3D1D104E /* LKButton.m */,
+				28FCFCC9B3E6156B4DDDD5D268F95999 /* LKCardPresentationController.h */,
+				181811C8A19D8C60687E508BBFE2309F /* LKCardPresentationController.m */,
+				6EC19DE37E71636E36B00CFE5659606E /* LKConfig.h */,
+				76F9392991C0DBDFA74E916F8AC48EA9 /* LKConfig.m */,
+				8867F8788E40C918DE4740ACB62F5E08 /* LKFadeCustomSegue.h */,
+				0F078FC197BE1BC75B139400876A9B99 /* LKFadeCustomSegue.m */,
+				8F28B6A09E8E534DCDA9E560BC3DFF35 /* LKGradientView.h */,
+				FACDC7F64C1362D77C7676D9C189BFA0 /* LKGradientView.m */,
+				1AC6815903294212F00E4546DC7B7129 /* LKImageView.h */,
+				7FD8D8469BD89E5ACB1F87B756C805DE /* LKImageView.m */,
+				8E1912598DEB958116F7DA6E070722F4 /* LKLabel.h */,
+				48F1BD0EAC3899C9C82C0649B8873EC3 /* LKLabel.m */,
+				5EEC6389B452460FF13411EB5F1052DA /* LKLog.h */,
+				5025A52567BD08579CE47AAF052F130D /* LKLog.m */,
+				2A21BF8C2EC67BDF53273BC4CB97DC7D /* LKNavigationController.h */,
+				1798F4928F56FA1953F1FC02D3FFB5F9 /* LKNavigationController.m */,
+				DDBD3D28E62FF370CB0F59184B422F36 /* LKOnboardingViewController.h */,
+				DA3EF66F808D6E4D0D5E7F5ED95FDF4F /* LKOnboardingViewController.m */,
+				E4ABB9A5A24D7C642D3E9F3FA8DB7E4B /* LKPageControl.h */,
+				5D3A6D484B0AD6A4F8A4720F5BF34AC7 /* LKPageControl.m */,
+				006C1E598C8BCE52F98B0BBFA61E1E1C /* LKPagedUIViewController.h */,
+				8143490030070E232B30453C3446A68A /* LKPagedUIViewController.m */,
+				99AAF641C456D7FDDD7E6E2544885561 /* LKPopCustomSegue.h */,
+				CF02AC62698AD19EF4DA7D3C86DE12A3 /* LKPopCustomSegue.m */,
+				D3BC7AC1B56849EE83098E8A9C73F5FE /* LKPushCustomSegue.h */,
+				867330BEEAE0DB8C4C39541DFF492FF8 /* LKPushCustomSegue.m */,
+				EF87AEF141500660025D1DB8FF14E2B8 /* LKSimpleStackView.h */,
+				4C2FC724F2DF6763967E0DC169212829 /* LKSimpleStackView.m */,
+				4789DE4BA0FB2EB079210D82A55CE85C /* LKTrackOperation.h */,
+				452E957283B62863CF03FA530D6EAB57 /* LKTrackOperation.m */,
+				4A9AD5A5C247E5427114A8752A304681 /* LKUIManager.h */,
+				D3D8F9FC8107DED62D8B2211498BABC5 /* LKUIManager.m */,
+				44E518818B1F726E4BC31F3C869A6B4F /* LKUtils.h */,
+				653377D77BBEBB306AACB6ADB65C0567 /* LKUtils.m */,
+				E785F6CA4BE162D1CC6F9F5F89D88886 /* LKViewController.h */,
+				E44C67F5FAD2B663DCE9DFC8AE6BEC3A /* LKViewController.m */,
+				0ED4EF40F4FBB4827ED6E88E13EE21B4 /* NSDictionary+LKFormEncoded.h */,
+				DE1D08D38A2D3AA57C41F1521E7CEAC5 /* NSDictionary+LKFormEncoded.m */,
+				6FEDF8BD342D316F0D36E926B6C6A2A9 /* NSString+LKURLEncoded.h */,
+				C4FD2FD86E77D73652AEC174FE7EB644 /* NSString+LKURLEncoded.m */,
+				A786E3757FEE2CC62781831F2DFF3EA9 /* UIView+LKAdditions.h */,
+				9F44F88BB62173274D0532C80D1F42FF /* UIView+LKAdditions.m */,
+			);
+			name = LaunchKit;
+			sourceTree = "<group>";
+		};
+		4ED8FD12D8A834DFC289653816715282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E20BF0980A1D8F321B0A2C3190586 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631CF9564492D10030C66B0CBA495096 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B34743B480C749F4CAD28C3F284AC7A1 /* Info.plist */,
+				27EDB006AE6C7EDE13E8A3BCF2982A71 /* LaunchKit.modulemap */,
+				C7CEE815893CC8A1C127182D32E5F19E /* LaunchKit.xcconfig */,
+				07FD9063FC447FA6D43AC84AE5880DDB /* LaunchKit-dummy.m */,
+				B848EAAEB54E26AB76B4F7ADAD2ABC3B /* LaunchKit-prefix.pch */,
+				1F3DBAB57D27AE4EE749556A5C9B9C8F /* LaunchKit-umbrella.h */,
+				5D2C4D2287586A59E5A62A7C94560F25 /* ResourceBundle-LaunchKitResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LaunchKit";
+			sourceTree = "<group>";
+		};
+		65D24CDE4BB35218ED35FD772E2E9F24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C514177150BE25C1CF820CD80AE018 /* TwitterCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -379,47 +413,64 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A26F401D71506548F10087F88A2CEBE4 /* Pods */,
+				9C722008FD0F64727CA70EEB3074527A /* Pods */,
 				10D9E74CA0D1CDDDE30986C6D413793E /* Products */,
 				BBB8D92838D03FE7770CDBF82CA6068C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81390E035DF7752AE369542E7444480F /* GA-SDK-IOS */ = {
+		8B93F69D2250A3A2BED239D1F0B0A8C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25EBBA7E9E72EE212190B7007E77FE8A /* Frameworks */,
+				91D6B604EC8F6B1E995E2D861895F881 /* Crashlytics.framework */,
 			);
-			path = "GA-SDK-IOS";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A08B31BADB3901297B5BCA820F2F8D1A /* LaunchKit */ = {
+		9C722008FD0F64727CA70EEB3074527A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				043408F65BACA79AB255DA250A50E97B /* LaunchKit */,
-				D1FB660364E370B18B3BD970B9E3AC34 /* Support Files */,
-			);
-			path = LaunchKit;
-			sourceTree = "<group>";
-		};
-		A26F401D71506548F10087F88A2CEBE4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A3EBF96478D76BDCF977BBD0A6BC88E /* Crashlytics */,
-				EB5426AB2CC21A6B79413987A07FB032 /* Fabric */,
-				81390E035DF7752AE369542E7444480F /* GA-SDK-IOS */,
-				A08B31BADB3901297B5BCA820F2F8D1A /* LaunchKit */,
-				F663DF73E9CEF3315B9B9A78731C04A6 /* Mapbox-iOS-SDK */,
+				118BEB14E168C7DC30668CF39FF39F8C /* Crashlytics */,
+				B1A1AD5B814B2F075119886C558633F6 /* Fabric */,
+				FBA6B53CCA334186A109FABB6E93F1F4 /* GA-SDK-IOS */,
+				DB11D540C4FCB7AA9A469E2C67A23604 /* LaunchKit */,
+				A6A3DC1A983BE607BB64BB247A21A2C2 /* Mapbox-iOS-SDK */,
+				AF3497DC783C3230364B9CA245C2AAC8 /* TwitterCore */,
+				CD7034E773E08B4B4BE876FD64F9E6A0 /* TwitterKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B4FFD296BAA5EE4DA3EAFE9AE9CBA1D6 /* Frameworks */ = {
+		A6A3DC1A983BE607BB64BB247A21A2C2 /* Mapbox-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				9C15A2189674A6EC09B4190B6FD340F5 /* Crashlytics.framework */,
+				ABFC625D32EA4136DD1D02B19520A707 /* Frameworks */,
+			);
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		ABFC625D32EA4136DD1D02B19520A707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5FFE11C0049843E024F8FCED3F9772 /* Mapbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3497DC783C3230364B9CA245C2AAC8 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				65D24CDE4BB35218ED35FD772E2E9F24 /* Frameworks */,
+			);
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		B1A1AD5B814B2F075119886C558633F6 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				192EEA951C83C8E5F227829B81F3A258 /* Frameworks */,
+			);
+			path = Fabric;
 			sourceTree = "<group>";
 		};
 		BBB8D92838D03FE7770CDBF82CA6068C /* Targets Support Files */ = {
@@ -438,43 +489,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1FB660364E370B18B3BD970B9E3AC34 /* Support Files */ = {
+		CD7034E773E08B4B4BE876FD64F9E6A0 /* TwitterKit */ = {
 			isa = PBXGroup;
 			children = (
-				3E71CCB0EA08F657383E3A437AAC954A /* Info.plist */,
-				C32C5FA75C8535B10291F6AF53EBE050 /* LaunchKit.modulemap */,
-				5193386BB1566C48B9F5DEF985D11FA2 /* LaunchKit.xcconfig */,
-				B0D3E934FD4FC6DFD108669DA18A6C4D /* LaunchKit-dummy.m */,
-				D7E48B929987F9BBBF386BD3DB8D900A /* LaunchKit-prefix.pch */,
-				F0F48A37229868E560767854CAF7CD67 /* LaunchKit-umbrella.h */,
-				596E83D68C93E4CE1F89AB9567176665 /* ResourceBundle-LaunchKitResources-Info.plist */,
+				4ED8FD12D8A834DFC289653816715282 /* Frameworks */,
+				03355BDC880DBD4B101F247C4E15F5B0 /* Resources */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LaunchKit";
+			path = TwitterKit;
 			sourceTree = "<group>";
 		};
-		D422E3423E3C7442038C49488CA94337 /* Frameworks */ = {
+		D96072E45575E71B4B0C1D67EB289B97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D13550DF06C2E81DC9B60B0AEBCFE4B9 /* Mapbox.framework */,
+				CD3B97766D86737AC94B0354887543AE /* GameAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB5426AB2CC21A6B79413987A07FB032 /* Fabric */ = {
+		DB11D540C4FCB7AA9A469E2C67A23604 /* LaunchKit */ = {
 			isa = PBXGroup;
 			children = (
-				63565D0AAC94EBFA8A2DDE4C7357ABC1 /* Frameworks */,
+				2BDF602A4EF000B51FF38CCEFECC0E23 /* LaunchKit */,
+				631CF9564492D10030C66B0CBA495096 /* Support Files */,
 			);
-			path = Fabric;
+			path = LaunchKit;
 			sourceTree = "<group>";
 		};
-		F663DF73E9CEF3315B9B9A78731C04A6 /* Mapbox-iOS-SDK */ = {
+		FBA6B53CCA334186A109FABB6E93F1F4 /* GA-SDK-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				D422E3423E3C7442038C49488CA94337 /* Frameworks */,
+				D96072E45575E71B4B0C1D67EB289B97 /* Frameworks */,
 			);
-			path = "Mapbox-iOS-SDK";
+			path = "GA-SDK-IOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -785,7 +831,7 @@
 		};
 		48A5D6222541255C79A3521AE1906F8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5193386BB1566C48B9F5DEF985D11FA2 /* LaunchKit.xcconfig */;
+			baseConfigurationReference = C7CEE815893CC8A1C127182D32E5F19E /* LaunchKit.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -834,7 +880,7 @@
 		};
 		AABFF85889EF4EF5062CE5EB39220947 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5193386BB1566C48B9F5DEF985D11FA2 /* LaunchKit.xcconfig */;
+			baseConfigurationReference = C7CEE815893CC8A1C127182D32E5F19E /* LaunchKit.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -850,7 +896,7 @@
 		};
 		B97B6FE1F21446800ED385CD75055EF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5193386BB1566C48B9F5DEF985D11FA2 /* LaunchKit.xcconfig */;
+			baseConfigurationReference = C7CEE815893CC8A1C127182D32E5F19E /* LaunchKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -916,7 +962,7 @@
 		};
 		F2EAC8DFA237DD28FBAEE6A7730B9807 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5193386BB1566C48B9F5DEF985D11FA2 /* LaunchKit.xcconfig */;
+			baseConfigurationReference = C7CEE815893CC8A1C127182D32E5F19E /* LaunchKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

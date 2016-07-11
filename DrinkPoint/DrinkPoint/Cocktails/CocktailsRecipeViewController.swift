@@ -40,7 +40,7 @@ class RecipeViewController: UIViewController, UITableViewDataSource, UITableView
         let ingredientObj = Ingredient(name: ingredientName!)
         if IngredientController.sharedController.myPantry.contains(ingredientObj) {
             cell.textLabel?.text = "✔︎ \(ingredientAmt!)\(ingredientName!)"
-            cell.textLabel?.textColor = .lightColor()
+            cell.textLabel?.textColor = .whiteColor()
         } else {
             cell.textLabel?.text = "✘ \(ingredientAmt!)\(ingredientName!)"
             cell.textLabel?.textColor = .lightGrayColor()

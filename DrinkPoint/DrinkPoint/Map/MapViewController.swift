@@ -59,6 +59,7 @@ class MapViewController: UIViewController {
 }
 
 extension MapViewController: CLLocationManagerDelegate {
+
     func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         if status == .AuthorizedWhenInUse {
             locationManager.requestLocation()
@@ -79,6 +80,7 @@ extension MapViewController: CLLocationManagerDelegate {
 }
 
 extension MapViewController: HandleMapSearch {
+
     func dropPinZoomIn(placemark:MKPlacemark){
         // Cache pin
         selectedPin = placemark
@@ -99,6 +101,7 @@ extension MapViewController: HandleMapSearch {
 }
 
 extension MapViewController: MKMapViewDelegate {
+
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView?{
         if annotation is MKUserLocation {
             return nil

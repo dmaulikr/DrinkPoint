@@ -10,7 +10,7 @@ import UIKit
 
 class BartenderViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var recipeDataSource: [Recipe] = []
+    var recipeArray: [Recipe] = []
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     
@@ -22,40 +22,28 @@ class BartenderViewController: UIViewController, UITableViewDataSource, UITableV
         super.viewDidLoad()
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        populateDataSource()
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
-    
-    
-    func populateDataSource() {
-        var newRecipes = RecipeController.sharedInstance.possibleRecipes
-        newRecipes.sortInPlace({($0.totalIngredients! - $0.userIngredients!) < ($1.totalIngredients! - $1.userIngredients!)})
-        recipeDataSource = newRecipes
-    }
-    
-    //    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-    //        return 1
-    //    }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Cocktails"
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recipeDataSource.count
+        return recipeArray.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("recipeCell", forIndexPath: indexPath)
-        let recipe = recipeDataSource[indexPath.row]
+        let recipe = recipeArray[indexPath.row]
         cell.textLabel?.text = recipe.name
-        cell.textLabel?.textColor = .blackColor()
+        cell.textLabel?.textColor = UIColor.blackColor()
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let recipe = recipeDataSource[indexPath.row]
+        let recipe = recipeArray[indexPath.row]
         self.performSegueWithIdentifier("toDetails", sender: recipe)
     }
     

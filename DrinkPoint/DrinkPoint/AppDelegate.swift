@@ -9,6 +9,7 @@
 import UIKit
 import Fabric
 import Crashlytics
+import TwitterKit
 import GameAnalytics
 import Mapbox
 import LaunchKit
@@ -35,31 +36,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().translucent = true
         UITabBar.appearance().barTintColor = UIColor.blackColor()
         UITabBar.appearance().tintColor = UIColor.whiteColor()
-        
+                
         Fabric.sharedSDK().debug = true
-
-        Fabric.with([Crashlytics.self, GameAnalytics.self, MGLAccountManager.self])
-        // TODO: Move this to where you establish a user session
+        Fabric.with([Crashlytics.self, GameAnalytics.self, MGLAccountManager.self, Twitter.self])
         self.logUser()
 
-        // Enable log to output simple details (disable in production)
         GameAnalytics.setEnabledInfoLog(true)
-        // Enable log to output full event JSON (disable in production)
         GameAnalytics.setEnabledVerboseLog(true)
-
-        // Example: configure available virtual currencies and item types for later use in resource events
-        // GameAnalytics.configureAv$ailableResourceCurrencies(["gems", "gold"])
-        // GameAnalytics.configureAvailableResourceItemTypes(["boost", "lives"])
-
-        // Example: configure available custom dimensions for later use when specifying these
-        // GameAnalytics.configureAvailableCustomDimensions01(["ninja", "samurai"])
-        // GameAnalytics.configureAvailableCustomDimensions02(["whale", "dolphin"])
-        // GameAnalytics.configureAvailableCustomDimensions03(["horde", "alliance"])
-
         GameAnalytics.configureBuild("1.0.0")
         GameAnalytics.initializeWithConfiguredGameKeyAndGameSecret()
 
-        // Initialize LaunchKit
         LaunchKit.launchWithToken("5BVpp5-2e7tKRD1ldaPRZK6gpJcWYaW_oWEEwvcJOqRL")
         LaunchKit.sharedInstance().debugMode = true
         LaunchKit.sharedInstance().verboseLogging = true
@@ -85,10 +71,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
+    
     func logUser() {
-        // TODO: Use the current user's information
-        // You can call any combination of these three methods
         Crashlytics.sharedInstance().setUserEmail("user@fabric.io")
         Crashlytics.sharedInstance().setUserIdentifier("12345")
         Crashlytics.sharedInstance().setUserName("Test User")
@@ -112,7 +96,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(application: UIApplication) {
-//        let loginManager: FBSDKLoginManager = FBSDKLoginManager()
-//        loginManager.logOut()        
     }
 }

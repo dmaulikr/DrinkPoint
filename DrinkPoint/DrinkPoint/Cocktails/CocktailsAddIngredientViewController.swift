@@ -44,8 +44,8 @@ class AddIngredientViewController: UIViewController, UITableViewDataSource, UITa
         } else {
             cell.checkLabel?.text = "☐"
         }
-        cell.nameLabel?.textColor = .lightColor()
-        cell.checkLabel?.textColor = .lightColor()
+        cell.nameLabel?.textColor = .whiteColor()
+        cell.checkLabel?.textColor = .whiteColor()
         cell.setCell(ingredientDataSource[indexPath.row])
         return cell
     }
