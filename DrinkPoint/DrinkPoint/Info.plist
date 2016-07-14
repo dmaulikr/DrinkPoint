@@ -39,7 +39,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>12</string>
+	<string>13</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -157,7 +157,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Your location will be shown on the map and your map usage will anonymously improve the map.</string>
+	<string>DrinkPoint will show your location on the map and your usage will anonymously improve the map.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>DrinkPoint needs your location to work properly</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

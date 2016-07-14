@@ -20,6 +20,7 @@ class BartenderViewController: UIViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

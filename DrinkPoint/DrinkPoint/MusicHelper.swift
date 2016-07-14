@@ -10,14 +10,15 @@ import AVFoundation
 
 class MusicHelper {
     static let sharedHelper = MusicHelper()
+
     var audioPlayer: AVAudioPlayer?
     
     func playBackgroundMusic() {
-        let aSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("JazzyFrenchy", ofType: "mp3")!)
+        let backgroundMusic = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("JazzyFrenchy", ofType: "mp3")!)
         do {
-            audioPlayer = try AVAudioPlayer(contentsOfURL:aSound)
+            audioPlayer = try AVAudioPlayer(contentsOfURL:backgroundMusic)
             audioPlayer?.volume = 0.5
-            audioPlayer!.numberOfLoops = -1
+            audioPlayer!.numberOfLoops = 0
             audioPlayer!.prepareToPlay()
             audioPlayer!.play()
         } catch {

@@ -22,6 +22,7 @@ import FBSDKShareKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var audioPlayer: AVAudioPlayer? = nil
 
     func prefersStatusBarHidden() -> Bool {
         return true
@@ -36,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().translucent = true
         UITabBar.appearance().barTintColor = UIColor.blackColor()
         UITabBar.appearance().tintColor = UIColor.whiteColor()
-                
+        
         Fabric.sharedSDK().debug = true
         Fabric.with([Crashlytics.self, GameAnalytics.self, MGLAccountManager.self, Twitter.self])
         self.logUser()

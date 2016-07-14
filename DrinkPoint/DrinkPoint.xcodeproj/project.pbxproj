@@ -14,6 +14,7 @@
 		971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C21D0AFBB900B59E48 /* StoreKit.framework */; };
 		971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C41D0AFBC000B59E48 /* MapKit.framework */; };
 		971825CA1D0AFC0300B59E48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C91D0AFC0300B59E48 /* GameKit.framework */; };
+		972050511D3712E800FB1FF0 /* martiniShaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 972050501D3712E800FB1FF0 /* martiniShaker.wav */; };
 		9721478D1D3052EA000CF527 /* GogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721478C1D3052EA000CF527 /* GogglesViewController.swift */; };
 		9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724ABC31D2419B100DC84BA /* MusicHelper.swift */; };
 		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
@@ -136,9 +137,18 @@
 		9753FF511D2C450800ABFF35 /* CocktailsRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF411D2C450800ABFF35 /* CocktailsRecipeViewController.swift */; };
 		9753FF521D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF421D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift */; };
 		9753FF531D2C450800ABFF35 /* CocktailsSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753FF431D2C450800ABFF35 /* CocktailsSettingsController.swift */; };
-		975530B11D286A15005E66F1 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B01D286A15005E66F1 /* TriviaViewController.swift */; };
-		975530B51D286C0F005E66F1 /* TriviaFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B41D286C0F005E66F1 /* TriviaFact.swift */; };
+		975530B11D286A15005E66F1 /* TriviaNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B01D286A15005E66F1 /* TriviaNumbersViewController.swift */; };
+		975530B51D286C0F005E66F1 /* TriviaNumbersFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B41D286C0F005E66F1 /* TriviaNumbersFact.swift */; };
 		975530B71D286D9A005E66F1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975530B61D286D9A005E66F1 /* Social.framework */; };
+		97574BB41D36B1B000FCF02D /* false.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAC1D36B1B000FCF02D /* false.png */; };
+		97574BB51D36B1B000FCF02D /* TriviaClass1.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAD1D36B1B000FCF02D /* TriviaClass1.png */; };
+		97574BB61D36B1B000FCF02D /* TriviaClass2.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAE1D36B1B000FCF02D /* TriviaClass2.png */; };
+		97574BB71D36B1B000FCF02D /* TriviaClass3.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAF1D36B1B000FCF02D /* TriviaClass3.png */; };
+		97574BB81D36B1B000FCF02D /* TriviaClass4.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BB01D36B1B000FCF02D /* TriviaClass4.png */; };
+		97574BB91D36B1B000FCF02D /* true.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BB11D36B1B000FCF02D /* true.png */; };
+		97574BBA1D36B1B000FCF02D /* TriviaResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574BB21D36B1B000FCF02D /* TriviaResultsViewController.swift */; };
+		97574BBB1D36B1B000FCF02D /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574BB31D36B1B000FCF02D /* TriviaViewController.swift */; };
+		97574BBD1D36F22800FCF02D /* TriviaReplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BBC1D36F22800FCF02D /* TriviaReplayButton.png */; };
 		975C4E321D0EF8B600433505 /* PlinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E311D0EF8B600433505 /* PlinkViewController.swift */; };
 		975C4E341D0EF8F400433505 /* PlinkGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E331D0EF8F400433505 /* PlinkGameScene.swift */; };
 		975C4E361D0EF92A00433505 /* PlinkGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C4E351D0EF92A00433505 /* PlinkGameOverScene.swift */; };
@@ -181,7 +191,8 @@
 		971825C21D0AFBB900B59E48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		971825C41D0AFBC000B59E48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		971825C91D0AFC0300B59E48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		9721478C1D3052EA000CF527 /* GogglesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GogglesViewController.swift; path = Games/Googles/GogglesViewController.swift; sourceTree = "<group>"; };
+		972050501D3712E800FB1FF0 /* martiniShaker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = martiniShaker.wav; path = Cocktails/Sounds/martiniShaker.wav; sourceTree = "<group>"; };
+		9721478C1D3052EA000CF527 /* GogglesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GogglesViewController.swift; path = Games/Goggles/GogglesViewController.swift; sourceTree = "<group>"; };
 		9724ABC31D2419B100DC84BA /* MusicHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97324B571D0A40F3006B58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -305,9 +316,18 @@
 		9753FF411D2C450800ABFF35 /* CocktailsRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsRecipeViewController.swift; path = Cocktails/CocktailsRecipeViewController.swift; sourceTree = "<group>"; };
 		9753FF421D2C450800ABFF35 /* CocktailsHomeCocktailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsHomeCocktailsViewController.swift; path = Cocktails/CocktailsHomeCocktailsViewController.swift; sourceTree = "<group>"; };
 		9753FF431D2C450800ABFF35 /* CocktailsSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsSettingsController.swift; path = Cocktails/CocktailsSettingsController.swift; sourceTree = "<group>"; };
-		975530B01D286A15005E66F1 /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaViewController.swift; path = Games/Trivia/TriviaViewController.swift; sourceTree = "<group>"; };
-		975530B41D286C0F005E66F1 /* TriviaFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaFact.swift; path = Games/Trivia/TriviaFact.swift; sourceTree = "<group>"; };
+		975530B01D286A15005E66F1 /* TriviaNumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaNumbersViewController.swift; path = Games/Trivia/TriviaNumbersViewController.swift; sourceTree = "<group>"; };
+		975530B41D286C0F005E66F1 /* TriviaNumbersFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaNumbersFact.swift; path = Games/Trivia/TriviaNumbersFact.swift; sourceTree = "<group>"; };
 		975530B61D286D9A005E66F1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		97574BAC1D36B1B000FCF02D /* false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = false.png; path = Games/Trivia/Images/false.png; sourceTree = "<group>"; };
+		97574BAD1D36B1B000FCF02D /* TriviaClass1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass1.png; path = Games/Trivia/Images/TriviaClass1.png; sourceTree = "<group>"; };
+		97574BAE1D36B1B000FCF02D /* TriviaClass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass2.png; path = Games/Trivia/Images/TriviaClass2.png; sourceTree = "<group>"; };
+		97574BAF1D36B1B000FCF02D /* TriviaClass3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass3.png; path = Games/Trivia/Images/TriviaClass3.png; sourceTree = "<group>"; };
+		97574BB01D36B1B000FCF02D /* TriviaClass4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass4.png; path = Games/Trivia/Images/TriviaClass4.png; sourceTree = "<group>"; };
+		97574BB11D36B1B000FCF02D /* true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = true.png; path = Games/Trivia/Images/true.png; sourceTree = "<group>"; };
+		97574BB21D36B1B000FCF02D /* TriviaResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaResultsViewController.swift; path = Games/Trivia/TriviaResultsViewController.swift; sourceTree = "<group>"; };
+		97574BB31D36B1B000FCF02D /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaViewController.swift; path = Games/Trivia/TriviaViewController.swift; sourceTree = "<group>"; };
+		97574BBC1D36F22800FCF02D /* TriviaReplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaReplayButton.png; path = Games/Trivia/Images/TriviaReplayButton.png; sourceTree = "<group>"; };
 		975C4E311D0EF8B600433505 /* PlinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkViewController.swift; path = Games/Plink/PlinkViewController.swift; sourceTree = "<group>"; };
 		975C4E331D0EF8F400433505 /* PlinkGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkGameScene.swift; path = Games/Plink/PlinkGameScene.swift; sourceTree = "<group>"; };
 		975C4E351D0EF92A00433505 /* PlinkGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkGameOverScene.swift; path = Games/Plink/PlinkGameOverScene.swift; sourceTree = "<group>"; };
@@ -572,6 +592,7 @@
 				9753FF3D1D2C450800ABFF35 /* CocktailsJSONController.swift */,
 				9753FF341D2C450800ABFF35 /* ingredients.json */,
 				9753FF351D2C450800ABFF35 /* recipes.json */,
+				97574BBE1D37103C00FCF02D /* Sounds */,
 			);
 			name = Cocktails;
 			sourceTree = "<group>";
@@ -592,10 +613,35 @@
 		975530AF1D2869E7005E66F1 /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
-				975530B01D286A15005E66F1 /* TriviaViewController.swift */,
-				975530B41D286C0F005E66F1 /* TriviaFact.swift */,
+				97574BB31D36B1B000FCF02D /* TriviaViewController.swift */,
+				97574BB21D36B1B000FCF02D /* TriviaResultsViewController.swift */,
+				975530B01D286A15005E66F1 /* TriviaNumbersViewController.swift */,
+				975530B41D286C0F005E66F1 /* TriviaNumbersFact.swift */,
+				97574BAB1D36B18000FCF02D /* Images */,
 			);
 			name = Trivia;
+			sourceTree = "<group>";
+		};
+		97574BAB1D36B18000FCF02D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				97574BBC1D36F22800FCF02D /* TriviaReplayButton.png */,
+				97574BB11D36B1B000FCF02D /* true.png */,
+				97574BAC1D36B1B000FCF02D /* false.png */,
+				97574BAD1D36B1B000FCF02D /* TriviaClass1.png */,
+				97574BAE1D36B1B000FCF02D /* TriviaClass2.png */,
+				97574BAF1D36B1B000FCF02D /* TriviaClass3.png */,
+				97574BB01D36B1B000FCF02D /* TriviaClass4.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		97574BBE1D37103C00FCF02D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				972050501D3712E800FB1FF0 /* martiniShaker.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 		975C4E371D0EF94900433505 /* Plink */ = {
@@ -760,6 +806,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97574BB61D36B1B000FCF02D /* TriviaClass2.png in Resources */,
 				975C4E591D0EFA2800433505 /* GlassC_00@2x.png in Resources */,
 				973E7B251D1ECE4200393B19 /* Drip.wav in Resources */,
 				973E7B191D1ECE2D00393B19 /* Level_2.json in Resources */,
@@ -778,6 +825,7 @@
 				973E7AA01D1ECDE500393B19 /* Tile_2.png in Resources */,
 				973E7B001D1ECE1500393B19 /* Martini.png in Resources */,
 				973E7AB91D1ECDE500393B19 /* Tile_12@2x.png in Resources */,
+				97574BB81D36B1B000FCF02D /* TriviaClass4.png in Resources */,
 				973E7AA51D1ECDE500393B19 /* Tile_3@3x.png in Resources */,
 				973E7B291D1ECE4200393B19 /* Scrape.wav in Resources */,
 				973E7B0B1D1ECE1500393B19 /* Whiskey@3x.png in Resources */,
@@ -785,6 +833,7 @@
 				973E7AED1D1ECE1500393B19 /* Beer-Highlighted@3x.png in Resources */,
 				973E7B0C1D1ECE1500393B19 /* Wine-Highlighted.png in Resources */,
 				97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */,
+				972050511D3712E800FB1FF0 /* martiniShaker.wav in Resources */,
 				973E7AB61D1ECDE500393B19 /* Tile_11@2x.png in Resources */,
 				973E7AB41D1ECDE500393B19 /* Tile_10@3x.png in Resources */,
 				975C4E5A1D0EFA2800433505 /* GlassC_01.png in Resources */,
@@ -797,6 +846,7 @@
 				973E7A9D1D1ECDE500393B19 /* Tile_1.png in Resources */,
 				973E7AA41D1ECDE500393B19 /* Tile_3@2x.png in Resources */,
 				975C4E501D0EFA2800433505 /* GlassA_00.png in Resources */,
+				97574BB51D36B1B000FCF02D /* TriviaClass1.png in Resources */,
 				973E7ABF1D1ECDE500393B19 /* Tile_14@2x.png in Resources */,
 				975C4E5C1D0EFA2800433505 /* Finger.png in Resources */,
 				973E7AB31D1ECDE500393B19 /* Tile_10@2x.png in Resources */,
@@ -815,6 +865,7 @@
 				973E7AB11D1ECDE500393B19 /* Tile_8@3x.png in Resources */,
 				973E7AA61D1ECDE500393B19 /* Tile_4.png in Resources */,
 				975C4E3B1D0EF9FF00433505 /* GlassBullet.wav in Resources */,
+				97574BB41D36B1B000FCF02D /* false.png in Resources */,
 				973E7B0D1D1ECE1500393B19 /* Wine-Highlighted@2x.png in Resources */,
 				973E7AEC1D1ECE1500393B19 /* Beer-Highlighted@2x.png in Resources */,
 				973E7A9F1D1ECDE500393B19 /* Tile_1@3x.png in Resources */,
@@ -842,12 +893,14 @@
 				975C4E5B1D0EFA2800433505 /* GlassC_01@2x.png in Resources */,
 				973E7AB21D1ECDE500393B19 /* Tile_10.png in Resources */,
 				975C4E561D0EFA2800433505 /* GlassB_01.png in Resources */,
+				97574BB91D36B1B000FCF02D /* true.png in Resources */,
 				973E7AF41D1ECE1500393B19 /* BloodyMary.png in Resources */,
 				973E7AAA1D1ECDE500393B19 /* Tile_5@2x.png in Resources */,
 				973E7AEE1D1ECE1500393B19 /* Beer.png in Resources */,
 				973E7AA81D1ECDE500393B19 /* Tile_4@3x.png in Resources */,
 				973E7AF11D1ECE1500393B19 /* BloodyMary-Highlighted.png in Resources */,
 				973E7B071D1ECE1500393B19 /* Whiskey-Highlighted@2x.png in Resources */,
+				97574BBD1D36F22800FCF02D /* TriviaReplayButton.png in Resources */,
 				973E7AEF1D1ECE1500393B19 /* Beer@2x.png in Resources */,
 				973E7B241D1ECE4200393B19 /* Clink.wav in Resources */,
 				973E7B011D1ECE1500393B19 /* Martini@2x.png in Resources */,
@@ -871,6 +924,7 @@
 				975C4E411D0EFA0F00433505 /* FingerHit.wav in Resources */,
 				973E7AAF1D1ECDE500393B19 /* Tile_8.png in Resources */,
 				973E7AC11D1ECDE500393B19 /* Tile_15.png in Resources */,
+				97574BB71D36B1B000FCF02D /* TriviaClass3.png in Resources */,
 				973E7AFE1D1ECE1500393B19 /* Martini-Highlighted@2x.png in Resources */,
 				973E7AB51D1ECDE500393B19 /* Tile_11.png in Resources */,
 				973E7A9C1D1ECDE500393B19 /* MaskTile@3x.png in Resources */,
@@ -959,7 +1013,7 @@
 				9753FF4A1D2C450800ABFF35 /* CocktailsIngredient.swift in Sources */,
 				9753FF4C1D2C450800ABFF35 /* CocktailsIngredientTableViewCell.swift in Sources */,
 				9753FF511D2C450800ABFF35 /* CocktailsRecipeViewController.swift in Sources */,
-				975530B11D286A15005E66F1 /* TriviaViewController.swift in Sources */,
+				975530B11D286A15005E66F1 /* TriviaNumbersViewController.swift in Sources */,
 				9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */,
 				973E7A631D1ECBC100393B19 /* TripleChain.swift in Sources */,
 				9788F0F51D1F3F3E00CB5214 /* PlinkDefined.swift in Sources */,
@@ -967,6 +1021,7 @@
 				973E7A691D1ECBC100393B19 /* TripleTile.swift in Sources */,
 				970C8B381D26A11E0041405D /* MapViewController.swift in Sources */,
 				975C4E361D0EF92A00433505 /* PlinkGameOverScene.swift in Sources */,
+				97574BBB1D36B1B000FCF02D /* TriviaViewController.swift in Sources */,
 				975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */,
 				97AAA5491D3002EB00E5FA81 /* CocktailsBartenderViewController.swift in Sources */,
 				97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */,
@@ -975,13 +1030,14 @@
 				9753FF531D2C450800ABFF35 /* CocktailsSettingsController.swift in Sources */,
 				9753FF4D1D2C450800ABFF35 /* CocktailsJSONController.swift in Sources */,
 				973E7A651D1ECBC100393B19 /* TripleExtensions.swift in Sources */,
-				975530B51D286C0F005E66F1 /* TriviaFact.swift in Sources */,
+				975530B51D286C0F005E66F1 /* TriviaNumbersFact.swift in Sources */,
 				970C8B3A1D26A6B40041405D /* MapboxViewController.swift in Sources */,
 				973E7A671D1ECBC100393B19 /* TripleLevel.swift in Sources */,
 				9753FF471D2C450800ABFF35 /* CocktailsAddIngredientViewController.swift in Sources */,
 				9753FF4E1D2C450800ABFF35 /* CocktailsPantryViewController.swift in Sources */,
 				973E7A6A1D1ECBC100393B19 /* TripleViewController.swift in Sources */,
 				975C4E341D0EF8F400433505 /* PlinkGameScene.swift in Sources */,
+				97574BBA1D36B1B000FCF02D /* TriviaResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

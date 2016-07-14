@@ -13,6 +13,7 @@ class PlinkViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
         let skView = self.view as! SKView
         let scene = PlinkScene(size: skView.frame.size)
         skView.showsFPS = false

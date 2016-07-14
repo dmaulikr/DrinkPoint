@@ -20,6 +20,7 @@ class RecipeViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()        
+        self.navigationController?.navigationBarHidden = false
         textView.text = myRecipe!.instructions
         self.navigationItem.title = myRecipe!.name
     }

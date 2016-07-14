@@ -22,6 +22,7 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()        
+        self.navigationController?.navigationBarHidden = false
         SettingsController.firstLaunch()
     }
     

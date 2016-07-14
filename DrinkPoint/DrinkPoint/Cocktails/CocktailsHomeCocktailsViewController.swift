@@ -7,16 +7,19 @@
 //
 
 import UIKit
+import AVFoundation
 
 class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var fromSingleIngredient: Ingredient?
     var recipeDataSource: [Recipe] = []
+    var singleGameSound: AVAudioPlayer!
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     @IBOutlet weak var randomButtonOutlet: UIButton!
     @IBAction func randomButtonTapped(sender: AnyObject) {
         if recipeDataSource.count > 0 {
+            self.playSingleGameSound("martiniShaker.wav")
             presentRandomAlert()
         }
     }
@@ -40,8 +43,25 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
         presentViewController(alert, animated: true, completion: nil)
     }
 
+    func playSingleGameSound(filename: String) {
+        let url = NSBundle.mainBundle().URLForResource(filename, withExtension: nil)
+        guard let singleGameSoundURL = url else {
+            print("Could not find file: \(filename)")
+            return
+        }
+        do {
+            singleGameSound = try AVAudioPlayer(contentsOfURL: singleGameSoundURL)
+            singleGameSound.prepareToPlay()
+            singleGameSound.play()
+            singleGameSound.volume = 1
+        } catch let error as NSError {
+            print(error.description)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
         self.canBecomeFirstResponder()
     }
     
@@ -136,6 +156,7 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
     override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if(event!.subtype == UIEventSubtype.MotionShake) {
             if recipeDataSource.count > 0 {
+                self.playSingleGameSound("martiniShaker.wav")
                 presentRandomAlert()
             }
         }

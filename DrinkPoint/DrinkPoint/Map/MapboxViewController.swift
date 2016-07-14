@@ -19,7 +19,7 @@ class MapboxViewController: UIViewController, MGLMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.navigationBarHidden = false        
         mapView = MGLMapView(frame: view.bounds)
         mapView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         mapView.delegate = self

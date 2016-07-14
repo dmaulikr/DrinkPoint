@@ -18,7 +18,7 @@ class TripleViewController: UIViewController {
     var movesLeft = 0
     var score = 0
     var tapGestureRecognizer: UITapGestureRecognizer!
-
+    
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var movesLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -44,6 +44,7 @@ class TripleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
         setupLevel(currentLevelNum)
         MusicHelper.sharedHelper.playBackgroundMusic()
     }

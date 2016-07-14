@@ -22,6 +22,7 @@ class AddIngredientViewController: UIViewController, UITableViewDataSource, UITa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
         let unsortedIngredients: [Ingredient] = JSONController.queryIngredients()
         let sorted: [Ingredient] = unsortedIngredients.sort({ $0.category > $1.category })
         self.allIngredients = sorted

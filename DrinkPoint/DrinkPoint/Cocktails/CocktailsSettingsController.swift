@@ -11,12 +11,9 @@ import UIKit
 class SettingsController {
     
     static func firstLaunch() {
-        if(NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce"))
-        {
+        if(NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce")) {
             IngredientController.sharedController.loadFromPersistentStorage()
-        }
-        else
-        {
+        } else {
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
             NSUserDefaults.standardUserDefaults().synchronize()
             let arrayOfIngredients = [

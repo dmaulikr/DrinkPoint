@@ -1,5 +1,5 @@
 //
-//  RootViewController.swift
+//  MainViewController.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 6/9/16.
@@ -15,7 +15,7 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import FBAudienceNetwork
 
-class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate, FBSDKLoginButtonDelegate {
+class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate, FBSDKLoginButtonDelegate {
     
     var drinkPointScore: Int64 = 0
         
@@ -34,6 +34,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     override func viewDidLoad() {
         super.viewDidLoad()
         //        configureCrashButton() // disable for release
+        self.navigationController?.navigationBarHidden = false
         configureTwitterLogin()
         configureFacebookAd()
         configureFacebookLogin()
@@ -56,7 +57,7 @@ class RootViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
 //        let button = UIButton(type: UIButtonType.RoundedRect)
 //        button.frame = CGRectMake(20, 50, 100, 30)
 //        button.setTitle("Crash", forState: UIControlState.Normal)
-//        button.addTarget(self, action: #selector(RootViewController.crashButtonTapped(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+//        button.addTarget(self, action: #selector(MainViewController.crashButtonTapped(_:)), forControlEvents: UIControlEvents.TouchUpInside)
 //        view.addSubview(button)
 //    }
     
