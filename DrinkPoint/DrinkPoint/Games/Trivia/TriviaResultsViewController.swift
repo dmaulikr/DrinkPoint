@@ -35,16 +35,16 @@ class TriviaResultsViewController: UIViewController {
         ResultLabel.text = String("\(triviaScore * 100)%")
         
         if triviaScore == 1 {
-            TextMessege.text = String("😀\nBecause you correctly answered every question, you’re a DrinkPoint Trivia Senior.")
+            TextMessege.text = String("Because you correctly answered every question, you’re a DrinkPoint Trivia Senior. Congrats!")
             ResultImage.image = ResultPic0
         } else if triviaScore >= 0.75 {
-            TextMessege.text = String("🙂\nWith \(correctAnswer) of \(questionNumber) correct answers, you’re a DrinkPoint Trivia Junior.")
+            TextMessege.text = String("With \(correctAnswer) of \(questionNumber) correct answers, you’re a DrinkPoint Trivia Junior.")
             ResultImage.image = ResultPic1
         } else if triviaScore >= 0.50 {
-            TextMessege.text = String("😐\nWith only \(correctAnswer) of \(questionNumber) correct answers, you’re a DrinkPoint Trivia Sophomore.")
+            TextMessege.text = String("With only \(correctAnswer) of \(questionNumber) correct answers, you’re a DrinkPoint Trivia Sophomore.")
             ResultImage.image = ResultPic2
         } else {
-            TextMessege.text = String("🙁\nWith only \(correctAnswer) of \(questionNumber) correct answers, you’re a DrinkPoint Trivia Freshman.")
+            TextMessege.text = String("With only \(correctAnswer) of \(questionNumber) correct answers, you’re a DrinkPoint Trivia Freshman.")
             ResultImage.image = ResultPic3
         }
     }

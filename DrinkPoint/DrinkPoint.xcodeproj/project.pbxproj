@@ -18,7 +18,7 @@
 		9721478D1D3052EA000CF527 /* GogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721478C1D3052EA000CF527 /* GogglesViewController.swift */; };
 		9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724ABC31D2419B100DC84BA /* MusicHelper.swift */; };
 		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
-		97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* RootViewController.swift */; };
+		97324B5A1D0A40F3006B58A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* MainViewController.swift */; };
 		97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5B1D0A40F3006B58A3 /* Main.storyboard */; };
 		97324B5F1D0A40F3006B58A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5E1D0A40F3006B58A3 /* Assets.xcassets */; };
 		97343C391D0B699C00043AE0 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97343C381D0B699C00043AE0 /* GamesViewController.swift */; };
@@ -196,7 +196,7 @@
 		9724ABC31D2419B100DC84BA /* MusicHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97324B571D0A40F3006B58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97324B591D0A40F3006B58A3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		97324B591D0A40F3006B58A3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		97324B5C1D0A40F3006B58A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97324B5E1D0A40F3006B58A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97324B631D0A40F3006B58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -414,7 +414,7 @@
 			children = (
 				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
 				97324B571D0A40F3006B58A3 /* AppDelegate.swift */,
-				97324B591D0A40F3006B58A3 /* RootViewController.swift */,
+				97324B591D0A40F3006B58A3 /* MainViewController.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
 				97E63B601D27687000A2BC33 /* Map */,
 				9753FF541D2C783500ABFF35 /* Games */,
@@ -1007,7 +1007,7 @@
 				9753FF4B1D2C450800ABFF35 /* CocktailsIngredientController.swift in Sources */,
 				9721478D1D3052EA000CF527 /* GogglesViewController.swift in Sources */,
 				973E7A621D1ECBC100393B19 /* TripleArray2D.swift in Sources */,
-				97324B5A1D0A40F3006B58A3 /* RootViewController.swift in Sources */,
+				97324B5A1D0A40F3006B58A3 /* MainViewController.swift in Sources */,
 				973E7A681D1ECBC100393B19 /* TripleSwap.swift in Sources */,
 				975C4E321D0EF8B600433505 /* PlinkViewController.swift in Sources */,
 				9753FF4A1D2C450800ABFF35 /* CocktailsIngredient.swift in Sources */,

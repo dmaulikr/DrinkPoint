@@ -33,7 +33,7 @@
  "name" : "Port"
       }
     ],
- "name" : "Tempter Cocktail"
+ "name" : "Tempter"
   },
   {
  "instructions" : "Pour the melon liqueur and the Curacao on two cubes of ice in a highball glass. Fill up with Sprite and pour the Grenadine in a way that will look like its shaping a stripe down the drink.",
@@ -81,7 +81,7 @@
  "name" : "Orange Peel"
       }
     ],
- "name" : "Turf Cocktail"
+ "name" : "Turf"
   },
   {
  "instructions" : "Fill glass with ice. Add with Tequila, Triple Sec, and Chambord. Then add the lime juice or sour mix. Shake. Garnish with a lime wedge and serve.",
@@ -534,7 +534,7 @@
         "name" : "Lemon Peel"
       }
     ],
-    "name" : "Temptation Cocktail"
+    "name" : "Temptation"
   },
   {
     "instructions" : "Steep wormwood in vodka for 48 hours. Remove, add the rest and steep for 1 week. Age.",
@@ -1206,7 +1206,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Dempsey Cocktail"
+    "name" : "Dempsey"
   },
   {
     "instructions" : "Pour all three ingredients into an short shaker with ice. For better taste, let it chill for a bit.",
@@ -1470,7 +1470,7 @@
         "name" : "Pineapple Juice"
       }
     ],
-    "name" : "Hawaiian Cocktail"
+    "name" : "Hawaiian"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine the rum, lime juice, and grenadine. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the club soda. Stir well. Garnish with the orange slice and the cherry.",
@@ -1654,7 +1654,7 @@
         "name" : "Orange"
       }
     ],
-    "name" : "Du Barry Cocktail"
+    "name" : "Du Barry"
   },
   {
     "instructions" : "Shake all ingredients with cracked ice, pour contents into an old-fashioned glass over ice cubes, and serve.",
@@ -1676,7 +1676,7 @@
         "name" : "Orange Bitters"
       }
     ],
-    "name" : "Angler’s Cocktail"
+    "name" : "Angler"
   },
   {
     "instructions" : "Chill pineapple juice and soda. Blend first four ingredients in a blender until creamy. (I've found a hand blender works very well since my blender won’t hold all of this liquid or you could split it into two batches.) This can be done ahead of time and put back into the fridge until serving time. When your ready to serve, place coconut mixture in punch bowl, add ice cream and allow it to dissolve somewhat. When ice cream has dissolved almost completely, add pineapple soda. Add ice ring and decorate the frothy top of the punch with thin orange slices. If you wanted to make this alcoholic, cut back a little on the amount of soda and add a bit of rum - I like it with Captain Morgan’s Spiced Rum.",
@@ -1770,7 +1770,7 @@
         "name" : "Egg Yolk"
       }
     ],
-    "name" : "Royal Clover Club Cocktail"
+    "name" : "Royal Clover Club"
   },
   {
     "instructions" : "Pour gin and juice of lemon over ice cubes in a highball glass. Fill with ginger ale, stir, and serve.",
@@ -2272,7 +2272,7 @@
         "name" : "Pineapple"
       }
     ],
-    "name" : "Plaza Cocktail"
+    "name" : "Plaza"
   },
   {
     "instructions" : "Mix kool-aid according to instructions. Fill glass with ice. Pour in citrus vodka. Add kool-aid until glass is full.",
@@ -2412,7 +2412,7 @@
         "name" : "Lemon Peel"
       }
     ],
-    "name" : "Dubonnet Cocktail"
+    "name" : "Dubonnet"
   },
   {
     "instructions" : "Boil sugar and spices in water, leaving in the water for 30 minutes. Strain the spiced water and mix with the wine. Heat slowly until short of boiling temperature. (To remove alcohol, let it boil for a while.) Add lemon or orange juice to taste. Serve in Irish coffee cup.",
@@ -2636,7 +2636,7 @@
         "name" : "Lemon"
       }
     ],
-    "name" : "Deauville Cocktail"
+    "name" : "Deauville"
   },
   {
     "instructions" : "Mix ingredients into a glass. Enjoy!",
@@ -2952,7 +2952,7 @@
         "name" : "Powdered Sugar"
       }
     ],
-    "name" : "Santiago Cocktail"
+    "name" : "Santiago"
   },
   {
     "instructions" : "Mix all ingredients until no chocolate residue is left on bottom of glass. Serve chilled. Enjoy!",
@@ -3236,7 +3236,7 @@
         "name" : "Anisette"
       }
     ],
-    "name" : "Dream Cocktail"
+    "name" : "Dream"
   },
   {
     "instructions" : "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -3532,7 +3532,7 @@
         "name" : "Powdered Sugar"
       }
     ],
-    "name" : "King Cole Cocktail"
+    "name" : "King Cole"
   },
   {
     "instructions" : "Pour ¼ inch to 1 inch Tabasco into shot glass. Pour Rum over Tabasco and shoot it.",
@@ -3564,7 +3564,7 @@
         "name" : "Pineapple Juice"
       }
     ],
-    "name" : "Alfie Cocktail"
+    "name" : "Alfie"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -3590,7 +3590,7 @@
         "name" : "Sugar"
       }
     ],
-    "name" : "Nevada Cocktail"
+    "name" : "Nevada"
   },
   {
     "instructions" : "This is a layered shot. First pour the Bailey’s into the shot glass. Then take an upsidedown spoon and touch it to the inside wall of the glass. Carefully add the Kahlua. Repeat this process for the Sambuca. If done properly, the alcohol will stay separated and resemble a bumble bee. Enjoy!",
@@ -3832,7 +3832,7 @@
         "name" : "Mint"
       }
     ],
-    "name" : "Sensation Cocktail"
+    "name" : "Sensation"
   },
   {
     "instructions" : "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -4358,7 +4358,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "Lawhill Cocktail"
+    "name" : "Lawhill"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the tonic water.",
@@ -4930,7 +4930,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "Brazil Cocktail"
+    "name" : "Brazil"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -5373,7 +5373,7 @@
       },
       {
         "volume" : "⅙ part ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Blitz"
@@ -5538,7 +5538,7 @@
         "name" : "Orange"
       }
     ],
-    "name" : "Cynar Cocktail"
+    "name" : "Cynar"
   },
   {
     "instructions" : "Mix schnapps and Southern Comfort together, chill, and serve cold. Tastes like Kool-Aid.",
@@ -5755,7 +5755,7 @@
     "name" : "Catherine of Sheridan Square"
   },
   {
-    "instructions" : "Just pour the vodka and the chocolate syrup together in a glass. Shake well. Then add the mixture of crushed ice and strawberries and voila'.",
+    "instructions" : "Just pour the vodka and the chocolate syrup together in a glass. Shake well. Then add the mixture of crushed ice and strawberries and voila.",
     "ingredients" : [
       {
         "volume" : "2 oz ",
@@ -5874,7 +5874,7 @@
         "name" : "Triple Sec"
       }
     ],
-    "name" : "Broken Spur Cocktail"
+    "name" : "Broken Spur"
   },
   {
     "instructions" : "Mix milk last. Stir. Enjoy.",
@@ -5990,7 +5990,7 @@
         "name" : "Green Chartreuse"
       }
     ],
-    "name" : "Sand-Martin Cocktail"
+    "name" : "Sand-Martin"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, crack the egg and add the rest of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -6120,7 +6120,7 @@
         "name" : "Egg White"
       }
     ],
-    "name" : "Clover Club Cocktail"
+    "name" : "Clover Club"
   },
   {
     "instructions" : "Build over ice in an 11 oz glass Looks and tastes like a big stick popsicle",
@@ -6178,7 +6178,7 @@
         "name" : "Lemon"
       }
     ],
-    "name" : "Resolute Cocktail"
+    "name" : "Resolute"
   },
   {
     "instructions" : "Pour a 16 oz glass halfway with Bass. Next, slowly pour Guiness over a spoon until the glass is full. If done correctly, the beers will layer.",
@@ -6210,7 +6210,7 @@
         "name" : "Cream"
       }
     ],
-    "name" : "Rose de Mai Cocktail"
+    "name" : "Rose de Mai"
   },
   {
     "instructions" : "Pour vodka and bitters into mixing glass with several ice cubes. Stir until very cold and pour into a chilled old-fashioned glass. Score peel of orange wedge with tines of fork and drop into drink.",
@@ -6268,7 +6268,7 @@
         "name" : "Orange Peel"
       }
     ],
-    "name" : "Saxon Cocktail"
+    "name" : "Saxon"
   },
   {
     "instructions" : "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6768,7 +6768,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Beauty Spot Cocktail"
+    "name" : "Beauty Spot"
   },
   {
     "instructions" : "Throw everything into a blender and liquify.",
@@ -6858,7 +6858,7 @@
         "name" : "Orange Juice"
       }
     ],
-    "name" : "Polo Cocktail"
+    "name" : "Polo"
   },
   {
     "instructions" : "Add ice cold champagne to glass, slowly add chilled Chambord untill desired raspberry flavor is achieved, give it a gentle stir to mix.",
@@ -7336,7 +7336,7 @@
         "name" : "Malibu Rum"
       },
       {
-        "volume" : "1 scoop vanilla frozen ",
+        "volume" : "1 scoop Vanilla Frozen ",
         "name" : "Yogurt"
       },
       {
@@ -7512,7 +7512,7 @@
         "name" : "Dry Vermouth"
       }
     ],
-    "name" : "Mary Garden Cocktail"
+    "name" : "Mary Garden"
   },
   {
     "instructions" : "Fill a rocker glass with ice add the Coca-Cola then the schnapps.",
@@ -7858,7 +7858,7 @@
         "name" : "Orange Juice"
       }
     ],
-    "name" : "Wedding Belle Cocktail"
+    "name" : "Wedding Belle"
   },
   {
     "instructions" : "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -8078,7 +8078,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "Palmer Cocktail"
+    "name" : "Palmer"
   },
   {
     "instructions" : "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -8136,7 +8136,7 @@
         "name" : "Olive"
       }
     ],
-    "name" : "Everybody’s Irish Cocktail"
+    "name" : "Everybody’s Irish"
   },
   {
     "instructions" : "Mix, drink fast, shudder",
@@ -8210,7 +8210,7 @@
         "name" : "Barcardi 151"
       }
     ],
-    "name" : "24k Nightmare"
+    "name" : "24-Karet Nightmare"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -8240,7 +8240,7 @@
         "name" : "Sugar"
       }
     ],
-    "name" : "Macbeth’s Dream"
+    "name" : "MacBeth’s Dream"
   },
   {
     "instructions" : "high ball glas fill it with ice. poor vodka over the ice, then fill up with sprite. poor slowly 1cl blue curacao, after that poor 1cl grenadine. Ready to serv. The guest will now stir it and the drink will turn purple.",
@@ -8310,7 +8310,7 @@
         "name" : "Lemon Juice"
       }
     ],
-    "name" : "Linstead Cocktail"
+    "name" : "Linstead"
   },
   {
     "instructions" : "Crush sugar into the lime wedges with a spoon. Place the lime wedges in the bottom of an 8 oz glass. Cover with crushed ice. Pour vodka to fill the glass. It’s a great summer drink.",
@@ -8504,7 +8504,7 @@
         "name" : "Lemon"
       }
     ],
-    "name" : "Sidecar Cocktail"
+    "name" : "Sidecar"
   },
   {
     "instructions" : "Fill mixing cup up with ice Add ingredients Shake and strain",
@@ -8675,7 +8675,7 @@
     "name" : "Rum Cooler"
   },
   {
-    "instructions" : "In a shaker, place lemonade, vodka, blue Curacao, and triple sec together. Shake with ice and strain into glass. Add sugar to taste",
+    "instructions" : "In a shaker, place lemonade, vodka, Blue Curacao, and triple sec together. Shake with ice and strain into glass. Add sugar to taste",
     "ingredients" : [
       {
         "volume" : "5 oz ",
@@ -8816,7 +8816,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Sammensurium (Mix up)"
+    "name" : "Sammensurium"
   },
   {
     "instructions" : "Rub inside of glass with lemon juice, then sprinkle with sugar. Freeze glass to achieve a frosted affect. Shake together the other ingrediants. Pour into frosted glass and enjoy!",
@@ -8867,7 +8867,7 @@
     "name" : "Mudslide #1"
   },
   {
-    "instructions" : "Pour 3 oz of Malibu into the Hurricane glass. Slowly pour in the Orange juice, and VOILA!",
+    "instructions" : "Pour rum into a hurricane glass. Slowly pour in the juice and voila!",
     "ingredients" : [
       {
         "volume" : "3 oz ",
@@ -8875,7 +8875,7 @@
       },
       {
         "volume" : "5 oz ",
-        "name" : "Orange Ruice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Navel Caribbean Love"
@@ -9006,7 +9006,7 @@
         "name" : "Orange Juice"
       }
     ],
-    "name" : "Sydney Sunrise Sunshine Cocktail"
+    "name" : "Sydney Sunrise Sunshine"
   },
   {
     "instructions" : "Pour coffee over crushed ice,or small ice cubes,in blender. Add all other ingredients and blend on high speed until desired consistency.",
@@ -9410,7 +9410,7 @@
         "name" : "Egg White"
       }
     ],
-    "name" : "Froth Blower Cocktail"
+    "name" : "Froth Blower"
   },
   {
     "instructions" : "Mix wine and spices, and heat it under cover some minutes on low heat - DO NOT BOIL. Add sugar, lemon peel and stir. Keep on heat and covered for a few more minutes. Serve with raisins and almonds. (You have to throw the almonds in boiling water for maybe a minute, and peel of the brown 'coating'. They should be white for use with glogg.) Serve in irish coffee cup.",
@@ -9428,7 +9428,7 @@
         "name" : "Cloves"
       },
       {
-        "volume" : "1-2 piece ",
+        "volume" : "1-2 sticks of ",
         "name" : "Cinnamon"
       },
       {
@@ -9620,7 +9620,7 @@
         "name" : "Powdered Sugar"
       }
     ],
-    "name" : "English Rose Cocktail"
+    "name" : "English Rose"
   },
   {
     "instructions" : "Just pour all the contents together, and mix.",
@@ -9660,7 +9660,7 @@
         "name" : "Pineapple"
       }
     ],
-    "name" : "Hotel Plaza Cocktail"
+    "name" : "Hotel Plaza"
   },
   {
     "instructions" : "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -9678,7 +9678,7 @@
         "name" : "Lime"
       }
     ],
-    "name" : "Amer Picon Cocktail"
+    "name" : "Amer Picon"
   },
   {
     "instructions" : "mix all three ingredients together over ice in tumbler. shake well. for shot, strain ice. for drink, retain ice. adjust sour mix ratio to taste.",
@@ -9833,7 +9833,7 @@
     "name" : "Scotch Bird Flyer"
   },
   {
-    "instructions" : "Pour Mad Dog and Mountain Dew into a glass (plastic beer glasses work the best). Stir. Add a couple ice cubes.",
+    "instructions" : "Pour Mad Dog and Mountain Dew into a glass (plastic beer glasses work best). Stir. Add a couple of ice cubes.",
     "ingredients" : [
       {
         "volume" : "2-½ shots Strawberry-Kiwi ",
@@ -10060,7 +10060,7 @@
         "name" : "Sugar"
       },
       {
-        "volume" : "3 ¾ cups boiling ",
+        "volume" : "3-¾ cups boiling ",
         "name" : "Water"
       },
       {
@@ -10089,11 +10089,15 @@
     "name" : "Oil Slick #2"
   },
   {
-    "instructions" : "Have it all in a shaker, add 50\/50 Fanta orange\/Lemon mix. Sahake. Serv in highball glass. garnish with lemon an cherry.",
+ "instructions" : "Shake together with ice and strain into a highball glass. Garnish with a lemon and a cherry, and serve.",
     "ingredients" : [
+    {
+    "volume" : "3 oz ",
+    "name" : "Orange Soda"
+    },
       {
         "volume" : "¾ oz ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       },
       {
         "volume" : "¾ oz ",
@@ -10719,14 +10723,14 @@
       },
       {
         "volume" : "1 ¼ oz ",
-        "name" : "Blended whiskey"
+        "name" : "Blended Whiskey"
       },
       {
         "volume" : "½ oz ",
         "name" : "Grenadine"
       }
     ],
-    "name" : "Old Pal Cocktail"
+    "name" : "Old Pal"
   },
   {
     "instructions" : "Put the milk into a glass and put the Pisang ambong into it also. Shake and serve it cold with ice cubes.",
@@ -10744,7 +10748,7 @@
         "name" : "Ice"
       }
     ],
-    "name" : "Pisang cold"
+    "name" : "Pisang Cold"
   },
   {
     "instructions" : "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -11036,7 +11040,7 @@
         "name" : "Olive"
       }
     ],
-    "name" : "Colonial Cocktail"
+    "name" : "Colonial"
   },
   {
     "instructions" : "Blend all ingredients (except mint sprig) with 1 cup of crushed ice in an electric blender at a high speed. Pour into a cocktail glass, add the sprig of mint, and serve.",
@@ -11277,7 +11281,7 @@
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Chambord raspberry liqueur"
+        "name" : "Chambord Raspberry Liqueur"
       }
     ],
     "name" : "Rouge Martini"
@@ -11540,7 +11544,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "Tailspin Cocktail"
+    "name" : "Tailspin"
   },
   {
     "instructions" : "Blend well with large scoop of ice.",
@@ -11792,7 +11796,7 @@
         "name" : "Olive"
       }
     ],
-    "name" : "Martini (Sweet)"
+    "name" : "Sweet Martini"
   },
   {
     "instructions" : "Combine in a mixing glass, stir gently and pour over ice cubes in a highball glass",
@@ -12055,7 +12059,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Apple brandy"
+        "name" : "Apple Brandy"
       },
       {
         "volume" : "½ oz ",
@@ -12070,7 +12074,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Royal Smile Cocktail"
+    "name" : "Royal Smile"
   },
   {
     "instructions" : "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
@@ -12335,7 +12339,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       },
       {
         "volume" : "½ tspn superfine ",
@@ -12852,7 +12856,7 @@
         "name" : "Dubonnet Rouge"
       }
     ],
-    "name" : "Coronation Cocktail"
+    "name" : "Coronation"
   },
   {
     "instructions" : "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
@@ -14024,7 +14028,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "Carrol Cocktail"
+    "name" : "Carrol"
   },
   {
     "instructions" : "Mix the o'boy n' the salt in a tall glass, add the heated milk. Put some whipped cream at the top and serve.",
@@ -14750,7 +14754,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "Washington Cocktail"
+    "name" : "Washington"
   },
   {
     "instructions" : "Put banana and liquer into blender until it is a thick paste then add bailey’s to taste and pina colada mix and rum. Blend well then add ice blend untill smooth and enjoy!",
@@ -15054,7 +15058,7 @@
         "name" : "Egg white"
       }
     ],
-    "name" : "Silver King Cocktail"
+    "name" : "Silver King"
   },
   {
     "instructions" : "Shake all ingredients and serve over ice. (crushed)",
@@ -15138,7 +15142,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "East India Cocktail #1"
+    "name" : "East India #1"
   },
   {
     "instructions" : "In a mixing glass half-filled with ice cubes, combine the gin, Benedictine, and chery brandy. Stir well. Strain into a colliins glass almost filled with ice cubes. Top with the club soda and stir well.",
@@ -15414,7 +15418,7 @@
         "name" : "Orange juice"
       }
     ],
-    "name" : "Robson Cocktail"
+    "name" : "Robson"
   },
   {
     "instructions" : "Mix all ingredients in a collins glass over ice (if a 32 oz glass is available double all the ingredients), mix in a shaker and serve with a cherry. Should taste like the old chalky lollipops that cam on a hard plastic stem!",
@@ -15656,7 +15660,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "East India Cocktail #2"
+    "name" : "East India #2"
   },
   {
     "instructions" : "Add whiskeyand vodka to glass of ice. Stir in maple syrup. Wait 2 minutes and enjoy.",
@@ -16494,7 +16498,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Flamingo Cocktail"
+    "name" : "Flamingo"
   },
   {
     "instructions" : "Mix add shake all the ingredience except the soda water in a shaker with ice. Pour it into a collins glas, add up with sodawater. Add ice and a lemon slide.",
@@ -16556,7 +16560,7 @@
         "name" : "Mint"
       }
     ],
-    "name" : "Seventh Heaven Cocktail"
+    "name" : "Seventh Heaven"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine the brandy, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
@@ -17060,7 +17064,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "Tuxedo Cocktail"
+    "name" : "Tuxedo"
   },
   {
     "instructions" : "Shake rum, brandy, milk, and powdered sugar with ice and strain into a collins glass. Sprinkle nutmeg and the pinch of cinnamon on top and serve.",
@@ -17134,7 +17138,7 @@
         "name" : "Egg white"
       }
     ],
-    "name" : "Bronx Silver Cocktail"
+    "name" : "Bronx Silver"
   },
   {
     "instructions" : "When we make it, we empty half a can of Cherry Coke, pour the vodka into the can, then pour in the Kool-aid. I'm sure it would work in a 12oz glass. Stir - a kabob stick works well in the can.",
@@ -17294,7 +17298,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "Jeyplak Cocktail"
+    "name" : "Jeyplak"
   },
   {
     "instructions" : "Mix all ingredients, place in shot glass. Introduce to mouth.",
@@ -17340,7 +17344,7 @@
         "name" : "Ice"
       },
       {
-        "volume" : " (Makers Mark)",
+        "volume" : "",
         "name" : "Bourbon"
       },
       {
@@ -17729,7 +17733,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "¾ oz ",
@@ -18040,7 +18044,7 @@
         "name" : "Orange bitters"
       }
     ],
-    "name" : "Commodore Cocktail"
+    "name" : "Commodore"
   },
   {
     "instructions" : "Pour brandy and sweet and sour into a collins glass over ice cubes and stir well. Fill with chilled champagne and stir lightly. Add the slice of lemon and serve.",
@@ -18304,7 +18308,7 @@
         "name" : "Lime juice"
       }
     ],
-    "name" : "Droog’s Date Cocktail"
+    "name" : "Droog’s Date"
   },
   {
     "instructions" : "Serve as is",
@@ -18948,7 +18952,7 @@
         "name" : "Egg"
       }
     ],
-    "name" : "Sevilla Cocktail"
+    "name" : "Sevilla"
   },
   {
     "instructions" : "Shake over ice, strain. Serves two.",
@@ -19704,7 +19708,7 @@
         "name" : "Maraschino liqueur"
       }
     ],
-    "name" : "Opera Cocktail"
+    "name" : "Opera"
   },
   {
     "instructions" : "Equal parts. All ingredients are measured equally in no particular order.",
@@ -20313,18 +20317,18 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Orange vodka"
+        "name" : "Orange Vodka"
       },
       {
         "volume" : "",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       },
       {
         "volume" : "",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
-    "name" : "Yo mama cocktail"
+    "name" : "Yo Mama"
   },
   {
     "instructions" : "Stirr. Grnish with maraschino cherry.",
@@ -20550,7 +20554,7 @@
         "name" : "Lemon"
       }
     ],
-    "name" : "Biffy Cocktail"
+    "name" : "Biffy"
   },
   {
     "instructions" : "Fill ⅓ of the collins glass with cider, then float the Guinness ontop, to bring the volume to ⅔ full. Pour Bushmill’s in a separate shot glass. Drop the shot glass into the collins glass and slam it!",
@@ -21102,7 +21106,7 @@
         "name" : "Dry Vermouth"
       }
     ],
-    "name" : "Mint Gin Cocktail"
+    "name" : "Mint Gin"
   },
   {
     "instructions" : "Shake well with lots of ice. Then fill a large (35cl) glass with ice cubes. Strain into glass.",
@@ -21722,7 +21726,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "San Francisco Cocktail"
+    "name" : "San Francisco"
   },
   {
     "instructions" : "Stir juice of lemon, powdered sugar, and water in a highball glass. Fill glass with ice, add rum, and stir. Add the slice of lemon and serve with a straw.",
@@ -21882,7 +21886,7 @@
         "name" : "Lime"
       }
     ],
-    "name" : "Jack Rose Cocktail"
+    "name" : "Jack Rose"
   },
   {
     "instructions" : "Rim coffee mug with celery salt, Pour Baileys over ice and fill with bloody mary mix. Garnish with pickle spear and filberts.",
@@ -22660,7 +22664,7 @@
         "name" : "Orange bitters"
       }
     ],
-    "name" : "Adonis Cocktail"
+    "name" : "Adonis"
   },
   {
     "instructions" : "Take a Cooler and throw a bag of ice in it. Add beer, white liquor and frozen Lemon-Lime Daqueri mix. Stir until Daqueri mix has liquified. Enjoy.",
@@ -22722,7 +22726,7 @@
         "name" : "Mint"
       }
     ],
-    "name" : "Dinah Cocktail"
+    "name" : "Dinah"
   },
   {
     "instructions" : "Shake schnapps and vodka together until well-mixed. Add crushed ice, shake lightly, then pour to shot glasses.",
@@ -22896,7 +22900,7 @@
         "name" : "Maraschino cherry"
       }
     ],
-    "name" : "Mary Pickford Cocktail"
+    "name" : "Mary Pickford"
   },
   {
     "instructions" : "Pour ingredients carefully, in order given, into a pousse-cafe glass so that they do not mix.",
@@ -23515,18 +23519,18 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Rock and rye"
+        "name" : "Rock and Rye"
       },
       {
         "volume" : "1 oz ",
-        "name" : "White port"
+        "name" : "White Port"
       },
       {
         "volume" : "1-½ tspn ",
         "name" : "Dry Vermouth"
       }
     ],
-    "name" : "Rock And Rye Cocktail"
+    "name" : "Rock & Rye"
   },
   {
     "instructions" : "Pour over ice in glass. Shake or stir, add cherry and if you would like an additional splash of color, add a few drops of cherry grenadine.",
@@ -23752,7 +23756,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "Smiler Cocktail"
+    "name" : "Smiler"
   },
   {
     "instructions" : "Pour the bourbon and water into a highball glass almost filled with ice cubes.",
@@ -24088,7 +24092,7 @@
         "name" : "Egg white"
       }
     ],
-    "name" : "Creme De Gin Cocktail"
+    "name" : "Creme De Gin"
   },
   {
     "instructions" : "Add lime juice, then THE CAPTAIN, then the Coca-Cola. Stir gently so you don’t kill the carbonation. Enjoyed most after several weaker drinks.",
@@ -24290,7 +24294,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "El Presidente Cocktail #2"
+    "name" : "El Presidente #2"
   },
   {
     "instructions" : "Shake all ingredients (except pineapple stick) with ice and strain into an old-fashioned glass over ice cubes. Add the pineapple stick and serve.",
@@ -24656,7 +24660,7 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "English Rose Cocktail"
+    "name" : "English Rose"
   },
   {
     "instructions" : "Pour all of the ingredients into an Irish coffee glass filled with crushed ice. Stir well.",
@@ -25087,7 +25091,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Cocktail onion"
+        "name" : "Cocktail Onion"
       }
     ],
     "name" : "Pan Galactic Gargle Blaster #2"
@@ -25386,7 +25390,7 @@
         "name" : "Cream"
       }
     ],
-    "name" : "Torridora Cocktail"
+    "name" : "Torridora"
   },
   {
     "instructions" : "Crushed ice Build up.",
@@ -25848,7 +25852,7 @@
         "name" : "Orange peel"
       }
     ],
-    "name" : "H.P.W. Cocktail"
+    "name" : "H.P.W."
   },
   {
     "instructions" : "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -25866,7 +25870,7 @@
         "name" : "Gin"
       }
     ],
-    "name" : "Kiss-In-The-Dark"
+    "name" : "Kiss in the Dark"
   },
   {
     "instructions" : "Pour 2 oz gin. Add 4 oz Sprite. Add Lemon Juice for flavor. If you are weak, top up glass with more Sprite.",
@@ -26334,7 +26338,7 @@
         "name" : "Bitters"
       }
     ],
-    "name" : "Journalist Cocktail"
+    "name" : "Journalist"
   },
   {
     "instructions" : "Add all contents to a large jug or punch bowl. Stir well!",
@@ -26850,14 +26854,14 @@
         "name" : "Cherry"
       }
     ],
-    "name" : "Bronx Terrace Cocktail"
+    "name" : "Bronx Terrace"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Anejo rum"
+        "name" : "Anejo Rum"
       },
       {
         "volume" : "½ oz ",
@@ -26959,7 +26963,7 @@
     "name" : "San Juan Tea"
   },
   {
-    "instructions" : "Shake all on Ice and strain into a Cocktail Glass.",
+    "instructions" : "Shake all on ice and strain into a cocktail glass.",
     "ingredients" : [
       {
         "volume" : "¾ oz ",
@@ -27180,7 +27184,7 @@
         "name" : "Apple brandy"
       }
     ],
-    "name" : "Wembly Cocktail"
+    "name" : "Wembly"
   },
   {
     "instructions" : "Pour vodka and juice of lime into a collins glass over several ice cubes. Drop the lime wedge in glass and fill with Sprite. Stir well and serve.",
@@ -27325,7 +27329,7 @@
     "name" : "Blueberry Tea"
   },
   {
-    "instructions" : "1. Shake all ingredients. 2. pour into cocktail glass.",
+    "instructions" : "Shake all ingredients and pour into a cocktail glass.",
     "ingredients" : [
       {
         "volume" : "⅓ ",
@@ -27347,7 +27351,7 @@
     "name" : "Sweet Flower"
   },
   {
-    "instructions" : "stir & strain in a cocktail glass",
+    "instructions" : "Stir and strain into a cocktail glass",
     "ingredients" : [
       {
         "volume" : "½ oz oz white ",
@@ -27691,7 +27695,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Cocktail onion"
+        "name" : "Cocktail Onion"
       }
     ],
     "name" : "Haiku Martini"
@@ -27880,7 +27884,7 @@
         "name" : "Anis"
       }
     ],
-    "name" : "Third-Rail Cocktail"
+    "name" : "Third Rail"
   },
   {
     "instructions" : "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -27920,7 +27924,7 @@
         "name" : "White Creme de Menthe"
       }
     ],
-    "name" : "Button Hook Cocktail"
+    "name" : "Button Hook"
   },
   {
     "instructions" : "pour apfelkorn in shotglas. slowly pour drops of baileys in center of shot finally add a few drops of grenadine.",
@@ -28012,7 +28016,7 @@
         "name" : "Mint"
       }
     ],
-    "name" : "Clover Leaf Cocktail"
+    "name" : "Clover Leaf"
   },
   {
     "instructions" : "Add all , except the cola, into a flash cup, Flash for 10 sec. or till foamy. Served in beer mug over half mug of ice. Splash of cola top. If you have a chilled mug it’s a plus.",
@@ -28388,7 +28392,7 @@
         "name" : "Anisette"
       }
     ],
-    "name" : "Dance With A Dream Cocktail"
+    "name" : "Dance with a Dream"
   },
   {
     "instructions" : "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -28410,7 +28414,7 @@
         "name" : "Lime"
       }
     ],
-    "name" : "Weep-No-More Cocktail"
+    "name" : "Weep No More"
   },
   {
     "instructions" : "Start with sugar in the empty glass. Next pour in the whiskey, followed by the coffee. Stir till sugar is disolved, let mixture settle. Float whipped cream on top. Curl up in front of the fireplace with J. Joyce and enjoy!",
@@ -28545,7 +28549,7 @@
     "name" : "Electric Jello"
   },
   {
-    "instructions" : "Pack Cocktail glass with ice, add a splash of dry vermouth. While glass chills, add gin in a mixer glass with ice. Throw away ice\/vermouth in cocktail glass then strain in Gin.",
+    "instructions" : "Pack cocktail glass with ice, add a splash of dry vermouth. While glass chills, add gin in a mixer glass with ice. Throw away ice\/vermouth in cocktail glass then strain in Gin.",
     "ingredients" : [
       {
         "volume" : "1 splash ",
@@ -31613,20 +31617,6 @@
     "name" : "Martini #3"
   },
   {
-    "instructions" : "Stir ingredients with ice, strain into a cocktail glass, and serve.",
-    "ingredients" : [
-      {
-        "volume" : "1-½ oz ",
-        "name" : "Dry Vermouth"
-      },
-      {
-        "volume" : "1-½ oz ",
-        "name" : "Gin"
-      }
-    ],
-    "name" : "Fifty-fifty Cocktail"
-  },
-  {
     "instructions" : "Fill a large glass with ice. Add vodka and fill glass with Coke (Do NOT substitute Coke). Swirl a splash of Galliano on top.",
     "ingredients" : [
       {
@@ -31927,14 +31917,14 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "1 oz ",
         "name" : "Sake"
       }
     ],
-    "name" : "Hokkaido Cocktail"
+    "name" : "Hokkaido"
   },
   {
     "instructions" : "In a large glass, put the lime juice and sugar, and stir well. Add cold seltzer water to fill. Put the lime peels in the glass. Drink. Repeat until limes or soda run out.",
@@ -35242,7 +35232,7 @@
         "name" : "Gin"
       }
     ],
-    "name" : "Trinity Cocktail"
+    "name" : "Trinity"
   },
   {
     "instructions" : "Pour Sloe Gin and Southern Comfort into a collins glass. Fill with orange juice and float Galliano.",
@@ -35736,7 +35726,7 @@
         "name" : "Light cream"
       }
     ],
-    "name" : "Babbie’s Special Cocktail"
+    "name" : "Babbie’s Special"
   },
   {
     "instructions" : "Pour in the soda, and then add the Vodka. After mixing pour in the grain alcohol. Use a knife and cut the lemons and limes and squeeze the juice out of them. store bought lime and lemon juice can be substituted. Now you have a great party drink and should have a good night.",
@@ -35842,7 +35832,7 @@
         "name" : "Olive"
       }
     ],
-    "name" : "Martini (Traditional 2-to-1)"
+    "name" : "Martini (2-to-1)"
   },
   {
     "instructions" : "Pour Vodka over crushed ice, add cranberry juice, midori, chambord, and top off with pinapple, stir gently and serve.",
@@ -36696,7 +36686,7 @@
         "name" : "Lemon juice"
       }
     ],
-    "name" : "What The Hell"
+    "name" : "What the Hell"
   },
   {
     "instructions" : "Add ice cream last. Enjoy!",
@@ -39274,7 +39264,7 @@
         "name" : "Lemon juice"
       }
     ],
-    "name" : "Maiden-No-More"
+    "name" : "Maiden No More"
   },
   {
     "instructions" : "Add Vidka and peach juice. Fill glass with ice and add vanilla to taste. If the drink is too sweet, dilute it with water.",
@@ -48334,7 +48324,7 @@
         "name" : "Olive"
       }
     ],
-    "name" : "Martini (Dry) (5-to-1)"
+    "name" : "Dry Martini (5-to-1)"
   },
   {
     "instructions" : "Mix the fluids into the glass, add a couple ice cubes and (one or) two cherries. Use a thick, red and white striped straw.",
@@ -53419,7 +53409,7 @@
     "ingredients" : [
       {
         "volume" : "1-½ tspn ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       },
       {
         "volume" : "½ oz ",
@@ -53434,7 +53424,7 @@
         "name" : "Lime"
       }
     ],
-    "name" : "Webster Cocktail"
+    "name" : "Webster"
   },
   {
     "instructions" : "Blend with ice. Serve in a wine glass. Garnish with carrot.",
@@ -53445,7 +53435,7 @@
       },
       {
         "volume" : "2 shots ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "1 shot ",
@@ -53453,7 +53443,7 @@
       },
       {
         "volume" : "1 shot ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "155 Belmont"
@@ -64148,10 +64138,10 @@
         "name" : "Lillet"
       }
     ],
-    "name" : "Once-Upon-A-Time"
+    "name" : "Once Upon a Time"
   },
   {
-    "instructions" : "Over Ice in a 20oz Glass Pour booze in first and top with Pineapple, giving it a two layered look with the brown amaretto on bottom,. Two straws, Two cherries.",
+    "instructions" : "Over ice in a 20 oz glass, pour booze in first and top with pineapple, giving it a two layered look with the amaretto on bottom,. Two straws, Two cherries.",
     "ingredients" : [
       {
         "volume" : "2 oz ",
@@ -64163,7 +64153,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Coconut rum"
+        "name" : "Coconut Rum"
       },
       {
         "volume" : "2 oz ",
@@ -64171,7 +64161,7 @@
       },
       {
         "volume" : "8 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "The Big Banana!"
@@ -68918,10 +68908,10 @@
         "name" : "Lemon Juice"
       }
     ],
-    "name" : "Belles Of St. Mary’s"
+    "name" : "Belles of Saint Mary’s"
   },
   {
-    "instructions" : "Pour over chrusted ice. Lightly stir.",
+    "instructions" : "Pour over frosted ice. Lightly stir.",
     "ingredients" : [
       {
         "volume" : "1 shot ",
@@ -68976,7 +68966,7 @@
         "name" : "Whipped Cream"
       }
     ],
-    "name" : "North Pole Cocktail"
+    "name" : "North Pole"
   },
   {
     "instructions" : "Mix the Aftershock with vodka, in no particular order.",
@@ -69046,7 +69036,7 @@
         "name" : "Lemon Juice"
       }
     ],
-    "name" : "Havana Cocktail"
+    "name" : "Havana"
   },
   {
     "instructions" : "Fill Absolut into a glass. Add Lime juice. Add Ice and lime wedges.",
@@ -69820,7 +69810,7 @@
         "name" : "Grapefruit Juice"
       }
     ],
-    "name" : "Miami Beach Cocktail"
+    "name" : "Miami Beach"
   },
   {
     "instructions" : "Stir all ingredients (except orange peel) with ice and strain into a cocktail glass. Add the twist of orange peel and serve.",
@@ -69842,7 +69832,7 @@
         "name" : "Orange Peel"
       }
     ],
-    "name" : "Sunshine Cocktail"
+    "name" : "Sunshine"
   },
   {
     "instructions" : "Let tea steep for at about 5 mins so it’s nice and strong. After tea is cool, mix together the remaining ingredients. Add more sugar and\/or lemon juice to suit your taste. Some flavors may need more juice concentrate.",
@@ -69964,7 +69954,7 @@
         "name" : "Gin"
       }
     ],
-    "name" : "Straight Law Cocktail"
+    "name" : "Straight Law"
   },
   {
     "instructions" : "Stir ingredients with ice, strain into a cocktail glass, and serve.",
@@ -69978,6 +69968,6 @@
         "name" : "Scotch"
       }
     ],
-    "name" : "Beadlestone Cocktail"
+    "name" : "Beadlestone"
   }
 ]

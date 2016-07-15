@@ -95,7 +95,7 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
             facebookLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
             facebookLoginButton.delegate = self
             facebookLoginButton.center.x = self.view.center.x
-            facebookLoginButton.center.y = self.view.center.y + 165
+            facebookLoginButton.center.y = self.view.center.y + 167
             self.view.addSubview(facebookLoginButton)
         } else {
             let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
