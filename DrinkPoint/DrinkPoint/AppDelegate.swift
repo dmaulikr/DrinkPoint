@@ -14,8 +14,7 @@ import GameAnalytics
 import Mapbox
 import LaunchKit
 import FBSDKCoreKit
-import FBSDKLoginKit
-import FBSDKShareKit
+import FacebookCore
 
 @UIApplicationMain
 
@@ -94,6 +93,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         FBSDKAppEvents.activateApp()
+        AppEventsLogger.activate(application)
+        SDKSettings.enableLoggingBehavior(.AppEvents)
     }
 
     func applicationWillTerminate(application: UIApplication) {

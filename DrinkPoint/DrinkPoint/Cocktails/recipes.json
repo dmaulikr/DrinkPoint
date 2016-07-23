@@ -28549,7 +28549,7 @@
     "name" : "Electric Jello"
   },
   {
-    "instructions" : "Pack cocktail glass with ice, add a splash of dry vermouth. While glass chills, add gin in a mixer glass with ice. Throw away ice\/vermouth in cocktail glass then strain in Gin.",
+    "instructions" : "Pack cocktail glass with ice, add a splash of dry vermouth. While glass chills, add gin into a mixer glass with ice. Discard ice\/vermouth in the cocktail glass and then strain in gin.",
     "ingredients" : [
       {
         "volume" : "1 splash ",
@@ -28560,7 +28560,7 @@
         "name" : "Gin"
       }
     ],
-    "name" : "In and Out Martini"
+    "name" : "In & Out Martini"
   },
   {
     "instructions" : "In a highball glass almost filled with ice cubes, combine the gin, gonic, and bitters. Stir well and garnish with the lemon twist.",
@@ -37938,7 +37938,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Union Jack Cocktail"
+    "name" : "Union Jack"
   },
   {
     "instructions" : "Shake all ingredients (except port) with ice and strain into a collins glass over ice cubes. Top with port, add the slice of lemon, and serve.",
@@ -37949,7 +37949,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "3 oz ",
@@ -37968,7 +37968,7 @@
         "name" : "Lemon"
       }
     ],
-    "name" : "St. Charles Punch"
+    "name" : "Saint Charles Punch"
   },
   {
     "instructions" : "Start with the gin, then fill up with the tonic water. And last, add the ginger ale.",
@@ -37979,14 +37979,14 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       },
       {
         "volume" : "Fill with ",
-        "name" : "Tonic water"
+        "name" : "Tonic Water"
       }
     ],
-    "name" : "Submarine (conventional)"
+    "name" : "Submarine (Conventional)"
   },
   {
     "instructions" : "Shake Clamato (keep at room temperature). Pour Clamato into Pilsner glass or oversized beer mug. Pour beer generously down the inside of the glass until full. Be careful of foaming head. Add celery salt, tobasco sauce, and\/or worchestershire sauce for flavouring.",
@@ -45193,21 +45193,21 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       },
       {
         "volume" : "Fill with ",
-        "name" : "Tonic water"
+        "name" : "Tonic Water"
       }
     ],
-    "name" : "Submarine (nuclear)"
+    "name" : "Submarine (Nuclear)"
   },
   {
     "instructions" : "Shake all ingredients and strain into a collins glass over ice cubes. Top with a teaspoon of sweet sherry and serve.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "½ oz ",
@@ -45219,15 +45219,15 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "3 Tbsp ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "1-½ tspn ",
-        "name" : "Orgeat syrup"
+        "name" : "Orgeat Syrup"
       }
     ],
     "name" : "Fog Cutter"
@@ -45237,7 +45237,7 @@
     "ingredients" : [
       {
         "volume" : "¾ oz ",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "¾ oz ",
@@ -45245,7 +45245,7 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       }
     ],
     "name" : "More Orgasms"
@@ -45255,7 +45255,7 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "½ oz ",
@@ -45263,17 +45263,17 @@
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Passion fruit syrup"
+        "name" : "Passion Fruit Syrup"
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       }
     ],
     "name" : "Frozen Berkeley"
   },
   {
-    "instructions" : "Blend Pisang Ambon, Peach Tree, Malibu and lemon squash together in a blender. Put ice cubes in the glas and pour the mix over. Fill up with Sprite, and add a drop of blue syrup. Stir and serve.",
+    "instructions" : "Blend Pisang Ambon, Peach Tree, Malibu and lemon squash together in a blender. Put ice cubes in the glass and pour the mix over. Fill up with Sprite, and add a drop of blue syrup. Stir and serve.",
     "ingredients" : [
       {
         "volume" : "1-⅓ cl ",
@@ -45281,11 +45281,11 @@
       },
       {
         "volume" : "1-⅓ cl ",
-        "name" : "Peachtree schnapps"
+        "name" : "Peachtree Schnapps"
       },
       {
         "volume" : "1-⅓ cl ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "Appx 2-¾ oz ",
@@ -45296,15 +45296,15 @@
         "name" : "Sprite"
       },
       {
-        "volume" : "1 drop blue ",
+        "volume" : "1 drop Blue ",
         "name" : "Ice"
       },
       {
         "volume" : "",
-        "name" : "Food coloring"
+        "name" : "Food Coloring"
       }
     ],
-    "name" : "Green angel"
+    "name" : "Green Angel"
   },
   {
     "instructions" : "Mix all ingredients in tall glass. Add more orange soda if it is unpalitable",
@@ -45319,7 +45319,7 @@
       },
       {
         "volume" : "6 oz ",
-        "name" : "Orange soda"
+        "name" : "Orange Soda"
       },
       {
         "volume" : "",
@@ -45383,23 +45383,23 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       },
       {
         "volume" : "",
         "name" : "Ice"
       },
       {
-        "volume" : " leaves",
+        "volume" : "Leaves of ",
         "name" : "Mint"
       },
       {
         "volume" : "",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       }
     ],
     "name" : "South Side"
@@ -45409,15 +45409,15 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "5 Tbsp ",
-        "name" : "Vanilla ice cream"
+        "name" : "Vanilla Ice Cream"
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Whipped cream"
+        "name" : "Whipped Cream"
       },
       {
         "volume" : "Shredded ",
@@ -45427,7 +45427,7 @@
     "name" : "Coconut Toastie"
   },
   {
-    "instructions" : "Just pour off the amount into a shot glass Shoot and Enjoy!",
+    "instructions" : "Just pour off the amount into a shot glass. Shoot and Enjoy!",
     "ingredients" : [
       {
         "volume" : "⅓ oz ",
@@ -45435,11 +45435,11 @@
       },
       {
         "volume" : "⅓ oz ",
-        "name" : "Ouzo"
+        "name" : "Kahlua"
       },
       {
         "volume" : "⅓ oz ",
-        "name" : "Kahlua"
+        "name" : "Ouzo"
       }
     ],
     "name" : "T.K.O."
@@ -45461,7 +45461,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Narragansett"
@@ -45471,7 +45471,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Peach schnapps"
+        "name" : "Peach Schnapps"
       },
       {
         "volume" : "1 oz ",
@@ -45479,15 +45479,15 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "4 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "2 oz ",
@@ -47928,7 +47928,7 @@
         "name" : "Grenadine"
       }
     ],
-    "name" : "Piccadilly Cocktail"
+    "name" : "Piccadilly"
   },
   {
     "instructions" : "Mix gentle, and add ice cubes. Serve whith Straw.",
@@ -49525,14 +49525,14 @@
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       }
     ],
-    "name" : "Claridge Cocktail"
+    "name" : "Claridge"
   },
   {
     "instructions" : "Combine all ingredients over ice in a glass.",
@@ -49551,11 +49551,11 @@
       },
       {
         "volume" : "¼ cup ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet and Sour"
       },
       {
         "volume" : "¼ cup ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Jack Frost"

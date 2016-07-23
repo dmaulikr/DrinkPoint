@@ -1,11 +1,14 @@
 platform :ios, '9.0'
 use_frameworks!
-target ‘DrinkPoint' do
+target 'DrinkPoint' do
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
 pod 'LaunchKit'
 pod 'Fabric'
 pod 'TwitterKit'
 pod 'TwitterCore'
 pod 'Crashlytics'
-pod 'Mapbox-iOS-SDK'
 pod 'GA-SDK-IOS'
+pod 'Mapbox-iOS-SDK'
 end

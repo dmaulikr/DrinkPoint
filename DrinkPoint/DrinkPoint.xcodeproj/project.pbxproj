@@ -174,9 +174,6 @@
 		9788F0F51D1F3F3E00CB5214 /* PlinkDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788F0F41D1F3F3E00CB5214 /* PlinkDefined.swift */; };
 		97AAA5491D3002EB00E5FA81 /* CocktailsBartenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */; };
 		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
-		97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8941D0B3474004AF061 /* FBSDKCoreKit.framework */; };
-		97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */; };
-		97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */; };
 		97B1489C1D23437400836D1F /* JazzyFrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */; };
 		9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */; };
 /* End PBXBuildFile section */
@@ -366,9 +363,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */,
-				97AFB8981D0B3474004AF061 /* FBSDKCoreKit.framework in Frameworks */,
-				97AFB8991D0B3474004AF061 /* FBSDKLoginKit.framework in Frameworks */,
-				97AFB89A1D0B3474004AF061 /* FBSDKShareKit.framework in Frameworks */,
 				975530B71D286D9A005E66F1 /* Social.framework in Frameworks */,
 				971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */,
 				971825C51D0AFBC000B59E48 /* MapKit.framework in Frameworks */,

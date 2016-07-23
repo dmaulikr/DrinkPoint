@@ -11,17 +11,14 @@ import GameKit
 import Crashlytics
 import LaunchKit
 import TwitterKit
-import FBSDKCoreKit
-import FBSDKLoginKit
+import FacebookCore
+import FacebookLogin
 import FBAudienceNetwork
 
-class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate, FBSDKLoginButtonDelegate {
+class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate {
     
     var drinkPointScore: Int64 = 0
-        
-    @IBOutlet var userProfileImage: UIImageView!
-    @IBOutlet var welcomeLabel: UILabel!
-
+    
     // Crashlytics "Crash Button" (disable for debugging)
     //    @IBAction func crashButtonTapped(sender: AnyObject) {
     //        Crashlytics.sharedInstance().crash()
@@ -36,6 +33,8 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         //        configureCrashButton() // disable for release
         self.navigationController?.navigationBarHidden = false
         configureTwitterLogin()
+        embeddedTweet()
+        createTwitterTimelineButton()
         configureFacebookAd()
         configureFacebookLogin()
         authenticateLocalPlayer()
@@ -74,10 +73,49 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
                 NSLog("Login error: %@", error!.localizedDescription);
             }
         }
-        twitterLoginButton.center.x = self.view.center.x
-        twitterLoginButton.center.y = self.view.center.y + 210
+        twitterLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 210)
         self.view.addSubview(twitterLoginButton)
     }
+    
+    func embeddedTweet() {
+        // TODO: Base this Tweet ID on some data from elsewhere in your app
+        TWTRAPIClient().loadTweetWithID("631879971628183552") { (tweet, error) in
+            if let unwrappedTweet = tweet {
+                let tweetView = TWTRTweetView(tweet: unwrappedTweet)
+                tweetView.center = CGPointMake(self.view.center.x, self.view.center.y - 50);
+                TWTRTweetViewStyle.Compact
+                tweetView.theme = .Dark
+                tweetView.showActionButtons = true
+                self.view.addSubview(tweetView)
+            } else {
+                NSLog("Tweet load error: %@", error!.localizedDescription);
+            }
+        }
+    }
+    
+    func createTwitterTimelineButton() {
+        let twitterTimelineButton = UIButton(type: .System)
+        twitterTimelineButton.setTitle("Show Twitter Timeline", forState: .Normal)
+        twitterTimelineButton.sizeToFit()
+        twitterTimelineButton.center = CGPointMake(self.view.center.x, self.view.center.y + 250)
+        twitterTimelineButton.addTarget(self, action: #selector(showTwitterTimeline), forControlEvents: [.TouchUpInside])
+        view.addSubview(twitterTimelineButton)
+    }
+    
+    func showTwitterTimeline() {
+        let client = TWTRAPIClient()
+        let dataSource = TWTRCollectionTimelineDataSource(collectionID: "539487832448843776", APIClient: client)
+        let timelineViewControlller = TWTRTimelineViewController(dataSource: dataSource)
+        let button = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: #selector(dismissTwitterTimeline))
+        timelineViewControlller.navigationItem.leftBarButtonItem = button
+        let navigationController = UINavigationController(rootViewController: timelineViewControlller)
+        showDetailViewController(navigationController, sender: self)
+    }
+
+    func dismissTwitterTimeline() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+
     
     func configureFacebookAd() {
         FBAdSettings.addTestDevice("b981ff62ed0cc52075e3061484e089601b66e1cc")
@@ -86,25 +124,6 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         adView.hidden = true
         self.view!.addSubview(adView)
         adView.loadAd()
-    }
-    
-    func configureFacebookLogin() {
-        if (FBSDKAccessToken.currentAccessToken() != nil) {
-            FBSDKProfile.enableUpdatesOnAccessTokenChange(true)
-            let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
-            facebookLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
-            facebookLoginButton.delegate = self
-            facebookLoginButton.center.x = self.view.center.x
-            facebookLoginButton.center.y = self.view.center.y + 167
-            self.view.addSubview(facebookLoginButton)
-        } else {
-            let facebookLoginButton: FBSDKLoginButton = FBSDKLoginButton()
-            facebookLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
-            facebookLoginButton.delegate = self
-            facebookLoginButton.center.x = self.view.center.x
-            facebookLoginButton.center.y = self.view.center.y + 165
-            self.view.addSubview(facebookLoginButton)
-        }
     }
     
     func adView(adView: FBAdView, didFailWithError error: NSError) {
@@ -116,48 +135,20 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         NSLog("Facebook Ad loaded and ready to be displayed")
         adView.hidden = false
     }
-    
-    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        print("User logged into Facebook")
-        if ((error) != nil) {
-        } else if result.isCancelled {
-            // Handle cancellations
+
+    func configureFacebookLogin() {
+        if AccessToken.current != nil {
+            let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
+            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 165)
+            view.addSubview(facebookLoginButton)
         } else {
-            if result.grantedPermissions.contains("email") {
-                FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields": "first_name, last_name, picture.type(large)"]).startWithCompletionHandler { (connection, result, error) -> Void in
-                    let strFirstName: String = (result.objectForKey("first_name") as? String)!
-                    let strLastName: String = (result.objectForKey("last_name") as? String)!
-                    let strPictureURL: String = (result.objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as? String)!
-                    self.welcomeLabel.text = "Welcome, \(strFirstName) \(strLastName)!"
-                    self.userProfileImage.image = UIImage(data: NSData(contentsOfURL: NSURL(string: strPictureURL)!)!)
-                }
-            }
+            let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
+            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 165)
+            view.addSubview(facebookLoginButton)
+            print("User not logged into Facebook")
         }
     }
-    
-    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-        let loginManager: FBSDKLoginManager = FBSDKLoginManager()
-        loginManager.logOut()
-        userProfileImage.image = nil
-        welcomeLabel.text = ""
-        print("User logged out of Facebook")
-    }
-    
-    func returnUserData() {
-        let graphRequest: FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: nil)
-        graphRequest.startWithCompletionHandler({ (connection, result, error) -> Void in
-            if ((error) != nil) {
-                print("Error: \(error)")
-            } else {
-                print("Fetched user: \(result)")
-                let userName : NSString = result.valueForKey("name") as! NSString
-                print("User Name is: \(userName)")
-                let userEmail : NSString = result.valueForKey("email") as! NSString
-                print("User Email is: \(userEmail)")
-            }
-        })
-    }
-    
+        
     func authenticateLocalPlayer() {
         let localPlayer = GKLocalPlayer.localPlayer()
         localPlayer.authenticateHandler = {(viewController, error) -> Void in
