@@ -497,7 +497,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "2 oz ",
@@ -1517,7 +1517,7 @@
     "name" : "St. Clement’s"
   },
   {
-    "instructions" : "Mix all liquors and sweet and sour and top off with Coca-Cola. Stir and Serve with a lemon wedge.",
+    "instructions" : "Mix all liquors and Sweet & Sour and top off with Coca-Cola. Stir and Serve with a lemon wedge.",
     "ingredients" : [
       {
         "volume" : "¾ oz ",
@@ -1541,7 +1541,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "2 oz ",
@@ -1565,7 +1565,7 @@
     "name" : "Orange Cocktail"
   },
   {
-    "instructions" : "Shake. Garnish with cherry and lemon peel",
+    "instructions" : "Shake. Garnish with cherry and lemon Peel",
     "ingredients" : [
       {
         "volume" : "¾ oz dry ",
@@ -4325,7 +4325,7 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "dash ",
@@ -5149,7 +5149,7 @@
       },
       {
         "volume" : "3 oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Splash ",
@@ -5555,7 +5555,7 @@
     "name" : "Southern Blues #2"
   },
   {
-    "instructions" : "Put all the ingredients in a cocktail shaker with ice and shake it well. Serve in a red wine glass and add in the top a bit of powdered cinnamon .",
+    "instructions" : "Put all the ingredients in a cocktail shaker with ice and shake it well. Serve in a red wine glass and add in the top a bit of powdered cinnamon.",
     "ingredients" : [
       {
         "volume" : "60 ml ",
@@ -5563,7 +5563,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Chocolate Lqueur"
+        "name" : "Chocolate Liqueur"
       },
       {
         "volume" : "1 oz ",
@@ -6482,7 +6482,7 @@
         "name" : "Ice"
       }
     ],
-    "name" : "Nelson special"
+    "name" : "Nelson Special"
   },
   {
     "instructions" : "Shake brandy and orange juice with ice and strain into a collins glass over several ice cubes. Top with chilled champagne, add the peach slice, and serve.",
@@ -7018,7 +7018,7 @@
         "name" : "Cream"
       }
     ],
-    "name" : "Nuts and Berries #3"
+    "name" : "Nuts & Berries #3"
   },
   {
     "instructions" : "Shake all ingredients well with cracked ice, strain into a chilled cocktail glass, and serve.",
@@ -7555,7 +7555,7 @@
     "name" : "Alexander’s Sister"
   },
   {
-    "instructions" : "Mix ingredients in a tall high glass with lots of ice. Add beer at the end. Mix and enjoy.",
+    "instructions" : "Mix ingredients in a tall high glass with lots of ice. Add beer and salt to taste at the end. Mix and enjoy.",
     "ingredients" : [
       {
         "volume" : "12 oz ",
@@ -7582,7 +7582,7 @@
         "name" : "Black Pepper"
       },
       {
-        "volume" : " to taste",
+        "volume" : "",
         "name" : "Salt"
       }
     ],
@@ -7607,7 +7607,7 @@
     "name" : "Sidecar"
   },
   {
-    "instructions" : "Bang 'em both in.",
+    "instructions" : "Bang 'em Both In.",
     "ingredients" : [
       {
         "volume" : "¼ glass ",
@@ -7621,7 +7621,7 @@
     "name" : "Flander’s Flake-Out"
   },
   {
-    "instructions" : "Combine Rum and Cranberry juice first. Add splash of Sunny D. May drink with crushed ice, if prefered.",
+    "instructions" : "Combine rum and cranberry juice first. Add splash of Sunny D. May drink with crushed ice, if preferred.",
     "ingredients" : [
       {
         "volume" : "1 part ",
@@ -8261,7 +8261,7 @@
     "name" : "William’s Rainbow"
   },
   {
-    "instructions" : "Shake. Garnish with cinamon-powder, cherry, mint, lemon-peel",
+    "instructions" : "Shake. Garnish with cinamon-powder, cherry, mint, lemon-Peel",
     "ingredients" : [
       {
         "volume" : "¾ oz ",
@@ -8559,7 +8559,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 ",
@@ -9571,7 +9571,7 @@
     "name" : "Banana Boat"
   },
   {
-    "instructions" : "In a glass ½ full of ice,mix 1 shot lime vodka, 1 shot apricot brandy and fill the rest with half sweet and sour and half Sprite.",
+    "instructions" : "In a glass ½ full of ice,mix 1 shot lime vodka, 1 shot apricot brandy and fill the rest with half Sweet & Sour and half Sprite.",
     "ingredients" : [
       {
         "volume" : "1 shot ",
@@ -9583,7 +9583,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -10119,7 +10119,7 @@
       },
       {
         "volume" : "5 oz ",
-        "name" : "Iced tea"
+        "name" : "Iced Tea"
       }
     ],
     "name" : "Evil Slider"
@@ -10163,11 +10163,11 @@
       },
       {
         "volume" : "Mix with 2 oz ",
-        "name" : "Margarita mix"
+        "name" : "Margarita Mix"
       },
       {
         "volume" : "Add 2 Tbsp ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "Juice of 1 ",
@@ -10189,7 +10189,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Grape juice"
+        "name" : "Grape Juice"
       },
       {
         "volume" : "1-½ oz ",
@@ -10197,7 +10197,7 @@
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Sugar syrup"
+        "name" : "Sugar Syrup"
       },
       {
         "volume" : "",
@@ -10215,25 +10215,25 @@
       },
       {
         "volume" : "½ shot ",
-        "name" : "Tropical fruit schnapps"
+        "name" : "Tropical Fruit Schnapps"
       },
       {
         "volume" : "3 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       }
     ],
-    "name" : "JTDelight"
+    "name" : "J.T. Delight"
   },
   {
     "instructions" : "Shake all ingredients (except banana slice) with ice and strain into a chilled whiskey sour glass. Garnish with the banana slice and serve.",
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "½ oz ",
@@ -10245,7 +10245,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 slice ",
@@ -10259,7 +10259,7 @@
     "ingredients" : [
       {
         "volume" : "4 oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "2 oz ",
@@ -10275,7 +10275,7 @@
       },
       {
         "volume" : "3 oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "3 oz ",
@@ -10290,7 +10290,7 @@
         "name" : "Ice"
       }
     ],
-    "name" : "Buzzer’s red cream soda"
+    "name" : "Buzzer’s Red Cream Soda"
   },
   {
     "instructions" : "Pour tequila into a collins glass filled with ice cubes. Fill with orange juice and stir well. Top with blackberry brandy and stir lightly. Add the cherry on top and serve.",
@@ -10301,11 +10301,11 @@
       },
       {
         "volume" : "",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "",
-        "name" : "Blackberry brandy"
+        "name" : "Blackberry Brandy"
       },
       {
         "volume" : "",
@@ -10319,7 +10319,7 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Sloe gin"
+        "name" : "Sloe Gin"
       },
       {
         "volume" : "Juice of ½ ",
@@ -10331,15 +10331,15 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Egg white"
+        "name" : "Egg White"
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       },
       {
         "volume" : "",
-        "name" : "Carbonated water"
+        "name" : "Carbonated Water"
       }
     ],
     "name" : "Merry Widow Fizz"
@@ -10349,19 +10349,19 @@
     "ingredients" : [
       {
         "volume" : "1-¾ oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "11-¾ oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sugar syrup"
+        "name" : "Sugar Syrup"
       },
       {
         "volume" : "",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       }
     ],
     "name" : "Pineapple Lemonade"
@@ -10370,16 +10370,16 @@
     "instructions" : "Just throw them all together add some ice and drink. If you can’t get Tahiti Treat use pineapple juice",
     "ingredients" : [
       {
-        "volume" : "2 oz Smirnoff ",
+        "volume" : "2 oz ",
         "name" : "Vodka"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "Tahiti Treat or ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "Doh"
@@ -10389,15 +10389,15 @@
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "White rum"
+        "name" : "White Rum"
       },
       {
         "volume" : "½ glass ",
-        "name" : "Fruit punch"
+        "name" : "Fruit Punch"
       },
       {
         "volume" : "½ glass ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       },
       {
         "volume" : "",
@@ -10419,7 +10419,7 @@
       },
       {
         "volume" : "",
-        "name" : "Light cream"
+        "name" : "Light Cream"
       }
     ],
     "name" : "Dirty White Mother"
@@ -10429,19 +10429,19 @@
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "Citrus vodka"
+        "name" : "Citrus Vodka"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Rose’s sweetened lime juice"
+        "name" : "Rose’s Sweetened Lime Juice"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Grapefruit juice"
+        "name" : "Grapefruit Juice"
       },
       {
         "volume" : "",
@@ -10473,7 +10473,7 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Banana liqueur"
+        "name" : "Banana Liqueur"
       },
       {
         "volume" : "Nearly fill glass with ",
@@ -10481,7 +10481,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "A tiny splash ",
@@ -10499,11 +10499,11 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "2 tspn ",
-        "name" : "Sugar syrup"
+        "name" : "Sugar Syrup"
       },
       {
         "volume" : "½ ",
@@ -10517,7 +10517,7 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "½ oz ",
@@ -10525,11 +10525,11 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       },
       {
         "volume" : "1 tspn ",
@@ -10585,7 +10585,7 @@
       },
       {
         "volume" : "6 tspn ",
-        "name" : "Vanilla extract"
+        "name" : "Vanilla Extract"
       }
     ],
     "name" : "Kahlua #4"
@@ -10603,7 +10603,7 @@
       },
       {
         "volume" : "Fill with ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "And ",
@@ -10635,7 +10635,7 @@
     "ingredients" : [
       {
         "volume" : "½ oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "½ oz ",
@@ -10653,7 +10653,7 @@
     "ingredients" : [
       {
         "volume" : "½ cup ",
-        "name" : "Brown sugar"
+        "name" : "Brown Sugar"
       },
       {
         "volume" : "½ cup white ",
@@ -10665,7 +10665,7 @@
       },
       {
         "volume" : "16 oz good quality ",
-        "name" : "Vanilla ice cream"
+        "name" : "Vanilla Ice Cream"
       }
     ],
     "name" : "Hot Buttered Rum Batter #2"
@@ -10675,29 +10675,29 @@
     "ingredients" : [
       {
         "volume" : "3 oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Banana liqueur"
+        "name" : "Banana Liqueur"
       },
       {
         "volume" : "6-8 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "1 scoop ",
-        "name" : "Vanilla ice cream"
+        "name" : "Vanilla Ice Cream"
       }
     ],
-    "name" : "Iceberg in Radioactive water"
+    "name" : "Iceberg in Radioactive Water"
   },
   {
-    "instructions" : "serve as a chilled shot",
+    "instructions" : "Serve as a chilled shot.",
     "ingredients" : [
       {
         "volume" : "2 parts ",
@@ -10705,14 +10705,14 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Melon liqueur"
+        "name" : "Melon Liqueur"
       },
       {
         "volume" : "4 parts ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
-    "name" : "Honey-Dew-Me"
+    "name" : "Honeydew Me"
   },
   {
     "instructions" : "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -10781,7 +10781,7 @@
       },
       {
         "volume" : "⅓ L ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Aranov"
@@ -10795,15 +10795,15 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Banana liqueur"
+        "name" : "Banana Liqueur"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "1 ⅔ oz ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "⅓ oz ",
@@ -10825,7 +10825,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "2 oz ",
@@ -10855,7 +10855,7 @@
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Licorice root"
+        "name" : "Licorice Root"
       },
       {
         "volume" : "1 ",
@@ -10899,15 +10899,15 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Peach brandy"
+        "name" : "Peach Brandy"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Lime vodka"
+        "name" : "Lime Vodka"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "Outrigger"
@@ -10924,7 +10924,7 @@
         "name" : "Mint"
       }
     ],
-    "name" : "Mint Russki, or Spearmint Ivan"
+    "name" : "Mint Russki or Spearmint Ivan"
   },
   {
     "instructions" : "Pour the scotch and grapefruit juice into a highball glass alomst filled with ice cubes. Drop the grenadine into the center of the drink.",
@@ -10935,7 +10935,7 @@
       },
       {
         "volume" : "5 oz ",
-        "name" : "Grapefruit juice"
+        "name" : "Grapefruit Juice"
       },
       {
         "volume" : "1 tspn ",
@@ -10953,7 +10953,7 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "1 part ",
@@ -10971,7 +10971,7 @@
     "ingredients" : [
       {
         "volume" : "1 shot ",
-        "name" : "Apple juice"
+        "name" : "Apple Juice"
       },
       {
         "volume" : "1 shot ",
@@ -10989,7 +10989,7 @@
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "Rye whiskey"
+        "name" : "Rye Whiskey"
       },
       {
         "volume" : "½ can ",
@@ -11007,7 +11007,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Cream of coconut"
+        "name" : "Cream of Coconut"
       },
       {
         "volume" : "¾ oz ",
@@ -11015,7 +11015,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Cherry juice"
+        "name" : "Cherry Juice"
       }
     ],
     "name" : "Lambada"
@@ -11029,11 +11029,11 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Grapefruit juice"
+        "name" : "Grapefruit Juice"
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Maraschino liqueur"
+        "name" : "Maraschino Liqueur"
       },
       {
         "volume" : "1 ",
@@ -11051,7 +11051,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Cream of coconut"
+        "name" : "Cream of Coconut"
       },
       {
         "volume" : "⅓ cup frozen ",
@@ -11077,10 +11077,10 @@
       },
       {
         "volume" : "⅓ shot ",
-        "name" : "Peppermint schnapps"
+        "name" : "Peppermint Cchnapps"
       }
     ],
-    "name" : "The Three Wise Men"
+    "name" : "Three Wise Men"
   },
   {
     "instructions" : "Shake all with ice, serve in lowball over ice, or neat in a martini glass.",
@@ -11105,7 +11105,7 @@
     "ingredients" : [
       {
         "volume" : "¾ oz ",
-        "name" : "Peach brandy"
+        "name" : "Peach Brandy"
       },
       {
         "volume" : "¾ oz white ",
@@ -11113,7 +11113,7 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Light cream"
+        "name" : "Light Cream"
       }
     ],
     "name" : "Peach Bunny"
@@ -11175,11 +11175,11 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "",
@@ -11201,15 +11201,15 @@
       },
       {
         "volume" : "2 tspn dried and chopped ",
-        "name" : "Angelica root"
+        "name" : "Angelica Root"
       },
       {
         "volume" : "¼ tspn crushed ",
-        "name" : "Fennel seeds"
+        "name" : "Fennel Seeds"
       },
       {
         "volume" : "2 2 inch strips ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Scottish Highland Liqueur"
@@ -11223,7 +11223,7 @@
       },
       {
         "volume" : "1 dash ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       }
     ],
     "name" : "Snakebite #1"
@@ -11233,15 +11233,15 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "3 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "Lifesaver"
@@ -11255,11 +11255,11 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Sloe gin"
+        "name" : "Sloe Gin"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "1 tspn superfine ",
@@ -11267,7 +11267,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Maraschino cherry"
+        "name" : "Maraschino Cherry"
       }
     ],
     "name" : "Bourbon Black Hawk #2"
@@ -11295,11 +11295,11 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       },
       {
         "volume" : "1 part ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Amaretto Stone Sour"
@@ -11309,15 +11309,15 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       },
       {
         "volume" : "1 tspn ",
@@ -11335,11 +11335,11 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Melon liqueur"
+        "name" : "Melon Liqueur"
       },
       {
         "volume" : "1 part ",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       }
     ],
     "name" : "Martian Hard On"
@@ -11353,7 +11353,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "½ tspn superfine ",
@@ -11365,7 +11365,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Maraschino cherry"
+        "name" : "Maraschino Cherry"
       }
     ],
     "name" : "Gin Sour"
@@ -11379,11 +11379,11 @@
       },
       {
         "volume" : "",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       },
       {
         "volume" : "",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       }
     ],
     "name" : "Scotty Boy"
@@ -11397,7 +11397,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "½ oz ",
@@ -11431,7 +11431,7 @@
       },
       {
         "volume" : "2 dashes ",
-        "name" : "Orange bitters"
+        "name" : "Orange Bitters"
       }
     ],
     "name" : "Affinity"
@@ -11459,7 +11459,7 @@
     "ingredients" : [
       {
         "volume" : "1 part ",
-        "name" : "Red wine"
+        "name" : "Red Wine"
       },
       {
         "volume" : "1 part ",
@@ -11477,7 +11477,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "1 tspn ",
@@ -11533,11 +11533,11 @@
       },
       {
         "volume" : "1 dash ",
-        "name" : "Orange bitters"
+        "name" : "Orange Bitters"
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "1 ",
@@ -11555,11 +11555,11 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Strawberry liqueur"
+        "name" : "Strawberry Liqueur"
       },
       {
         "volume" : "4 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Columbia Gold"
@@ -11569,11 +11569,11 @@
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "Coffee brandy"
+        "name" : "Coffee Brandy"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "4 oz strong, black ",
@@ -11581,7 +11581,7 @@
       },
       {
         "volume" : "2 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       }
     ],
     "name" : "Black Maria"
@@ -11599,7 +11599,7 @@
       },
       {
         "volume" : "2 splashes ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Hispaniola"
@@ -11627,11 +11627,11 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Coffee brandy"
+        "name" : "Coffee Brandy"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Light cream"
+        "name" : "Light Cream"
       }
     ],
     "name" : "Sombrero"
@@ -11673,7 +11673,7 @@
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 oz ",
@@ -11684,14 +11684,14 @@
         "name" : "Milk"
       }
     ],
-    "name" : "Karlsson’s dream"
+    "name" : "Karlsson’s Dream"
   },
   {
     "instructions" : "Shake ingredients with ice, strain into a cocktail glass, and serve.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Blackberry brandy"
+        "name" : "Blackberry Brandy"
       },
       {
         "volume" : "½ oz ",
@@ -11705,7 +11705,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "1 oz ",
@@ -11721,7 +11721,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "Illusion"
@@ -11731,7 +11731,7 @@
     "ingredients" : [
       {
         "volume" : "20 cl ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       },
       {
         "volume" : "1 oz ",
@@ -11757,7 +11757,7 @@
       },
       {
         "volume" : "",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       }
     ],
     "name" : "Cinnamon Road"
@@ -11775,7 +11775,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Peach schnapps"
+        "name" : "Peach Schnapps"
       }
     ],
     "name" : "Freson"
@@ -11833,7 +11833,7 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Golden Miller"
@@ -11847,11 +11847,11 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       }
     ],
     "name" : "Kamikaze"
@@ -11873,7 +11873,7 @@
       },
       {
         "volume" : "6 oz frozen ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "6 oz frozen ",
@@ -11881,11 +11881,11 @@
       },
       {
         "volume" : "46 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "1 qt ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       }
     ],
     "name" : "Banana Punch #2"
@@ -11899,15 +11899,15 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Banana liqueur"
+        "name" : "Banana Liqueur"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sloe gin"
+        "name" : "Sloe Gin"
       },
       {
         "volume" : "Fill with ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Red Alert"
@@ -11939,11 +11939,11 @@
       },
       {
         "volume" : "Fill with ",
-        "name" : "Apple juice"
+        "name" : "Apple Juice"
       },
       {
         "volume" : "1 splash ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       }
     ],
     "name" : "R.B. Winter"
@@ -11965,7 +11965,7 @@
       },
       {
         "volume" : "½ glass ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       }
     ],
     "name" : "Bleeding Surgeon"
@@ -11983,11 +11983,11 @@
       },
       {
         "volume" : "1 qt ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "½ cup ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       }
     ],
     "name" : "Flip Juice"
@@ -12001,7 +12001,7 @@
       },
       {
         "volume" : "½ shot ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 slice ",
@@ -12027,7 +12027,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Orange Smile"
@@ -12036,7 +12036,7 @@
     "instructions" : "combine with ice in shaker strain into cocktail glass",
     "ingredients" : [
       {
-        "volume" : "1-½ jigger ",
+        "volume" : "1 jigger ",
         "name" : "Vodka"
       },
       {
@@ -12045,11 +12045,11 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "1 splash freshly squeezed ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       }
     ],
     "name" : "Firehammer"
@@ -12085,33 +12085,33 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Anejo rum"
+        "name" : "Anejo Rum"
       },
       {
         "volume" : "3 oz ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "1 dash ",
         "name" : "Bitters"
       }
     ],
-    "name" : "Sandra Buys A Dog"
+    "name" : "Sandra Buys a Dog"
   },
   {
-    "instructions" : "Mix together, Tall glass...",
+    "instructions" : "Mix together in a tall glass.",
     "ingredients" : [
       {
         "volume" : "¾ oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "½ oz ",
@@ -12119,11 +12119,11 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       },
       {
         "volume" : "1 splash ",
@@ -12137,7 +12137,7 @@
     "ingredients" : [
       {
         "volume" : "12 oz ",
-        "name" : "Root beer"
+        "name" : "Root Beer"
       },
       {
         "volume" : "2 shots ",
@@ -12151,7 +12151,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 oz ",
@@ -12159,11 +12159,11 @@
       },
       {
         "volume" : "fill ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "float ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       }
     ],
     "name" : "Giraffe"
@@ -12195,7 +12195,7 @@
       },
       {
         "volume" : "",
-        "name" : "Carbonated water"
+        "name" : "Carbonated Water"
       },
       {
         "volume" : "",
@@ -12209,7 +12209,7 @@
     "ingredients" : [
       {
         "volume" : "¾ oz ",
-        "name" : "Tia maria"
+        "name" : "Tia Maria"
       },
       {
         "volume" : "¾ oz ",
@@ -12227,7 +12227,7 @@
     "ingredients" : [
       {
         "volume" : "4 cups ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "1 cup chopped & candied ",
@@ -12239,7 +12239,7 @@
       },
       {
         "volume" : "12 oz frozen ",
-        "name" : "Apple juice"
+        "name" : "Apple Juice"
       },
       {
         "volume" : "6 oz frozen ",
@@ -12255,7 +12255,7 @@
       },
       {
         "volume" : "½ gal ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       }
     ],
     "name" : "Eerie Witch’s Brew"
@@ -12272,7 +12272,7 @@
         "name" : "Amaretto"
       }
     ],
-    "name" : "J. R.’s Godfather"
+    "name" : "J.R.’s Godfather"
   },
   {
     "instructions" : "All the ingredients in a mixing glass. Serve in a chilled cocktail glass. Add orange twist.",
@@ -12295,10 +12295,10 @@
       },
       {
         "volume" : "drop ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       }
     ],
-    "name" : "Love-Me Tender"
+    "name" : "Love Me Tender"
   },
   {
     "instructions" : "Mix all ingredients except Chambord. Chill and strain mixture into a martini glass. Float Chambord to the bottom of the glass.",
@@ -12317,15 +12317,15 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Chambord raspberry liqueur"
+        "name" : "Chambord Raspberry Liqueur"
       }
     ],
     "name" : "Wet Dream"
@@ -12357,11 +12357,11 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       },
       {
         "volume" : "Add ",
@@ -12383,7 +12383,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Scotch Mist"
@@ -12397,11 +12397,11 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Cranberry liqueur"
+        "name" : "Cranberry Liqueur"
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "½ oz ",
@@ -12423,7 +12423,7 @@
       },
       {
         "volume" : "1,1-¾ oz ",
-        "name" : "Tia maria"
+        "name" : "Tia Maria"
       },
       {
         "volume" : "½ oz ",
@@ -12431,7 +12431,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Egg yolk"
+        "name" : "Egg Yolk"
       },
       {
         "volume" : "2 tspn ",
@@ -12449,19 +12449,19 @@
       },
       {
         "volume" : "⅛ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "4 oz ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       }
     ],
     "name" : "Tequila Canyon"
@@ -12471,11 +12471,11 @@
     "ingredients" : [
       {
         "volume" : "1 shot ",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "2 or 3 splashes ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       }
     ],
     "name" : "Doug’s Modified Cement Mixer"
@@ -12485,18 +12485,18 @@
     "ingredients" : [
       {
         "volume" : "2 parts ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "2 parts ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "Fill with ",
         "name" : "Sprite"
       }
     ],
-    "name" : "Wave Runner (a.k.a. Rave Gunner)"
+    "name" : "Wave Runner (aka Rave Gunner)"
   },
   {
     "instructions" : "Fill highball glass with ice. Pour curacao over ice then fill with milk.",
@@ -12536,7 +12536,7 @@
         "name" : "Water"
       }
     ],
-    "name" : "The Hot Churchill"
+    "name" : "Hot Churchill"
   },
   {
     "instructions" : "Peel the apples and cut into small cubes. Peel the oranges, take out the pips, and cut into small cubes. Warm the orange juice, the sugar and the mandarin peels until the sugar dissolves. Mix all the ingredients in a pitcher, except the ice and the soda which you add just before serving. Serve in wine glsses.",
@@ -12551,7 +12551,7 @@
       },
       {
         "volume" : "1 cup ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "3 ",
@@ -12559,7 +12559,7 @@
       },
       {
         "volume" : "1 bottle dry ",
-        "name" : "Red wine"
+        "name" : "Red Wine"
       },
       {
         "volume" : "2 Tbsp ",
@@ -12571,7 +12571,7 @@
       },
       {
         "volume" : "2 cups ",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       },
       {
         "volume" : "10 ",
@@ -12585,11 +12585,11 @@
     "ingredients" : [
       {
         "volume" : "1 shot Finlandia ",
-        "name" : "Cranberry vodka"
+        "name" : "Cranberry Vodka"
       },
       {
         "volume" : "1 shot Finlandia ",
-        "name" : "Pineapple vodka"
+        "name" : "Pineapple Vodka"
       },
       {
         "volume" : "wedge fresh ",
@@ -12607,7 +12607,7 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Anejo rum"
+        "name" : "Anejo Rum"
       },
       {
         "volume" : "½ oz ",
@@ -12615,7 +12615,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "2 tspn superfine ",
@@ -12659,7 +12659,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Irish cream"
+        "name" : "Bailey’s Irish Cream"
       }
     ],
     "name" : "Speedy Gonzales"
@@ -12677,7 +12677,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "Three-Legged Monkey"
@@ -12691,7 +12691,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       },
       {
         "volume" : "½ oz ",
@@ -12699,11 +12699,11 @@
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       },
       {
         "volume" : "1 ",
-        "name" : "Egg yolk"
+        "name" : "Egg Yolk"
       },
       {
         "volume" : "",
@@ -12743,11 +12743,11 @@
       },
       {
         "volume" : "¾ oz apricot ",
-        "name" : "Fruit syrup"
+        "name" : "Fruit Syrup"
       },
       {
-        "volume" : " (Farris, Perrier)",
-        "name" : "Soda water"
+        "volume" : "(Farris, Perrier) ",
+        "name" : "Soda Water"
       }
     ],
     "name" : "Bingo"
@@ -12761,7 +12761,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Peppermint schnapps"
+        "name" : "Peppermint Schnapps"
       },
       {
         "volume" : "1 oz ",
@@ -12773,14 +12773,14 @@
       },
       {
         "volume" : "2 scoops ",
-        "name" : "ice cream"
+        "name" : "ice Cream"
       },
       {
         "volume" : "",
         "name" : "Milk"
       }
     ],
-    "name" : "Fucked up Float"
+    "name" : "Fucked-Up Float"
   },
   {
     "instructions" : "Serve in a chilled cocktail glass. Lemon and sugar the rim. Stir and Strain.",
@@ -12795,11 +12795,11 @@
       },
       {
         "volume" : "2 oz sweetened ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Club soda"
+        "name" : "Club Soda"
       }
     ],
     "name" : "New York Lemonade"
@@ -12809,7 +12809,7 @@
     "ingredients" : [
       {
         "volume" : "¾ oz ",
-        "name" : "Strawberry schnapps"
+        "name" : "Strawberry Schnapps"
       },
       {
         "volume" : "¾ oz ",
@@ -12835,7 +12835,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Petticoat Lane"
@@ -12863,7 +12863,7 @@
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "Sloe gin"
+        "name" : "Sloe Gin"
       },
       {
         "volume" : "1 tspn ",
@@ -12875,15 +12875,15 @@
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       },
       {
         "volume" : "1 ",
-        "name" : "Egg white"
+        "name" : "Egg White"
       },
       {
         "volume" : "",
-        "name" : "Carbonated water"
+        "name" : "Carbonated Water"
       }
     ],
     "name" : "Ruby Fizz"
@@ -12893,23 +12893,23 @@
     "ingredients" : [
       {
         "volume" : "¾ oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Gold tequila"
+        "name" : "Gold Tequila"
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       },
       {
         "volume" : "2 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Sloe gin"
+        "name" : "Sloe Gin"
       }
     ],
     "name" : "Traffic Light Cooler"
@@ -12931,7 +12931,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Paisley Martini"
@@ -12963,15 +12963,15 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Caramel liqueur"
+        "name" : "Caramel Liqueur"
       },
       {
         "volume" : "5 oz soft ",
-        "name" : "Vanilla ice cream"
+        "name" : "Vanilla Ice Cream"
       },
       {
         "volume" : "",
-        "name" : "Whipped cream"
+        "name" : "Whipped Cream"
       },
       {
         "volume" : "",
@@ -13047,7 +13047,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       },
       {
         "volume" : "",
@@ -13069,7 +13069,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "½ tspn ",
@@ -13077,7 +13077,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Egg white"
+        "name" : "Egg White"
       }
     ],
     "name" : "Jillionaire"
@@ -13135,7 +13135,7 @@
       },
       {
         "volume" : "5 oz ",
-        "name" : "Grapefruit juice"
+        "name" : "Grapefruit Juice"
       }
     ],
     "name" : "Greyhound"
@@ -13145,11 +13145,11 @@
     "ingredients" : [
       {
         "volume" : "1 jigger ",
-        "name" : "Irish cream"
+        "name" : "Bailey’s Irish Cream"
       },
       {
         "volume" : "1 jigger ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 jigger Stoli ",
@@ -13167,15 +13167,15 @@
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Pina colada mix"
+        "name" : "Pina Colada Mix"
       },
       {
         "volume" : "Fill with ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "½ oz ",
@@ -13189,7 +13189,7 @@
     "ingredients" : [
       {
         "volume" : "1-¾ oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "1 whole ",
@@ -13253,17 +13253,17 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Peppermint schnapps"
+        "name" : "Peppermint Schnapps"
       },
       {
         "volume" : "3 oz ",
-        "name" : "Chocolate milk"
+        "name" : "Chocolate Milk"
       }
     ],
     "name" : "Chocolate Paradise"
   },
   {
-    "instructions" : "Just god damn mix em! :)",
+    "instructions" : "Just goddamn mix 'em! :)",
     "ingredients" : [
       {
         "volume" : "¼ ",
@@ -13271,7 +13271,7 @@
       },
       {
         "volume" : "¼ ",
-        "name" : "Peppermint schnapps"
+        "name" : "Peppermint Schnapps"
       },
       {
         "volume" : "¼ ",
@@ -13297,7 +13297,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Light cream"
+        "name" : "Light Cream"
       },
       {
         "volume" : "",
@@ -13333,7 +13333,7 @@
       },
       {
         "volume" : "16 oz ",
-        "name" : "Heavy cream"
+        "name" : "Heavy Cream"
       },
       {
         "volume" : "16 oz ",
@@ -13355,15 +13355,15 @@
     "ingredients" : [
       {
         "volume" : "½ oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Sloe gin"
+        "name" : "Sloe Gin"
       },
       {
         "volume" : "½ oz ",
@@ -13371,15 +13371,15 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Peach schnapps"
+        "name" : "Peach Schnapps"
       },
       {
         "volume" : "Fill with ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "And ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       }
     ],
     "name" : "Smooch"
@@ -13397,7 +13397,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "2 oz ",
@@ -13437,11 +13437,11 @@
       },
       {
         "volume" : "3 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "fill ",
-        "name" : "Tonic water"
+        "name" : "Tonic Water"
       }
     ],
     "name" : "Matty’s Magic Mixture"
@@ -13459,7 +13459,7 @@
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       },
       {
         "volume" : "1 tspn ",
@@ -13499,11 +13499,11 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "¼ oz ",
@@ -13511,10 +13511,10 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       }
     ],
-    "name" : "Shark’s tooth"
+    "name" : "Shark’s Tooth"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass almost filled with ice cubes. Add the club soda. Stir well. Drop the cassis into the center of the drink.",
@@ -13525,7 +13525,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "1 tspn superfine ",
@@ -13533,7 +13533,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Club soda"
+        "name" : "Club Soda"
       },
       {
         "volume" : "½ oz ",
@@ -13543,7 +13543,7 @@
     "name" : "Gin-Cassis Fizz"
   },
   {
-    "instructions" : "Pour all ingredients over ice in a large (16 oz.)glass. Shake vigorously. Garnish with grated chocolate. YUMMM!",
+    "instructions" : "Pour all ingredients over ice in a large glass. Shake vigorously. Garnish with grated chocolate.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
@@ -13565,19 +13565,19 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Irish whiskey"
+        "name" : "Irish Whiskey"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Peach brandy"
+        "name" : "Peach Brandy"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 slice ",
@@ -13595,7 +13595,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "½ oz ",
@@ -13607,7 +13607,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "½ tspn superfine ",
@@ -13615,7 +13615,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Serpentine"
@@ -13633,7 +13633,7 @@
       },
       {
         "volume" : "1 shot ",
-        "name" : "White rum"
+        "name" : "White Rum"
       },
       {
         "volume" : "1 shot ",
@@ -13649,25 +13649,25 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       }
     ],
     "name" : "Opera House Special"
   },
   {
-    "instructions" : "There are many good cherry liqueurs you can use, but I prefere Heering. Add 1 share of the liqueur. Then you add 1 share of Soda. For a sour sling use tonic (most people prefer the drink without it). Afterward fill the glass with Orange Juice and ice cubes.",
+    "instructions" : "There are many good cherry liqueurs you can use, but I prefer Heering. Add 1 share of the liqueur. Then you add 1 share of Soda. For a sour sling use tonic (most people prefer the drink without it). Afterward fill the glass with orange juice and ice cubes.",
     "ingredients" : [
       {
         "volume" : "1 part ",
-        "name" : "Cherry Heering"
+        "name" : "Cherry Liqueur"
       },
       {
         "volume" : "1 part ",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       },
       {
         "volume" : "1 part ",
-        "name" : "Orange juice"
+        "name" : "Orange Juice"
       },
       {
         "volume" : "",
@@ -13680,20 +13680,20 @@
     "instructions" : "Pour over ice in a shaker. Shake well. Served over ice - very chilled!",
     "ingredients" : [
       {
-        "volume" : "1 1-½ oz ",
-        "name" : "Orange vodka"
+        "volume" : "1-½ oz ",
+        "name" : "Orange Vodka"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
-        "volume" : "Till with 6 oz ",
+        "volume" : "Fill with 6 oz ",
         "name" : "Cranberry juice"
       },
       {
         "volume" : "⅓ oz ",
-        "name" : "Rose’s sweetened lime juice"
+        "name" : "Rose’s Sweetened Lime Juice"
       },
       {
         "volume" : "Juice of 1 ",
@@ -13743,7 +13743,7 @@
     "ingredients" : [
       {
         "volume" : "2 Tbsp ",
-        "name" : "Chocolate syrup"
+        "name" : "Chocolate Syrup"
       },
       {
         "volume" : "6 oz whole ",
@@ -13751,7 +13751,7 @@
       },
       {
         "volume" : "6 oz ",
-        "name" : "Soda water"
+        "name" : "Soda Water"
       }
     ],
     "name" : "Egg Cream"
@@ -13769,7 +13769,7 @@
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       },
       {
         "volume" : "2 tspn ",
@@ -13783,26 +13783,26 @@
     "ingredients" : [
       {
         "volume" : "¼ cup",
-        "name" : "lemon juice"
+        "name" : "Lemon Juice"
       },
       {
         "volume" : "¼ cup",
-        "name" : "lime juice"
+        "name" : "Lime Juice"
       },
       {
         "volume" : "1 teaspoon",
         "name" : "Salt"
       },
       {
-        "volume" : "1 whole",
-        "name" : "squeezed orange"
+        "volume" : "1 whole squeezed ",
+        "name" : "Orange"
       },
       {
         "volume" : "32 oz ",
         "name" : "Water"
       }
     ],
-    "name" : "The Lip Twister"
+    "name" : "Lip Twister"
   },
   {
     "instructions" : "Mix it all over ice, strain into shot glass.",
@@ -13817,13 +13817,13 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       }
     ],
     "name" : "Red Snapper #2"
   },
   {
-    "instructions" : "Put double of Creme de Menthe in a 10-12 oz (300-350ml) glass and fill to top with Ginger Ale, Tonic, or Soda Water.",
+    "instructions" : "Put double of Creme de Menthe in a tall glass and fill to top with ginger ale, tonic, or soda Water.",
     "ingredients" : [
       {
         "volume" : "2 shots ",
@@ -13831,7 +13831,7 @@
       },
       {
         "volume" : "1 glass ",
-        "name" : "Ginger ale"
+        "name" : "Ginger Ale"
       }
     ],
     "name" : "Scope"
@@ -13845,14 +13845,14 @@
       },
       {
         "volume" : "5 oz ",
-        "name" : "Tonic water"
+        "name" : "Tonic Water"
       },
       {
-        "volume" : "1 ",
+        "volume" : "1 wedge of ",
         "name" : "Lime"
       }
     ],
-    "name" : "Gin And Tonic"
+    "name" : "Gin & Tonic"
   },
   {
     "instructions" : "Add 1.5 oz Absolut Vodka to 10 oz cocktail glass filled with ice, top off with Coka-Cola.",
@@ -13891,11 +13891,11 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Triple sec"
+        "name" : "Triple Sec"
       },
       {
         "volume" : "1 oz ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       }
     ],
     "name" : "Kamikaze #2"
@@ -13913,7 +13913,7 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Light rum"
+        "name" : "Light Rum"
       },
       {
         "volume" : "¾ oz ",
@@ -13925,7 +13925,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sour mix"
+        "name" : "Sour Mix"
       },
       {
         "volume" : "1 oz ",
@@ -13947,15 +13947,15 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "½ oz ",
-        "name" : "Midori melon liqueur"
+        "name" : "Midori Melon Liqueur"
       },
       {
         "volume" : "1 splash ",
-        "name" : "Pineapple juice"
+        "name" : "Pineapple Juice"
       },
       {
         "volume" : "dash ",
@@ -13981,14 +13981,14 @@
       },
       {
         "volume" : "1 dash ",
-        "name" : "Rose’s sweetened lime juice"
+        "name" : "Rose’s Sweetened Lime Juice"
       },
       {
         "volume" : "1 dash ",
         "name" : "Grenadine"
       }
     ],
-    "name" : "The Big Johnson"
+    "name" : "Big Johnson"
   },
   {
     "instructions" : "Mix all ingredients in blender with ice, to the consistency of a margarita.",
@@ -14003,7 +14003,7 @@
       },
       {
         "volume" : "6 oz ",
-        "name" : "Peach schnapps"
+        "name" : "Peach Schnapps"
       },
       {
         "volume" : "6 oz ",
@@ -14031,7 +14031,7 @@
     "name" : "Carrol"
   },
   {
-    "instructions" : "Mix the o'boy n' the salt in a tall glass, add the heated milk. Put some whipped cream at the top and serve.",
+    "instructions" : "Mix the o'boy n' salt to taste in a tall glass, add the heated milk. Put some whipped cream at the top and serve.",
     "ingredients" : [
       {
         "volume" : "1 gal ",
@@ -14039,14 +14039,14 @@
       },
       {
         "volume" : "10 tspn sweetened ",
-        "name" : "Cocoa powder"
+        "name" : "Cocoa Powder"
       },
       {
         "volume" : "1 dl ",
-        "name" : "Whipped cream"
+        "name" : "Whipped Cream"
       },
       {
-        "volume" : "As much as you wish ",
+        "volume" : "",
         "name" : "Salt"
       }
     ],
@@ -14579,7 +14579,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Gin Cocktail"
@@ -14799,7 +14799,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -15485,7 +15485,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "5 oz ",
@@ -15693,7 +15693,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Bentley"
@@ -15739,7 +15739,7 @@
     "name" : "Vanilla Liqueur"
   },
   {
-    "instructions" : "Fill a 16 oz glass a quarter of the way with ice, then add the rums and juice. Fill the rest of the glass with the Sweet and Sour, almost to the top, then finish it off with the grenadine. Mix and serve.",
+    "instructions" : "Fill a 16 oz glass a quarter of the way with ice, then add the rums and juice. Fill the rest of the glass with the Sweet & Sour, almost to the top, then finish it off with the grenadine. Mix and serve.",
     "ingredients" : [
       {
         "volume" : "1 oz ",
@@ -15759,7 +15759,7 @@
       },
       {
         "volume" : " mix (Mr. & Mrs. T)",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -16619,7 +16619,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "2 oz ",
@@ -17273,7 +17273,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Haidin-Haidin"
@@ -17352,7 +17352,7 @@
         "name" : "Coca-Cola"
       }
     ],
-    "name" : "Mark and Coke"
+    "name" : "Mark & Coke"
   },
   {
     "instructions" : "Pour the bourbon and Benedictine into a brandy snifter.",
@@ -17366,7 +17366,7 @@
         "name" : "Benedictine"
       }
     ],
-    "name" : "Kentucky B And B"
+    "name" : "Kentucky B & B"
   },
   {
     "instructions" : "In a shaker half-filled with ice cubes combine the courbon and Benedictine. Shake and strain into a cocktail glass. Garnish with the lemon twist.",
@@ -17381,7 +17381,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Kentucky Colonel"
@@ -18047,11 +18047,11 @@
     "name" : "Commodore"
   },
   {
-    "instructions" : "Pour brandy and sweet and sour into a collins glass over ice cubes and stir well. Fill with chilled champagne and stir lightly. Add the slice of lemon and serve.",
+    "instructions" : "Pour brandy and Sweet & Sour into a collins glass over ice cubes and stir well. Fill with chilled champagne and stir lightly. Add the slice of lemon and serve.",
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz ",
@@ -18209,7 +18209,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       }
     ],
     "name" : "Vodka Sling"
@@ -18227,7 +18227,7 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 part ",
@@ -18363,7 +18363,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -18789,7 +18789,7 @@
       },
       {
         "volume" : "Some ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : " (or vodka or schnapps)",
@@ -18867,7 +18867,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "A Furlong Too Late"
@@ -19007,7 +19007,7 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 part ",
@@ -20890,7 +20890,7 @@
         "name" : "Water"
       }
     ],
-    "name" : "Scotch And Water"
+    "name" : "Scotch & Water"
   },
   {
     "instructions" : "Pour all the ingredients into tumbler over ice. Strain into glass.",
@@ -20945,7 +20945,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Blackthorn"
@@ -22135,7 +22135,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Lone Tree Cooler"
@@ -22241,7 +22241,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz ",
@@ -23033,7 +23033,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Finnish Passion"
@@ -23147,7 +23147,7 @@
       },
       {
         "volume" : "Fill ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Grape ape"
@@ -23181,7 +23181,7 @@
       },
       {
         "volume" : "1-2 dash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 wedge ",
@@ -23415,7 +23415,7 @@
       },
       {
         "volume" : "1 ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "750 ml ",
@@ -23705,7 +23705,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Delmonico #2"
@@ -23770,7 +23770,7 @@
         "name" : "Water"
       }
     ],
-    "name" : "Bourbon and Branch"
+    "name" : "Bourbon & Branch"
   },
   {
     "instructions" : "In a tall thin glass, crush part of the mint with a fork to coat the inside. Add the sugar and lemon juice and stir thoroughly. Top with ice. Add rum and mix. Top off with the club soda (or seltzer). Add a lemon slice and the remaining mint. Serves one.",
@@ -24755,7 +24755,7 @@
     "name" : "Mock Pink Champagne #1"
   },
   {
-    "instructions" : "Pour gin and sweet and sour into a collins glass over ice cubes and stir well. Fill with chilled beer, stir lightly, and serve.",
+    "instructions" : "Pour gin and Sweet & Sour into a collins glass over ice cubes and stir well. Fill with chilled beer, stir lightly, and serve.",
     "ingredients" : [
       {
         "volume" : "1 oz ",
@@ -24763,7 +24763,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Chilled ",
@@ -24947,7 +24947,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Silver Cocktail"
@@ -25043,7 +25043,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Texas Rattlesnake"
@@ -25251,7 +25251,7 @@
       },
       {
         "volume" : "1-½ part ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1-2 Tbsp ",
@@ -25495,7 +25495,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Apple Brandy Highball"
@@ -25849,7 +25849,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       }
     ],
     "name" : "H.P.W."
@@ -26379,7 +26379,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Triad"
@@ -26629,7 +26629,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Brandy Cocktail"
@@ -27043,7 +27043,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Raspberry Kamakazie"
@@ -27093,7 +27093,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Whiskey Highball"
@@ -27555,7 +27555,7 @@
       },
       {
         "volume" : "4 pieces ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       },
       {
         "volume" : "30 cl ",
@@ -27651,7 +27651,7 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "3 parts ",
@@ -27753,11 +27753,11 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "Twist of ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       }
     ],
     "name" : "Americano"
@@ -27783,7 +27783,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "1 ",
@@ -27975,7 +27975,7 @@
       },
       {
         "volume" : "¾ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "½ oz ",
@@ -28057,7 +28057,7 @@
       },
       {
         "volume" : "5 Tbsp grated ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "2 cups ",
@@ -28305,7 +28305,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -28495,7 +28495,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Sazerac"
@@ -28579,7 +28579,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Gin And Pink"
@@ -28795,7 +28795,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "K.G.B."
@@ -28893,7 +28893,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Soviet Cocktail"
@@ -29677,7 +29677,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Fancy Bourbon"
@@ -29957,7 +29957,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Fino Martini"
@@ -29979,7 +29979,7 @@
       },
       {
         "volume" : "3 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Georgian Sunrise"
@@ -30063,7 +30063,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Brandy Toddy"
@@ -30139,7 +30139,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Shriner Cocktail"
@@ -30557,7 +30557,7 @@
     "name" : "Morning Dew"
   },
   {
-    "instructions" : "Fill blender cup with 15 oz of small ice cubes, add rum, passion fruit syrup and sweet and sour and blend until smooth, in a hurricane glass pour the blended strawberries, then add the blended mixture, the strawberries will ooze up the sides of the glass and it will look like a beautiful sunset. Garnish with a pineapple wedge and a cherry.",
+    "instructions" : "Fill blender cup with 15 oz of small ice cubes, add rum, passion fruit syrup and Sweet & Sour and blend until smooth, in a hurricane glass pour the blended strawberries, then add the blended mixture, the strawberries will ooze up the sides of the glass and it will look like a beautiful sunset. Garnish with a pineapple wedge and a cherry.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
@@ -30569,7 +30569,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz pureed frozen ",
@@ -31611,7 +31611,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Martini #3"
@@ -31943,7 +31943,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lime peel"
+        "name" : "Lime Peel"
       }
     ],
     "name" : "Limeade"
@@ -32009,7 +32009,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -32031,7 +32031,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Viscous Robert"
@@ -32271,7 +32271,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "½ oz ",
@@ -32445,7 +32445,7 @@
       },
       {
         "volume" : "⅓ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Arizona Antifreeze"
@@ -32643,7 +32643,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Copenheering"
@@ -33113,7 +33113,7 @@
       },
       {
         "volume" : "1 piece ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       }
     ],
     "name" : "Glogg - Grandmother’s"
@@ -33149,7 +33149,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Soviet"
@@ -33383,7 +33383,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Fancy Brandy"
@@ -33431,7 +33431,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Roselyn Cocktail"
@@ -33559,7 +33559,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Loch Lomond"
@@ -33603,7 +33603,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Bluebird"
@@ -34207,7 +34207,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Panther"
@@ -34467,7 +34467,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Superb Cosmopolitan"
@@ -35003,7 +35003,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Brantini"
@@ -35907,7 +35907,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lime peel"
+        "name" : "Lime Peel"
       }
     ],
     "name" : "Japanese"
@@ -36107,7 +36107,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Fancy Whiskey"
@@ -36295,7 +36295,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Kentucky Colonel Cocktail"
@@ -37075,7 +37075,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "4 oz ",
@@ -37111,7 +37111,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz ",
@@ -38125,7 +38125,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Preakness Cocktail"
@@ -38259,7 +38259,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Brandy Blazer"
@@ -38463,7 +38463,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Piper At Arms"
@@ -38485,7 +38485,7 @@
       },
       {
         "volume" : "1 ¼ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Mansion Margarita"
@@ -40127,7 +40127,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Bernardo"
@@ -40157,7 +40157,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Scotch Bishop Cocktail"
@@ -40347,7 +40347,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "½ slice ",
@@ -40781,7 +40781,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Hat Trick #2"
@@ -41287,7 +41287,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Cognac Highball"
@@ -41377,7 +41377,7 @@
     "name" : "Albysjun"
   },
   {
-    "instructions" : "Mix Tequila, Melon Liquor and Sweet and Sour Mix in Blender. Add ice. Serve in glass.",
+    "instructions" : "Mix Tequila, Melon Liquor and Sweet & Sour Mix in Blender. Add ice. Serve in glass.",
     "ingredients" : [
       {
         "volume" : "½ part ",
@@ -41389,7 +41389,7 @@
       },
       {
         "volume" : "2 parts ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -41977,7 +41977,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Harvard Cooler"
@@ -42091,7 +42091,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz ",
@@ -42161,7 +42161,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 dash ",
@@ -42431,7 +42431,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "English Highball"
@@ -42543,7 +42543,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -42863,7 +42863,7 @@
       },
       {
         "volume" : "2-½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz ",
@@ -42937,7 +42937,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Arthur Tompkins"
@@ -43055,7 +43055,7 @@
       },
       {
         "volume" : "",
-        "name" : "Lime peel"
+        "name" : "Lime Peel"
       }
     ],
     "name" : "Jen’s Mountain Gin"
@@ -43115,7 +43115,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Alaska Cocktail"
@@ -43137,7 +43137,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Bushranger #1"
@@ -43431,7 +43431,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Bobby Burns Cocktail"
@@ -43453,7 +43453,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Grand Master"
@@ -43493,7 +43493,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Comforting Tiger"
@@ -44121,7 +44121,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       },
       {
         "volume" : "1 ",
@@ -44623,7 +44623,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Highland Sling"
@@ -44667,7 +44667,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "London Buck"
@@ -44759,7 +44759,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       }
     ],
     "name" : "Manhattan"
@@ -44977,7 +44977,7 @@
       },
       {
         "volume" : "3 parts ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : " to taste",
@@ -45983,7 +45983,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Dirty Dick’s Downfall"
@@ -46201,7 +46201,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Continental"
@@ -46267,7 +46267,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Rattlesnake Shot"
@@ -46315,7 +46315,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Orange peel"
+        "name" : "Orange Peel"
       }
     ],
     "name" : "Yolanda"
@@ -46505,7 +46505,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Stone Sour"
@@ -46603,7 +46603,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "dash ",
@@ -46955,7 +46955,7 @@
       },
       {
         "volume" : "Twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Ritz Fizz"
@@ -47017,7 +47017,7 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Watermelon Shooter #4"
@@ -47541,7 +47541,7 @@
     "name" : "Aztec Punch"
   },
   {
-    "instructions" : "Add equal Parts Vodka, Rum, and Melon in a tall cocktail glass with ice. Add a couple of splashes of triple sec (orange Liquor). Fill to the top with sweet and sour. Add a splash of Sprite and grenadine.",
+    "instructions" : "Add equal Parts Vodka, Rum, and Melon in a tall cocktail glass with ice. Add a couple of splashes of triple sec (orange Liquor). Fill to the top with Sweet & Sour. Add a splash of Sprite and grenadine.",
     "ingredients" : [
       {
         "volume" : "1 part ",
@@ -47561,7 +47561,7 @@
       },
       {
         "volume" : "Fill with ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -47931,7 +47931,7 @@
     "name" : "Piccadilly"
   },
   {
-    "instructions" : "Mix gentle, and add ice cubes. Serve whith Straw.",
+    "instructions" : "Mix gently, add ice cubes, and serve with a straw.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
@@ -47942,7 +47942,7 @@
         "name" : "Pisang Ambon"
       },
       {
-        "volume" : "Fill whith ",
+        "volume" : "Fill with ",
         "name" : "Sprite"
       }
     ],
@@ -48259,7 +48259,7 @@
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       }
     ],
     "name" : "Knickerbocker Cocktail"
@@ -48445,11 +48445,11 @@
       },
       {
         "volume" : "2 tspn ",
-        "name" : "Powdered sugar"
+        "name" : "Powdered Sugar"
       },
       {
         "volume" : "1 twist of ",
-        "name" : "Lemon peel"
+        "name" : "Lemon Peel"
       },
       {
         "volume" : "2 tspn ",
@@ -48459,7 +48459,7 @@
     "name" : "Rum Toddy"
   },
   {
-    "instructions" : "combine all ingrediants, chill over ice, strain.",
+    "instructions" : "Combine all ingrediants, chill over ice, strain.",
     "ingredients" : [
       {
         "volume" : "¼ oz ",
@@ -48467,11 +48467,11 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Malibu rum"
+        "name" : "Malibu Rum"
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Chambord raspberry liqueur"
+        "name" : "Chambord Raspberry Liqueur"
       },
       {
         "volume" : "¼ oz ",
@@ -48487,7 +48487,7 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Cranberry juice"
+        "name" : "Cranberry Juice"
       },
       {
         "volume" : "¼ oz ",
@@ -48497,7 +48497,7 @@
     "name" : "Crimson Tide"
   },
   {
-    "instructions" : "Add ⅓ rum,⅓ vodka , and combine coca-cola and orange juice to fill glass. Add ice if you have room!",
+    "instructions" : "Add ⅓ rum, ⅓ vodka, and combine Coke and orange juice to fill glass. Add ice if you have room!",
     "ingredients" : [
       {
         "volume" : "⅓ ",
@@ -48516,7 +48516,7 @@
         "name" : "Orange juice"
       }
     ],
-    "name" : "The Piledriver"
+    "name" : "Piledriver"
   },
   {
     "instructions" : "Pour in Rum and then triple sec. Next pour in OJ and Pinapple. Grab that Gary.",
@@ -48631,7 +48631,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -49371,21 +49371,21 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Apricot nectar"
+        "name" : "Apricot Nectar"
       },
       {
         "volume" : "1 dash ",
-        "name" : "Strawberry syrup"
+        "name" : "Strawberry Syrup"
       },
       {
         "volume" : "2 dashes ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       }
     ],
     "name" : "The Race"
   },
   {
-    "instructions" : "In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey’s Irish cream in equal portions. It goes down really smooth ,and you don’t even need a chaser. It tastes just like chocolate milk.(Really!)",
+    "instructions" : "In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine, the Kahlua, then the Bailey’s in equal portions. It goes down really smooth, and you don’t even need a chaser. It tastes just like chocolate milk.",
     "ingredients" : [
       {
         "volume" : "",
@@ -49397,7 +49397,7 @@
       },
       {
         "volume" : "",
-        "name" : "Bailey’s irish cream"
+        "name" : "Bailey’s Irish Cream"
       }
     ],
     "name" : "Bruce’s Puce"
@@ -49415,21 +49415,21 @@
       },
       {
         "volume" : "4 dashes ",
-        "name" : "Angostura bitters"
+        "name" : "Angostura Bitters"
       },
       {
         "volume" : "1 dl Schweppes ",
-        "name" : "Tonic water"
+        "name" : "Tonic Water"
       },
       {
         "volume" : "4 ",
         "name" : "Ice"
       }
     ],
-    "name" : "Long vodka"
+    "name" : "Long Vodka"
   },
   {
-    "instructions" : "Combine Rum, Cream of Coconut and Pineapple Juice in a regular sized blender. Blend on low speed to mix liquid ingredients. Fill blender to top with ice. Blend on high speed until ice is grainy. Pour into hurricane glass and garnish with pineapple wedge.",
+    "instructions" : "Combine rum, Cream of Coconut, and pineapple juice in a blender. Blend on low speed to mix liquid ingredients. Fill blender to top with ice. Blend on high speed until ice is grainy. Pour into hurricane glass and garnish with pineapple wedge.",
     "ingredients" : [
       {
         "volume" : "6 oz ",
@@ -49467,14 +49467,14 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Cherry brandy"
+        "name" : "Cherry Brandy"
       },
       {
         "volume" : "1 tspn ",
-        "name" : "Lime juice"
+        "name" : "Lime Juice"
       }
     ],
-    "name" : "Love For Toby"
+    "name" : "Love for Toby"
   },
   {
     "instructions" : "Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.",
@@ -49499,7 +49499,7 @@
     "ingredients" : [
       {
         "volume" : "1 oz ",
-        "name" : "Coffee brandy"
+        "name" : "Coffee Brandy"
       },
       {
         "volume" : "1-½ oz ",
@@ -49507,7 +49507,7 @@
       },
       {
         "volume" : "1 Tbsp ",
-        "name" : "Lemon juice"
+        "name" : "Lemon Juice"
       }
     ],
     "name" : "Moon Quake Shake"
@@ -49551,7 +49551,7 @@
       },
       {
         "volume" : "¼ cup ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "¼ cup ",
@@ -49569,7 +49569,7 @@
       },
       {
         "volume" : "3 oz ",
-        "name" : "Club soda"
+        "name" : "Club Soda"
       },
       {
         "volume" : "1 ",
@@ -50633,7 +50633,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Grand Blue"
@@ -51423,7 +51423,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -54493,7 +54493,7 @@
     "name" : "Cream Cordial"
   },
   {
-    "instructions" : "Shake melon liqueur and blueberry schnapps with ice and strain into an old-fashioned glass over ice cubes. Fill with sweet and sour, add grenadine for color, and stir. Add cherry on top and serve.",
+    "instructions" : "Shake melon liqueur and blueberry schnapps with ice and strain into an old-fashioned glass over ice cubes. Fill with Sweet & Sour, add grenadine for color, and stir. Add cherry on top and serve.",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
@@ -54505,7 +54505,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -55139,11 +55139,11 @@
     "name" : "Gorilla Snot #1"
   },
   {
-    "instructions" : "boil water and whiskey in seprate glasses, ignite whiskey, slowly mix whiskey and water 4-6 times",
+    "instructions" : "Boil water and whiskey in separate glasses, ignite whiskey, slowly mix whiskey and water 4-6 times",
     "ingredients" : [
       {
         "volume" : "2 oz ",
-        "name" : "whiskey"
+        "name" : "Whiskey"
       },
       {
         "volume" : "6 oz ",
@@ -55897,7 +55897,7 @@
       },
       {
         "volume" : "¼ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "¼ oz ",
@@ -56385,7 +56385,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 oz ",
@@ -57057,7 +57057,7 @@
     "name" : "Bermuda Highball"
   },
   {
-    "instructions" : "Full collins glass with ice, pour in Limon, add sweet and sour, fill with equal parts club soda and Sprite",
+    "instructions" : "Full collins glass with ice, pour in Limon, add Sweet & Sour, fill with equal parts club soda and Sprite",
     "ingredients" : [
       {
         "volume" : "1-½ oz ",
@@ -57065,7 +57065,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "2 oz ",
@@ -57509,7 +57509,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "3 oz ",
@@ -57561,7 +57561,7 @@
       },
       {
         "volume" : "Fill with ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "The District III"
@@ -58033,7 +58033,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Highlander"
@@ -59441,7 +59441,7 @@
     "name" : "Dickhead’s Delight"
   },
   {
-    "instructions" : "Pour rum over pineapple chunk in a tall glass. Add pineapple juice and sweet and sour. Top with Sprite. Stir and serve.",
+    "instructions" : "Pour rum over pineapple chunk in a tall glass. Add pineapple juice and Sweet & Sour. Top with Sprite. Stir and serve.",
     "ingredients" : [
       {
         "volume" : "1-½ shot ",
@@ -59457,7 +59457,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "2 oz ",
@@ -59795,7 +59795,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Top with ",
@@ -59853,7 +59853,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Watermelon shooter #1"
@@ -61343,7 +61343,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 whole ",
@@ -61533,7 +61533,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Juice of ¼ ",
@@ -61591,7 +61591,7 @@
       },
       {
         "volume" : "1 part ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "4 parts ",
@@ -62101,7 +62101,7 @@
       },
       {
         "volume" : "3 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Juice of ½ ",
@@ -62265,7 +62265,7 @@
     "name" : "Orange Blossom"
   },
   {
-    "instructions" : "Pour scotch and sweet and sour into a collins glass over ice cubes and stir well. Fill with cola and stir lightly. Top with the cherry and serve.",
+    "instructions" : "Pour scotch and Sweet & Sour into a collins glass over ice cubes and stir well. Fill with cola and stir lightly. Top with the cherry and serve.",
     "ingredients" : [
       {
         "volume" : "1 oz ",
@@ -62273,7 +62273,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -63339,7 +63339,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "Rum Runner by Charles"
@@ -63921,7 +63921,7 @@
     "name" : "Opal Cocktail"
   },
   {
-    "instructions" : "Pour grenadine, gin, and sweet and sour into a collins glass over ice cubes and stir well. Fill with carbonated water and top with cherry brandy. Add the cherry on top and serve.",
+    "instructions" : "Pour grenadine, gin, and Sweet & Sour into a collins glass over ice cubes and stir well. Fill with carbonated water and top with cherry brandy. Add the cherry on top and serve.",
     "ingredients" : [
       {
         "volume" : "½ oz ",
@@ -63937,7 +63937,7 @@
       },
       {
         "volume" : "2 oz ",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -64859,7 +64859,7 @@
       },
       {
         "volume" : "",
-        "name" : "Sweet and sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "",
@@ -65099,7 +65099,7 @@
       },
       {
         "volume" : "4 oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       }
     ],
     "name" : "The Perfect Margarita #2"
@@ -65379,7 +65379,7 @@
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "½ slice ",
@@ -66065,7 +66065,7 @@
       },
       {
         "volume" : "1 splash ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "1 splash ",
@@ -67827,7 +67827,7 @@
       },
       {
         "volume" : "1 oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Fill with ",
@@ -68195,7 +68195,7 @@
     "name" : "Mcclelland Cocktail"
   },
   {
-    "instructions" : "Add ice to glass. Add Alcohol. Add Sweet and Sour mix. Fill to the top with Cola (preferably Coke). Squeeze and add lemon",
+    "instructions" : "Add ice to glass. Add Alcohol. Add Sweet & Sour mix. Fill to the top with Cola (preferably Coke). Squeeze and add lemon",
     "ingredients" : [
       {
         "volume" : "1 ¼ oz ",
@@ -68215,7 +68215,7 @@
       },
       {
         "volume" : "2-½ oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "Fill with ½ - 1 can ",
@@ -69893,7 +69893,7 @@
       },
       {
         "volume" : "½ oz ",
-        "name" : "Sweet and Sour"
+        "name" : "Sweet & Sour"
       },
       {
         "volume" : "½ oz ",

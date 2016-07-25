@@ -11,6 +11,7 @@ import GameKit
 import Crashlytics
 import LaunchKit
 import TwitterKit
+import DigitsKit
 import FacebookCore
 import FacebookLogin
 import FBAudienceNetwork
@@ -32,6 +33,7 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         super.viewDidLoad()
         //        configureCrashButton() // disable for release
         self.navigationController?.navigationBarHidden = false
+        configureDigitsLogin()
         configureTwitterLogin()
         embeddedTweet()
         createTwitterTimelineButton()
@@ -60,6 +62,32 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
 //        view.addSubview(button)
 //    }
     
+    func configureDigitsLogin() {
+        let digitsAuthButton = DGTAuthenticateButton(authenticationCompletion: { (session: DGTSession?, error: NSError?) in
+            if (session != nil) {
+                let message = "Phone Number: \(session!.phoneNumber)"
+                let alertController = UIAlertController(title: "You’re logged in!", message: message, preferredStyle: .Alert)
+                alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: .None))
+                self.presentViewController(alertController, animated: true, completion: .None)
+            } else {
+                NSLog("Authentication error: %@", error!.localizedDescription)
+            }
+        })
+        digitsAuthButton.center = CGPointMake(self.view.center.x, self.view.center.y - 200)
+        digitsAuthButton.digitsAppearance = self.makeDigitsTheme()
+        self.view.addSubview(digitsAuthButton)
+    }
+    
+    func makeDigitsTheme() -> DGTAppearance {
+        let digitsTheme = DGTAppearance();
+        digitsTheme.bodyFont = UIFont(name: "SanFranciscoDisplay-Light", size: 16);
+        digitsTheme.labelFont = UIFont(name: "SanFranciscoDisplay-Regular", size: 17);
+        digitsTheme.accentColor = UIColor.orangeColor()
+        digitsTheme.backgroundColor = UIColor.blackColor()
+        digitsTheme.logoImage = UIImage(named: "DrinkPoint")
+        return digitsTheme;
+    }
+    
     func configureTwitterLogin() {
         let twitterLoginButton = TWTRLogInButton { (session, error) in
             if let unwrappedSession = session {
@@ -67,13 +95,13 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
                     message: "User \(unwrappedSession.userName) has logged in",
                     preferredStyle: UIAlertControllerStyle.Alert
                 )
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                alert.addAction(UIAlertAction(title: "Got It!", style: UIAlertActionStyle.Default, handler: nil))
                 self.presentViewController(alert, animated: true, completion: nil)
             } else {
                 NSLog("Login error: %@", error!.localizedDescription);
             }
         }
-        twitterLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 210)
+        twitterLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y - 120)
         self.view.addSubview(twitterLoginButton)
     }
     
@@ -82,7 +110,7 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         TWTRAPIClient().loadTweetWithID("631879971628183552") { (tweet, error) in
             if let unwrappedTweet = tweet {
                 let tweetView = TWTRTweetView(tweet: unwrappedTweet)
-                tweetView.center = CGPointMake(self.view.center.x, self.view.center.y - 50);
+                tweetView.center = CGPointMake(self.view.center.x, self.view.center.y + 70);
                 TWTRTweetViewStyle.Compact
                 tweetView.theme = .Dark
                 tweetView.showActionButtons = true
@@ -94,10 +122,10 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     }
     
     func createTwitterTimelineButton() {
-        let twitterTimelineButton = UIButton(type: .System)
+        let twitterTimelineButton = UIButton(type: .Custom)
         twitterTimelineButton.setTitle("Show Twitter Timeline", forState: .Normal)
         twitterTimelineButton.sizeToFit()
-        twitterTimelineButton.center = CGPointMake(self.view.center.x, self.view.center.y + 250)
+        twitterTimelineButton.center = CGPointMake(self.view.center.x, self.view.center.y - 75)
         twitterTimelineButton.addTarget(self, action: #selector(showTwitterTimeline), forControlEvents: [.TouchUpInside])
         view.addSubview(twitterTimelineButton)
     }
@@ -139,11 +167,11 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     func configureFacebookLogin() {
         if AccessToken.current != nil {
             let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
-            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 165)
+            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 240)
             view.addSubview(facebookLoginButton)
         } else {
             let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
-            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 165)
+            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 240)
             view.addSubview(facebookLoginButton)
             print("User not logged into Facebook")
         }

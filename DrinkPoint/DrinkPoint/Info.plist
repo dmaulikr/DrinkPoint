@@ -96,6 +96,17 @@
 				<key>KitName</key>
 				<string>PubNub</string>
 			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>vBvgfoonvxm9HoU6P74qppPc1</string>
+					<key>consumerSecret</key>
+					<string>6JvHo3a75XscStQXY8Djyt1X9TsZj8CgqFQ5ajpAGSAHYU114M</string>
+				</dict>
+				<key>KitName</key>
+				<string>Digits</string>
+			</dict>
 		</array>
 	</dict>
 	<key>FacebookAppID</key>

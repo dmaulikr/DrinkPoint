@@ -9,6 +9,7 @@
 import UIKit
 import Fabric
 import Crashlytics
+import DigitsKit
 import TwitterKit
 import GameAnalytics
 import Mapbox
@@ -38,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         
         Fabric.sharedSDK().debug = true
-        Fabric.with([Crashlytics.self, GameAnalytics.self, MGLAccountManager.self, Twitter.self])
+        Fabric.with([Crashlytics.self, GameAnalytics.self, MGLAccountManager.self, Twitter.self, Digits.self])
         self.logUser()
 
         GameAnalytics.setEnabledInfoLog(true)

@@ -11,4 +11,5 @@ pod 'TwitterCore'
 pod 'Crashlytics'
 pod 'GA-SDK-IOS'
 pod 'Mapbox-iOS-SDK'
+pod 'Digits'
 end
