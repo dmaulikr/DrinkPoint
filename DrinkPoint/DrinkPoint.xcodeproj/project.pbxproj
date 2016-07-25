@@ -176,7 +176,6 @@
 		97AAA5491D3002EB00E5FA81 /* CocktailsBartenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */; };
 		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
 		97B1489C1D23437400836D1F /* JazzyFrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */; };
-		97E613541D45B46000F1E431 /* BB_Toss.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E613531D45B46000F1E431 /* BB_Toss.m */; };
 		9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -357,8 +356,6 @@
 		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = DrinkPoint/Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = DrinkPoint/Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JazzyFrenchy.mp3; path = Games/Triple/Sounds/JazzyFrenchy.mp3; sourceTree = "<group>"; };
-		97E613521D45B45F00F1E431 /* DrinkPoint-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrinkPoint-Bridging-Header.h"; sourceTree = "<group>"; };
-		97E613531D45B46000F1E431 /* BB_Toss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BB_Toss.m; sourceTree = "<group>"; };
 		9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -429,8 +426,6 @@
 				974A1DD01D2805AF008754E9 /* LaunchScreen.storyboard */,
 				97324B5E1D0A40F3006B58A3 /* Assets.xcassets */,
 				97324B631D0A40F3006B58A3 /* Info.plist */,
-				97E613531D45B46000F1E431 /* BB_Toss.m */,
-				97E613521D45B45F00F1E431 /* DrinkPoint-Bridging-Header.h */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1018,7 +1013,6 @@
 				975530B11D286A15005E66F1 /* TriviaNumbersViewController.swift in Sources */,
 				9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */,
 				973E7A631D1ECBC100393B19 /* TripleChain.swift in Sources */,
-				97E613541D45B46000F1E431 /* BB_Toss.m in Sources */,
 				9788F0F51D1F3F3E00CB5214 /* PlinkDefined.swift in Sources */,
 				973E7A661D1ECBC100393B19 /* TripleGameScene.swift in Sources */,
 				973E7A691D1ECBC100393B19 /* TripleTile.swift in Sources */,
@@ -1170,7 +1164,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
 				PRODUCT_NAME = DrinkPoint;
-				SWIFT_OBJC_BRIDGING_HEADER = "DrinkPoint/DrinkPoint-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1193,7 +1187,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pkadams67.drinkapoint;
 				PRODUCT_NAME = DrinkPoint;
-				SWIFT_OBJC_BRIDGING_HEADER = "DrinkPoint/DrinkPoint-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
