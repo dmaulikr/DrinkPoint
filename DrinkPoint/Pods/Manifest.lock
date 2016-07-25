@@ -34,6 +34,9 @@ PODS:
     - LaunchKit/LaunchKit (= 2.1.4)
   - LaunchKit/LaunchKit (2.1.4)
   - Mapbox-iOS-SDK (3.3.1)
+  - mopub-ios-sdk (4.7.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.7.0)
+  - mopub-ios-sdk/MoPubSDK (4.7.0)
   - TwitterCore (2.3.0):
     - Fabric
   - TwitterKit (2.3.0):
@@ -49,6 +52,7 @@ DEPENDENCIES:
   - GA-SDK-IOS
   - LaunchKit
   - Mapbox-iOS-SDK
+  - mopub-ios-sdk
   - TwitterCore
   - TwitterKit
 
@@ -66,9 +70,10 @@ SPEC CHECKSUMS:
   GA-SDK-IOS: 1e8947d3b18171b92a7c7cefb4c39d3260a89ea2
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
   Mapbox-iOS-SDK: 55dea997ae34ff0553fbf4208e7d60dfefa24fd5
+  mopub-ios-sdk: e46b277cdb77b1745567b419742f77fed6865262
   TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
 
-PODFILE CHECKSUM: d4b2ba41d51b339dbd829be495dea55b92470f7d
+PODFILE CHECKSUM: 1b323e210e98e904094334e0859b823110ee6d4b
 
 COCOAPODS: 1.0.0.beta.5
