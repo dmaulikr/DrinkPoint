@@ -8,6 +8,7 @@
 
 import UIKit
 import Fabric
+import SpeechKit
 import mopub_ios_sdk
 import Crashlytics
 import DigitsKit
@@ -40,8 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().tintColor = UIColor.whiteColor()
         
         Fabric.sharedSDK().debug = true
-
-        Fabric.with([GameAnalytics.self, Digits.self, Twitter.self, MGLAccountManager.self, Crashlytics.self, MoPub.self])
+        Fabric.with([GameAnalytics.self, Crashlytics.self, Digits.self, MGLAccountManager.self, MoPub.self, SKSession.self, Twitter.self])
         self.logUser()
 
         GameAnalytics.setEnabledInfoLog(true)

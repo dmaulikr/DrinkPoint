@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GameKit
 import Crashlytics
 import LaunchKit
 import TwitterKit
@@ -15,10 +14,12 @@ import DigitsKit
 import FacebookCore
 import FacebookLogin
 import FBAudienceNetwork
+import SpeechKit
 
-class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAdViewDelegate {
-    
-    var drinkPointScore: Int64 = 0
+class MainViewController: UIViewController, FBAdViewDelegate, SKTransactionDelegate,SKAudioPlayerDelegate {
+
+    var skTransaction: SKTransaction?
+    var skSession: SKSession?
     
     // Crashlytics "Crash Button" (disable for debugging)
     //    @IBAction func crashButtonTapped(sender: AnyObject) {
@@ -31,15 +32,15 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        configureCrashButton() // disable for release
         self.navigationController?.navigationBarHidden = false
-        configureDigitsLogin()
-        configureTwitterLogin()
-        embeddedTweet()
-        createTwitterTimelineButton()
+        //        configureCrashButton() // disable for release
+        createTtsButton()
         configureFacebookAd()
         configureFacebookLogin()
-        authenticateLocalPlayer()
+        configureDigitsLogin()
+        configureTwitterLogin()
+        createTwitterTimelineButton()
+        embeddedTweet()
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -61,6 +62,84 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
 //        button.addTarget(self, action: #selector(MainViewController.crashButtonTapped(_:)), forControlEvents: UIControlEvents.TouchUpInside)
 //        view.addSubview(button)
 //    }
+
+    func createTtsButton() {
+        let ttsButton = UIButton(type: UIButtonType.RoundedRect)
+        ttsButton.setTitle("Welcome to DrinkPoint!", forState: UIControlState.Normal)
+        ttsButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        ttsButton.titleLabel!.font = UIFont(name: "SanFranciscoDisplay-Light" , size: 14)
+        ttsButton.addTarget(self, action: #selector(MainViewController.toggleTts), forControlEvents: UIControlEvents.TouchUpInside)
+        ttsButton.sizeToFit()
+        ttsButton.center = CGPointMake(self.view.center.x, self.view.center.y - 255)
+        view.addSubview(ttsButton)
+        skTransaction = nil
+        skSession = SKSession(fabric:())
+        skSession!.audioPlayer.delegate = self
+
+    }
+    
+    func toggleTts() {
+        if (skTransaction == nil) {
+            skTransaction = skSession!.speakString("Welcome to DrinkPoint!", withLanguage: "eng-GBR", delegate: self)
+        } else {
+            skTransaction!.cancel()
+            skTransaction = nil
+        }
+    }
+
+    func transaction(transaction: SKTransaction!, didReceiveAudio audio: SKAudio!) {
+        NSLog("didReceiveAudio")
+        skTransaction = nil
+    }
+    
+    func transaction(transaction: SKTransaction!, didFinishWithSuggestion suggestion: String) {
+        NSLog("didFinishWithSuggestion")
+    }
+    
+    func transaction(transaction: SKTransaction!, didFailWithError error: NSError!, suggestion: String) {
+        NSLog("didFailWithError: %@. %@", error.description, suggestion)
+        skTransaction = nil
+    }
+
+    func audioPlayer(player: SKAudioPlayer!, willBeginPlaying audio: SKAudio!) {
+        NSLog("willBeginPlaying")
+    }
+    
+    func audioPlayer(player: SKAudioPlayer!, didFinishPlaying audio: SKAudio!) {
+        NSLog("didFinishPlaying")
+    }
+
+    func configureFacebookAd() {
+        FBAdSettings.addTestDevice("b602d594afd2b0b327e07a06f36ca6a7e42546d0")
+        let adView: FBAdView = FBAdView(placementID: "825492567551864_833251636775957", adSize: kFBAdSizeHeight50Banner, rootViewController: self)
+        adView.delegate = self
+        adView.hidden = true
+        self.view!.addSubview(adView)
+        adView.loadAd()
+    }
+    
+    func adView(adView: FBAdView, didFailWithError error: NSError) {
+        NSLog("Facebook Ad failed to load")
+        adView.hidden = true
+    }
+    
+    func adViewDidLoad(adView: FBAdView) {
+        NSLog("Facebook Ad loaded and ready to be displayed")
+        adView.hidden = false
+    }
+    
+    func configureFacebookLogin() {
+        if AccessToken.current != nil {
+            let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
+            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y - 215)
+            view.addSubview(facebookLoginButton)
+        } else {
+            let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
+            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y - 215)
+            view.addSubview(facebookLoginButton)
+            print("User not logged into Facebook")
+        }
+    }
     
     func configureDigitsLogin() {
         let digitsAuthButton = DGTAuthenticateButton(authenticationCompletion: { (session: DGTSession?, error: NSError?) in
@@ -73,7 +152,7 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
                 NSLog("Authentication error: %@", error!.localizedDescription)
             }
         })
-        digitsAuthButton.center = CGPointMake(self.view.center.x, self.view.center.y - 200)
+        digitsAuthButton.center = CGPointMake(self.view.center.x, self.view.center.y - 170)
         digitsAuthButton.digitsAppearance = self.makeDigitsTheme()
         self.view.addSubview(digitsAuthButton)
     }
@@ -105,22 +184,6 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
         self.view.addSubview(twitterLoginButton)
     }
     
-    func embeddedTweet() {
-        // TODO: Base this Tweet ID on some data from elsewhere in your app
-        TWTRAPIClient().loadTweetWithID("631879971628183552") { (tweet, error) in
-            if let unwrappedTweet = tweet {
-                let tweetView = TWTRTweetView(tweet: unwrappedTweet)
-                tweetView.center = CGPointMake(self.view.center.x, self.view.center.y + 70);
-                TWTRTweetViewStyle.Compact
-                tweetView.theme = .Dark
-                tweetView.showActionButtons = true
-                self.view.addSubview(tweetView)
-            } else {
-                NSLog("Tweet load error: %@", error!.localizedDescription);
-            }
-        }
-    }
-    
     func createTwitterTimelineButton() {
         let twitterTimelineButton = UIButton(type: .Custom)
         twitterTimelineButton.setTitle("Show Twitter Timeline", forState: .Normal)
@@ -143,71 +206,21 @@ class MainViewController: UIViewController, GKGameCenterControllerDelegate, FBAd
     func dismissTwitterTimeline() {
         dismissViewControllerAnimated(true, completion: nil)
     }
-
     
-    func configureFacebookAd() {
-        FBAdSettings.addTestDevice("b981ff62ed0cc52075e3061484e089601b66e1cc")
-        let adView: FBAdView = FBAdView(placementID: "825492567551864_833251636775957", adSize: kFBAdSizeHeight50Banner, rootViewController: self)
-        adView.delegate = self
-        adView.hidden = true
-        self.view!.addSubview(adView)
-        adView.loadAd()
-    }
-    
-    func adView(adView: FBAdView, didFailWithError error: NSError) {
-        NSLog("Facebook Ad failed to load")
-        adView.hidden = true
-    }
-    
-    func adViewDidLoad(adView: FBAdView) {
-        NSLog("Facebook Ad loaded and ready to be displayed")
-        adView.hidden = false
-    }
-
-    func configureFacebookLogin() {
-        if AccessToken.current != nil {
-            let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
-            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 240)
-            view.addSubview(facebookLoginButton)
-        } else {
-            let facebookLoginButton = LoginButton(readPermissions: [.PublicProfile, .Email, .UserFriends])
-            facebookLoginButton.center = CGPointMake(self.view.center.x, self.view.center.y + 240)
-            view.addSubview(facebookLoginButton)
-            print("User not logged into Facebook")
-        }
-    }
-        
-    func authenticateLocalPlayer() {
-        let localPlayer = GKLocalPlayer.localPlayer()
-        localPlayer.authenticateHandler = {(viewController, error) -> Void in
-            if (viewController != nil) {
-                self.presentViewController(viewController!, animated: true, completion: nil)
+    func embeddedTweet() {
+        // TODO: Base this Tweet ID on some data from elsewhere in your app
+        TWTRAPIClient().loadTweetWithID("631879971628183552") { (tweet, error) in
+            if let unwrappedTweet = tweet {
+                let tweetView = TWTRTweetView(tweet: unwrappedTweet)
+                tweetView.center = CGPointMake(self.view.center.x, self.view.center.y + 85);
+                TWTRTweetViewStyle.Compact
+                tweetView.theme = .Dark
+                tweetView.showActionButtons = true
+                self.view.addSubview(tweetView)
             } else {
-                print("Is local player authenticated? \(GKLocalPlayer.localPlayer().authenticated)")
+                NSLog("Tweet load error: %@", error!.localizedDescription);
             }
         }
-    }
-    
-    func postScoreToLeaderboard() {
-        if GKLocalPlayer.localPlayer().authenticated {
-            let scoreReporter = GKScore(leaderboardIdentifier: "drinkpoint_leaderboard")
-            scoreReporter.value = drinkPointScore
-            let scoreArray: [GKScore] = [scoreReporter]
-            GKScore.reportScores(scoreArray, withCompletionHandler: nil)
-        }
-        print("DrinkPoint score reported to Game Center")
-        self.presentLeaderboard()
-    }
-    
-    func presentLeaderboard() {
-        let leaderboardVC = GKGameCenterViewController()
-        leaderboardVC.leaderboardIdentifier = "drinkpoint_leaderboard"
-        leaderboardVC.gameCenterDelegate = self
-        presentViewController(leaderboardVC, animated: true, completion: nil)
-    }
-    
-    func gameCenterViewControllerDidFinish(gameCenterViewController: GKGameCenterViewController) {
-        gameCenterViewController.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

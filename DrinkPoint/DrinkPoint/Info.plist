@@ -98,6 +98,36 @@
 			</dict>
 			<dict>
 				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>MoPub</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>appKey</key>
+					<string>6405a4ca713df224480001859cf4beba8c207e8ac5ea99772f00a066ea9cca4ea16e1813ab0a37f30a3878a62d3661b956df431bc9dc93f8dd335fc7d0291571</string>
+					<key>url</key>
+					<string>nmsps://NMDPPRODUCTION_Twitter_Fabric_DrinkPoint_20160726012656@jop.nmdp.nuancemobility.net:443</string>
+				</dict>
+				<key>KitName</key>
+				<string>SKSession</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>AWSCognitoIdentityPoolId</key>
+					<string>us-east-1_0qY0HfT6W</string>
+					<key>AWSCognitoIdentityRegionType</key>
+					<string>us-east</string>
+					<key>AWSDefaultRegionType</key>
+					<string>us-east</string>
+				</dict>
+				<key>KitName</key>
+				<string>AWSCognitoIdentity</string>
+			</dict>
+			<dict>
+				<key>KitInfo</key>
 				<dict>
 					<key>consumerKey</key>
 					<string>vBvgfoonvxm9HoU6P74qppPc1</string>
@@ -106,12 +136,6 @@
 				</dict>
 				<key>KitName</key>
 				<string>Digits</string>
-			</dict>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>MoPub</string>
 			</dict>
 		</array>
 	</dict>
@@ -174,11 +198,11 @@
 		</dict>
 	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>DrinkPoint will show your location on the map and your usage will anonymously improve the map.</string>
+	<string>Shows your location on the map and helps improve OpenStreetMap</string>
 	<key>NSLocationUsageDescription</key>
 	<string>DrinkPoint needs your location to work properly</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>DrinkPoint wants to use your location</string>
+	<string>DrinkPoint needs your location to work properly</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>

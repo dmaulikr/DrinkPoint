@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TriviaViewController: UIViewController {
 
+    var singleGameSound: AVAudioPlayer!
     var questionNumber = 5
     var sum = 0
     var correctAnswer = 0
@@ -19,8 +21,10 @@ class TriviaViewController: UIViewController {
     var timer: NSTimer!
     var ansTrueAnimeArray: Array<UIImage> = []
     var ansFalseAnimeArray: Array<UIImage> = []
-    let answerTrue: UIImage!  = UIImage(named: "true.png")
-    let answerFalse: UIImage! = UIImage(named: "false.png")
+    let answerQuestion: UIImage!  = UIImage(named: "TriviaQuestion.png")
+    let answerTrue: UIImage!  = UIImage(named: "TriviaTrue.png")
+    let answerFalse: UIImage! = UIImage(named: "TriviaFalse.png")
+    
     
     @IBOutlet var quizTextView: UITextView!
     @IBOutlet var choiceButtons: Array<UIButton>!
@@ -195,15 +199,32 @@ class TriviaViewController: UIViewController {
             "Argentinian",
             2, 20])
         
-        delay(30, closure: { () -> () in
-            self.answerMark.alpha = 0.0
-        })
         choiceQuiz()
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(TriviaViewController.OnUpdate(_:)), userInfo: nil, repeats: true)
         timer.fire()
     }
     
-    func delay(delay:Double, closure:()->()) {
+    func playSingleGameSound(filename: String) {
+        let url = NSBundle.mainBundle().URLForResource(filename, withExtension: nil)
+        guard let singleGameSoundURL = url else {
+            print("Could not find file: \(filename)")
+            return
+        }
+        do {
+            singleGameSound = try AVAudioPlayer(contentsOfURL: singleGameSoundURL)
+            singleGameSound.prepareToPlay()
+            singleGameSound.play()
+            singleGameSound.volume = 1
+        } catch let error as NSError {
+            print(error.description)
+        }
+    }
+    
+    func vibrate() {
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+    }
+    
+    func delay(delay: Double, closure: ()->()) {
         dispatch_after(
             dispatch_time(
                 DISPATCH_TIME_NOW,
@@ -234,21 +255,30 @@ class TriviaViewController: UIViewController {
         if quizArray[random][5] as! Int == sender.tag {
             correctAnswer += 1
             print("Player's choice is correct")
-            let image = UIImage(named: "true.png")!
+            let image = UIImage(named: "TriviaTrue.png")!
             answerMark.image = image
+            self.playSingleGameSound("TriviaTrue.wav")
         } else {
             print("Player's choice is incorrect")
-            let image = UIImage(named: "false.png")!
+            let image = UIImage(named: "TriviaFalse.png")!
             answerMark.image = image
+            self.playSingleGameSound("TriviaFalse.wav")
+            vibrate()
         }
         delay((2/3), closure: { () -> () in
-            self.answerMark.alpha = 0
-            self.answerMark.image = nil
             if self.sum == self.questionNumber {
-                self.performSegueToResult()
+                self.delay((1/2), closure: {
+                    self.answerMark.alpha = 0
+                    self.answerMark.image = nil
+                    self.playSingleGameSound("TriviaResults.wav")
+                    self.performSegueToResult()
+                })
             } else {
                 self.quizArray.removeAtIndex(self.random)
                 self.choiceQuiz()
+                let image = UIImage(named: "TriviaQuestion.png")!
+                self.answerMark.alpha = 1
+                self.answerMark.image = image
             }
         })
         count = 5

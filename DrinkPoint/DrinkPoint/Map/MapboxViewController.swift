@@ -11,7 +11,6 @@ import Mapbox
 class MapboxViewController: UIViewController, MGLMapViewDelegate {
     
     var mapView: MGLMapView!
-    //    var location: CLLocation? { get }
     
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -19,7 +18,7 @@ class MapboxViewController: UIViewController, MGLMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBarHidden = false        
+        self.navigationController?.navigationBarHidden = false
         mapView = MGLMapView(frame: view.bounds)
         mapView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         mapView.delegate = self
@@ -31,6 +30,12 @@ class MapboxViewController: UIViewController, MGLMapViewDelegate {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+
+        let userMarker = MGLPointAnnotation()
+        userMarker.coordinate = CLLocationCoordinate2D.init()
+        userMarker.title = "Your Location"
+        userMarker.subtitle = "Have fun having fun!"
+        mapView.addAnnotation(userMarker)
         
         let tootsiesMarker = MGLPointAnnotation()
         tootsiesMarker.coordinate = CLLocationCoordinate2D(latitude: 36.160940, longitude: -86.778316)
@@ -66,11 +71,6 @@ class MapboxViewController: UIViewController, MGLMapViewDelegate {
     
     func mapView(mapView: MGLMapView, annotationCanShowCallout annotation: MGLAnnotation) -> Bool {
         return true
-    }
-    
-    func mapViewDidFinishLoadingMap(mapView: MGLMapView) {
-        let camera = MGLMapCamera(lookingAtCenterCoordinate: mapView.centerCoordinate, fromDistance: 4500, pitch: 15, heading: 180)
-        mapView.setCamera(camera, withDuration: 5, animationTimingFunction: CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut))
     }
     
     override func didReceiveMemoryWarning() {

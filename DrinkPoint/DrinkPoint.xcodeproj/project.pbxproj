@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		970C8B381D26A11E0041405D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C8B371D26A11E0041405D /* MapViewController.swift */; };
 		970C8B3A1D26A6B40041405D /* MapboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C8B391D26A6B40041405D /* MapboxViewController.swift */; };
-		971514931D44350F00D1FA70 /* UploadAddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971514921D44350F00D1FA70 /* UploadAddressBookViewController.swift */; };
 		971825B41D0A599500B59E48 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B31D0A599500B59E48 /* AdSupport.framework */; };
 		971825B61D0A59B800B59E48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825B51D0A59B800B59E48 /* SystemConfiguration.framework */; };
 		971825C31D0AFBB900B59E48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971825C21D0AFBB900B59E48 /* StoreKit.framework */; };
@@ -18,6 +17,10 @@
 		972050511D3712E800FB1FF0 /* martiniShaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 972050501D3712E800FB1FF0 /* martiniShaker.wav */; };
 		9721478D1D3052EA000CF527 /* GogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721478C1D3052EA000CF527 /* GogglesViewController.swift */; };
 		9724ABC41D2419B100DC84BA /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724ABC31D2419B100DC84BA /* MusicHelper.swift */; };
+		97312C5A1D49380800E3DE12 /* TriviaFalse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97312C591D49380800E3DE12 /* TriviaFalse.wav */; };
+		97312C5C1D49385400E3DE12 /* TriviaTrue.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97312C5B1D49385400E3DE12 /* TriviaTrue.wav */; };
+		97312C5E1D493ADD00E3DE12 /* TriviaQuestion.png in Resources */ = {isa = PBXBuildFile; fileRef = 97312C5D1D493ADD00E3DE12 /* TriviaQuestion.png */; };
+		97312C601D495DFC00E3DE12 /* TriviaResults.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97312C5F1D495DFC00E3DE12 /* TriviaResults.wav */; };
 		97324B581D0A40F3006B58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B571D0A40F3006B58A3 /* AppDelegate.swift */; };
 		97324B5A1D0A40F3006B58A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97324B591D0A40F3006B58A3 /* MainViewController.swift */; };
 		97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97324B5B1D0A40F3006B58A3 /* Main.storyboard */; };
@@ -141,12 +144,12 @@
 		975530B11D286A15005E66F1 /* TriviaNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B01D286A15005E66F1 /* TriviaNumbersViewController.swift */; };
 		975530B51D286C0F005E66F1 /* TriviaNumbersFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975530B41D286C0F005E66F1 /* TriviaNumbersFact.swift */; };
 		975530B71D286D9A005E66F1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975530B61D286D9A005E66F1 /* Social.framework */; };
-		97574BB41D36B1B000FCF02D /* false.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAC1D36B1B000FCF02D /* false.png */; };
+		97574BB41D36B1B000FCF02D /* TriviaFalse.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAC1D36B1B000FCF02D /* TriviaFalse.png */; };
 		97574BB51D36B1B000FCF02D /* TriviaClass1.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAD1D36B1B000FCF02D /* TriviaClass1.png */; };
 		97574BB61D36B1B000FCF02D /* TriviaClass2.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAE1D36B1B000FCF02D /* TriviaClass2.png */; };
 		97574BB71D36B1B000FCF02D /* TriviaClass3.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BAF1D36B1B000FCF02D /* TriviaClass3.png */; };
 		97574BB81D36B1B000FCF02D /* TriviaClass4.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BB01D36B1B000FCF02D /* TriviaClass4.png */; };
-		97574BB91D36B1B000FCF02D /* true.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BB11D36B1B000FCF02D /* true.png */; };
+		97574BB91D36B1B000FCF02D /* TriviaTrue.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BB11D36B1B000FCF02D /* TriviaTrue.png */; };
 		97574BBA1D36B1B000FCF02D /* TriviaResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574BB21D36B1B000FCF02D /* TriviaResultsViewController.swift */; };
 		97574BBB1D36B1B000FCF02D /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574BB31D36B1B000FCF02D /* TriviaViewController.swift */; };
 		97574BBD1D36F22800FCF02D /* TriviaReplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 97574BBC1D36F22800FCF02D /* TriviaReplayButton.png */; };
@@ -172,10 +175,15 @@
 		975C4E5C1D0EFA2800433505 /* Finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 975C4E4E1D0EFA2800433505 /* Finger.png */; };
 		975C4E5D1D0EFA2800433505 /* Finger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975C4E4F1D0EFA2800433505 /* Finger@2x.png */; };
 		975C66751D0BBBB800DAB041 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */; };
+		9780C1D51D498C8000AB9E41 /* UploadAddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780C1D41D498C8000AB9E41 /* UploadAddressBookViewController.swift */; };
 		9788F0F51D1F3F3E00CB5214 /* PlinkDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788F0F41D1F3F3E00CB5214 /* PlinkDefined.swift */; };
 		97AAA5491D3002EB00E5FA81 /* CocktailsBartenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */; };
 		97AFB8971D0B3474004AF061 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */; };
 		97B1489C1D23437400836D1F /* JazzyFrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */; };
+		97B68D191D48543800E0E72F /* cancel_earcon.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 97B68D151D48543800E0E72F /* cancel_earcon.pcm */; };
+		97B68D1A1D48543800E0E72F /* error_earcon.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 97B68D161D48543800E0E72F /* error_earcon.pcm */; };
+		97B68D1B1D48543800E0E72F /* stop_earcon.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 97B68D171D48543800E0E72F /* stop_earcon.pcm */; };
+		97B68D1C1D48543800E0E72F /* start_earcon.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 97B68D181D48543800E0E72F /* start_earcon.pcm */; };
 		9BB73D4EE368B215ECAEA96E /* Pods_DrinkPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -184,7 +192,6 @@
 		67958E998194F65970DB3FDB /* Pods_DrinkPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		970C8B371D26A11E0041405D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Map/MapViewController.swift; sourceTree = "<group>"; };
 		970C8B391D26A6B40041405D /* MapboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapboxViewController.swift; path = Map/MapboxViewController.swift; sourceTree = "<group>"; };
-		971514921D44350F00D1FA70 /* UploadAddressBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadAddressBookViewController.swift; sourceTree = "<group>"; };
 		971825B31D0A599500B59E48 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		971825B51D0A59B800B59E48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		971825C21D0AFBB900B59E48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -193,6 +200,10 @@
 		972050501D3712E800FB1FF0 /* martiniShaker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = martiniShaker.wav; path = Cocktails/Sounds/martiniShaker.wav; sourceTree = "<group>"; };
 		9721478C1D3052EA000CF527 /* GogglesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GogglesViewController.swift; path = Games/Goggles/GogglesViewController.swift; sourceTree = "<group>"; };
 		9724ABC31D2419B100DC84BA /* MusicHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
+		97312C591D49380800E3DE12 /* TriviaFalse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = TriviaFalse.wav; path = Games/Trivia/Sounds/TriviaFalse.wav; sourceTree = "<group>"; };
+		97312C5B1D49385400E3DE12 /* TriviaTrue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = TriviaTrue.wav; path = Games/Trivia/Sounds/TriviaTrue.wav; sourceTree = "<group>"; };
+		97312C5D1D493ADD00E3DE12 /* TriviaQuestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaQuestion.png; path = Games/Trivia/Images/TriviaQuestion.png; sourceTree = "<group>"; };
+		97312C5F1D495DFC00E3DE12 /* TriviaResults.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = TriviaResults.wav; path = Games/Trivia/Sounds/TriviaResults.wav; sourceTree = "<group>"; };
 		97324B541D0A40F3006B58A3 /* DrinkPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97324B571D0A40F3006B58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97324B591D0A40F3006B58A3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -318,12 +329,12 @@
 		975530B01D286A15005E66F1 /* TriviaNumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaNumbersViewController.swift; path = Games/Trivia/TriviaNumbersViewController.swift; sourceTree = "<group>"; };
 		975530B41D286C0F005E66F1 /* TriviaNumbersFact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaNumbersFact.swift; path = Games/Trivia/TriviaNumbersFact.swift; sourceTree = "<group>"; };
 		975530B61D286D9A005E66F1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		97574BAC1D36B1B000FCF02D /* false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = false.png; path = Games/Trivia/Images/false.png; sourceTree = "<group>"; };
+		97574BAC1D36B1B000FCF02D /* TriviaFalse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaFalse.png; path = Games/Trivia/Images/TriviaFalse.png; sourceTree = "<group>"; };
 		97574BAD1D36B1B000FCF02D /* TriviaClass1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass1.png; path = Games/Trivia/Images/TriviaClass1.png; sourceTree = "<group>"; };
 		97574BAE1D36B1B000FCF02D /* TriviaClass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass2.png; path = Games/Trivia/Images/TriviaClass2.png; sourceTree = "<group>"; };
 		97574BAF1D36B1B000FCF02D /* TriviaClass3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass3.png; path = Games/Trivia/Images/TriviaClass3.png; sourceTree = "<group>"; };
 		97574BB01D36B1B000FCF02D /* TriviaClass4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaClass4.png; path = Games/Trivia/Images/TriviaClass4.png; sourceTree = "<group>"; };
-		97574BB11D36B1B000FCF02D /* true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = true.png; path = Games/Trivia/Images/true.png; sourceTree = "<group>"; };
+		97574BB11D36B1B000FCF02D /* TriviaTrue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaTrue.png; path = Games/Trivia/Images/TriviaTrue.png; sourceTree = "<group>"; };
 		97574BB21D36B1B000FCF02D /* TriviaResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaResultsViewController.swift; path = Games/Trivia/TriviaResultsViewController.swift; sourceTree = "<group>"; };
 		97574BB31D36B1B000FCF02D /* TriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriviaViewController.swift; path = Games/Trivia/TriviaViewController.swift; sourceTree = "<group>"; };
 		97574BBC1D36F22800FCF02D /* TriviaReplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriviaReplayButton.png; path = Games/Trivia/Images/TriviaReplayButton.png; sourceTree = "<group>"; };
@@ -349,6 +360,7 @@
 		975C4E4E1D0EFA2800433505 /* Finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Finger.png; path = "Games/Plink/Sprite Images/Finger.png"; sourceTree = "<group>"; };
 		975C4E4F1D0EFA2800433505 /* Finger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Finger@2x.png"; path = "Games/Plink/Sprite Images/Finger@2x.png"; sourceTree = "<group>"; };
 		975C66741D0BBBB800DAB041 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = Map/LocationSearchTable.swift; sourceTree = "<group>"; };
+		9780C1D41D498C8000AB9E41 /* UploadAddressBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadAddressBookViewController.swift; sourceTree = "<group>"; };
 		9788F0F41D1F3F3E00CB5214 /* PlinkDefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlinkDefined.swift; path = Games/Plink/PlinkDefined.swift; sourceTree = "<group>"; };
 		97AAA5481D3002EB00E5FA81 /* CocktailsBartenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocktailsBartenderViewController.swift; path = Cocktails/CocktailsBartenderViewController.swift; sourceTree = "<group>"; };
 		97AFB8931D0B3474004AF061 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = DrinkPoint/Frameworks/FBAudienceNetwork.framework; sourceTree = "<group>"; };
@@ -356,6 +368,10 @@
 		97AFB8951D0B3474004AF061 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = DrinkPoint/Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		97AFB8961D0B3474004AF061 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = DrinkPoint/Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		97B1489B1D23437400836D1F /* JazzyFrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = JazzyFrenchy.mp3; path = Games/Triple/Sounds/JazzyFrenchy.mp3; sourceTree = "<group>"; };
+		97B68D151D48543800E0E72F /* cancel_earcon.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = cancel_earcon.pcm; path = Games/cancel_earcon.pcm; sourceTree = "<group>"; };
+		97B68D161D48543800E0E72F /* error_earcon.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = error_earcon.pcm; path = Games/error_earcon.pcm; sourceTree = "<group>"; };
+		97B68D171D48543800E0E72F /* stop_earcon.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = stop_earcon.pcm; path = Games/stop_earcon.pcm; sourceTree = "<group>"; };
+		97B68D181D48543800E0E72F /* start_earcon.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = start_earcon.pcm; path = Games/start_earcon.pcm; sourceTree = "<group>"; };
 		9C2EAE30E80FFCFC9E229E84 /* Pods-DrinkPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -387,6 +403,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		97312C581D4936A400E3DE12 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				97312C5B1D49385400E3DE12 /* TriviaTrue.wav */,
+				97312C591D49380800E3DE12 /* TriviaFalse.wav */,
+				97312C5F1D495DFC00E3DE12 /* TriviaResults.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		97324B4B1D0A40F3006B58A3 = {
 			isa = PBXGroup;
 			children = (
@@ -411,7 +437,7 @@
 				97324B5B1D0A40F3006B58A3 /* Main.storyboard */,
 				97324B571D0A40F3006B58A3 /* AppDelegate.swift */,
 				97324B591D0A40F3006B58A3 /* MainViewController.swift */,
-				971514921D44350F00D1FA70 /* UploadAddressBookViewController.swift */,
+				9780C1D41D498C8000AB9E41 /* UploadAddressBookViewController.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
 				97E63B601D27687000A2BC33 /* Map */,
 				9753FF541D2C783500ABFF35 /* Games */,
@@ -597,6 +623,7 @@
 		9753FF541D2C783500ABFF35 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				97B68D1D1D48544700E0E72F /* Sounds */,
 				97343C381D0B699C00043AE0 /* GamesViewController.swift */,
 				9724ABC31D2419B100DC84BA /* MusicHelper.swift */,
 				975C4E371D0EF94900433505 /* Plink */,
@@ -615,6 +642,7 @@
 				975530B01D286A15005E66F1 /* TriviaNumbersViewController.swift */,
 				975530B41D286C0F005E66F1 /* TriviaNumbersFact.swift */,
 				97574BAB1D36B18000FCF02D /* Images */,
+				97312C581D4936A400E3DE12 /* Sounds */,
 			);
 			name = Trivia;
 			sourceTree = "<group>";
@@ -623,8 +651,9 @@
 			isa = PBXGroup;
 			children = (
 				97574BBC1D36F22800FCF02D /* TriviaReplayButton.png */,
-				97574BB11D36B1B000FCF02D /* true.png */,
-				97574BAC1D36B1B000FCF02D /* false.png */,
+				97312C5D1D493ADD00E3DE12 /* TriviaQuestion.png */,
+				97574BB11D36B1B000FCF02D /* TriviaTrue.png */,
+				97574BAC1D36B1B000FCF02D /* TriviaFalse.png */,
 				97574BAD1D36B1B000FCF02D /* TriviaClass1.png */,
 				97574BAE1D36B1B000FCF02D /* TriviaClass2.png */,
 				97574BAF1D36B1B000FCF02D /* TriviaClass3.png */,
@@ -686,6 +715,17 @@
 			name = Sounds;
 			sourceTree = "<group>";
 		};
+		97B68D1D1D48544700E0E72F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				97B68D151D48543800E0E72F /* cancel_earcon.pcm */,
+				97B68D161D48543800E0E72F /* error_earcon.pcm */,
+				97B68D171D48543800E0E72F /* stop_earcon.pcm */,
+				97B68D181D48543800E0E72F /* start_earcon.pcm */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		97E1E0401D25E66200A349C2 /* Goggles */ = {
 			isa = PBXGroup;
 			children = (
@@ -729,13 +769,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97324B661D0A40F3006B58A3 /* Build configuration list for PBXNativeTarget "DrinkPoint" */;
 			buildPhases = (
-				42C06763444E9954D9181F4F /* 📦 Check Pods Manifest.lock */,
+				5D2D889C94E6DF2E44C022CC /* 📦 Check Pods Manifest.lock */,
 				97324B501D0A40F3006B58A3 /* Sources */,
 				97324B511D0A40F3006B58A3 /* Frameworks */,
 				97324B521D0A40F3006B58A3 /* Resources */,
-				14BB94A4E796EB6EDB0D6707 /* 📦 Embed Pods Frameworks */,
-				B4A6FA62120FA4A75C231EC0 /* 📦 Copy Pods Resources */,
 				971825B21D0A53C200B59E48 /* ShellScript */,
+				2B511D153715CA8128CD7A8D /* 📦 Embed Pods Frameworks */,
+				CCE00C2BEF5B002D56FC1009 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -821,6 +861,7 @@
 				973E7B111D1ECE1500393B19 /* Wine@3x.png in Resources */,
 				973E7AA01D1ECDE500393B19 /* Tile_2.png in Resources */,
 				973E7B001D1ECE1500393B19 /* Martini.png in Resources */,
+				97B68D1B1D48543800E0E72F /* stop_earcon.pcm in Resources */,
 				973E7AB91D1ECDE500393B19 /* Tile_12@2x.png in Resources */,
 				97574BB81D36B1B000FCF02D /* TriviaClass4.png in Resources */,
 				973E7AA51D1ECDE500393B19 /* Tile_3@3x.png in Resources */,
@@ -835,6 +876,8 @@
 				973E7AB41D1ECDE500393B19 /* Tile_10@3x.png in Resources */,
 				975C4E5A1D0EFA2800433505 /* GlassC_01.png in Resources */,
 				9753FF441D2C450800ABFF35 /* ingredients.json in Resources */,
+				97B68D1A1D48543800E0E72F /* error_earcon.pcm in Resources */,
+				97B68D1C1D48543800E0E72F /* start_earcon.pcm in Resources */,
 				975C4E401D0EFA0F00433505 /* FingerBullet.wav in Resources */,
 				973E7AA71D1ECDE500393B19 /* Tile_4@2x.png in Resources */,
 				973E7AFB1D1ECE1500393B19 /* BlueLagoon@2x.png in Resources */,
@@ -862,7 +905,7 @@
 				973E7AB11D1ECDE500393B19 /* Tile_8@3x.png in Resources */,
 				973E7AA61D1ECDE500393B19 /* Tile_4.png in Resources */,
 				975C4E3B1D0EF9FF00433505 /* GlassBullet.wav in Resources */,
-				97574BB41D36B1B000FCF02D /* false.png in Resources */,
+				97574BB41D36B1B000FCF02D /* TriviaFalse.png in Resources */,
 				973E7B0D1D1ECE1500393B19 /* Wine-Highlighted@2x.png in Resources */,
 				973E7AEC1D1ECE1500393B19 /* Beer-Highlighted@2x.png in Resources */,
 				973E7A9F1D1ECDE500393B19 /* Tile_1@3x.png in Resources */,
@@ -881,6 +924,7 @@
 				973E7B051D1ECE1500393B19 /* Tile@3x.png in Resources */,
 				973E7B261D1ECE4200393B19 /* Error.wav in Resources */,
 				97324B5D1D0A40F3006B58A3 /* Main.storyboard in Resources */,
+				97312C5C1D49385400E3DE12 /* TriviaTrue.wav in Resources */,
 				973E7ABE1D1ECDE500393B19 /* Tile_14.png in Resources */,
 				973E7AC01D1ECDE500393B19 /* Tile_14@3x.png in Resources */,
 				9753FF451D2C450800ABFF35 /* recipes.json in Resources */,
@@ -890,8 +934,9 @@
 				975C4E5B1D0EFA2800433505 /* GlassC_01@2x.png in Resources */,
 				973E7AB21D1ECDE500393B19 /* Tile_10.png in Resources */,
 				975C4E561D0EFA2800433505 /* GlassB_01.png in Resources */,
-				97574BB91D36B1B000FCF02D /* true.png in Resources */,
+				97574BB91D36B1B000FCF02D /* TriviaTrue.png in Resources */,
 				973E7AF41D1ECE1500393B19 /* BloodyMary.png in Resources */,
+				97312C601D495DFC00E3DE12 /* TriviaResults.wav in Resources */,
 				973E7AAA1D1ECDE500393B19 /* Tile_5@2x.png in Resources */,
 				973E7AEE1D1ECE1500393B19 /* Beer.png in Resources */,
 				973E7AA81D1ECDE500393B19 /* Tile_4@3x.png in Resources */,
@@ -901,7 +946,9 @@
 				973E7AEF1D1ECE1500393B19 /* Beer@2x.png in Resources */,
 				973E7B241D1ECE4200393B19 /* Clink.wav in Resources */,
 				973E7B011D1ECE1500393B19 /* Martini@2x.png in Resources */,
+				97312C5A1D49380800E3DE12 /* TriviaFalse.wav in Resources */,
 				973E7AF21D1ECE1500393B19 /* BloodyMary-Highlighted@2x.png in Resources */,
+				97312C5E1D493ADD00E3DE12 /* TriviaQuestion.png in Resources */,
 				973E7AF51D1ECE1500393B19 /* BloodyMary@2x.png in Resources */,
 				973E7ABB1D1ECDE500393B19 /* Tile_13.png in Resources */,
 				973E7B0E1D1ECE1500393B19 /* Wine-Highlighted@3x.png in Resources */,
@@ -923,6 +970,7 @@
 				973E7AC11D1ECDE500393B19 /* Tile_15.png in Resources */,
 				97574BB71D36B1B000FCF02D /* TriviaClass3.png in Resources */,
 				973E7AFE1D1ECE1500393B19 /* Martini-Highlighted@2x.png in Resources */,
+				97B68D191D48543800E0E72F /* cancel_earcon.pcm in Resources */,
 				973E7AB51D1ECDE500393B19 /* Tile_11.png in Resources */,
 				973E7A9C1D1ECDE500393B19 /* MaskTile@3x.png in Resources */,
 				973E7AA31D1ECDE500393B19 /* Tile_3.png in Resources */,
@@ -932,7 +980,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14BB94A4E796EB6EDB0D6707 /* 📦 Embed Pods Frameworks */ = {
+		2B511D153715CA8128CD7A8D /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -947,7 +995,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkPoint/Pods-DrinkPoint-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		42C06763444E9954D9181F4F /* 📦 Check Pods Manifest.lock */ = {
+		5D2D889C94E6DF2E44C022CC /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -975,7 +1023,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" d7eff75c321d6961fdf8aa2a32b8b1608192e3ee ddc1597a16fc8e9401f80bae586afdbe450882e25d0997bd6b01a175e957534d";
 		};
-		B4A6FA62120FA4A75C231EC0 /* 📦 Copy Pods Resources */ = {
+		CCE00C2BEF5B002D56FC1009 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1034,7 +1082,7 @@
 				9753FF4E1D2C450800ABFF35 /* CocktailsPantryViewController.swift in Sources */,
 				973E7A6A1D1ECBC100393B19 /* TripleViewController.swift in Sources */,
 				975C4E341D0EF8F400433505 /* PlinkGameScene.swift in Sources */,
-				971514931D44350F00D1FA70 /* UploadAddressBookViewController.swift in Sources */,
+				9780C1D51D498C8000AB9E41 /* UploadAddressBookViewController.swift in Sources */,
 				97574BBA1D36B1B000FCF02D /* TriviaResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
