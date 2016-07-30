@@ -9,6 +9,7 @@
 import UIKit
 import Crashlytics
 import LaunchKit
+import Social
 import TwitterKit
 import DigitsKit
 import FacebookCore
@@ -20,6 +21,24 @@ class MainViewController: UIViewController, FBAdViewDelegate, SKTransactionDeleg
 
     var skTransaction: SKTransaction?
     var skSession: SKSession?
+    
+    @IBAction func postToFacebookTapped(sender: UIButton) {
+        post(toService: SLServiceTypeFacebook)
+    }
+    
+    @IBAction func postToTwitterTapped(sender: UIButton) {
+        post(toService: SLServiceTypeTwitter)
+    }
+    
+    func post(toService service: String) {
+        if(SLComposeViewController.isAvailableForServiceType(service)) {
+            let socialController = SLComposeViewController(forServiceType: service)
+            socialController.setInitialText("#DrinkPoint ")
+            socialController.addImage(UIImage(named: "DrinkPoint"))
+            socialController.addURL(NSURL(string: "http://drinkpoint.pkadams67.io"))
+            self.presentViewController(socialController, animated: true, completion: nil)
+        }
+    }
     
     // Crashlytics "Crash Button" (disable for debugging)
     //    @IBAction func crashButtonTapped(sender: AnyObject) {

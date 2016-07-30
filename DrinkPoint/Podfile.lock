@@ -23,6 +23,7 @@ PODS:
     - FacebookCore
     - FBSDKCoreKit (~> 4.14)
     - FBSDKShareKit (~> 4.14)
+  - FBAudienceNetwork (4.14.0)
   - FBSDKCoreKit (4.14.0):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.14.0):
@@ -33,7 +34,7 @@ PODS:
   - LaunchKit (2.1.4):
     - LaunchKit/LaunchKit (= 2.1.4)
   - LaunchKit/LaunchKit (2.1.4)
-  - Mapbox-iOS-SDK (3.3.1)
+  - Mapbox-iOS-SDK (3.3.3)
   - mopub-ios-sdk (4.7.0):
     - mopub-ios-sdk/MoPubSDK (= 4.7.0)
   - mopub-ios-sdk/MoPubSDK (4.7.0)
@@ -50,6 +51,7 @@ DEPENDENCIES:
   - FacebookCore
   - FacebookLogin
   - FacebookShare
+  - FBAudienceNetwork
   - GA-SDK-IOS
   - LaunchKit
   - Mapbox-iOS-SDK
@@ -66,17 +68,18 @@ SPEC CHECKSUMS:
   FacebookCore: 14f27add6888c27470d42a100374e6361f4e0f79
   FacebookLogin: 748f4e621e874da3e0bf63bccf6fd1542c786a1b
   FacebookShare: ea0370ca0b914eccc42a753abcd937265c17b030
+  FBAudienceNetwork: 483340b42f239d560cd3caf781e4ed35023ff724
   FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
   FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
   FBSDKShareKit: e8e5d4ccef69b41132fe33acda26db1e33143e33
   GA-SDK-IOS: 1e8947d3b18171b92a7c7cefb4c39d3260a89ea2
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
-  Mapbox-iOS-SDK: 55dea997ae34ff0553fbf4208e7d60dfefa24fd5
+  Mapbox-iOS-SDK: 13cd4d7e118acae2782a1bdc5947164d8f6d80fd
   mopub-ios-sdk: e46b277cdb77b1745567b419742f77fed6865262
   SpeechKit: 62717350ae29e7002a8ac35970ce92dccf2d1b71
   TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
 
-PODFILE CHECKSUM: 8bdddfd426eb2eaf37de9f13614e5a800010b772
+PODFILE CHECKSUM: e8b19715b5bf1267bd04d70a8efec3242004bc3c
 
 COCOAPODS: 1.0.0.beta.5

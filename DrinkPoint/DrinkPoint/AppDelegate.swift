@@ -8,16 +8,16 @@
 
 import UIKit
 import Fabric
-import SpeechKit
+//import SpeechKit
 import mopub_ios_sdk
 import Crashlytics
 import DigitsKit
 import TwitterKit
-import GameAnalytics
-import Mapbox
-import LaunchKit
-import FBSDKCoreKit
-import FacebookCore
+//import GameAnalytics
+//import Mapbox
+//import LaunchKit
+//import FBSDKCoreKit
+//import FacebookCore
 
 @UIApplicationMain
 
@@ -39,25 +39,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().translucent = true
         UITabBar.appearance().barTintColor = UIColor.blackColor()
         UITabBar.appearance().tintColor = UIColor.whiteColor()
+
+        let welcome = "Welcome to DrinkPoint! “Have fun having fun!”"
+        assert(NSBundle.mainBundle().objectForInfoDictionaryKey("Fabric") != nil, welcome)
+        Fabric.with([Crashlytics.self, Twitter.self, Digits.self, MoPub.self])
+        if Twitter.sharedInstance().sessionStore.session() == nil && Digits.sharedInstance().session() == nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let signInViewController: AnyObject! = storyboard.instantiateViewControllerWithIdentifier("SignInViewController")
+            window?.rootViewController = signInViewController as? UIViewController
+        }
+
         
-        Fabric.sharedSDK().debug = true
-        Fabric.with([GameAnalytics.self, Crashlytics.self, Digits.self, MGLAccountManager.self, MoPub.self, SKSession.self, Twitter.self])
-        self.logUser()
+        
+        
+//        Fabric.sharedSDK().debug = true
+//        Fabric.with([GameAnalytics.self, Crashlytics.self, Digits.self, MGLAccountManager.self, MoPub.self, SKSession.self, Twitter.self])
+//        if Twitter.sharedInstance().sessionStore.session() == nil && Digits.sharedInstance().session() == nil {
+//            let storyboard = UIStoryboard(name: "Epigram", bundle: nil)
+//            let signInViewController: AnyObject! = storyboard.instantiateViewControllerWithIdentifier("SignInViewController")
+//            window?.rootViewController = signInViewController as? UIViewController
+//        }
+//        self.logUser()
+        
+//        GameAnalytics.setEnabledInfoLog(true)
+//        GameAnalytics.setEnabledVerboseLog(true)
+//        GameAnalytics.configureBuild("1.0.0")
+//        GameAnalytics.initializeWithConfiguredGameKeyAndGameSecret()
 
-        GameAnalytics.setEnabledInfoLog(true)
-        GameAnalytics.setEnabledVerboseLog(true)
-        GameAnalytics.configureBuild("1.0.0")
-        GameAnalytics.initializeWithConfiguredGameKeyAndGameSecret()
-
-        LaunchKit.launchWithToken("5BVpp5-2e7tKRD1ldaPRZK6gpJcWYaW_oWEEwvcJOqRL")
-        LaunchKit.sharedInstance().debugMode = true
-        LaunchKit.sharedInstance().verboseLogging = true
+//        LaunchKit.launchWithToken("5BVpp5-2e7tKRD1ldaPRZK6gpJcWYaW_oWEEwvcJOqRL")
+//        LaunchKit.sharedInstance().debugMode = true
+//        LaunchKit.sharedInstance().verboseLogging = true
 
         // LaunchKit Onboarding always presents (disable for production)
-        let lk = LaunchKit.sharedInstance()
-        lk.presentOnboardingUIOnWindow(self.window!) { _ in
-            print("Showed onboarding!")
-        }
+//        let lk = LaunchKit.sharedInstance()
+//        lk.presentOnboardingUIOnWindow(self.window!) { _ in
+//            print("Showed onboarding!")
+//        }
 
         // LaunchKit Onboarding presents once (disable for debugging)
         //        let defaults = NSUserDefaults.standardUserDefaults()
@@ -70,20 +87,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //            }
         //        }
 
-        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+//        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
         return true
     }
     
-    func logUser() {
-        Crashlytics.sharedInstance().setUserEmail("user@fabric.io")
-        Crashlytics.sharedInstance().setUserIdentifier("12345")
-        Crashlytics.sharedInstance().setUserName("Test User")
-    }
+//    func logUser() {
+//        Crashlytics.sharedInstance().setUserEmail("user@fabric.io")
+//        Crashlytics.sharedInstance().setUserIdentifier("12345")
+//        Crashlytics.sharedInstance().setUserName("Test User")
+//    }
 
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
-        return FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
-    }
+//    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+//        return FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
+//    }
 
     func applicationWillResignActive(application: UIApplication) {
     }
@@ -95,9 +112,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
-        FBSDKAppEvents.activateApp()
-        AppEventsLogger.activate(application)
-        SDKSettings.enableLoggingBehavior(.AppEvents)
+//        FBSDKAppEvents.activateApp()
+//        AppEventsLogger.activate(application)
+//        SDKSettings.enableLoggingBehavior(.AppEvents)
     }
 
     func applicationWillTerminate(application: UIApplication) {

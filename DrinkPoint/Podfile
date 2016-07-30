@@ -13,5 +13,6 @@ pod 'SpeechKit'
 pod 'FacebookCore'
 pod 'FacebookLogin'
 pod 'FacebookShare'
+pod 'FBAudienceNetwork'
 pod 'LaunchKit'
 end

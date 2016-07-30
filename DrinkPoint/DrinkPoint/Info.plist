@@ -32,6 +32,12 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>DrinkPoint</string>
+			<key>CFBundleURLName</key>
+			<string>io.pkadams67.drinkapoint</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>fb825492567551864</string>
@@ -219,7 +225,7 @@
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleDefault</string>
+	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
