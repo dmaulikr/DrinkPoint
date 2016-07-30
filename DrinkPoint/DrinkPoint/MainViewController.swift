@@ -99,7 +99,7 @@ class MainViewController: UIViewController, FBAdViewDelegate, SKTransactionDeleg
     
     func toggleTts() {
         if (skTransaction == nil) {
-            skTransaction = skSession!.speakString("Welcome to DrinkPoint!", withLanguage: "eng-GBR", delegate: self)
+            skTransaction = skSession!.speakString("Welcome to DrinkPoint! Crafted by BinaryBastards.", withLanguage: "eng-GBR", delegate: self)
         } else {
             skTransaction!.cancel()
             skTransaction = nil

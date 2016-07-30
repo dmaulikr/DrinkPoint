@@ -1676,75 +1676,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="VIK-7n-Qgn" userLabel="Background">
-                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="VIK-7n-Qgn" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="576" height="1024"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Epigram was crafted by BinaryBastards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aF8-7O-FCQ">
-                                <rect key="frame" x="20" y="94" width="560" height="25"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="M1k-mI-4To">
+                                <rect key="frame" x="20" y="76" width="560" height="468"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Epigram was crafted by BinaryBastards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aF8-7O-FCQ">
+                                        <rect key="frame" x="156" y="0.0" width="249" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="7Pt-Bl-9bY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="749" image="DrinkPoint" translatesAutoresizingMaskIntoConstraints="NO" id="021-ub-dBp">
+                                        <rect key="frame" x="130" y="37" width="300" height="251"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="288" translatesAutoresizingMaskIntoConstraints="NO" id="fte-6x-rkU">
+                                        <rect key="frame" x="0.0" y="300" width="560" height="134"/>
+                                        <string key="text">DrinkPoint’s Epigram is the fun way to create and share quips on your smartphone. Start with a stunning image from our gallery, choose words about #adventure, #romance, #nature, or #mystery to complete the verse, and then share it with friends. Browse top epigrams crafted by other users for inspiration.</string>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnl-GV-vgG">
+                                        <rect key="frame" x="206" y="446" width="149" height="11"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                        <state key="normal" title="Tap here to learn more!">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="learnMore:" destination="pr7-c2-wS1" eventType="touchUpInside" id="Am7-NG-yS9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evP-r6-ZKB">
+                                        <rect key="frame" x="249" y="468" width="63" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="Sign Out">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="signOut:" destination="pr7-c2-wS1" eventType="touchUpInside" id="cbO-jP-G8U"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="7Pt-Bl-9bY"/>
+                                    <constraint firstItem="021-ub-dBp" firstAttribute="height" secondItem="M1k-mI-4To" secondAttribute="height" constant="1" id="al8-vj-1cK"/>
+                                    <constraint firstItem="fte-6x-rkU" firstAttribute="width" secondItem="M1k-mI-4To" secondAttribute="width" id="vqW-bL-oHe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="749" image="DrinkPoint" translatesAutoresizingMaskIntoConstraints="NO" id="021-ub-dBp">
-                                <rect key="frame" x="150" y="131" width="300" height="200"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnl-GV-vgG">
-                                <rect key="frame" x="94" y="339" width="412" height="29"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
-                                <state key="normal" title="Tap here to learn more!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="learnMore:" destination="pr7-c2-wS1" eventType="touchUpInside" id="Am7-NG-yS9"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="288" translatesAutoresizingMaskIntoConstraints="NO" id="fte-6x-rkU">
-                                <rect key="frame" x="20" y="327.5" width="560" height="134"/>
-                                <string key="text">DrinkPoint’s Epigram is the fun way to create and share quips on your smartphone. Start with a stunning image from our gallery, choose words about #adventure, #romance, #nature, or #mystery to complete the verse, and then share it with friends. Browse top epigrams crafted by other users for inspiration.</string>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evP-r6-ZKB">
-                                <rect key="frame" x="267" y="502" width="65" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="65" id="fmQ-0d-wYf"/>
-                                    <constraint firstAttribute="height" constant="30" id="qLF-dX-23n"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Sign Out">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="signOut:" destination="pr7-c2-wS1" eventType="touchUpInside" id="cbO-jP-G8U"/>
-                                </connections>
-                            </button>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="al8-vj-1cK"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fte-6x-rkU" firstAttribute="leading" secondItem="r9n-OK-HN6" secondAttribute="leadingMargin" id="13D-5V-QFM"/>
-                            <constraint firstItem="aF8-7O-FCQ" firstAttribute="top" secondItem="1vY-Oh-eSh" secondAttribute="bottom" constant="30" id="AE8-mz-dU1"/>
-                            <constraint firstItem="tnl-GV-vgG" firstAttribute="leading" secondItem="r9n-OK-HN6" secondAttribute="leadingMargin" constant="74" id="AIH-1l-DtJ"/>
-                            <constraint firstItem="VIK-7n-Qgn" firstAttribute="top" secondItem="1vY-Oh-eSh" secondAttribute="bottom" id="C5y-uv-7cl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="aF8-7O-FCQ" secondAttribute="trailing" id="H4r-WM-7zl"/>
-                            <constraint firstItem="VIK-7n-Qgn" firstAttribute="leading" secondItem="r9n-OK-HN6" secondAttribute="leading" id="NMt-JZ-McG"/>
-                            <constraint firstAttribute="trailing" secondItem="VIK-7n-Qgn" secondAttribute="trailing" id="NNo-61-d2G"/>
-                            <constraint firstItem="bb1-FW-h3R" firstAttribute="top" secondItem="evP-r6-ZKB" secondAttribute="bottom" constant="24" id="Rbn-dV-GPm"/>
-                            <constraint firstItem="021-ub-dBp" firstAttribute="height" secondItem="r9n-OK-HN6" secondAttribute="height" multiplier="1/3" id="UGR-vx-UiF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fte-6x-rkU" secondAttribute="trailing" id="WZZ-15-fmm"/>
-                            <constraint firstItem="aF8-7O-FCQ" firstAttribute="leading" secondItem="r9n-OK-HN6" secondAttribute="leadingMargin" id="Wd1-wW-KBc"/>
-                            <constraint firstItem="021-ub-dBp" firstAttribute="top" secondItem="aF8-7O-FCQ" secondAttribute="bottom" constant="12" id="bq7-gT-4aN"/>
-                            <constraint firstItem="021-ub-dBp" firstAttribute="centerX" secondItem="r9n-OK-HN6" secondAttribute="centerX" id="gCI-oB-euv"/>
-                            <constraint firstItem="evP-r6-ZKB" firstAttribute="centerX" secondItem="r9n-OK-HN6" secondAttribute="centerX" id="hzh-AC-fKX"/>
-                            <constraint firstItem="fte-6x-rkU" firstAttribute="leading" secondItem="r9n-OK-HN6" secondAttribute="leadingMargin" id="m8W-jk-Ko6"/>
-                            <constraint firstItem="bb1-FW-h3R" firstAttribute="top" secondItem="VIK-7n-Qgn" secondAttribute="bottom" id="mC2-mz-tZ1"/>
-                            <constraint firstItem="evP-r6-ZKB" firstAttribute="top" secondItem="fte-6x-rkU" secondAttribute="bottom" constant="40" id="pcD-Lr-Ujh"/>
-                            <constraint firstItem="tnl-GV-vgG" firstAttribute="top" secondItem="021-ub-dBp" secondAttribute="bottom" constant="8" id="t3H-wq-SGU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tnl-GV-vgG" secondAttribute="trailing" constant="74" id="yRq-4W-4Kd"/>
+                            <constraint firstItem="M1k-mI-4To" firstAttribute="leading" secondItem="r9n-OK-HN6" secondAttribute="leadingMargin" id="R3A-pr-zQR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M1k-mI-4To" secondAttribute="trailing" id="onz-23-NZi"/>
+                            <constraint firstItem="M1k-mI-4To" firstAttribute="top" secondItem="1vY-Oh-eSh" secondAttribute="bottom" constant="12" id="ru6-5D-HFZ"/>
+                            <constraint firstItem="bb1-FW-h3R" firstAttribute="top" secondItem="M1k-mI-4To" secondAttribute="bottom" constant="12" id="swf-ig-rYS"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -1860,14 +1855,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="2AC-t2-BgB" userLabel="Background">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrinkPoint" translatesAutoresizingMaskIntoConstraints="NO" id="PFT-X7-KfD">
-                                <rect key="frame" x="20" y="95" width="560" height="200"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="2Vc-au-Ij6">
-                                <rect key="frame" x="20" y="370" width="560" height="92"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="2Vc-au-Ij6">
+                                <rect key="frame" x="20" y="75" width="560" height="450"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrinkPoint" translatesAutoresizingMaskIntoConstraints="NO" id="PFT-X7-KfD">
+                                        <rect key="frame" x="130" y="0.0" width="300" height="293.5"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eD-LI-DDW">
-                                        <rect key="frame" x="161" y="0.0" width="237" height="40"/>
+                                        <rect key="frame" x="161.5" y="305.5" width="237" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="nuq-6w-Pn4"/>
                                         </constraints>
@@ -1882,7 +1877,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyF-uy-Dc6" userLabel="Sign In Digits Button">
-                                        <rect key="frame" x="168" y="52" width="224" height="40"/>
+                                        <rect key="frame" x="168" y="357.5" width="224" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="D5e-Tc-yf1"/>
                                         </constraints>
@@ -1896,36 +1891,29 @@
                                             <action selector="signInWithDigits:" destination="LWk-Ji-zOn" eventType="touchUpInside" id="AMt-oF-0M3"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syj-zi-fhc">
+                                        <rect key="frame" x="262.5" y="409.5" width="35" height="40.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                        <state key="normal" title="Skip">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="skipSignIn:" destination="LWk-Ji-zOn" eventType="touchUpInside" id="vyA-9Z-oRn"/>
+                                            <segue destination="Lee-FR-LJd" kind="presentation" identifier="ShowThemeChooser" id="ixt-1E-UyI"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syj-zi-fhc">
-                                <rect key="frame" x="20" y="512" width="560" height="64"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                <state key="normal" title="Skip">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="skipSignIn:" destination="LWk-Ji-zOn" eventType="touchUpInside" id="vyA-9Z-oRn"/>
-                                    <segue destination="Lee-FR-LJd" kind="presentation" identifier="ShowThemeChooser" id="ixt-1E-UyI"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2Vc-au-Ij6" firstAttribute="top" secondItem="PFT-X7-KfD" secondAttribute="bottom" constant="75" id="29a-K0-cwA"/>
                             <constraint firstItem="2Vc-au-Ij6" firstAttribute="leading" secondItem="B6o-fU-7HD" secondAttribute="leadingMargin" id="8V0-We-J70"/>
+                            <constraint firstItem="2Vc-au-Ij6" firstAttribute="centerX" secondItem="B6o-fU-7HD" secondAttribute="centerX" id="8f9-gc-pdl"/>
                             <constraint firstItem="2AC-t2-BgB" firstAttribute="leading" secondItem="B6o-fU-7HD" secondAttribute="leading" id="9r0-6X-fHZ"/>
-                            <constraint firstItem="PFT-X7-KfD" firstAttribute="top" secondItem="egf-QX-w66" secondAttribute="bottom" constant="75" id="FQC-jH-T6i"/>
-                            <constraint firstItem="Syj-zi-fhc" firstAttribute="top" secondItem="2Vc-au-Ij6" secondAttribute="bottom" constant="50" id="GBl-eV-mmQ"/>
+                            <constraint firstItem="2Vc-au-Ij6" firstAttribute="height" secondItem="B6o-fU-7HD" secondAttribute="height" multiplier="3/4" id="D7p-b2-2AZ"/>
                             <constraint firstItem="2AC-t2-BgB" firstAttribute="top" secondItem="egf-QX-w66" secondAttribute="bottom" constant="-20" id="HBD-UK-a2Y"/>
-                            <constraint firstItem="PFT-X7-KfD" firstAttribute="height" secondItem="B6o-fU-7HD" secondAttribute="height" multiplier="1/3" id="JCD-Nn-bdx"/>
-                            <constraint firstItem="7GY-bx-6m5" firstAttribute="top" secondItem="Syj-zi-fhc" secondAttribute="bottom" constant="24" id="No1-5S-Vyd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PFT-X7-KfD" secondAttribute="trailing" id="XqI-RW-oJM"/>
+                            <constraint firstItem="2Vc-au-Ij6" firstAttribute="centerY" secondItem="B6o-fU-7HD" secondAttribute="centerY" id="cMu-m7-31E"/>
                             <constraint firstItem="7GY-bx-6m5" firstAttribute="top" secondItem="2AC-t2-BgB" secondAttribute="bottom" id="dJf-fH-HUe"/>
-                            <constraint firstItem="Syj-zi-fhc" firstAttribute="leading" secondItem="B6o-fU-7HD" secondAttribute="leadingMargin" id="exG-W5-gxp"/>
-                            <constraint firstItem="PFT-X7-KfD" firstAttribute="centerX" secondItem="B6o-fU-7HD" secondAttribute="centerX" id="jee-4p-5TM"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Syj-zi-fhc" secondAttribute="trailing" id="mrx-2o-Qia"/>
-                            <constraint firstItem="PFT-X7-KfD" firstAttribute="leading" secondItem="B6o-fU-7HD" secondAttribute="leadingMargin" id="oAf-NQ-HAG"/>
                             <constraint firstAttribute="trailing" secondItem="2AC-t2-BgB" secondAttribute="trailing" id="s9O-az-e75"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2Vc-au-Ij6" secondAttribute="trailing" id="w34-oj-cqc"/>
                         </constraints>

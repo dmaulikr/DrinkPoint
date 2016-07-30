@@ -514,6 +514,7 @@
 				97324B571D0A40F3006B58A3 /* AppDelegate.swift */,
 				97324B591D0A40F3006B58A3 /* MainViewController.swift */,
 				9780C1D41D498C8000AB9E41 /* UploadAddressBookViewController.swift */,
+				9753D70B1D4BD3530067A7CC /* ColorConstants.swift */,
 				97324B691D0A4107006B58A3 /* Resources */,
 				97E63B601D27687000A2BC33 /* Map */,
 				9753FF541D2C783500ABFF35 /* Games */,
@@ -696,7 +697,6 @@
 				9753D70C1D4BD3530067A7CC /* Theme.swift */,
 				9753D70A1D4BD3530067A7CC /* ThemeCell.swift */,
 				9753D7091D4BD3530067A7CC /* ThemeChooserViewController.swift */,
-				9753D70B1D4BD3530067A7CC /* ColorConstants.swift */,
 			);
 			name = Epigram;
 			sourceTree = "<group>";
