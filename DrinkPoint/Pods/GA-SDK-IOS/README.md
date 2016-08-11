@@ -5,14 +5,18 @@ GameAnalytics native iOS SDK.
 
 Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
 
-Read more about our launch of the new events (V2) [here](http://www.gameanalytics.com/update/).
-
 > :information_source:
 > Requirements:<br/>
 > **iOS:** iOS 6.x and up
 
 Changelog
 ---------
+**2.2.2**
+* added option for manual session handling
+
+**2.2.1**
+* fixed validator to allow 'cocos2d' as sdk wrapper
+
 **2.2.0**
 * feature for using a custom user id
 * fix testflight issue with user id generation

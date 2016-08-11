@@ -30,11 +30,10 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.14.0):
     - FBSDKCoreKit
-  - GA-SDK-IOS (2.2.0)
+  - GA-SDK-IOS (2.2.2)
   - LaunchKit (2.1.4):
     - LaunchKit/LaunchKit (= 2.1.4)
   - LaunchKit/LaunchKit (2.1.4)
-  - Mapbox-iOS-SDK (3.3.3)
   - mopub-ios-sdk (4.7.0):
     - mopub-ios-sdk/MoPubSDK (= 4.7.0)
   - mopub-ios-sdk/MoPubSDK (4.7.0)
@@ -54,7 +53,6 @@ DEPENDENCIES:
   - FBAudienceNetwork
   - GA-SDK-IOS
   - LaunchKit
-  - Mapbox-iOS-SDK
   - mopub-ios-sdk
   - SpeechKit
   - TwitterCore
@@ -72,14 +70,13 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
   FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
   FBSDKShareKit: e8e5d4ccef69b41132fe33acda26db1e33143e33
-  GA-SDK-IOS: 1e8947d3b18171b92a7c7cefb4c39d3260a89ea2
+  GA-SDK-IOS: fb7cbe1fd3a8b7c934eea3e88b70b261a5496f5f
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
-  Mapbox-iOS-SDK: 13cd4d7e118acae2782a1bdc5947164d8f6d80fd
   mopub-ios-sdk: e46b277cdb77b1745567b419742f77fed6865262
   SpeechKit: 62717350ae29e7002a8ac35970ce92dccf2d1b71
   TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
 
-PODFILE CHECKSUM: e8b19715b5bf1267bd04d70a8efec3242004bc3c
+PODFILE CHECKSUM: 8c4b7bf636fd3c2bd9a2fd248fbf8d5d743b5b3c
 
 COCOAPODS: 1.0.0.beta.5

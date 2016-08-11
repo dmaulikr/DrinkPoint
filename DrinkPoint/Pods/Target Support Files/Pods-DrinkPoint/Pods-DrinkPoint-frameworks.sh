@@ -92,7 +92,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/FacebookLogin/FacebookLogin.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/FacebookShare/FacebookShare.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/LaunchKit/LaunchKit.framework"
-  install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/mopub-ios-sdk/mopub_ios_sdk.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -104,6 +103,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/FacebookLogin/FacebookLogin.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/FacebookShare/FacebookShare.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/LaunchKit/LaunchKit.framework"
-  install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/mopub-ios-sdk/mopub_ios_sdk.framework"
 fi

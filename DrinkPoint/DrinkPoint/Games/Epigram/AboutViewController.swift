@@ -14,7 +14,6 @@ import DigitsKit
 class AboutViewController: UIViewController {
 
     @IBOutlet weak var signOutButton: UIButton!
-
     var logoView: UIImageView!
 
     override func prefersStatusBarHidden() -> Bool {
@@ -35,7 +34,7 @@ class AboutViewController: UIViewController {
     }
 
     @IBAction func learnMore(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://drinkpoint.pkadams67.io")!)
+        SafariHandling.presentSafariVC(NSURL(string: "http://drinkpoint.pkadams67.io")!)
     }
 
     @IBAction func signOut(sender: AnyObject) {

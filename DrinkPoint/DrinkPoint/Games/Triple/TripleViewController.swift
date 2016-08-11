@@ -46,7 +46,7 @@ class TripleViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBarHidden = false
         setupLevel(currentLevelNum)
-        MusicHelper.sharedHelper.playBackgroundMusic()
+        MusicHandling.sharedHelper.playBackgroundMusic()
     }
 
     func setupLevel(levelNum: Int) {
