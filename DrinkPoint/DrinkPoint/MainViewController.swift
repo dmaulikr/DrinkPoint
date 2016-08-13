@@ -3,7 +3,7 @@
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 6/9/16.
-//  Copyright © 2016 BinaryBastards. All rights reserved.
+//  Copyright © 2016 Paul Kirk Adams. All rights reserved.
 //
 
 import UIKit
@@ -99,7 +99,7 @@ class MainViewController: UIViewController, FBAdViewDelegate, SKTransactionDeleg
     
     func toggleTts() {
         if (skTransaction == nil) {
-            skTransaction = skSession!.speakString("Welcome to DrinkPoint! Crafted by BinaryBastards.", withLanguage: "eng-GBR", delegate: self)
+            skTransaction = skSession!.speakString("Welcome to DrinkPoint! Crafted by Paul Kirk Adams.", withLanguage: "eng-GBR", delegate: self)
         } else {
             skTransaction!.cancel()
             skTransaction = nil

@@ -3,7 +3,7 @@
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/28/16.
-//  Copyright © 2016 BinaryBastards. All rights reserved.
+//  Copyright © 2016 Paul Kirk Adams. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ import Crashlytics
 
 class EpigramTimelineViewController: TWTRTimelineViewController {
     
-    let epigramSearchQuery = "#drinkpoint AND pic.twitter.com AND (#adventure OR #romance OR #nature OR #mystery)"
+    let epigramSearchQuery = "#drinkpoint AND pic.twitter.com AND (#daring OR #amour OR #outdoors OR #enigma)"
     
     override func prefersStatusBarHidden() -> Bool {
         return true

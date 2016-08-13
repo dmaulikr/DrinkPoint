@@ -5,11 +5,11 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
-  - Crashlytics (3.7.2):
+  - Crashlytics (3.7.3):
     - Fabric (~> 1.6.3)
   - Digits (2.3.0):
     - TwitterCore (= 2.3.0)
-  - Fabric (1.6.7)
+  - Fabric (1.6.8)
   - FacebookCore (0.1.1):
     - Bolts (~> 1.8)
     - FBSDKCoreKit (~> 4.14)
@@ -30,7 +30,7 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.14.0):
     - FBSDKCoreKit
-  - GA-SDK-IOS (2.2.2)
+  - GA-SDK-IOS (2.2.3)
   - LaunchKit (2.1.4):
     - LaunchKit/LaunchKit (= 2.1.4)
   - LaunchKit/LaunchKit (2.1.4)
@@ -60,9 +60,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
-  Crashlytics: 130ab943f8c78cda7a814b434f270b2e2c8a3cba
+  Crashlytics: 76f6beaff70acf226139582c09c78461597c2b98
   Digits: af82d24ec38035cc555b60f55cca5abc68a76bed
-  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
   FacebookCore: 14f27add6888c27470d42a100374e6361f4e0f79
   FacebookLogin: 748f4e621e874da3e0bf63bccf6fd1542c786a1b
   FacebookShare: ea0370ca0b914eccc42a753abcd937265c17b030
@@ -70,7 +70,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
   FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
   FBSDKShareKit: e8e5d4ccef69b41132fe33acda26db1e33143e33
-  GA-SDK-IOS: fb7cbe1fd3a8b7c934eea3e88b70b261a5496f5f
+  GA-SDK-IOS: 30356218fa6fbfb6c8f327cf508c83bbca1ec205
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
   mopub-ios-sdk: e46b277cdb77b1745567b419742f77fed6865262
   SpeechKit: 62717350ae29e7002a8ac35970ce92dccf2d1b71

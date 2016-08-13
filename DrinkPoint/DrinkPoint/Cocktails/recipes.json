@@ -21449,7 +21449,7 @@
     "name" : "Exploding Cherry"
   },
   {
-    "instructions" : "Crush part of the mint together with the sugar and some Zwack. Shake the rest of the Zwack with the Lime Juice and ice and pour into the glass. Fill up with club soda and decorate with the remaining mint and perhaps some lime.",
+    "instructions" : "Crush part of the mint together with the sugar and some Zwack. Shake the rest of the Zwack with the juice and ice and pour into the glass. Fill up with club soda and decorate with the remaining mint and perhaps some lime.",
     "ingredients" : [
       {
         "volume" : "3 fresh ",
@@ -21460,12 +21460,12 @@
         "name" : "Sugar"
       },
       {
-        "volume" : "1,1-¾ oz ",
-        "name" : "Lime juice"
+        "volume" : "1, 1-¾ oz ",
+        "name" : "Lime Juice"
       },
       {
         "volume" : "1-½ oz ",
-        "name" : "Apricot brandy"
+        "name" : "Apricot Brandy"
       },
       {
         "volume" : "½ oz ",
@@ -21473,10 +21473,10 @@
       },
       {
         "volume" : "",
-        "name" : "Club soda"
+        "name" : "Club Soda"
       }
     ],
-    "name" : "Apricot adventure"
+    "name" : "Apricot Adventure"
   },
   {
     "instructions" : "Above amounts are for an 8 oz glass. Build over ice: Kahlua, then Vodka, milk, then Coke.",

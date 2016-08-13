@@ -3,7 +3,7 @@
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/28/16.
-//  Copyright © 2016 BinaryBastards. All rights reserved.
+//  Copyright © 2016 Paul Kirk Adams. All rights reserved.
 //
 
 import UIKit
