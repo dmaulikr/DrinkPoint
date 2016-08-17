@@ -14,42 +14,42 @@ class RecipeController {
     var possibleRecipes: [Recipe] = []
     
     func populatePossibleRecipes() {
-        self.possibleRecipes = filterRecipes(IngredientController.sharedController.myPantry, recipes: JSONController.queryRecipes())
+        self.possibleRecipes = filterRecipes(ItemController.sharedController.onHand, recipes: JSONController.queryRecipes())
     }
     
-    func filterRecipes(pantry: [Ingredient], recipes: [Recipe]) -> [Recipe] {
+    func filterRecipes(onHand: [Item], recipes: [Recipe]) -> [Recipe] {
         var canMake = true
         var filteredRecipes = [Recipe]()
-        var pantryStrings = [String]()
-        for ingredient in pantry {
-            let nameString = ingredient.name.lowercaseString
-            pantryStrings.append(nameString)
+        var onHandStrings = [String]()
+        for item in onHand {
+            let nameString = item.name.lowercaseString
+            onHandStrings.append(nameString)
         }
         for recipe in recipes {
-            var recipeIngredients = [String]()
-            for ingredient in recipe.ingredients {
-                let ingredientName = ingredient["name"]!.lowercaseString
-                recipeIngredients.append(ingredientName)
+            var recipeItems = [String]()
+            for item in recipe.items {
+                let itemName = item["name"]!.lowercaseString
+                recipeItems.append(itemName)
             }
-            let ingredientCount = recipeIngredients.count
+            let itemCount = recipeItems.count
             var containCount = 0
             canMake = true
-            for recipeItem in recipeIngredients {
-                if pantryStrings.contains(recipeItem) {
+            for recipeItem in recipeItems {
+                if onHandStrings.contains(recipeItem) {
                     containCount += 1
                 }
             }
-            if ingredientCount > containCount + 1 {
+            if itemCount > containCount + 1 {
                 canMake = false
             }
-            if ingredientCount == containCount + 1 && ingredientCount <= 2 {
+            if itemCount == containCount + 1 && itemCount <= 2 {
                 canMake = false
             }
             if canMake == true {
                 filteredRecipes.append(recipe)
                 print(recipe.name)
-                recipe.totalIngredients = ingredientCount
-                recipe.userIngredients = containCount
+                recipe.totalItems = itemCount
+                recipe.userItems = containCount
             }
         }
         return filteredRecipes

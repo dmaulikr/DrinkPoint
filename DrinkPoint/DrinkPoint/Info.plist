@@ -206,9 +206,9 @@
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Shows your location on the map and helps improve OpenStreetMap</string>
 	<key>NSLocationUsageDescription</key>
-	<string>We use your location to find nearby bars</string>
+	<string>We use this to find nearby venues</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We use your location to find nearby bars</string>
+	<string>We use this to find nearby venues</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>

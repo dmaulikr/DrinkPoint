@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "dice-144.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "noun_51615_cc.png",
       "scale" : "2x"
     },
     {

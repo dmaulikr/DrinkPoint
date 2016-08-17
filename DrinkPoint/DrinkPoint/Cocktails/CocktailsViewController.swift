@@ -1,5 +1,5 @@
 //
-//  CocktailHomeCocktailsViewController.swift
+//  CocktailsViewController.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/5/16.
@@ -9,9 +9,9 @@
 import UIKit
 import AVFoundation
 
-class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class CocktailsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var fromSingleIngredient: Ingredient?
+    var fromSingleItem: Item?
     var recipeDataSource: [Recipe] = []
     var singleGameSound: AVAudioPlayer!
     
@@ -42,7 +42,7 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
         alert.addAction(toRecipe)
         presentViewController(alert, animated: true, completion: nil)
     }
-
+    
     func playSingleGameSound(filename: String) {
         let url = NSBundle.mainBundle().URLForResource(filename, withExtension: nil)
         guard let singleGameSoundURL = url else {
@@ -73,27 +73,27 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
         dispatch_group_leave(myGroup)
         dispatch_group_notify(myGroup, dispatch_get_main_queue()) { () -> Void in
             self.tableViewOutlet.reloadData()
-        if let randomAlertVC = SettingsController.randomAlert() {
-            self.presentViewController(randomAlertVC, animated: true, completion: nil)
+            if let randomAlertVC = SettingsController.randomAlert() {
+                self.presentViewController(randomAlertVC, animated: true, completion: nil)
             }
         }
     }
     
     func populateDataSource() {
-        if let fromSingleIngredient = fromSingleIngredient {
+        if let fromSingleItem = fromSingleItem {
             var newRecipes: [Recipe] = []
             for recipe in RecipeController.sharedInstance.possibleRecipes {
-                let ingredients = recipe.ingredients.map({$0["name"]!})
+                let items = recipe.items.map({$0["name"]!})
                 print("")
-                if ingredients.contains(fromSingleIngredient.name) {
+                if items.contains(fromSingleItem.name) {
                     newRecipes.append(recipe)
                 }
             }
-            newRecipes.sortInPlace({($0.totalIngredients! - $0.userIngredients!) < ($1.totalIngredients! - $1.userIngredients!)})
+            newRecipes.sortInPlace({($0.totalItems! - $0.userItems!) < ($1.totalItems! - $1.userItems!)})
             recipeDataSource = newRecipes
         } else {
             var newRecipes = RecipeController.sharedInstance.possibleRecipes
-            newRecipes.sortInPlace({($0.totalIngredients!) < ($1.totalIngredients!)})
+            newRecipes.sortInPlace({($0.totalItems!) < ($1.totalItems!)})
             recipeDataSource = newRecipes
         }
     }
@@ -107,26 +107,26 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if let fromSingleIngredient = fromSingleIngredient {
-            let name = fromSingleIngredient.name
+        if let fromSingleItem = fromSingleItem {
+            let name = fromSingleItem.name
             return "\(name) Recipes"
         } else {
-            return "Potential Cocktails"
+            return "Prospects"
         }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("recipeCell", forIndexPath: indexPath)
         if self.recipeDataSource.count <= 0 {
-            cell.textLabel?.text = "Your pantry needs more items!"
+            cell.textLabel?.text = "Add more items!"
             cell.detailTextLabel?.text = ""
             cell.textLabel?.textColor = .whiteColor()
         } else {
             let recipe = recipeDataSource[indexPath.row]
             cell.textLabel?.text = recipe.name
             cell.textLabel?.textColor = .whiteColor()
-            if recipe.totalIngredients > recipe.userIngredients {
-                cell.detailTextLabel?.text = "(\(recipe.userIngredients!) of \(recipe.totalIngredients!))"
+            if recipe.totalItems > recipe.userItems {
+                cell.detailTextLabel?.text = "(\(recipe.userItems!) of \(recipe.totalItems!))"
                 cell.detailTextLabel?.textColor = .whiteColor()
             } else {
                 cell.detailTextLabel?.text = "✔︎"
@@ -137,8 +137,12 @@ class HomeCocktailsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let recipe = recipeDataSource[indexPath.row]
-        self.performSegueWithIdentifier("toDetails", sender: recipe)
+        if self.recipeDataSource.count > 0 {
+            let recipe = recipeDataSource[indexPath.row]
+            self.performSegueWithIdentifier("toDetails", sender: recipe)
+        } else {
+            print("Do something")
+        }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

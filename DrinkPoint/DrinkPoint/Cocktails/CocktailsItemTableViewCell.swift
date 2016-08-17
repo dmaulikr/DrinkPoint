@@ -1,5 +1,5 @@
 //
-//  CocktailsIngredientTableViewCell.swift
+//  CocktailsItemTableViewCell.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/5/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IngredientTableViewCell: UITableViewCell {
+class ItemTableViewCell: UITableViewCell {
     
     @IBOutlet weak var nameOutlet: UILabel!
     @IBOutlet weak var imageViewOutlet: UIImageView!
@@ -25,11 +25,11 @@ class IngredientTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    func setCell(ingredient: Ingredient){
-        self.nameOutlet.text = ingredient.name
+    func setCell(item: Item){
+        self.nameOutlet.text = item.name
         self.nameOutlet.textColor = .whiteColor()
         
-        switch ingredient.category {
+        switch item.category {
             
         case "mixer":
             self.imageViewOutlet.image = UIImage(named: "CocktailsMixer")

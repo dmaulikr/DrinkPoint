@@ -1,5 +1,5 @@
 //
-//  CocktailsAddIngredientViewController.swift
+//  CocktailsAddItemViewController.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/5/16.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class AddIngredientViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
+class AddItemViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
-    var allIngredients = [Ingredient]()
-    var ingredientDataSource = [Ingredient]()
+    var allItems = [Item]()
+    var itemDataSource = [Item]()
     
     @IBOutlet weak var searchBarOutlet: UISearchBar!
     @IBOutlet weak var tableViewOutlet: UITableView!
@@ -23,10 +23,10 @@ class AddIngredientViewController: UIViewController, UITableViewDataSource, UITa
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBarHidden = false
-        let unsortedIngredients: [Ingredient] = JSONController.queryIngredients()
-        let sorted: [Ingredient] = unsortedIngredients.sort({ $0.category > $1.category })
-        self.allIngredients = sorted
-        self.ingredientDataSource = self.allIngredients
+        let unsortedItems: [Item] = JSONController.queryItems()
+        let sorted: [Item] = unsortedItems.sort({ $0.category > $1.category })
+        self.allItems = sorted
+        self.itemDataSource = self.allItems
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,44 +34,44 @@ class AddIngredientViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ingredientDataSource.count
+        return itemDataSource.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ingredientCell", forIndexPath: indexPath) as! AddIngredientTableViewCell
-        cell.nameLabel?.text = ingredientDataSource[indexPath.row].name
-        if IngredientController.sharedController.myPantry.contains(ingredientDataSource[indexPath.row]) {
+        let cell = tableView.dequeueReusableCellWithIdentifier("itemCell", forIndexPath: indexPath) as! AddItemTableViewCell
+        cell.nameLabel?.text = itemDataSource[indexPath.row].name
+        if ItemController.sharedController.onHand.contains(itemDataSource[indexPath.row]) {
             cell.checkLabel?.text = "✔︎"
         } else {
             cell.checkLabel?.text = "☐"
         }
         cell.nameLabel?.textColor = .whiteColor()
         cell.checkLabel?.textColor = .whiteColor()
-        cell.setCell(ingredientDataSource[indexPath.row])
+        cell.setCell(itemDataSource[indexPath.row])
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ingredientCell", forIndexPath: indexPath) as! AddIngredientTableViewCell
-        if IngredientController.sharedController.myPantry.contains(ingredientDataSource[indexPath.row]) {
+        let cell = tableView.dequeueReusableCellWithIdentifier("itemCell", forIndexPath: indexPath) as! AddItemTableViewCell
+        if ItemController.sharedController.onHand.contains(itemDataSource[indexPath.row]) {
             cell.checkLabel?.text = "☐"
-            let ingredient = ingredientDataSource[indexPath.row]
-            IngredientController.sharedController.removeIngredient(ingredient)
+            let item = itemDataSource[indexPath.row]
+            ItemController.sharedController.removeItem(item)
             tableViewOutlet.reloadData()
         } else {
             cell.checkLabel?.text = "✔︎"
-            let ingredient = ingredientDataSource[indexPath.row]
-            IngredientController.sharedController.addIngredient(ingredient)
+            let item = itemDataSource[indexPath.row]
+            ItemController.sharedController.addItem(item)
             tableViewOutlet.reloadData()
         }
     }
     
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
-        ingredientDataSource = allIngredients.filter({$0.name.uppercaseString.containsString(searchText.uppercaseString)})
+        itemDataSource = allItems.filter({$0.name.uppercaseString.containsString(searchText.uppercaseString)})
         self.tableViewOutlet.reloadData()
     }
     
-    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    func searchBarSearchButtonTapped(searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
     }
     

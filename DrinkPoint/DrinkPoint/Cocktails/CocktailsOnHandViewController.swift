@@ -1,5 +1,5 @@
 //
-//  CocktailsPantryViewController.swift
+//  CocktailsOnHandViewController.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/5/16.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class PantryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class OnHandViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var alcoholDataSource = [Ingredient]()
-    var mixerDataSource = [Ingredient]()
+    var alcoholDataSource = [Item]()
+    var mixerDataSource = [Item]()
     
     @IBOutlet weak var alcoholTableView: UITableView!
     @IBOutlet weak var mixerTableView: UITableView!
@@ -31,7 +31,7 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
         splitDataSource()
         self.alcoholTableView.reloadData()
         self.mixerTableView.reloadData()
-        if let alertVC = SettingsController.checkEmptyPantry() {
+        if let alertVC = SettingsController.checkOnHand() {
             presentViewController(alertVC, animated: true, completion: nil)
         }
     }
@@ -39,7 +39,7 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
     func splitDataSource() {
         alcoholDataSource = []
         mixerDataSource = []
-        for item in IngredientController.sharedController.myPantry {
+        for item in ItemController.sharedController.onHand {
             if item.alcohol {
                 alcoholDataSource.append(item)
             } else {
@@ -58,23 +58,23 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         if tableView == alcoholTableView {
-            let cell = tableView.dequeueReusableCellWithIdentifier("alcoholCell", forIndexPath: indexPath) as! IngredientTableViewCell
-            let ingredient = alcoholDataSource[indexPath.row]
-            cell.setCell(ingredient)
+            let cell = tableView.dequeueReusableCellWithIdentifier("alcoholCell", forIndexPath: indexPath) as! ItemTableViewCell
+            let item = alcoholDataSource[indexPath.row]
+            cell.setCell(item)
             return cell
         } else {
-            let cell = tableView.dequeueReusableCellWithIdentifier("mixersCell", forIndexPath: indexPath) as! IngredientTableViewCell
-            let ingredient = mixerDataSource[indexPath.row]
-            cell.setCell(ingredient)
+            let cell = tableView.dequeueReusableCellWithIdentifier("mixersCell", forIndexPath: indexPath) as! ItemTableViewCell
+            let item = mixerDataSource[indexPath.row]
+            cell.setCell(item)
             return cell
         }
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if tableView == alcoholTableView {
-            return "Alcohol on Hand"
+            return "Alcohol"
         } else {
-            return "Mixers on Hand"
+            return "Mixers"
         }
     }
     
@@ -83,13 +83,13 @@ class PantryViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if tableView == alcoholTableView && editingStyle == .Delete {
-            let ingredient = self.alcoholDataSource[indexPath.row]
-            IngredientController.sharedController.removeIngredient(ingredient)
+            let item = self.alcoholDataSource[indexPath.row]
+            ItemController.sharedController.removeItem(item)
             self.splitDataSource()
             self.alcoholTableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else  if tableView == mixerTableView && editingStyle == .Delete {
-            let ingredient = self.mixerDataSource[indexPath.row]
-            IngredientController.sharedController.removeIngredient(ingredient)
+            let item = self.mixerDataSource[indexPath.row]
+            ItemController.sharedController.removeItem(item)
             self.splitDataSource()
             self.mixerTableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         }

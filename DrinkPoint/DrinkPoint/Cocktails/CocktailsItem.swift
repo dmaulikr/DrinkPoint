@@ -1,5 +1,5 @@
 //
-//  CocktailsIngredient.swift
+//  CocktailsItem.swift
 //  DrinkPoint
 //
 //  Created by Paul Kirk Adams on 7/5/16.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Ingredient: Equatable {
+class Item: Equatable {
     
     private let alcoholKey = "alcohol"
     private let nameKey = "name"
@@ -55,6 +55,6 @@ class Ingredient: Equatable {
     }
 }
 
-func == (lhs: Ingredient, rhs: Ingredient) -> Bool {
+func == (lhs: Item, rhs: Item) -> Bool {
     return lhs.name == rhs.name
 }

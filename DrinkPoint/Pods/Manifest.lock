@@ -34,9 +34,9 @@ PODS:
   - LaunchKit (2.1.4):
     - LaunchKit/LaunchKit (= 2.1.4)
   - LaunchKit/LaunchKit (2.1.4)
-  - mopub-ios-sdk (4.7.0):
-    - mopub-ios-sdk/MoPubSDK (= 4.7.0)
-  - mopub-ios-sdk/MoPubSDK (4.7.0)
+  - mopub-ios-sdk (4.8.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.8.0)
+  - mopub-ios-sdk/MoPubSDK (4.8.0)
   - SpeechKit (2.1.7)
   - TwitterCore (2.3.0):
     - Fabric
@@ -72,7 +72,7 @@ SPEC CHECKSUMS:
   FBSDKShareKit: e8e5d4ccef69b41132fe33acda26db1e33143e33
   GA-SDK-IOS: 30356218fa6fbfb6c8f327cf508c83bbca1ec205
   LaunchKit: 95ad4fb171a0f8ea1c80aa26d4fb7bd637788f9c
-  mopub-ios-sdk: e46b277cdb77b1745567b419742f77fed6865262
+  mopub-ios-sdk: 7cadaad18d175261df34969a81e78b05b47d9c7d
   SpeechKit: 62717350ae29e7002a8ac35970ce92dccf2d1b71
   TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91

@@ -30,26 +30,26 @@ class RecipeViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myRecipe!.ingredients.count
+        return myRecipe!.items.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ingredients", forIndexPath: indexPath)
-        let ingredient = myRecipe!.ingredients[indexPath.row]
-        let ingredientAmt = ingredient["volume"]
-        let ingredientName = ingredient["name"]
-        let ingredientObj = Ingredient(name: ingredientName!)
-        if IngredientController.sharedController.myPantry.contains(ingredientObj) {
-            cell.textLabel?.text = "✔︎ \(ingredientAmt!)\(ingredientName!)"
+        let cell = tableView.dequeueReusableCellWithIdentifier("items", forIndexPath: indexPath)
+        let item = myRecipe!.items[indexPath.row]
+        let itemAmt = item["volume"]
+        let itemName = item["name"]
+        let itemObject = Item(name: itemName!)
+        if ItemController.sharedController.onHand.contains(itemObject) {
+            cell.textLabel?.text = "✔︎ \(itemAmt!)\(itemName!)"
             cell.textLabel?.textColor = .whiteColor()
         } else {
-            cell.textLabel?.text = "✘ \(ingredientAmt!)\(ingredientName!)"
+            cell.textLabel?.text = "✘ \(itemAmt!)\(itemName!)"
             cell.textLabel?.textColor = .lightGrayColor()
         }
         return cell
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Ingredients"
+        return "Items"
     }
 }

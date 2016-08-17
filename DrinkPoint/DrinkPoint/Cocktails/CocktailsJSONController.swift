@@ -21,7 +21,7 @@ class JSONController {
             print("JSON failed")
             return []
         }
-        if let dictionaryObject = object as? [[String:AnyObject]]{
+        if let dictionaryObject = object as? [[String: AnyObject]]{
             for dictionary in dictionaryObject {
                 if let recipeObject = Recipe(dictionary: dictionary){
                     recipes.append(recipeObject)
@@ -33,9 +33,9 @@ class JSONController {
         }
     }
     
-    static func queryIngredients() -> [Ingredient] {
-        var ingredients: [Ingredient] = []
-        guard let path = NSBundle.mainBundle().pathForResource("ingredients", ofType: "json") else {return []}
+    static func queryItems() -> [Item] {
+        var items: [Item] = []
+        guard let path = NSBundle.mainBundle().pathForResource("items", ofType: "json") else {return []}
         guard let json = NSData(contentsOfFile: path) else {return []}
         let object: AnyObject
         do {
@@ -46,12 +46,12 @@ class JSONController {
         }
         if let dictionaryObject = object as? [String: AnyObject]{
             guard let dictionaryArray = dictionaryObject["drinks"] as? [[String: AnyObject]] else {return []}
-            for ingredient in dictionaryArray {
-                if let ingredientObject = Ingredient(dictionary: ingredient) {
-                    ingredients.append(ingredientObject)
+            for item in dictionaryArray {
+                if let itemObject = Item(dictionary: item) {
+                    items.append(itemObject)
                 }
             }
-            return ingredients
+            return items
         }
         return []
     }

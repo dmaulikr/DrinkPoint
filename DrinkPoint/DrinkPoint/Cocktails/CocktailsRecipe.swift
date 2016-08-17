@@ -11,27 +11,27 @@ import Foundation
 class Recipe {
     
     private let nameKey = "name"
-    private let ingredientsKey = "ingredients"
+    private let itemsKey = "items"
     private let volumeKey = "volume"
     private let instructionsKey = "instructions"
     
     var name: String = ""
-    var ingredients: [[String:String]] = []
+    var items: [[String: String]] = []
     var instructions: String = ""
-    var totalIngredients: Int?
-    var userIngredients: Int?
+    var totalItems: Int?
+    var userItems: Int?
     
-    init?(dictionary: [String:AnyObject]) {
+    init?(dictionary: [String: AnyObject]) {
         guard let name = dictionary[nameKey] as? String,
                 let instructions = dictionary[instructionsKey] as? String,
-            let ingredients = dictionary[ingredientsKey] as? [[String:String]] else {
+            let items = dictionary[itemsKey] as? [[String: String]] else {
                 self.instructions = ""
                 self.name = ""
-                self.ingredients = [["":""]]
+                self.items = [["": ""]]
                 return nil
         }
         self.name = name
         self.instructions = instructions
-        self.ingredients = ingredients
+        self.items = items
     }
 }

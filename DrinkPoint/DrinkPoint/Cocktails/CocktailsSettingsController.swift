@@ -12,31 +12,31 @@ class SettingsController {
     
     static func firstLaunch() {
         if(NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce")) {
-            IngredientController.sharedController.loadFromPersistentStorage()
+            ItemController.sharedController.loadFromPersistentStorage()
         } else {
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
             NSUserDefaults.standardUserDefaults().synchronize()
-            let arrayOfIngredients = [
-                Ingredient(alcohol: false, name: "Ice", category: "ice"),
-                Ingredient(alcohol: false, name: "Water", category: "softDrink"),
-                Ingredient(alcohol: false, name: "Salt", category: "spice"),
-                Ingredient(alcohol: false, name: "Black Pepper", category: "spice"),
-                Ingredient(alcohol: false, name: "Sugar", category: "spice")]
-            IngredientController.sharedController.addPrepopulatedIngredients(arrayOfIngredients)
+            let arrayOfItems = [
+                Item(alcohol: false, name: "Ice", category: "ice"),
+                Item(alcohol: false, name: "Water", category: "softDrink"),
+                Item(alcohol: false, name: "Salt", category: "spice"),
+                Item(alcohol: false, name: "Black Pepper", category: "spice"),
+                Item(alcohol: false, name: "Sugar", category: "spice")]
+            ItemController.sharedController.addPrepopulatedItems(arrayOfItems)
         }
     }
     
-    static func checkEmptyPantry() -> UIViewController? {
-        if !NSUserDefaults.standardUserDefaults().boolForKey("DisplayedAddIngredients") {
-            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "DisplayedAddIngredients")
-            let pantryAlertController = UIAlertController(title: "Pantry Needs More Items", message: "Tap cart icon at top left of screen", preferredStyle: .Alert)
+    static func checkOnHand() -> UIViewController? {
+        if !NSUserDefaults.standardUserDefaults().boolForKey("DisplayedAddItems") {
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "DisplayedAddItems")
+            let nothingOnHandAlertController = UIAlertController(title: "More Items Needed", message: "Tap cart at top left to add", preferredStyle: .Alert)
             let continueAction = UIAlertAction(title: "Got It!", style: .Default) { (action) in
                 print(action)
             }
-            pantryAlertController.addAction(continueAction)
-            return pantryAlertController
+            nothingOnHandAlertController.addAction(continueAction)
+            return nothingOnHandAlertController
         } else {
-            print("More ingredients required")
+            print("More items needed")
             return nil
         }
     }
@@ -44,8 +44,8 @@ class SettingsController {
     static func randomAlert() -> UIViewController? {
         if !NSUserDefaults.standardUserDefaults().boolForKey("DisplayedRecipes") {
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "DisplayedRecipes")
-            let randomAlertController = UIAlertController(title: "Random Cocktail", message: "Shake iPhone or tap Die below.", preferredStyle: .Alert)
-            let continueAction = UIAlertAction(title: "Continue", style: .Default) { (action) in
+            let randomAlertController = UIAlertController(title: "Feel Adventurous?", message: "Shake iPhone or tap Red Die below", preferredStyle: .Alert)
+            let continueAction = UIAlertAction(title: "Got It!", style: .Default) { (action) in
                 print(action)
             }
             randomAlertController.addAction(continueAction)

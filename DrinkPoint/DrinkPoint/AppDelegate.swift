@@ -13,8 +13,6 @@ import mopub_ios_sdk
 import Crashlytics
 import DigitsKit
 import TwitterKit
-import GameAnalytics
-//import Mapbox
 import LaunchKit
 import FBSDKCoreKit
 import FacebookCore
@@ -44,17 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let welcome = "Welcome to DrinkPoint! “Have fun having fun!”"
         assert(NSBundle.mainBundle().objectForInfoDictionaryKey("Fabric") != nil, welcome)
         Fabric.with([Crashlytics.self, Twitter.self, Digits.self, MoPub.self, SKSession.self])
-        if Twitter.sharedInstance().sessionStore.session() == nil && Digits.sharedInstance().session() == nil {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let signInViewController: AnyObject! = storyboard.instantiateViewControllerWithIdentifier("SignInViewController")
-            window?.rootViewController = signInViewController as? UIViewController
-        }
+//        if Twitter.sharedInstance().sessionStore.session() == nil && Digits.sharedInstance().session() == nil {
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            let signInViewController: AnyObject! = storyboard.instantiateViewControllerWithIdentifier("SignInViewController")
+//            window?.rootViewController = signInViewController as? UIViewController
+//        }
         self.logUser()
-        
-        GameAnalytics.setEnabledInfoLog(true)
-        GameAnalytics.setEnabledVerboseLog(true)
-        GameAnalytics.configureBuild("1.0.0")
-        GameAnalytics.initializeWithConfiguredGameKeyAndGameSecret()
         
         LaunchKit.launchWithToken("5BVpp5-2e7tKRD1ldaPRZK6gpJcWYaW_oWEEwvcJOqRL")
         LaunchKit.sharedInstance().debugMode = true
