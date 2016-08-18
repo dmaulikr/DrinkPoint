@@ -36,7 +36,7 @@ class PlinkGameOverScene: SKScene {
         tapLabel.position = CGPointMake(self.size.width / 2, gameOverLabel.frame.origin.y - gameOverLabel.frame.size.height);
         self.addChild(tapLabel)
 
-        self.backgroundColor = UIColor(red: 0.651, green: 0.000, blue: 0.102, alpha: 1.00)
+        self.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -51,6 +51,6 @@ class PlinkGameOverScene: SKScene {
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)  {
         let gameScene = PlinkScene(size: self.size)
         gameScene.scaleMode = .AspectFill
-        self.view?.presentScene(gameScene, transition: SKTransition.doorsCloseHorizontalWithDuration(1))
+        self.view?.presentScene(gameScene, transition: SKTransition.flipHorizontalWithDuration(0.5))        
     }
 }

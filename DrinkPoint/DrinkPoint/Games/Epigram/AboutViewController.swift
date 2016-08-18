@@ -26,7 +26,7 @@ class AboutViewController: UIViewController {
         navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: .Default)
         navigationController?.navigationBar.shadowImage = UIImage()
-        Answers.logCustomEventWithName("Viewed About", customAttributes: nil)
+        Answers.logCustomEventWithName("Viewed About Epigram", customAttributes: nil)
     }
 
     @IBAction func dismiss(sender: AnyObject) {

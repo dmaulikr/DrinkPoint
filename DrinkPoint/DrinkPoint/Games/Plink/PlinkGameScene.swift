@@ -12,7 +12,7 @@ import AudioToolbox
 
 class PlinkScene: SKScene, SKPhysicsContactDelegate {
 
-    let kMinGlassBottomHeight: Float = 100.0
+    let kMinGlassBottomHeight: Float = 115.0
     let gravity: CGFloat = -75.0
     var gameEnding: Bool = false
     var score: Int = 0
@@ -31,7 +31,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
 
     let kFingerFiredBulletName = "fingerFiredBullet"
     let kGlassFiredBulletName = "glassFiredBullet"
-    let kBulletSize = CGSize(width: 4, height: 8)
+    let kBulletSize = CGSize(width: 4, height: 12)
     var tapQueue = [Int]()
     let motionManager: CMMotionManager = CMMotionManager()
     var contentCreated = false
@@ -99,17 +99,12 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func loadGlassTexturesOfType(glassType: GlassType) -> [SKTexture] {
-
         var prefix: String
-
         switch(glassType) {
-
         case .A:
             prefix = "GlassA"
-
         case .B:
             prefix = "GlassB"
-
         case .C:
             prefix = "GlassC"
         }
@@ -131,13 +126,9 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func setupGlasses() {
-
         let baseOrigin = CGPoint(x: size.width / 3, y: size.height / 2)
-
         for row in 0..<kGlassRowCount {
-
             var glassType: GlassType
-
             if row % 3 == 0 {
                 glassType = .A
             } else if row % 3 == 1 {
@@ -145,17 +136,12 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
             } else {
                 glassType = .C
             }
-
             let glassPositionY = CGFloat(row) * (GlassType.size.height * 2) + baseOrigin.y
             var glassPosition = CGPoint(x: baseOrigin.x, y: glassPositionY)
-
-            for _ in 1..<kGlassRowCount {
-
+            for _ in 1 ..< kGlassRowCount {
                 let glass = makeGlassOfType(glassType)
                 glass.position = glassPosition
-
                 addChild(glass)
-
                 glassPosition = CGPoint(
                     x: glassPosition.x + GlassType.size.width + kGlassGridSpacing.width,
                     y: glassPositionY
@@ -166,7 +152,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
 
     func setupFinger() {
         let finger = makeFinger()
-        finger.position = CGPoint(x: size.width / 2.0, y: 60 + (kFingerSize.height / 2.0))
+        finger.position = CGPoint(x: size.width / 2, y: 75 + (kFingerSize.height / 2))
         addChild(finger)
     }
 
@@ -176,7 +162,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
         finger.physicsBody = SKPhysicsBody(rectangleOfSize: finger.frame.size)
         finger.physicsBody!.dynamic = true
         finger.physicsBody!.affectedByGravity = false
-        finger.physicsBody!.mass = 0.02
+        finger.physicsBody!.mass = 0.05
         finger.physicsBody!.categoryBitMask = kFingerCategory
         finger.physicsBody!.contactTestBitMask = 0x0
         finger.physicsBody!.collisionBitMask = kSceneEdgeCategory
@@ -184,23 +170,21 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     }
 
     func setupHud() {
-
         let scoreLabel = SKLabelNode (fontNamed: "SanFranciscoDisplay-Light")
         scoreLabel.name = kScoreHudName
         scoreLabel.fontSize = 20
         scoreLabel.fontColor = SKColor.whiteColor()
-        scoreLabel.text = String(format: "Score: %04u", 0)
+        scoreLabel.text = String(format: "Score: %0u", 0)
         scoreLabel.position = CGPoint(
             x: frame.size.width / 2,
             y: size.height - (100 + scoreLabel.frame.size.height / 2)
         )
         addChild(scoreLabel)
-
         let healthLabel = SKLabelNode (fontNamed: "SanFranciscoDisplay-Light")
         healthLabel.name = kHealthHudName
         healthLabel.fontSize = 20
         healthLabel.fontColor = SKColor.whiteColor()
-        healthLabel.text = String(format: "Health: %.1f%%", fingerHealth * 100.0)
+        healthLabel.text = String(format: "Health: %.0f%%", fingerHealth * 100)
         healthLabel.position = CGPoint(
             x: frame.size.width / 2,
             y: size.height - (130 + healthLabel.frame.size.height / 2)
@@ -211,22 +195,20 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     func adjustScoreBy(points: Int) {
         score += points
         if let score = childNodeWithName(kScoreHudName) as? SKLabelNode {
-            score.text = String(format: "Score: %04u", self.score)
+            score.text = String(format: "Score: %0u", self.score)
         }
     }
 
     func adjustFingerHealthBy(healthAdjustment: Float) {
         fingerHealth = max(fingerHealth + healthAdjustment, 0.0)
         if let health = childNodeWithName(kHealthHudName) as? SKLabelNode {
-            health.text = String(format: "Health: %.1f%%", self.fingerHealth * 100)
+            health.text = String(format: "Health: %.0f%%", self.fingerHealth * 100)
         }
     }
 
     func makeBulletOfType(bulletType: BulletType) -> SKNode {
         var bullet: SKNode
-
         switch bulletType {
-
         case .FingerFired:
             bullet = SKSpriteNode(color: SKColor.cyanColor(), size: kBulletSize)
             bullet.name = kFingerFiredBulletName
@@ -236,7 +218,6 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
             bullet.physicsBody!.categoryBitMask = kFingerFiredBulletCategory
             bullet.physicsBody!.contactTestBitMask = kGlassCategory
             bullet.physicsBody!.collisionBitMask = 0x0
-
         case .GlassFired:
             bullet = SKSpriteNode(color: SKColor.magentaColor(), size: kBulletSize)
             bullet.name = kGlassFiredBulletName
@@ -269,18 +250,13 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
         determineGlassMovementDirection()
         enumerateChildNodesWithName(GlassType.name) {
             node, stop in
-
             switch self.glassMovementDirection {
-
             case .Right:
                 node.position = CGPointMake(node.position.x + 10, node.position.y)
-
             case .Left:
                 node.position = CGPointMake(node.position.x - 10, node.position.y)
-
             case .DownThenLeft, .DownThenRight:
                 node.position = CGPointMake(node.position.x, node.position.y - 10)
-
             case .None:
                 break
             }
@@ -304,7 +280,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
         if let finger = childNodeWithName(kFingerName) as? SKSpriteNode {
             if let data = motionManager.accelerometerData {
                 if fabs(data.acceleration.x) > 0.2 {
-                    finger.physicsBody!.applyForce(CGVectorMake(40.0 * CGFloat(data.acceleration.x), 0))
+                    finger.physicsBody!.applyForce(CGVectorMake(40 * CGFloat(data.acceleration.x), 0))
                 }
             }
         }
@@ -321,39 +297,31 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
 
     func determineGlassMovementDirection() {
         var proposedMovementDirection: GlassMovementDirection = glassMovementDirection
-
         enumerateChildNodesWithName(GlassType.name) {
             node, stop in
-
             switch self.glassMovementDirection {
-
             case .Right:
                 if (CGRectGetMaxX(node.frame) >= node.scene!.size.width - 1.0) {
                     proposedMovementDirection = .DownThenLeft
                     self.adjustGlassMovementToTimePerMove(self.timePerMove * 0.8)
                     stop.memory = true
                 }
-
             case .Left:
                 if (CGRectGetMinX(node.frame) <= 1.0) {
                     proposedMovementDirection = .DownThenRight
                     self.adjustGlassMovementToTimePerMove(self.timePerMove * 0.8)
                     stop.memory = true
                 }
-
             case .DownThenLeft:
                 proposedMovementDirection = .Left
                 stop.memory = true
-
             case .DownThenRight:
                 proposedMovementDirection = .Right
                 stop.memory = true
-
             default:
                 break
             }
         }
-
         if (proposedMovementDirection != glassMovementDirection) {
             glassMovementDirection = proposedMovementDirection
         }
@@ -384,7 +352,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     func fireBullet(bullet: SKNode, toDestination destination: CGPoint, withDuration duration: CFTimeInterval, andSoundFileName soundName: String) {
         let bulletAction = SKAction.sequence([
             SKAction.moveTo(destination, duration: duration),
-            SKAction.waitForDuration(3 / 60), SKAction.removeFromParent()
+            SKAction.waitForDuration(3/60), SKAction.removeFromParent()
             ])
         let soundAction = SKAction.playSoundFileNamed(soundName, waitForCompletion: true)
         bullet.runAction(SKAction.group([bulletAction, soundAction]))
@@ -437,8 +405,9 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
         let nodeNames = [contact.bodyA.node!.name!, contact.bodyB.node!.name!]
         if nodeNames.contains(kFingerName) && nodeNames.contains(kGlassFiredBulletName) {
             runAction(SKAction.playSoundFileNamed("FingerHit.wav", waitForCompletion: false))
-            adjustFingerHealthBy(-(1 / 4))
-            if fingerHealth <= 0.0 {
+            adjustFingerHealthBy(-(1/5))
+            vibrate()
+            if fingerHealth <= 0 {
                 contact.bodyA.node!.removeFromParent()
                 contact.bodyB.node!.removeFromParent()
             } else {
@@ -480,10 +449,9 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     func endGame() {
         if !gameEnding {
             gameEnding = true
-            vibrate()
             motionManager.stopAccelerometerUpdates()
             let gameOverScene: PlinkGameOverScene = PlinkGameOverScene(size: size)
-            view?.presentScene(gameOverScene, transition: SKTransition.doorsOpenHorizontalWithDuration(1))
+            view?.presentScene(gameOverScene, transition: SKTransition.flipHorizontalWithDuration(0.5))
         }
     }
 }

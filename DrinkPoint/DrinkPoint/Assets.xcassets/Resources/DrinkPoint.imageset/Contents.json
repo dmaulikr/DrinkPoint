@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "DrinkPoint.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "DrinkPoint.png",
       "scale" : "2x"
     },
     {
