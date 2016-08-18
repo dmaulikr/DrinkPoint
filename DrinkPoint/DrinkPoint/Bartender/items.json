@@ -281,7 +281,7 @@
                "category": "hardDrink"
                },
                {
-               "name": "Sweet & Sour",
+               "name": "Sour Mix",
                "alcohol": false,
                "category": "mixer"
                },
@@ -344,11 +344,6 @@
                "name": "Peach Brandy",
                "alcohol": true,
                "category": "hardDrink"
-               },
-               {
-               "name": "Passion Fruit Juice",
-               "alcohol": false,
-               "category": "softDrink"
                },
                {
                "name": "Peppermint Schnapps",
@@ -826,11 +821,6 @@
                "category": "hardDrink"
                },
                {
-               "name": "Bailey's Irish Cream",
-               "alcohol": true,
-               "category": "hardDrink"
-               },
-               {
                "name": "Lager",
                "alcohol": true,
                "category": "beer"
@@ -867,16 +857,6 @@
                },
                {
                "name": "Drambuie",
-               "alcohol": true,
-               "category": "hardDrink"
-               },
-               {
-               "name": "Whiskey",
-               "alcohol": true,
-               "category": "hardDrink"
-               },
-               {
-               "name": "White Rum",
                "alcohol": true,
                "category": "hardDrink"
                },
@@ -1169,11 +1149,6 @@
                "name": "Clamato Juice",
                "alcohol": true,
                "category": "softDrink"
-               },
-               {
-               "name": "Sour Mix",
-               "alcohol": true,
-               "category": "mixer"
                },
                {
                "name": "Apfelkorn",
@@ -1807,11 +1782,6 @@
                "category": "mixer"
                },
                {
-               "name": "Surge",
-               "alcohol": false,
-               "category": "softDrink"
-               },
-               {
                "name": "Tropical Fruit Schnapps",
                "alcohol": true,
                "category": "hardDrink"
@@ -2122,7 +2092,7 @@
                "category": "softDrink"
                },
                {
-               "name": "Black Pepper",
+               "name": "Pepper",
                "alcohol": false,
                "category": "spice"
                },

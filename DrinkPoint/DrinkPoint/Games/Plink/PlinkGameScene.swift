@@ -405,7 +405,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
         let nodeNames = [contact.bodyA.node!.name!, contact.bodyB.node!.name!]
         if nodeNames.contains(kFingerName) && nodeNames.contains(kGlassFiredBulletName) {
             runAction(SKAction.playSoundFileNamed("FingerHit.wav", waitForCompletion: false))
-            adjustFingerHealthBy(-(1/5))
+            adjustFingerHealthBy(-(1/4))
             vibrate()
             if fingerHealth <= 0 {
                 contact.bodyA.node!.removeFromParent()
