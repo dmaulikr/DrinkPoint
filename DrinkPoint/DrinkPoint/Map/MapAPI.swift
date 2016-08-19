@@ -37,7 +37,7 @@ class MapAPI {
         if let session = self.session {
             var parameters = location.parameters()
             parameters += [Parameter.categoryId: "4bf58dd8d48988d116941735"]
-            parameters += [Parameter.radius: "5000"]
+            parameters += [Parameter.radius: "3000"]
             parameters += [Parameter.limit: "50"]
             let searchTask = session.venues.search(parameters) {
                 (result) -> Void in

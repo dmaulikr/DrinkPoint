@@ -31,12 +31,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         UIBarButtonItem.appearance().tintColor = UIColor.whiteColor()
-        UINavigationBar.appearance().barTintColor = UIColor.blackColor()
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.6, green: 0, blue: 0, alpha: 1)
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UITabBar.appearance().translucent = true
-        UITabBar.appearance().barTintColor = UIColor.blackColor()
-        UITabBar.appearance().tintColor = UIColor.redColor()
+        UITabBar.appearance().barTintColor = UIColor(red: 0.6, green: 0, blue: 0, alpha: 1)
+        UITabBar.appearance().tintColor = UIColor.whiteColor()
         
 //        Fabric.sharedSDK().debug = true
 //        let welcome = "Welcome to DrinkPoint! “Have fun having fun!”"

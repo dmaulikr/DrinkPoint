@@ -22,7 +22,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, UITableVie
     var locationManager: CLLocationManager?
     var lastLocation: CLLocation?
     var venues: [Venue]?
-    let distanceSpan: Double = 5000
+    let distanceSpan: Double = 3000
     
     override func viewDidLoad() {
         super.viewDidLoad()

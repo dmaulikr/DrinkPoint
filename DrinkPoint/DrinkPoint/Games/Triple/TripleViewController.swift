@@ -25,8 +25,9 @@ class TripleViewController: UIViewController {
     @IBOutlet weak var gameOverPanel: UIImageView!
     @IBOutlet weak var shuffleButton: UIButton!
 
-    @IBAction func shuffleButtonPressed(_: AnyObject) {
+    @IBAction func shuffleButtonTapped(_: AnyObject) {
         shuffle()
+        vibrate()
         decrementMoves()
     }
 

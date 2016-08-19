@@ -31,7 +31,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
 
     let kFingerFiredBulletName = "fingerFiredBullet"
     let kGlassFiredBulletName = "glassFiredBullet"
-    let kBulletSize = CGSize(width: 4, height: 12)
+    let kBulletSize = CGSize(width: 3, height: 12)
     var tapQueue = [Int]()
     let motionManager: CMMotionManager = CMMotionManager()
     var contentCreated = false
@@ -352,7 +352,7 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
     func fireBullet(bullet: SKNode, toDestination destination: CGPoint, withDuration duration: CFTimeInterval, andSoundFileName soundName: String) {
         let bulletAction = SKAction.sequence([
             SKAction.moveTo(destination, duration: duration),
-            SKAction.waitForDuration(3/60), SKAction.removeFromParent()
+            SKAction.waitForDuration(1/30), SKAction.removeFromParent()
             ])
         let soundAction = SKAction.playSoundFileNamed(soundName, waitForCompletion: true)
         bullet.runAction(SKAction.group([bulletAction, soundAction]))
@@ -405,8 +405,8 @@ class PlinkScene: SKScene, SKPhysicsContactDelegate {
         let nodeNames = [contact.bodyA.node!.name!, contact.bodyB.node!.name!]
         if nodeNames.contains(kFingerName) && nodeNames.contains(kGlassFiredBulletName) {
             runAction(SKAction.playSoundFileNamed("FingerHit.wav", waitForCompletion: false))
-            adjustFingerHealthBy(-(1/4))
             vibrate()
+            adjustFingerHealthBy(-(1/4))
             if fingerHealth <= 0 {
                 contact.bodyA.node!.removeFromParent()
                 contact.bodyB.node!.removeFromParent()

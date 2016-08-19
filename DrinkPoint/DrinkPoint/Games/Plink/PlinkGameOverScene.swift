@@ -21,22 +21,19 @@ class PlinkGameOverScene: SKScene {
     }
 
     func createContent() {
-
         let gameOverLabel = SKLabelNode (fontNamed: "SanFranciscoDisplay-Light")
         gameOverLabel.fontSize = 50
         gameOverLabel.fontColor = SKColor.whiteColor()
         gameOverLabel.text = "Game Over!"
         gameOverLabel.position = CGPointMake(self.size.width / 2, 2 / 3 * self.size.height);
         self.addChild(gameOverLabel)
-
         let tapLabel = SKLabelNode (fontNamed: "SanFranciscoDisplay-Light")
         tapLabel.fontSize = 25
         tapLabel.fontColor = SKColor.whiteColor()
         tapLabel.text = "(tap to play again)"
         tapLabel.position = CGPointMake(self.size.width / 2, gameOverLabel.frame.origin.y - gameOverLabel.frame.size.height);
         self.addChild(tapLabel)
-
-        self.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
+        self.backgroundColor = UIColor(red: 0.6, green: 0, blue: 0, alpha: 1)
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

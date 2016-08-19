@@ -42,13 +42,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="KwS-Bs-dEX">
-                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <rect key="frame" x="0.0" y="44" width="600" height="507"/>
                             </imageView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nuJ-U7-0Bv">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="276"/>
                             </mapView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Chf-vX-fvz">
-                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <rect key="frame" x="0.0" y="276" width="600" height="275"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,7 +56,7 @@
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvV-Nk-uth" userLabel="poweredByFoursquare">
-                                <rect key="frame" x="472" y="276" width="120" height="20"/>
+                                <rect key="frame" x="472" y="252" width="120" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="Exm-hL-776"/>
                                     <constraint firstAttribute="width" constant="120" id="M9j-6j-5SM"/>
@@ -346,7 +346,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="shuffleButtonPressed:" destination="9g4-q9-o4k" eventType="touchUpInside" id="f6c-mR-QkW"/>
+                                    <action selector="shuffleButtonTapped:" destination="9g4-q9-o4k" eventType="touchUpInside" id="bLQ-DN-n0X"/>
                                 </connections>
                             </button>
                         </subviews>
